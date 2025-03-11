@@ -2390,3681 +2390,3701 @@ extern void MagicTree_update_m3416DB9AF0E35FF344EDAED9D3AAFD9DF3E12E7D (void);
 extern void MagicTree_perform_m95FACC7C87C6D03AB56AEF52C27F376A6EB13AA5 (void);
 // 0x000004C0 System.Void MagicTree::.cctor()
 extern void MagicTree__cctor_m8916612812098DFCD4DF3173862DD065930788E4 (void);
-// 0x000004C1 System.Void Main::Start()
+// 0x000004C1 System.Int32 Main::get_width()
+extern void Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20 (void);
+// 0x000004C2 System.Int32 Main::get_height()
+extern void Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E (void);
+// 0x000004C3 UnityEngine.Rect Main::get_mainSafeArea()
+extern void Main_get_mainSafeArea_mD72945DE47B7CE710ABE1BCC4ED92CACE0175197 (void);
+// 0x000004C4 System.Void Main::set_mainSafeArea(UnityEngine.Rect)
+extern void Main_set_mainSafeArea_mBBF0C27C8143646DD99F4EA83EE83CE6A41674E7 (void);
+// 0x000004C5 System.Void Main::Start()
 extern void Main_Start_m5864CE07B60D35921FE23903087087FC5C3CF8FD (void);
-// 0x000004C2 System.Void Main::SetInit()
+// 0x000004C6 System.Void Main::SetInit()
 extern void Main_SetInit_m6D88826AFEA3EC7A426B3956C9D3A0D9DDE00C67 (void);
-// 0x000004C3 System.Void Main::OnHideUnity(System.Boolean)
+// 0x000004C7 System.Void Main::OnHideUnity(System.Boolean)
 extern void Main_OnHideUnity_m2571F1C9E2DD8F77F65AB8AEA05E106BD171EB0F (void);
-// 0x000004C4 System.Void Main::OnGUI()
+// 0x000004C8 System.Void Main::OnGUI()
 extern void Main_OnGUI_m0CD2DA3ADF0DB56997530A9C84B4DCB7A1A92789 (void);
-// 0x000004C5 System.Void Main::setsizeChange()
+// 0x000004C9 System.Boolean Main::get_HasNotchIphone()
+extern void Main_get_HasNotchIphone_m54D9DB6FBE8F36A9B0473C7145714E3828DB4487 (void);
+// 0x000004CA System.Void Main::fillRect(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color)
+extern void Main_fillRect_m81F1CAE5F48F29964F8F78CCF7426850E0F7C9DD (void);
+// 0x000004CB System.Void Main::DrawRectangleBorder(UnityEngine.Rect,UnityEngine.Color,System.Single)
+extern void Main_DrawRectangleBorder_m63607D4088035FCFE86D2386AA43A6F8035B1D40 (void);
+// 0x000004CC System.Void Main::setsizeChange()
 extern void Main_setsizeChange_mDCD622A625317348074A7B5770CE9B72E3B4B269 (void);
-// 0x000004C6 System.Void Main::setBackupIcloud(System.String)
+// 0x000004CD System.Void Main::setBackupIcloud(System.String)
 extern void Main_setBackupIcloud_m43D070BE0267A893E40BA73F3A261EDDEC5C7247 (void);
-// 0x000004C7 System.String Main::GetMacAddress()
+// 0x000004CE System.String Main::GetMacAddress()
 extern void Main_GetMacAddress_mF8CE8BE43FA169C4E61C98BEB72ED4846E741C64 (void);
-// 0x000004C8 System.Void Main::doClearRMS()
+// 0x000004CF System.Void Main::doClearRMS()
 extern void Main_doClearRMS_m7A0A40CE497D045A9AF496DCB364FB594D09E312 (void);
-// 0x000004C9 System.Void Main::closeKeyBoard()
+// 0x000004D0 System.Void Main::closeKeyBoard()
 extern void Main_closeKeyBoard_m76FEE5AC26F6C81EA78B551AEB93A1E24907BE69 (void);
-// 0x000004CA System.Void Main::FixedUpdate()
+// 0x000004D1 System.Void Main::FixedUpdate()
 extern void Main_FixedUpdate_m6D96D8B0058674E0FFA5EFB706F8B98A25B0F717 (void);
-// 0x000004CB System.Void Main::Update()
+// 0x000004D2 System.Void Main::Update()
 extern void Main_Update_m6A75833947272413C503ECE10B0D91F56F193526 (void);
-// 0x000004CC System.Void Main::checkInput()
+// 0x000004D3 System.Void Main::checkInput_goc()
+extern void Main_checkInput_goc_mE3CDC222ED45CE10FC4A366C216AB5288979869D (void);
+// 0x000004D4 System.Void Main::checkInput()
 extern void Main_checkInput_m43C0C520387C8218FB32F70A504FA86C9306061A (void);
-// 0x000004CD System.Void Main::OnApplicationQuit()
+// 0x000004D5 System.Void Main::OnApplicationQuit()
 extern void Main_OnApplicationQuit_mFB8FEEC631840E4D5F2FDAE0CFA5542F108998B9 (void);
-// 0x000004CE System.Void Main::OnApplicationPause(System.Boolean)
+// 0x000004D6 System.Void Main::OnApplicationPause(System.Boolean)
 extern void Main_OnApplicationPause_m3BF5BE77070EC009BAEA59CEF3A5081526C6A1BC (void);
-// 0x000004CF System.Void Main::exit()
+// 0x000004D7 System.Void Main::exit()
 extern void Main_exit_m215CC2FD93AC61FC507E65385A5ADBF04CC4E3F4 (void);
-// 0x000004D0 System.Boolean Main::detectCompactDevice()
+// 0x000004D8 System.Boolean Main::detectCompactDevice()
 extern void Main_detectCompactDevice_m2E5FE104B73DFC60C1A6A8196E75F4DF8D61AA8F (void);
-// 0x000004D1 System.Boolean Main::checkCanSendSMS()
+// 0x000004D9 System.Boolean Main::checkCanSendSMS()
 extern void Main_checkCanSendSMS_mA8292E9B5596528F5F788ED9387558FB82DC0EC2 (void);
-// 0x000004D2 System.Void Main::.ctor()
+// 0x000004DA System.Void Main::AdjustSafeArea()
+extern void Main_AdjustSafeArea_mE6E3165CD8263558B28C1A5EB45160E37D9D426A (void);
+// 0x000004DB System.Void Main::.ctor()
 extern void Main__ctor_mC5886B5D00EEF6A6D8F96F3A84762F8AD71E51B6 (void);
-// 0x000004D3 System.Void Main::.cctor()
+// 0x000004DC System.Void Main::.cctor()
 extern void Main__cctor_mE712A9712182678B8D576BF727AE8CC8ADEE4875 (void);
-// 0x000004D4 System.Void MainImage::.ctor()
+// 0x000004DD System.Void MainImage::.ctor()
 extern void MainImage__ctor_mB71F9FD921EDCE8F47227A003F8C247EA481C09B (void);
-// 0x000004D5 System.Void MainImage::.ctor(Image,System.SByte)
+// 0x000004DE System.Void MainImage::.ctor(Image,System.SByte)
 extern void MainImage__ctor_m1E4D40D38CEC77CF71B67846EAA6CD1A6415E07A (void);
-// 0x000004D6 System.Void MapTemplate::.ctor()
+// 0x000004DF System.Void MapTemplate::.ctor()
 extern void MapTemplate__ctor_m291D1803D234692C282F7C9BC474D14296847123 (void);
-// 0x000004D7 System.Void MapTemplate::.cctor()
+// 0x000004E0 System.Void MapTemplate::.cctor()
 extern void MapTemplate__cctor_m85C6F73E1EE2DC00579F0FCE3A0631FEFD52EBA2 (void);
-// 0x000004D8 System.Int32 Math::abs(System.Int32)
+// 0x000004E1 System.Int32 Math::abs(System.Int32)
 extern void Math_abs_m9EBB513752A930AECA9ED005549135F97E154308 (void);
-// 0x000004D9 System.Int32 Math::min(System.Int32,System.Int32)
+// 0x000004E2 System.Int32 Math::min(System.Int32,System.Int32)
 extern void Math_min_m018759DE478C64F1D2FF6B688038608C55636A3B (void);
-// 0x000004DA System.Int32 Math::max(System.Int32,System.Int32)
+// 0x000004E3 System.Int32 Math::max(System.Int32,System.Int32)
 extern void Math_max_m9FD06AD31C4E56E313657230AEEF0B4729352858 (void);
-// 0x000004DB System.Int32 Math::pow(System.Int32,System.Int32)
+// 0x000004E4 System.Int32 Math::pow(System.Int32,System.Int32)
 extern void Math_pow_m91F23AF248A3DE1A6DD9FEFA8DFFB03D9F2CB373 (void);
-// 0x000004DC System.Void Math::.ctor()
+// 0x000004E5 System.Void Math::.ctor()
 extern void Math__ctor_m0408DD64640DCED52C539637F6806C82FE823C19 (void);
-// 0x000004DD System.String Member::getRole(System.Int32)
+// 0x000004E6 System.String Member::getRole(System.Int32)
 extern void Member_getRole_m968F9562A07B610A389AF7E31558C7D3EE632C1D (void);
-// 0x000004DE System.Void Member::.ctor()
+// 0x000004E7 System.Void Member::.ctor()
 extern void Member__ctor_m36053EEB6C09209CF6657E04A4DE2C5087C9A561 (void);
-// 0x000004DF System.Void Menu::loadBg()
+// 0x000004E8 System.Void Menu::loadBg()
 extern void Menu_loadBg_m38E61C3DC0F8B7DDEF9207721CEAD3C28450F716 (void);
-// 0x000004E0 System.Void Menu::startWithoutCloseButton(MyVector,System.Int32)
+// 0x000004E9 System.Void Menu::startWithoutCloseButton(MyVector,System.Int32)
 extern void Menu_startWithoutCloseButton_mB81BB4C19348FDF95EB6ABBEE082093EAAFEA9C9 (void);
-// 0x000004E1 System.Void Menu::startAt(MyVector,System.Int32,System.Int32)
+// 0x000004EA System.Void Menu::startAt(MyVector,System.Int32,System.Int32)
 extern void Menu_startAt_m1D0DD3B63CC0AF3C84BE3E74F41C3C64861A283C (void);
-// 0x000004E2 System.Void Menu::startAt(MyVector,System.Int32)
+// 0x000004EB System.Void Menu::startAt(MyVector,System.Int32)
 extern void Menu_startAt_m9AB27F670086B8C14AF718BCD403BC93A0465623 (void);
-// 0x000004E3 System.Boolean Menu::isScrolling()
+// 0x000004EC System.Boolean Menu::isScrolling()
 extern void Menu_isScrolling_mC5F6D082EB1B95A411BA75928EAE48AE0A509F1F (void);
-// 0x000004E4 System.Void Menu::updateMenuKey()
+// 0x000004ED System.Void Menu::updateMenuKey()
 extern void Menu_updateMenuKey_m8B7BCE7C8E40FD368E2A44F0402ADA45DD7BFED5 (void);
-// 0x000004E5 System.Void Menu::moveCamera()
+// 0x000004EE System.Void Menu::moveCamera()
 extern void Menu_moveCamera_mB84824ED96CF9DF47E0A4E8808AF5E8212FB62C2 (void);
-// 0x000004E6 System.Void Menu::paintMenu(mGraphics)
+// 0x000004EF System.Void Menu::paintMenu(mGraphics)
 extern void Menu_paintMenu_m31A821914A16B6546DCA6B866A744FA1736F8356 (void);
-// 0x000004E7 System.Void Menu::doCloseMenu()
+// 0x000004F0 System.Void Menu::doCloseMenu()
 extern void Menu_doCloseMenu_mDF2F074B6CA23C86EE851DD2BB0E0D2A779D7EE4 (void);
-// 0x000004E8 System.Void Menu::performSelect()
+// 0x000004F1 System.Void Menu::performSelect()
 extern void Menu_performSelect_m71CAE7671FDB5371496130A6DE3D4CE83783C823 (void);
-// 0x000004E9 System.Void Menu::updateMenu()
+// 0x000004F2 System.Void Menu::updateMenu()
 extern void Menu_updateMenu_mBB440D6CB630F3993A94E1E89F2F6B4BCA42E4EA (void);
-// 0x000004EA System.Void Menu::perform(System.Int32,System.Object)
+// 0x000004F3 System.Void Menu::perform(System.Int32,System.Object)
 extern void Menu_perform_mA2C990FF949AF625D87217E4ED06D90D3CB23C88 (void);
-// 0x000004EB System.Void Menu::.ctor()
+// 0x000004F4 System.Void Menu::.ctor()
 extern void Menu__ctor_mBEF2B96BC9E3D64E020EBE40FEF9CF25E6C3ED00 (void);
-// 0x000004EC System.Void Message::.ctor(System.Int32)
+// 0x000004F5 System.Void Message::.ctor(System.Int32)
 extern void Message__ctor_mC92F88DCD3E06234EFDFDB21C01ADEDA2FE72E17 (void);
-// 0x000004ED System.Void Message::.ctor()
+// 0x000004F6 System.Void Message::.ctor()
 extern void Message__ctor_m4B34B407C9C10627022C55648F679C2844877969 (void);
-// 0x000004EE System.Void Message::.ctor(System.SByte)
+// 0x000004F7 System.Void Message::.ctor(System.SByte)
 extern void Message__ctor_m46F86EA679B2EF6A8D4045018EF48392CAD2F044 (void);
-// 0x000004EF System.Void Message::.ctor(System.SByte,System.SByte[])
+// 0x000004F8 System.Void Message::.ctor(System.SByte,System.SByte[])
 extern void Message__ctor_mA73F890D3BE14C39823D359DE8EF7F61678B659D (void);
-// 0x000004F0 System.SByte[] Message::getData()
+// 0x000004F9 System.SByte[] Message::getData()
 extern void Message_getData_m9060A4A32DAB1DB6624FB4F3D2A646051B43331B (void);
-// 0x000004F1 myReader Message::reader()
+// 0x000004FA myReader Message::reader()
 extern void Message_reader_m566A30463A7272FB56AC9213AB3B3DAC08F30518 (void);
-// 0x000004F2 myWriter Message::writer()
+// 0x000004FB myWriter Message::writer()
 extern void Message_writer_mFF301AEB00B50FF831B0E816C4C1FE5B687F9ABB (void);
-// 0x000004F3 System.Int32 Message::readInt3Byte()
+// 0x000004FC System.Int32 Message::readInt3Byte()
 extern void Message_readInt3Byte_mBE7C3337B1D276AF34D660A4452A3BD271CF22B4 (void);
-// 0x000004F4 System.Void Message::cleanup()
+// 0x000004FD System.Void Message::cleanup()
 extern void Message_cleanup_m4839694DFD6A299D3BD3F45B3E4471D7229CA3A5 (void);
-// 0x000004F5 System.Void mFont::.ctor(System.String,System.String,System.String,System.Int32)
+// 0x000004FE System.Void mFont::.ctor(System.String,System.String,System.String,System.Int32)
 extern void mFont__ctor_m966391C356B0C2AB227BA8388C04EB8C868E5D78 (void);
-// 0x000004F6 System.Void mFont::.ctor(System.SByte)
+// 0x000004FF System.Void mFont::.ctor(System.SByte)
 extern void mFont__ctor_mCF04E2A080EBFF45B3A303A87A063CCE1929CF89 (void);
-// 0x000004F7 System.Void mFont::init()
+// 0x00000500 System.Void mFont::init()
 extern void mFont_init_mBA2FA27448DE45AEFCF6627F812B84E903EC6EC3 (void);
-// 0x000004F8 System.Void mFont::setHeight(System.Int32)
+// 0x00000501 System.Void mFont::setHeight(System.Int32)
 extern void mFont_setHeight_m949D2DC073C7A45C7BB2114822032CA4229A7CDD (void);
-// 0x000004F9 UnityEngine.Color mFont::setColor(System.Int32)
+// 0x00000502 UnityEngine.Color mFont::setColor(System.Int32)
 extern void mFont_setColor_m4923CF32A7B3706DE9FFC952CC19968C9F52DA08 (void);
-// 0x000004FA UnityEngine.Color mFont::bigColor(System.Int32)
+// 0x00000503 UnityEngine.Color mFont::bigColor(System.Int32)
 extern void mFont_bigColor_m3138EA7DB2F7CEC8540C65177A4370947393E507 (void);
-// 0x000004FB System.Void mFont::setColorByID(System.Int32)
+// 0x00000504 System.Void mFont::setColorByID(System.Int32)
 extern void mFont_setColorByID_m649BE387A46BF05FB54F9FABC1EFAC6EB5639EC1 (void);
-// 0x000004FC System.Void mFont::setTypePaint(mGraphics,System.String,System.Int32,System.Int32,System.Int32,System.SByte)
+// 0x00000505 System.Void mFont::setTypePaint(mGraphics,System.String,System.Int32,System.Int32,System.Int32,System.SByte)
 extern void mFont_setTypePaint_m85BA26B97C33733DB3CAD91A26022F7DB3AE6D36 (void);
-// 0x000004FD UnityEngine.Color mFont::setColorFont(System.SByte)
+// 0x00000506 UnityEngine.Color mFont::setColorFont(System.SByte)
 extern void mFont_setColorFont_m860897B165CD9C9D8B1E0A4B794BC363B70C5127 (void);
-// 0x000004FE System.Void mFont::drawString(mGraphics,System.String,System.Int32,System.Int32,System.Int32)
+// 0x00000507 System.Void mFont::drawString(mGraphics,System.String,System.Int32,System.Int32,System.Int32)
 extern void mFont_drawString_mE5879DD7F938280DDF297FA968795F864878BF88 (void);
-// 0x000004FF System.Void mFont::drawStringBorder(mGraphics,System.String,System.Int32,System.Int32,System.Int32)
+// 0x00000508 System.Void mFont::drawStringBorder(mGraphics,System.String,System.Int32,System.Int32,System.Int32)
 extern void mFont_drawStringBorder_m59EA6A7E5F4F46E08DE9F7F74EC2DF762F4E3DAD (void);
-// 0x00000500 System.Void mFont::drawStringBorder(mGraphics,System.String,System.Int32,System.Int32,System.Int32,mFont)
+// 0x00000509 System.Void mFont::drawStringBorder(mGraphics,System.String,System.Int32,System.Int32,System.Int32,mFont)
 extern void mFont_drawStringBorder_m6DACD41D30144526679B00DC66D64F69E2539C52 (void);
-// 0x00000501 System.Void mFont::drawStringBd(mGraphics,System.String,System.Int32,System.Int32,System.Int32,mFont)
+// 0x0000050A System.Void mFont::drawStringBd(mGraphics,System.String,System.Int32,System.Int32,System.Int32,mFont)
 extern void mFont_drawStringBd_mAA2E28EFD7BFFEA03C92BE23FA4E581E08C35EE1 (void);
-// 0x00000502 System.Void mFont::drawString(mGraphics,System.String,System.Int32,System.Int32,System.Int32,mFont)
+// 0x0000050B System.Void mFont::drawString(mGraphics,System.String,System.Int32,System.Int32,System.Int32,mFont)
 extern void mFont_drawString_mAD9AE263B297E117350AE82CCB949AE5A1C990B4 (void);
-// 0x00000503 MyVector mFont::splitFontVector(System.String,System.Int32)
+// 0x0000050C MyVector mFont::splitFontVector(System.String,System.Int32)
 extern void mFont_splitFontVector_m50FF502635847A7182227D0A5710419069F0DF23 (void);
-// 0x00000504 System.String mFont::splitFirst(System.String)
+// 0x0000050D System.String mFont::splitFirst(System.String)
 extern void mFont_splitFirst_mC4C83BBA3A063953546CFCCA48B4CA90874B6633 (void);
-// 0x00000505 System.String[] mFont::splitStrInLine(System.String,System.Int32)
+// 0x0000050E System.String[] mFont::splitStrInLine(System.String,System.Int32)
 extern void mFont_splitStrInLine_m949C47188C7A9227E744F7357839AB4329C45F72 (void);
-// 0x00000506 System.Collections.ArrayList mFont::splitStrInLineA(System.String,System.Int32)
+// 0x0000050F System.Collections.ArrayList mFont::splitStrInLineA(System.String,System.Int32)
 extern void mFont_splitStrInLineA_m37056922F424FBC01F1E1B32D2C8BAEF9F023A37 (void);
-// 0x00000507 System.String[] mFont::splitFontArray(System.String,System.Int32)
+// 0x00000510 System.String[] mFont::splitFontArray(System.String,System.Int32)
 extern void mFont_splitFontArray_m25BB478DE77FEF6C1E0EBB10BF58E67CE13F1C13 (void);
-// 0x00000508 System.Boolean mFont::compare(System.String,System.String)
+// 0x00000511 System.Boolean mFont::compare(System.String,System.String)
 extern void mFont_compare_m643E8E4BC585583AA95774B986D1C550218BDE59 (void);
-// 0x00000509 System.Int32 mFont::getWidth(System.String)
+// 0x00000512 System.Int32 mFont::getWidth(System.String)
 extern void mFont_getWidth_mA00F75192919C302081E38A346A8785D1FD42116 (void);
-// 0x0000050A System.Int32 mFont::getWidthExactOf(System.String)
+// 0x00000513 System.Int32 mFont::getWidthExactOf(System.String)
 extern void mFont_getWidthExactOf_m656DD0CD4BFF641D891E11930B32F31F1EC92912 (void);
-// 0x0000050B System.Int32 mFont::getWidthNotExactOf(System.String)
+// 0x00000514 System.Int32 mFont::getWidthNotExactOf(System.String)
 extern void mFont_getWidthNotExactOf_mB84B90036E810463901B50E8580157068378AD22 (void);
-// 0x0000050C System.Int32 mFont::getHeight()
+// 0x00000515 System.Int32 mFont::getHeight()
 extern void mFont_getHeight_m625C82CB2D06270446C328ADC46F5BF55F15EC12 (void);
-// 0x0000050D System.Void mFont::_drawString(mGraphics,System.String,System.Int32,System.Int32,System.Int32)
+// 0x00000516 System.Void mFont::_drawString(mGraphics,System.String,System.Int32,System.Int32,System.Int32)
 extern void mFont__drawString_m1B2BCAB649CE38A2F73BD34BC8845B96CB09FBE3 (void);
-// 0x0000050E System.String[] mFont::splitStringSv(System.String,System.String)
+// 0x00000517 System.String[] mFont::splitStringSv(System.String,System.String)
 extern void mFont_splitStringSv_m269798EA718173888E441DE54BE10A0923EA3F7C (void);
-// 0x0000050F System.Void mFont::reloadImage()
+// 0x00000518 System.Void mFont::reloadImage()
 extern void mFont_reloadImage_m6E73A995ECDAAF1021A3ABE03F476143702AE59F (void);
-// 0x00000510 System.Void mFont::freeImage()
+// 0x00000519 System.Void mFont::freeImage()
 extern void mFont_freeImage_m54B09AB9E97B6C2637E2B67745D5F7225016BBBE (void);
-// 0x00000511 System.Void mFont::.cctor()
+// 0x0000051A System.Void mFont::.cctor()
 extern void mFont__cctor_mE5D656ADF86BE370E40440D4E0F5CED6146687FC (void);
-// 0x00000512 System.Void mGraphics::cache(System.String,UnityEngine.Texture)
+// 0x0000051B System.Void mGraphics::cache(System.String,UnityEngine.Texture)
 extern void mGraphics_cache_m6362994CEE7A4D549944451DCFA201425174B95C (void);
-// 0x00000513 System.Void mGraphics::translate(System.Int32,System.Int32)
+// 0x0000051C System.Void mGraphics::translate(System.Int32,System.Int32)
 extern void mGraphics_translate_m935DBC9CDE2048589DFCE243A3462166E912EDEC (void);
-// 0x00000514 System.Void mGraphics::translate(System.Single,System.Single)
+// 0x0000051D System.Void mGraphics::translate(System.Single,System.Single)
 extern void mGraphics_translate_m29BB00EDF1B4164B7FDEF9DF2B6FD71C7571E5A2 (void);
-// 0x00000515 System.Int32 mGraphics::getTranslateX()
+// 0x0000051E System.Int32 mGraphics::getTranslateX()
 extern void mGraphics_getTranslateX_m0081BC7A604BC933026464239DF8601C7BB175B9 (void);
-// 0x00000516 System.Int32 mGraphics::getTranslateY()
+// 0x0000051F System.Int32 mGraphics::getTranslateY()
 extern void mGraphics_getTranslateY_mC8B2DF28F2BED3BFAAB16A3522AE8029D63F99EA (void);
-// 0x00000517 System.Void mGraphics::setClip(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000520 System.Void mGraphics::setClip(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_setClip_m40F6AC445C68B4E10ABA519E1A2EDC421FC39797 (void);
-// 0x00000518 System.Int32 mGraphics::getClipX()
+// 0x00000521 System.Int32 mGraphics::getClipX()
 extern void mGraphics_getClipX_mAEC2A88B86DFFC09833D8C24035EB2487CD2A7DE (void);
-// 0x00000519 System.Int32 mGraphics::getClipY()
+// 0x00000522 System.Int32 mGraphics::getClipY()
 extern void mGraphics_getClipY_m74A9FAAB5AE7CAE9ABD9C76A5374A74B7E5F224F (void);
-// 0x0000051A System.Int32 mGraphics::getClipWidth()
+// 0x00000523 System.Int32 mGraphics::getClipWidth()
 extern void mGraphics_getClipWidth_m566972B63DB4A50DBEC54243A57B0BE377340331 (void);
-// 0x0000051B System.Int32 mGraphics::getClipHeight()
+// 0x00000524 System.Int32 mGraphics::getClipHeight()
 extern void mGraphics_getClipHeight_m2B66689983ECE1DCCC782A65FD1819942D701554 (void);
-// 0x0000051C System.Void mGraphics::fillRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000525 System.Void mGraphics::fillRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+extern void mGraphics_fillRect_m08FA0B7CA7D3D1B1DCF91EF9CA489F4D7B428216 (void);
+// 0x00000526 System.Void mGraphics::fillRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_fillRect_m62A5492ABE6EE41417E1CCAFB0ED8CEE0DF7A893 (void);
-// 0x0000051D System.Void mGraphics::drawLine(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000527 System.Void mGraphics::drawLine(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawLine_m33432F3F49D925F8028D5E5AB7C98124938F6D0F (void);
-// 0x0000051E UnityEngine.Color mGraphics::setColorMiniMap(System.Int32)
+// 0x00000528 UnityEngine.Color mGraphics::setColorMiniMap(System.Int32)
 extern void mGraphics_setColorMiniMap_m67854F600863BC001F0DEB05077BA7BE6EA542CD (void);
-// 0x0000051F System.Single[] mGraphics::getRGB(UnityEngine.Color)
+// 0x00000529 System.Single[] mGraphics::getRGB(UnityEngine.Color)
 extern void mGraphics_getRGB_m0A7897E36C222CDAB0D9DC374219965FAC9B8375 (void);
-// 0x00000520 System.Void mGraphics::drawRect(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000052A System.Void mGraphics::drawRect(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawRect_mA0674F7342D0E896CC7BAD0B1415C67C08218D81 (void);
-// 0x00000521 System.Void mGraphics::fillRect(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000052B System.Void mGraphics::fillRect(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_fillRect_m476E3A5360581B125A81AA6E88257D6EE971E29E (void);
-// 0x00000522 System.Void mGraphics::setColor(System.Int32)
+// 0x0000052C System.Void mGraphics::setColor(System.Int32)
 extern void mGraphics_setColor_m6D037E4A78016A5277A10A76AFAB06F3A0733156 (void);
-// 0x00000523 System.Void mGraphics::setColor(UnityEngine.Color)
+// 0x0000052D System.Void mGraphics::setColor(UnityEngine.Color)
 extern void mGraphics_setColor_m2662BED37D8011AAF8DE9BAA5FF2C6064A200D67 (void);
-// 0x00000524 System.Void mGraphics::setBgColor(System.Int32)
+// 0x0000052E System.Void mGraphics::setBgColor(System.Int32)
 extern void mGraphics_setBgColor_m1F1A9FE4BCECF236EB18FD3BA2F3081436634FCC (void);
-// 0x00000525 System.Void mGraphics::drawString(System.String,System.Int32,System.Int32,UnityEngine.GUIStyle)
+// 0x0000052F System.Void mGraphics::drawString(System.String,System.Int32,System.Int32,UnityEngine.GUIStyle)
 extern void mGraphics_drawString_mEB74D377B7983954748183CB29F1FC788BE04B96 (void);
-// 0x00000526 System.Void mGraphics::setColor(System.Int32,System.Single)
+// 0x00000530 System.Void mGraphics::setColor(System.Int32,System.Single)
 extern void mGraphics_setColor_mA2B06BBE8E66EB27AEE45C5F97C3C0156A2150ED (void);
-// 0x00000527 System.Void mGraphics::drawString(System.String,System.Int32,System.Int32,UnityEngine.GUIStyle,System.Int32)
+// 0x00000531 System.Void mGraphics::drawString(System.String,System.Int32,System.Int32,UnityEngine.GUIStyle,System.Int32)
 extern void mGraphics_drawString_mDD9D33D3626ABE1D499F5BC8D381DE5B6FA133B2 (void);
-// 0x00000528 System.Void mGraphics::UpdatePos(System.Int32)
+// 0x00000532 System.Void mGraphics::UpdatePos(System.Int32)
 extern void mGraphics_UpdatePos_m22DCAEC4DFDBF3973EB861E878B7C936FDEC2732 (void);
-// 0x00000529 System.Void mGraphics::drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000533 System.Void mGraphics::drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawRegion_m0848120CE73023DFD40EB85D4AEB769C05AFB247 (void);
-// 0x0000052A System.Void mGraphics::drawRegion0(Image,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)
+// 0x00000534 System.Void mGraphics::drawRegion0(Image,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)
 extern void mGraphics_drawRegion0_mAD7B7C7A3DE240AC12DA5F0451832B53A21CAE01 (void);
-// 0x0000052B System.Void mGraphics::drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Int32)
+// 0x00000535 System.Void mGraphics::drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Int32)
 extern void mGraphics_drawRegion_m9041AD8EEFDB7387E5F7EC2114BA8817B745F732 (void);
-// 0x0000052C System.Void mGraphics::drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x00000536 System.Void mGraphics::drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void mGraphics_drawRegion_m41A4DA4D558913E568150D417AB01F8062BCEF50 (void);
-// 0x0000052D System.Void mGraphics::__drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Int32)
+// 0x00000537 System.Void mGraphics::__drawRegion(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Int32)
 extern void mGraphics___drawRegion_mA524478BD75BB0782B4F56485C5182751223D622 (void);
-// 0x0000052E System.Void mGraphics::_drawRegion(Image,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000538 System.Void mGraphics::_drawRegion(Image,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics__drawRegion_m76946AFD7DD06EC231B8A2CCDF31C9D91C4DA686 (void);
-// 0x0000052F System.Void mGraphics::_drawRegion0(Image,System.Single,System.Single,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)
+// 0x00000539 System.Void mGraphics::_drawRegion0(Image,System.Single,System.Single,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)
 extern void mGraphics__drawRegion0_m13E1D6926CC20771440E41DD852B8CD6D63BFD80 (void);
-// 0x00000530 System.Void mGraphics::drawRegionGui(Image,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Int32)
+// 0x0000053A System.Void mGraphics::drawRegionGui(Image,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Single,System.Single,System.Int32)
 extern void mGraphics_drawRegionGui_mE60CF69AA6BAACC84947EB2F990296DA55E08810 (void);
-// 0x00000531 System.Void mGraphics::drawRegion2(Image,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000053B System.Void mGraphics::drawRegion2(Image,System.Single,System.Single,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawRegion2_m389805FAEC56B74BC49DE3E431462392F36D234A (void);
-// 0x00000532 System.Void mGraphics::drawImagaByDrawTexture(Image,System.Single,System.Single)
+// 0x0000053C System.Void mGraphics::drawImagaByDrawTexture(Image,System.Single,System.Single)
 extern void mGraphics_drawImagaByDrawTexture_m2E57FFD9EBB10A79FA542351D5D94CF85DD62DED (void);
-// 0x00000533 System.Void mGraphics::drawImage(Image,System.Int32,System.Int32,System.Int32)
+// 0x0000053D System.Void mGraphics::drawImage(Image,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawImage_mB4F389D1F0ADBB67BD4DE66B5371C7CCED9B3110 (void);
-// 0x00000534 System.Void mGraphics::drawImage(Image,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000053E System.Void mGraphics::drawImage(Image,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawImage_mF82065CD33EF40F123BE2118F2660C1D9ED891CC (void);
-// 0x00000535 System.Void mGraphics::drawImageFog(Image,System.Int32,System.Int32,System.Int32)
+// 0x0000053F System.Void mGraphics::drawImageFog(Image,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawImageFog_m3E1EEA49AC7951A4D3848C9E8C39790EC8201E0A (void);
-// 0x00000536 System.Void mGraphics::drawImage(Image,System.Int32,System.Int32)
+// 0x00000540 System.Void mGraphics::drawImage(Image,System.Int32,System.Int32)
 extern void mGraphics_drawImage_mAAA9386DFFCECD62E06D0B58A429AD85B9795755 (void);
-// 0x00000537 System.Void mGraphics::drawImage(Image,System.Single,System.Single,System.Int32)
+// 0x00000541 System.Void mGraphics::drawImage(Image,System.Single,System.Single,System.Int32)
 extern void mGraphics_drawImage_mAD3D7A89BB50DF1F70CE5FFE6FDD8B06E6AB8FD8 (void);
-// 0x00000538 System.Void mGraphics::drawRoundRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000542 System.Void mGraphics::drawRoundRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawRoundRect_m40977BE25DF173FDADDB10ACE726AD2F5414A7AC (void);
-// 0x00000539 System.Void mGraphics::fillRoundRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000543 System.Void mGraphics::fillRoundRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_fillRoundRect_m8C967B9ADC6A37AFD896AFAA7CBCA43F37745AFB (void);
-// 0x0000053A System.Void mGraphics::reset()
+// 0x00000544 System.Void mGraphics::reset()
 extern void mGraphics_reset_mE63C2CEA0AC1D5620A2F13C12ABE96F1D2323DFA (void);
-// 0x0000053B UnityEngine.Rect mGraphics::intersectRect(UnityEngine.Rect,UnityEngine.Rect)
+// 0x00000545 UnityEngine.Rect mGraphics::intersectRect(UnityEngine.Rect,UnityEngine.Rect)
 extern void mGraphics_intersectRect_mCEAE753D572C6B183DA6ECD9AC1721DC7E1666E2 (void);
-// 0x0000053C System.Void mGraphics::drawImageScale(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000546 System.Void mGraphics::drawImageScale(Image,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawImageScale_m0DA8AEFA4E4E86307421FAE41AE4CF6879A0D315 (void);
-// 0x0000053D System.Void mGraphics::drawImageSimple(Image,System.Int32,System.Int32)
+// 0x00000547 System.Void mGraphics::drawImageSimple(Image,System.Int32,System.Int32)
 extern void mGraphics_drawImageSimple_m1E85868B88BAED6B6E5FDE06D84FE29549E7906A (void);
-// 0x0000053E System.Int32 mGraphics::getImageWidth(Image)
+// 0x00000548 System.Int32 mGraphics::getImageWidth(Image)
 extern void mGraphics_getImageWidth_mA3B8B13BC6B4D4AB97574EE27D4D8BC17C232691 (void);
-// 0x0000053F System.Int32 mGraphics::getImageHeight(Image)
+// 0x00000549 System.Int32 mGraphics::getImageHeight(Image)
 extern void mGraphics_getImageHeight_mED3A11F0A5DD9EF3C75007686780CB5B78669773 (void);
-// 0x00000540 System.Boolean mGraphics::isNotTranColor(UnityEngine.Color)
+// 0x0000054A System.Boolean mGraphics::isNotTranColor(UnityEngine.Color)
 extern void mGraphics_isNotTranColor_m22A27A3FD589968A14B74C654FB21142D32F415A (void);
-// 0x00000541 Image mGraphics::blend(Image,System.Single,System.Int32)
+// 0x0000054B Image mGraphics::blend(Image,System.Single,System.Int32)
 extern void mGraphics_blend_m33726CE29E878E1888277F659F69238D9839F885 (void);
-// 0x00000542 UnityEngine.Color mGraphics::setColorObj(System.Int32)
+// 0x0000054C UnityEngine.Color mGraphics::setColorObj(System.Int32)
 extern void mGraphics_setColorObj_m1C406405B0AA15834C0CBA0743D8313A13B86178 (void);
-// 0x00000543 System.Void mGraphics::fillTrans(Image,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000054D System.Void mGraphics::fillTrans(Image,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_fillTrans_m40984CA3C7BE410BA364A0E51C5349AC9AED7905 (void);
-// 0x00000544 System.Int32 mGraphics::blendColor(System.Single,System.Int32,System.Int32)
+// 0x0000054E System.Int32 mGraphics::blendColor(System.Single,System.Int32,System.Int32)
 extern void mGraphics_blendColor_m89DB7C1D782F2F70766887FD42CFDA76C4918121 (void);
-// 0x00000545 System.Int32 mGraphics::getIntByColor(UnityEngine.Color)
+// 0x0000054F System.Int32 mGraphics::getIntByColor(UnityEngine.Color)
 extern void mGraphics_getIntByColor_m330B1809485BA7C4174FFE0DAD98C050B78F4B26 (void);
-// 0x00000546 System.Int32 mGraphics::getRealImageWidth(Image)
+// 0x00000550 System.Int32 mGraphics::getRealImageWidth(Image)
 extern void mGraphics_getRealImageWidth_m95DBB7D6ADA744F17A88039901CEBABE375ED43B (void);
-// 0x00000547 System.Int32 mGraphics::getRealImageHeight(Image)
+// 0x00000551 System.Int32 mGraphics::getRealImageHeight(Image)
 extern void mGraphics_getRealImageHeight_m77ADF099A530A4EA9D01A4F0DD440D0CAC524884 (void);
-// 0x00000548 System.Void mGraphics::fillArg(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000552 System.Void mGraphics::fillArg(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_fillArg_mD3E87BD8B6AACE6FE3A0FB58E0C75C4CB432DB52 (void);
-// 0x00000549 System.Void mGraphics::CreateLineMaterial()
+// 0x00000553 System.Void mGraphics::CreateLineMaterial()
 extern void mGraphics_CreateLineMaterial_m8E9905A1DC8CF75914CF753DF5F11EF038EC1C80 (void);
-// 0x0000054A System.Void mGraphics::drawlineGL(MyVector)
+// 0x00000554 System.Void mGraphics::drawlineGL(MyVector)
 extern void mGraphics_drawlineGL_m844B5CE36A7FA7644318B0213AF974FFBA6CFD8D (void);
-// 0x0000054B System.Void mGraphics::drawLine(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000555 System.Void mGraphics::drawLine(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawLine_m9E315D20E404AA6BDC183C5E79B4D341D507051C (void);
-// 0x0000054C System.Void mGraphics::drawRegion(Assets.src.e.Small,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000556 System.Void mGraphics::drawRegion(Assets.src.e.Small,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mGraphics_drawRegion_m17D7CA13E1B10B25870A83456D2EF3A61BC12E77 (void);
-// 0x0000054D System.Void mGraphics::.ctor()
+// 0x00000557 System.Void mGraphics::.ctor()
 extern void mGraphics__ctor_m2B94FEAD110AAAF64C13D7BA4001D507BB140C63 (void);
-// 0x0000054E System.Void mGraphics::.cctor()
+// 0x00000558 System.Void mGraphics::.cctor()
 extern void mGraphics__cctor_m5C0DFA7698720DC2C53BCD4CABA599F4142AD976 (void);
-// 0x0000054F System.Void mLine::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000559 System.Void mLine::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mLine__ctor_m4F437CDAEBD9374411DD123EE98D5F92D4CDADA4 (void);
-// 0x00000550 System.Void mLine::setColor(System.Int32)
+// 0x0000055A System.Void mLine::setColor(System.Int32)
 extern void mLine_setColor_mF6EC677B2BDE1C58841D6A4597E8680C8A7B9CB0 (void);
-// 0x00000551 System.Void Mob::.ctor()
+// 0x0000055B System.Void Mob::.ctor()
 extern void Mob__ctor_mEB546634441A2324ADE606872CD7BC9A7A896914 (void);
-// 0x00000552 System.Void Mob::.ctor(System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.SByte,System.Int32,System.Int16,System.Int16,System.SByte,System.SByte)
+// 0x0000055C System.Void Mob::.ctor(System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.SByte,System.Int32,System.Int16,System.Int16,System.SByte,System.SByte)
 extern void Mob__ctor_mFAF73EDB5EFB434CF81F00922489AED0F9E1320D (void);
-// 0x00000553 System.Boolean Mob::isBigBoss()
+// 0x0000055D System.Boolean Mob::isBigBoss()
 extern void Mob_isBigBoss_mA6C5247FF64DFBEA5AA6DD64B5B6D704982A0A79 (void);
-// 0x00000554 System.Void Mob::getData()
+// 0x0000055E System.Void Mob::getData()
 extern void Mob_getData_m9D5661FFF3F292EB4597011E02E628A8E29FFB63 (void);
-// 0x00000555 System.Void Mob::setBody(System.Int16)
+// 0x0000055F System.Void Mob::setBody(System.Int16)
 extern void Mob_setBody_m7E91EE56CF56EE6BD4E1B896FD6F882CAA1B9847 (void);
-// 0x00000556 System.Void Mob::clearBody()
+// 0x00000560 System.Void Mob::clearBody()
 extern void Mob_clearBody_m2595AA375D106359F36D67C62AC0708FBE2F37D6 (void);
-// 0x00000557 System.Boolean Mob::isExistNewMob(System.String)
+// 0x00000561 System.Boolean Mob::isExistNewMob(System.String)
 extern void Mob_isExistNewMob_mEDB33D569B2355EBB8F197C40F929BD1EE110D86 (void);
-// 0x00000558 System.Void Mob::checkData()
+// 0x00000562 System.Void Mob::checkData()
 extern void Mob_checkData_m73A9B123EEE9F74EC35B625A1993E4B3404F1A03 (void);
-// 0x00000559 System.Void Mob::checkFrameTick(System.Int32[])
+// 0x00000563 System.Void Mob::checkFrameTick(System.Int32[])
 extern void Mob_checkFrameTick_mF98CA3DED3A343196A3375B696FA7C8AB560A637 (void);
-// 0x0000055A System.Void Mob::updateShadown()
+// 0x00000564 System.Void Mob::updateShadown()
 extern void Mob_updateShadown_mDB99D511A3D459268DF3015628A7C19225DBD427 (void);
-// 0x0000055B System.Void Mob::paintShadow(mGraphics)
+// 0x00000565 System.Void Mob::paintShadow(mGraphics)
 extern void Mob_paintShadow_m8CEA834C99E27715F8C43D6AB227FA32F05A201E (void);
-// 0x0000055C System.Void Mob::updateSuperEff()
+// 0x00000566 System.Void Mob::updateSuperEff()
 extern void Mob_updateSuperEff_m2EBB503ECE435852F2BEB61F7FB426B2DCF7B491 (void);
-// 0x0000055D System.Void Mob::update()
+// 0x00000567 System.Void Mob::update()
 extern void Mob_update_mE1E3AACACAFD053E7CA339463073B93460033B91 (void);
-// 0x0000055E System.Void Mob::setInjure()
+// 0x00000568 System.Void Mob::setInjure()
 extern void Mob_setInjure_m34BB6C8C44A84BDE7634529CDCC6AD756C97F600 (void);
-// 0x0000055F Assets.src.g.BigBoss Mob::getBigBoss()
+// 0x00000569 Assets.src.g.BigBoss Mob::getBigBoss()
 extern void Mob_getBigBoss_mBC315D570B1746E8638A70E46897A2AB78D9F3D2 (void);
-// 0x00000560 BigBoss2 Mob::getBigBoss2()
+// 0x0000056A BigBoss2 Mob::getBigBoss2()
 extern void Mob_getBigBoss2_m80B39A7EDC9D452F4ED284EDE253E5683F1E45C2 (void);
-// 0x00000561 BachTuoc Mob::getBachTuoc()
+// 0x0000056B BachTuoc Mob::getBachTuoc()
 extern void Mob_getBachTuoc_m441449BEBB5ABE66BD8BBD2667E6D02FC0BB6928 (void);
-// 0x00000562 NewBoss Mob::getNewBoss(System.SByte)
+// 0x0000056C NewBoss Mob::getNewBoss(System.SByte)
 extern void Mob_getNewBoss_m8A8B537CC53AE3EBA58D9E1172CBD3222FB1123A (void);
-// 0x00000563 System.Void Mob::removeBigBoss()
+// 0x0000056D System.Void Mob::removeBigBoss()
 extern void Mob_removeBigBoss_mD8454B2FC141F0452974C3133556390A2D01C2DC (void);
-// 0x00000564 System.Void Mob::setAttack(Char)
+// 0x0000056E System.Void Mob::setAttack(Char)
 extern void Mob_setAttack_m8B56B783C09C1FB3AB39DF35D28FFF6BF27CEAE0 (void);
-// 0x00000565 System.Boolean Mob::isSpecial()
+// 0x0000056F System.Boolean Mob::isSpecial()
 extern void Mob_isSpecial_mC20C76EFD6392222F85C9DC741FAB9A7AE67484F (void);
-// 0x00000566 System.Boolean Mob::isNewModStand()
+// 0x00000570 System.Boolean Mob::isNewModStand()
 extern void Mob_isNewModStand_m8BB20341CFD46272D3B66614F32A04B5833E0DCA (void);
-// 0x00000567 System.Boolean Mob::isNewMod()
+// 0x00000571 System.Boolean Mob::isNewMod()
 extern void Mob_isNewMod_mF37E25EBC2FA39C817940FECD880260F3471A4C7 (void);
-// 0x00000568 System.Void Mob::updateInjure()
+// 0x00000572 System.Void Mob::updateInjure()
 extern void Mob_updateInjure_m9824FC62BF34919AA92C2501885D0AF2143B598D (void);
-// 0x00000569 System.Void Mob::updateMobStandWait()
+// 0x00000573 System.Void Mob::updateMobStandWait()
 extern void Mob_updateMobStandWait_mE8659B650120980BDD4BEE4BEA50B24EA168EC83 (void);
-// 0x0000056A System.Void Mob::updateMobAttack()
+// 0x00000574 System.Void Mob::updateMobAttack()
 extern void Mob_updateMobAttack_mCCD7D17D60776102FEC4715346A7054E823C88CC (void);
-// 0x0000056B System.Void Mob::updateMobWalk()
+// 0x00000575 System.Void Mob::updateMobWalk()
 extern void Mob_updateMobWalk_mD0BA866B60372F8A29A1420B87C2EEF55BF47A61 (void);
-// 0x0000056C MobTemplate Mob::getTemplate()
+// 0x00000576 MobTemplate Mob::getTemplate()
 extern void Mob_getTemplate_m54DB09C957DDC2BCAAB6CDFACF8AAEC76B8C868D (void);
-// 0x0000056D System.Boolean Mob::isPaint()
+// 0x00000577 System.Boolean Mob::isPaint()
 extern void Mob_isPaint_mA0E3F75DC911BFE83CE3697553C58C48AC5440EE (void);
-// 0x0000056E System.Boolean Mob::isUpdate()
+// 0x00000578 System.Boolean Mob::isUpdate()
 extern void Mob_isUpdate_mDBD82834BBD783BB4614226EE99D717F204D2CE4 (void);
-// 0x0000056F System.Boolean Mob::checkIsBoss()
+// 0x00000579 System.Boolean Mob::checkIsBoss()
 extern void Mob_checkIsBoss_m5A31A48C2A5AFDFC91F467718DA1759AAAE4FA24 (void);
-// 0x00000570 System.Void Mob::updateHp_bar()
+// 0x0000057A System.Void Mob::updateHp_bar()
 extern void Mob_updateHp_bar_m93DD5E25244085800B54391A3FEBB452DDD271F3 (void);
-// 0x00000571 System.Void Mob::paint(mGraphics)
+// 0x0000057B System.Void Mob::paint(mGraphics)
 extern void Mob_paint_m1FEE6F5B65F1BA3EC784F59B738C32AF1BC4AF34 (void);
-// 0x00000572 System.Int32 Mob::getHPColor()
+// 0x0000057C System.Int32 Mob::getHPColor()
 extern void Mob_getHPColor_mC863EC4A35370DF1DE474AD74FD119696FCE007E (void);
-// 0x00000573 System.Void Mob::startDie()
+// 0x0000057D System.Void Mob::startDie()
 extern void Mob_startDie_m246ABA9BE7ABCEBAB7DA2B0986065F20149EE5CB (void);
-// 0x00000574 System.Void Mob::attackOtherMob(Mob)
+// 0x0000057E System.Void Mob::attackOtherMob(Mob)
 extern void Mob_attackOtherMob_m5D20C0BB2823B0E65E9FFC9B75DB0249AD2EE1B6 (void);
-// 0x00000575 System.Int32 Mob::getX()
+// 0x0000057F System.Int32 Mob::getX()
 extern void Mob_getX_m1CC00E11E7CB8DE77BF585C8EA276ABB2674C7F6 (void);
-// 0x00000576 System.Int32 Mob::getY()
+// 0x00000580 System.Int32 Mob::getY()
 extern void Mob_getY_m92B02CDAC377B677066D33C174010E25AD7CF8E0 (void);
-// 0x00000577 System.Int32 Mob::getH()
+// 0x00000581 System.Int32 Mob::getH()
 extern void Mob_getH_mFDEBA69523E13822BDD058A40293841F39F8C0A2 (void);
-// 0x00000578 System.Int32 Mob::getW()
+// 0x00000582 System.Int32 Mob::getW()
 extern void Mob_getW_mFCBA5FBB9465E8C74D92B3BD309A7D8F7D96AA0F (void);
-// 0x00000579 System.Void Mob::stopMoving()
+// 0x00000583 System.Void Mob::stopMoving()
 extern void Mob_stopMoving_mEE5394B97017F097366CDD4B1A18A87BA2241495 (void);
-// 0x0000057A System.Boolean Mob::isInvisible()
+// 0x00000584 System.Boolean Mob::isInvisible()
 extern void Mob_isInvisible_mC434051FBD2DF510E5B811CF0930D87FD2548316 (void);
-// 0x0000057B System.Void Mob::removeHoldEff()
+// 0x00000585 System.Void Mob::removeHoldEff()
 extern void Mob_removeHoldEff_mACC73EC2D2020F0E73C6CACF7E1646AA159F4486 (void);
-// 0x0000057C System.Void Mob::removeBlindEff()
+// 0x00000586 System.Void Mob::removeBlindEff()
 extern void Mob_removeBlindEff_m440A03CB6EA6EC7BAFFF91F08A2A7512E59C88D9 (void);
-// 0x0000057D System.Void Mob::removeSleepEff()
+// 0x00000587 System.Void Mob::removeSleepEff()
 extern void Mob_removeSleepEff_m13AC5FEF9361D480A7EE54F1890867FB15404393 (void);
-// 0x0000057E System.Void Mob::GetFrame()
+// 0x00000588 System.Void Mob::GetFrame()
 extern void Mob_GetFrame_mD30A2BCECD54E5061FC16CE05BDB0A1CC8388BC9 (void);
-// 0x0000057F System.Boolean Mob::isTypeNewMod()
+// 0x00000589 System.Boolean Mob::isTypeNewMod()
 extern void Mob_isTypeNewMod_m899D3045064314DDC3B7EF9DBA9261C1D2871A3D (void);
-// 0x00000580 System.Void Mob::.cctor()
+// 0x0000058A System.Void Mob::.cctor()
 extern void Mob__cctor_m92B35F667C4E4413191C0C2E8472C7C8B8401243 (void);
-// 0x00000581 System.Void MobCapcha::init()
+// 0x0000058B System.Void MobCapcha::init()
 extern void MobCapcha_init_m5F2731B277604B5559BAA78EA3DE01B220B7FF48 (void);
-// 0x00000582 System.Void MobCapcha::paint(mGraphics,System.Int32,System.Int32)
+// 0x0000058C System.Void MobCapcha::paint(mGraphics,System.Int32,System.Int32)
 extern void MobCapcha_paint_mC57486883356FF6C2EF485E880F5724AD8C5C6B6 (void);
-// 0x00000583 System.Void MobCapcha::moveCamera()
+// 0x0000058D System.Void MobCapcha::moveCamera()
 extern void MobCapcha_moveCamera_m67D54A5E2F631DD6E2454F463A44DD44E51F443B (void);
-// 0x00000584 System.Void MobCapcha::.ctor()
+// 0x0000058E System.Void MobCapcha::.ctor()
 extern void MobCapcha__ctor_m5B5E5CCD9C1FA03725686AD1CD500F80AF3C2E55 (void);
-// 0x00000585 System.Void MobTemplate::.ctor()
+// 0x0000058F System.Void MobTemplate::.ctor()
 extern void MobTemplate__ctor_m7B158B32F14E3F456C43B3B3C5CE0BE02AA542F4 (void);
-// 0x00000586 System.Void MoneyCharge::.ctor()
+// 0x00000590 System.Void MoneyCharge::.ctor()
 extern void MoneyCharge__ctor_mB11084D3A3ABF57C7203A0E4A0706E3A843B83ED (void);
-// 0x00000587 MoneyCharge MoneyCharge::gI()
+// 0x00000591 MoneyCharge MoneyCharge::gI()
 extern void MoneyCharge_gI_m27B74FCFE09577E5CA9856F1DA0AC1673BCE7023 (void);
-// 0x00000588 System.Void MoneyCharge::switchToMe()
+// 0x00000592 System.Void MoneyCharge::switchToMe()
 extern void MoneyCharge_switchToMe_m9009EF5D7B5A1CE687AD6E52F6DB569DC93BE7FB (void);
-// 0x00000589 System.Void MoneyCharge::updateTfWhenOpenKb()
+// 0x00000593 System.Void MoneyCharge::updateTfWhenOpenKb()
 extern void MoneyCharge_updateTfWhenOpenKb_m728E1E1F0D97999823EA85104C1D691257628C6E (void);
-// 0x0000058A System.Void MoneyCharge::paint(mGraphics)
+// 0x00000594 System.Void MoneyCharge::paint(mGraphics)
 extern void MoneyCharge_paint_m0422390E77A7B8E46B1A6EAEE9B9DF2518501A38 (void);
-// 0x0000058B System.Void MoneyCharge::update()
+// 0x00000595 System.Void MoneyCharge::update()
 extern void MoneyCharge_update_mE5130DE12047A36968F42D7DF47FE0BE9B87B161 (void);
-// 0x0000058C System.Void MoneyCharge::keyPress(System.Int32)
+// 0x00000596 System.Void MoneyCharge::keyPress(System.Int32)
 extern void MoneyCharge_keyPress_m678CA5A41A72A68678E2C87D3AFE69C62558A363 (void);
-// 0x0000058D System.Void MoneyCharge::updateKey()
+// 0x00000597 System.Void MoneyCharge::updateKey()
 extern void MoneyCharge_updateKey_m1E10C7422709A5D066A063638C973F3CFF7F56D3 (void);
-// 0x0000058E System.Void MoneyCharge::clearScreen()
+// 0x00000598 System.Void MoneyCharge::clearScreen()
 extern void MoneyCharge_clearScreen_mC61C2CF125FBFC5C5D13CF75E8C25D3B4A033619 (void);
-// 0x0000058F System.Void MoneyCharge::perform(System.Int32,System.Object)
+// 0x00000599 System.Void MoneyCharge::perform(System.Int32,System.Object)
 extern void MoneyCharge_perform_mAF5C33110FEE2EBFCBD0AF7EDAB63BABB44817DD (void);
-// 0x00000590 System.Void MonsterDart::.ctor(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,Char,System.Int32)
+// 0x0000059A System.Void MonsterDart::.ctor(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,Char,System.Int32)
 extern void MonsterDart__ctor_mB184364EE7A4FC9C2793B4497E24E730DCA15C45 (void);
-// 0x00000591 System.Void MonsterDart::.ctor(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000059B System.Void MonsterDart::.ctor(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void MonsterDart__ctor_m4DB833D10104B0DDF6E5C56329F3C51DE9EE5C43 (void);
-// 0x00000592 System.Void MonsterDart::setAngle(System.Int32)
+// 0x0000059C System.Void MonsterDart::setAngle(System.Int32)
 extern void MonsterDart_setAngle_m5E731AA7600304C203726F788FC84E99400B0F08 (void);
-// 0x00000593 System.Void MonsterDart::addMonsterDart(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,Char,System.Int32)
+// 0x0000059D System.Void MonsterDart::addMonsterDart(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,Char,System.Int32)
 extern void MonsterDart_addMonsterDart_m8184DEF8AD6EC44CEF0A83400DC212A0241C6E0A (void);
-// 0x00000594 System.Void MonsterDart::addMonsterDart(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000059E System.Void MonsterDart::addMonsterDart(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void MonsterDart_addMonsterDart_m888B776697DC9A50247610EB9B20D28410A4035F (void);
-// 0x00000595 System.Void MonsterDart::update()
+// 0x0000059F System.Void MonsterDart::update()
 extern void MonsterDart_update_mBF99B96D3796C0E9EB723A74929B4556A00C03BE (void);
-// 0x00000596 System.Int32 MonsterDart::findDirIndexFromAngle(System.Int32)
+// 0x000005A0 System.Int32 MonsterDart::findDirIndexFromAngle(System.Int32)
 extern void MonsterDart_findDirIndexFromAngle_mCA14B54D48BE17E2D5DA0FCAC978D6866BAB2C32 (void);
-// 0x00000597 System.Void MonsterDart::paint(mGraphics)
+// 0x000005A1 System.Void MonsterDart::paint(mGraphics)
 extern void MonsterDart_paint_m8CB89AC26934BB6D9B0002DF176715262F88C95A (void);
-// 0x00000598 System.Void MonsterDart::addMonsterDart(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,Mob,System.SByte)
+// 0x000005A2 System.Void MonsterDart::addMonsterDart(System.Int32,System.Int32,System.Boolean,System.Int32,System.Int32,Mob,System.SByte)
 extern void MonsterDart_addMonsterDart_m48F30D2243795E9DFB2DAEAD9B6227547EF1B244 (void);
-// 0x00000599 System.Void MonsterDart::.cctor()
+// 0x000005A3 System.Void MonsterDart::.cctor()
 extern void MonsterDart__cctor_m30E82BE83E72795FC7D4B214CF69908593FBBEC4 (void);
-// 0x0000059A System.Void MotherCanvas::.ctor()
+// 0x000005A4 System.Void MotherCanvas::.ctor()
 extern void MotherCanvas__ctor_mADA6C99AE7BF4425FC375968B101750373C06E12 (void);
-// 0x0000059B System.Void MotherCanvas::checkZoomLevel(System.Int32,System.Int32)
+// 0x000005A5 System.Void MotherCanvas::checkZoomLevel(System.Int32,System.Int32)
 extern void MotherCanvas_checkZoomLevel_m646531743FA44F34AF2632A86578B4EC852B10F4 (void);
-// 0x0000059C System.Int32 MotherCanvas::getWidth()
+// 0x000005A6 System.Int32 MotherCanvas::getWidth()
 extern void MotherCanvas_getWidth_m4324F814C4E687CEBF87B8CB12E5A6949ED43069 (void);
-// 0x0000059D System.Int32 MotherCanvas::getHeight()
+// 0x000005A7 System.Int32 MotherCanvas::getHeight()
 extern void MotherCanvas_getHeight_m7140CC528D6A605EFCA8BE51C719841DCADDDEE7 (void);
-// 0x0000059E System.Void MotherCanvas::setChildCanvas(GameCanvas)
+// 0x000005A8 System.Void MotherCanvas::setChildCanvas(GameCanvas)
 extern void MotherCanvas_setChildCanvas_m352D816D6DEB9C2E72E2B8137453762BE3832005 (void);
-// 0x0000059F System.Void MotherCanvas::paint(mGraphics)
+// 0x000005A9 System.Void MotherCanvas::paint(mGraphics)
 extern void MotherCanvas_paint_mA78D91783816009ACEDAC2F32AE97754FF75CD4B (void);
-// 0x000005A0 System.Void MotherCanvas::keyPressed(System.Int32)
+// 0x000005AA System.Void MotherCanvas::keyPressed(System.Int32)
 extern void MotherCanvas_keyPressed_mEF65B37B6560A7B4E8D8156BDF04A880B0C82E76 (void);
-// 0x000005A1 System.Void MotherCanvas::keyReleased(System.Int32)
+// 0x000005AB System.Void MotherCanvas::keyReleased(System.Int32)
 extern void MotherCanvas_keyReleased_m0B130C6F84B53455133F20CD186C2ED56E621A2B (void);
-// 0x000005A2 System.Void MotherCanvas::pointerDragged(System.Int32,System.Int32)
+// 0x000005AC System.Void MotherCanvas::pointerDragged(System.Int32,System.Int32)
 extern void MotherCanvas_pointerDragged_mD44990F51F7DCA8AB91DC44CD7A59F6B0A963A88 (void);
-// 0x000005A3 System.Void MotherCanvas::pointerPressed(System.Int32,System.Int32)
+// 0x000005AD System.Void MotherCanvas::pointerPressed(System.Int32,System.Int32)
 extern void MotherCanvas_pointerPressed_mCADCBDF47EFD2088A0E009BE18FD68BDD4C1E89C (void);
-// 0x000005A4 System.Void MotherCanvas::pointerReleased(System.Int32,System.Int32)
+// 0x000005AE System.Void MotherCanvas::pointerReleased(System.Int32,System.Int32)
 extern void MotherCanvas_pointerReleased_m7B8F5F9FC959EA6BE0B3C44209F42F9807D4522B (void);
-// 0x000005A5 System.Int32 MotherCanvas::getWidthz()
+// 0x000005AF System.Int32 MotherCanvas::getWidthz()
 extern void MotherCanvas_getWidthz_m0A351ECAEC79EBBA471C8C02F14F16B3FFD304BF (void);
-// 0x000005A6 System.Int32 MotherCanvas::getHeightz()
+// 0x000005B0 System.Int32 MotherCanvas::getHeightz()
 extern void MotherCanvas_getHeightz_m9C0B7BB5F874726E80A056678117E4130E6D4A87 (void);
-// 0x000005A7 System.Void MovePoint::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x000005B1 System.Void MovePoint::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void MovePoint__ctor_m4DD4DB204D4EEB1721137E93488B2806F5F8C2F9 (void);
-// 0x000005A8 System.Void MovePoint::.ctor(System.Int32,System.Int32)
+// 0x000005B2 System.Void MovePoint::.ctor(System.Int32,System.Int32)
 extern void MovePoint__ctor_mA1C158FD605ABA8506D92DD8F8CA98F28F07024F (void);
-// 0x000005A9 System.Void mResources::loadLanguague()
+// 0x000005B3 System.Void mResources::loadLanguague()
 extern void mResources_loadLanguague_m3AAC1220824A9728D564E20217C144A2904724B5 (void);
-// 0x000005AA System.Void mResources::loadLanguague(System.SByte)
+// 0x000005B4 System.Void mResources::loadLanguague(System.SByte)
 extern void mResources_loadLanguague_m8924CBD3DBEBBFCB6A04C014E8A7D10EE70A90E7 (void);
-// 0x000005AB System.String mResources::replace(System.String,System.String)
+// 0x000005B5 System.String mResources::replace(System.String,System.String)
 extern void mResources_replace_m5644B86B973D7BD12102697FDB130CCCAF6A9EB1 (void);
-// 0x000005AC System.Void mResources::.ctor()
+// 0x000005B6 System.Void mResources::.ctor()
 extern void mResources__ctor_m9A4369B41F59FA0AF5AA99E61B95DE132C40BFF0 (void);
-// 0x000005AD System.Void mResources::.cctor()
+// 0x000005B7 System.Void mResources::.cctor()
 extern void mResources__cctor_m84B15E5AE69BEABDFE15FB41B7343C9409D103E7 (void);
-// 0x000005AE System.Void mScreen::switchToMe()
+// 0x000005B8 System.Void mScreen::switchToMe()
 extern void mScreen_switchToMe_mAE4E475B10739DAAB3138CC687F74E02310FAF40 (void);
-// 0x000005AF System.Void mScreen::unLoad()
+// 0x000005B9 System.Void mScreen::unLoad()
 extern void mScreen_unLoad_m9FCFDEFFF78A5AAAD3EAE0F2592F776423187845 (void);
-// 0x000005B0 System.Void mScreen::initPos()
+// 0x000005BA System.Void mScreen::initPos()
 extern void mScreen_initPos_m80354588C03DA8DD7DF7EF38F233310BCB560EEE (void);
-// 0x000005B1 System.Void mScreen::keyPress(System.Int32)
+// 0x000005BB System.Void mScreen::keyPress(System.Int32)
 extern void mScreen_keyPress_m3CE8E5E968CD2799DFC52FE568D269EA42957105 (void);
-// 0x000005B2 System.Void mScreen::update()
+// 0x000005BC System.Void mScreen::update()
 extern void mScreen_update_m783E4CBECC38BDE2A3C33874A4EF807181B7BBDF (void);
-// 0x000005B3 System.Void mScreen::updateKey()
+// 0x000005BD System.Void mScreen::updateKey()
 extern void mScreen_updateKey_m061E0BF1B3A0818DB9628BFA3876C8DD67F7D6F2 (void);
-// 0x000005B4 System.Boolean mScreen::getCmdPointerLast(Command)
+// 0x000005BE System.Boolean mScreen::getCmdPointerLast(Command)
 extern void mScreen_getCmdPointerLast_m26247A7F974BAA2B7176D2713B810ECAA2976906 (void);
-// 0x000005B5 System.Void mScreen::paint(mGraphics)
+// 0x000005BF System.Void mScreen::paint(mGraphics)
 extern void mScreen_paint_m989002C92DEAE6668B3DBFE92B8D7922F42DAF0B (void);
-// 0x000005B6 System.Void mScreen::.ctor()
+// 0x000005C0 System.Void mScreen::.ctor()
 extern void mScreen__ctor_m779E6F19A6D0D212222FBF0E09672F408F86205E (void);
-// 0x000005B7 System.Void mScreen::.cctor()
+// 0x000005C1 System.Void mScreen::.cctor()
 extern void mScreen__cctor_m62B1C00FE9EE91F2F340E236B0E9C57A2801D0B6 (void);
-// 0x000005B8 System.Void MsgDlg::.ctor()
+// 0x000005C2 System.Void MsgDlg::.ctor()
 extern void MsgDlg__ctor_m539684512E1D3FFF29BD3A4984D1C23B43FAB06C (void);
-// 0x000005B9 System.Void MsgDlg::pleasewait()
+// 0x000005C3 System.Void MsgDlg::pleasewait()
 extern void MsgDlg_pleasewait_mD049E6E699F1B022C4798FA957407E2608D75EA2 (void);
-// 0x000005BA System.Void MsgDlg::show()
+// 0x000005C4 System.Void MsgDlg::show()
 extern void MsgDlg_show_m64AB541F9568CEAD54044B76B9204005A0F2DBEF (void);
-// 0x000005BB System.Void MsgDlg::setInfo(System.String)
+// 0x000005C5 System.Void MsgDlg::setInfo(System.String)
 extern void MsgDlg_setInfo_m398E1C0EAE7E3C9503B07B343C099470D35B33DE (void);
-// 0x000005BC System.Void MsgDlg::setInfo(System.String,Command,Command,Command)
+// 0x000005C6 System.Void MsgDlg::setInfo(System.String,Command,Command,Command)
 extern void MsgDlg_setInfo_m40FCBCC1BB8CC323E3A7C4CFF638CDCC9D85DEEF (void);
-// 0x000005BD System.Void MsgDlg::paint(mGraphics)
+// 0x000005C7 System.Void MsgDlg::paint(mGraphics)
 extern void MsgDlg_paint_m2F4F58908B9378BA92A59D0F36E7D3D5ED5EE297 (void);
-// 0x000005BE System.Void MsgDlg::update()
+// 0x000005C8 System.Void MsgDlg::update()
 extern void MsgDlg_update_m4E89CD58E1ABAB6D2A450D153DAAA033BBB44622 (void);
-// 0x000005BF System.Void mSystem::resetCurInapp()
+// 0x000005C9 System.Void mSystem::resetCurInapp()
 extern void mSystem_resetCurInapp_m6FACDE070A550C69F82F08FCFF051E7A2CDE9007 (void);
-// 0x000005C0 System.Int32 mSystem::getWidth(Image)
+// 0x000005CA System.Int32 mSystem::getWidth(Image)
 extern void mSystem_getWidth_m9170D5F3E94C605AB781936E83CA73B3649B269E (void);
-// 0x000005C1 System.Int32 mSystem::getHeight(Image)
+// 0x000005CB System.Int32 mSystem::getHeight(Image)
 extern void mSystem_getHeight_m2D3ADF3C7497AF8E339AEFA2BB5D2FBB476F1E9E (void);
-// 0x000005C2 System.String mSystem::getTimeCountDown(System.Int64,System.Int32,System.Boolean,System.Boolean)
+// 0x000005CC System.String mSystem::getTimeCountDown(System.Int64,System.Int32,System.Boolean,System.Boolean)
 extern void mSystem_getTimeCountDown_m2A7868E8314190E50060E150DC4433AF9D74FA99 (void);
-// 0x000005C3 System.String mSystem::numberTostring2(System.Int32)
+// 0x000005CD System.String mSystem::numberTostring2(System.Int32)
 extern void mSystem_numberTostring2_mE50C9BC1D09B2D1F128E62FD4537F3DF2E66A704 (void);
-// 0x000005C4 System.String mSystem::numberTostring(System.Int64)
+// 0x000005CE System.String mSystem::numberTostring(System.Int64)
 extern void mSystem_numberTostring_m7FE684D405C39CA8B921092C1DB10850EBDC0F06 (void);
-// 0x000005C5 System.Void mSystem::callHotlinePC()
+// 0x000005CF System.Void mSystem::callHotlinePC()
 extern void mSystem_callHotlinePC_mD0D9A7FA5817E0345115564D24A93087F31CC7E5 (void);
-// 0x000005C6 System.Void mSystem::callHotlineJava()
+// 0x000005D0 System.Void mSystem::callHotlineJava()
 extern void mSystem_callHotlineJava_m69222CA1C50E6085D3FADD0B6BBE47CDAD2615A6 (void);
-// 0x000005C7 System.Void mSystem::callHotlineIphone()
+// 0x000005D1 System.Void mSystem::callHotlineIphone()
 extern void mSystem_callHotlineIphone_mA7635657D08002D5B76DCCFC8CEF7F68441BED85 (void);
-// 0x000005C8 System.Void mSystem::callHotlineWindowsPhone()
+// 0x000005D2 System.Void mSystem::callHotlineWindowsPhone()
 extern void mSystem_callHotlineWindowsPhone_m18E60DFE83F2B06508A4895665F6A017D386F7DB (void);
-// 0x000005C9 System.Void mSystem::closeBanner()
+// 0x000005D3 System.Void mSystem::closeBanner()
 extern void mSystem_closeBanner_mD26F4D364350DE8453C798ADE4D7BC73AD11F28B (void);
-// 0x000005CA System.Void mSystem::showBanner()
+// 0x000005D4 System.Void mSystem::showBanner()
 extern void mSystem_showBanner_m83E9D733E3ACEC0758E06BB506CA6D127E178C82 (void);
-// 0x000005CB System.Void mSystem::createAdmob()
+// 0x000005D5 System.Void mSystem::createAdmob()
 extern void mSystem_createAdmob_m9FA0774492AEA8DAC0B3A72A360459BCEE8919BA (void);
-// 0x000005CC System.Void mSystem::checkAdComlete()
+// 0x000005D6 System.Void mSystem::checkAdComlete()
 extern void mSystem_checkAdComlete_mFBAC84CDB9A612AF7A41923C10B9A3478BB293EA (void);
-// 0x000005CD System.Void mSystem::paintPopUp2(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x000005D7 System.Void mSystem::paintPopUp2(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void mSystem_paintPopUp2_m421ECE1AC428756B87942C54B2E220F1B9DCB206 (void);
-// 0x000005CE System.Void mSystem::arraycopy(System.SByte[],System.Int32,System.SByte[],System.Int32,System.Int32)
+// 0x000005D8 System.Void mSystem::arraycopy(System.SByte[],System.Int32,System.SByte[],System.Int32,System.Int32)
 extern void mSystem_arraycopy_mB9D57C7C02511A77662F8B97D994B1ECBD5104EE (void);
-// 0x000005CF System.Void mSystem::arrayReplace(System.SByte[],System.Int32,System.SByte[]&,System.Int32,System.Int32)
+// 0x000005D9 System.Void mSystem::arrayReplace(System.SByte[],System.Int32,System.SByte[]&,System.Int32,System.Int32)
 extern void mSystem_arrayReplace_mA7A3F889C357E2B5CD4669F3985E4DDE5F3DC1C3 (void);
-// 0x000005D0 System.Int64 mSystem::currentTimeMillis()
+// 0x000005DA System.Int64 mSystem::currentTimeMillis()
 extern void mSystem_currentTimeMillis_m5CCB6CA1D1858E7F9BB6905048A0ACC17C73B86A (void);
-// 0x000005D1 System.Void mSystem::freeData()
+// 0x000005DB System.Void mSystem::freeData()
 extern void mSystem_freeData_mAA325683D8E7D9646B2966E71A044805000A6A23 (void);
-// 0x000005D2 System.SByte[] mSystem::convertToSbyte(System.Byte[])
+// 0x000005DC System.SByte[] mSystem::convertToSbyte(System.Byte[])
 extern void mSystem_convertToSbyte_mAE6A0FD020DD58F9F32930C2FAC4E47CD6C72C98 (void);
-// 0x000005D3 System.SByte[] mSystem::convertToSbyte(System.String)
+// 0x000005DD System.SByte[] mSystem::convertToSbyte(System.String)
 extern void mSystem_convertToSbyte_m5B7ECF84A4A66BE0F039E29C314E5242230133F3 (void);
-// 0x000005D4 System.Byte[] mSystem::convetToByte(System.SByte[])
+// 0x000005DE System.Byte[] mSystem::convetToByte(System.SByte[])
 extern void mSystem_convetToByte_mA2C7EFFDB3F8C7FFADEFC52A5BD2B12C5C13D564 (void);
-// 0x000005D5 System.Char[] mSystem::ToCharArray(System.SByte[])
+// 0x000005DF System.Char[] mSystem::ToCharArray(System.SByte[])
 extern void mSystem_ToCharArray_m5177EFB6943BA31B334BDAD4D055D62CA2BE28F8 (void);
-// 0x000005D6 System.Int32 mSystem::currentHour()
+// 0x000005E0 System.Int32 mSystem::currentHour()
 extern void mSystem_currentHour_m6FD6AAC6751F25D68ED0E25B955788F31D881EA4 (void);
-// 0x000005D7 System.Void mSystem::println(System.Object)
+// 0x000005E1 System.Void mSystem::println(System.Object)
 extern void mSystem_println_mB0E59F5A14CA68FFF83DC3D04B6B07DF363CB77C (void);
-// 0x000005D8 System.Void mSystem::gcc()
+// 0x000005E2 System.Void mSystem::gcc()
 extern void mSystem_gcc_m54AAF2EA79CA21C076A0602C47E00A39C3C3C6D5 (void);
-// 0x000005D9 mSystem mSystem::gI()
+// 0x000005E3 mSystem mSystem::gI()
 extern void mSystem_gI_m66A5C6577D737BC8E4D9A0DE5C337FD0E83EA5D4 (void);
-// 0x000005DA System.Void mSystem::onConnectOK()
+// 0x000005E4 System.Void mSystem::onConnectOK()
 extern void mSystem_onConnectOK_m946D1B14684D85941F8BDE616A95599CCB74BA5C (void);
-// 0x000005DB System.Void mSystem::onConnectionFail()
+// 0x000005E5 System.Void mSystem::onConnectionFail()
 extern void mSystem_onConnectionFail_mA32FC79EB53D8705FC6F240E918EE01A3291B5DC (void);
-// 0x000005DC System.Void mSystem::onDisconnected()
+// 0x000005E6 System.Void mSystem::onDisconnected()
 extern void mSystem_onDisconnected_m78AD27DD0EA52339CB267A8DFF24CDDAB42C000F (void);
-// 0x000005DD System.Void mSystem::exitWP()
+// 0x000005E7 System.Void mSystem::exitWP()
 extern void mSystem_exitWP_m19A61C15F9CD29EDC5CC78B854594618A014B08D (void);
-// 0x000005DE System.Void mSystem::paintFlyText(mGraphics)
+// 0x000005E8 System.Void mSystem::paintFlyText(mGraphics)
 extern void mSystem_paintFlyText_mA58FC39C8211F6E87C01093F15CFA22A5794D378 (void);
-// 0x000005DF System.Void mSystem::endKey()
+// 0x000005E9 System.Void mSystem::endKey()
 extern void mSystem_endKey_m8158A721583DA53B30B56A8A202319001A256106 (void);
-// 0x000005E0 FrameImage mSystem::getFraImage(System.String)
+// 0x000005EA FrameImage mSystem::getFraImage(System.String)
 extern void mSystem_getFraImage_m33B2C09C0CD7D9C1E6D3D81AC809E1A3A251A020 (void);
-// 0x000005E1 Image mSystem::loadImage(System.String)
+// 0x000005EB Image mSystem::loadImage(System.String)
 extern void mSystem_loadImage_m1AFD07A41950886498F6E1F6BDE1A01DD609C1A1 (void);
-// 0x000005E2 System.Void mSystem::.ctor()
+// 0x000005EC System.Void mSystem::.ctor()
 extern void mSystem__ctor_mD6688E8358EBC225B7A27EF6B7550EB096672EB4 (void);
-// 0x000005E3 System.Void mSystem::.cctor()
+// 0x000005ED System.Void mSystem::.cctor()
 extern void mSystem__cctor_m89D55AAB5BB88C358EBAA792FAB6649E78C0A4C1 (void);
-// 0x000005E4 System.Void MyAudioClip::.ctor(System.String)
+// 0x000005EE System.Void MyAudioClip::.ctor(System.String)
 extern void MyAudioClip__ctor_mB320195E2B5B496051F7832380D220B820F30824 (void);
-// 0x000005E5 System.Void MyAudioClip::Play()
+// 0x000005EF System.Void MyAudioClip::Play()
 extern void MyAudioClip_Play_m940A879292A83D016971D07D613E7DE48A245E92 (void);
-// 0x000005E6 System.Boolean MyAudioClip::isPlaying()
+// 0x000005F0 System.Boolean MyAudioClip::isPlaying()
 extern void MyAudioClip_isPlaying_mAAD3276B8FBE0F4ADF45D7E199EBF86BAA4F146B (void);
-// 0x000005E7 System.Object MyHashTable::get(System.Object)
+// 0x000005F1 System.Object MyHashTable::get(System.Object)
 extern void MyHashTable_get_mDAA26A9AE2D20587A3888209030C640EC6F26CCF (void);
-// 0x000005E8 System.Void MyHashTable::clear()
+// 0x000005F2 System.Void MyHashTable::clear()
 extern void MyHashTable_clear_m615337853061CBF2B6758A0FD7FFA1AF23969C1A (void);
-// 0x000005E9 System.Collections.IDictionaryEnumerator MyHashTable::GetEnumerator()
+// 0x000005F3 System.Collections.IDictionaryEnumerator MyHashTable::GetEnumerator()
 extern void MyHashTable_GetEnumerator_mAC9427CC15F2A6860442980DEDBBC12AC4AF68A0 (void);
-// 0x000005EA System.Int32 MyHashTable::size()
+// 0x000005F4 System.Int32 MyHashTable::size()
 extern void MyHashTable_size_m732491E8B06B432BB21E120C45E847A16A73F191 (void);
-// 0x000005EB System.Void MyHashTable::put(System.Object,System.Object)
+// 0x000005F5 System.Void MyHashTable::put(System.Object,System.Object)
 extern void MyHashTable_put_m4724A71ED1B4C97C1F054D5F77AF40CA040C7442 (void);
-// 0x000005EC System.Void MyHashTable::remove(System.Object)
+// 0x000005F6 System.Void MyHashTable::remove(System.Object)
 extern void MyHashTable_remove_m0B97F3C9A622D918B9F91F84CCB088A21A1BD6CF (void);
-// 0x000005ED System.Void MyHashTable::Remove(System.String)
+// 0x000005F7 System.Void MyHashTable::Remove(System.String)
 extern void MyHashTable_Remove_m237374141748169680960700001FC030E0647393 (void);
-// 0x000005EE System.Boolean MyHashTable::containsKey(System.Object)
+// 0x000005F8 System.Boolean MyHashTable::containsKey(System.Object)
 extern void MyHashTable_containsKey_mAFB7D4F2080F7FF2770D461BC29F53DA31220AE5 (void);
-// 0x000005EF System.Void MyHashTable::.ctor()
+// 0x000005F9 System.Void MyHashTable::.ctor()
 extern void MyHashTable__ctor_m69A990C356871DBF5D78D34DFB868664EB4CD571 (void);
-// 0x000005F0 System.Void MyKeyMap::.cctor()
+// 0x000005FA System.Void MyKeyMap::.cctor()
 extern void MyKeyMap__cctor_mEB348AC4618313A4D52CFB176E90C07D03F4EA7C (void);
-// 0x000005F1 System.Int32 MyKeyMap::map(UnityEngine.KeyCode)
+// 0x000005FB System.Int32 MyKeyMap::map(UnityEngine.KeyCode)
 extern void MyKeyMap_map_mEB1AF289EAEBE6F728B43F60D9D9EFD4882EC800 (void);
-// 0x000005F2 System.Void MyKeyMap::.ctor()
+// 0x000005FC System.Void MyKeyMap::.ctor()
 extern void MyKeyMap__ctor_mB40758ED1FC42BBEABBF1A8871A7F5BA80E0C7B8 (void);
-// 0x000005F3 System.Void MyRandom::.ctor()
+// 0x000005FD System.Void MyRandom::.ctor()
 extern void MyRandom__ctor_mF1EE83D57EA85AB1CCAF7F9C61B1A33E767B59D5 (void);
-// 0x000005F4 System.Int32 MyRandom::nextInt()
+// 0x000005FE System.Int32 MyRandom::nextInt()
 extern void MyRandom_nextInt_m4E6F8E5529A31775C367CF75E789E4CEEBE879E1 (void);
-// 0x000005F5 System.Int32 MyRandom::nextInt(System.Int32)
+// 0x000005FF System.Int32 MyRandom::nextInt(System.Int32)
 extern void MyRandom_nextInt_m43943AAD9305BEC4C8DACCDBF63470E519728976 (void);
-// 0x000005F6 System.Int32 MyRandom::nextInt(System.Int32,System.Int32)
+// 0x00000600 System.Int32 MyRandom::nextInt(System.Int32,System.Int32)
 extern void MyRandom_nextInt_mD695CFE5816C571AD280B0A68A550D9F4E4F765E (void);
-// 0x000005F7 System.Void myReader::.ctor()
+// 0x00000601 System.Void myReader::.ctor()
 extern void myReader__ctor_mD19F32B39F5816737B33C0086EDE1C0CB72C4441 (void);
-// 0x000005F8 System.Void myReader::.ctor(System.SByte[])
+// 0x00000602 System.Void myReader::.ctor(System.SByte[])
 extern void myReader__ctor_m61EAE1B77A35D717C484A0BA3AA8A66DB94C44DE (void);
-// 0x000005F9 System.Void myReader::.ctor(System.String)
+// 0x00000603 System.Void myReader::.ctor(System.String)
 extern void myReader__ctor_m6945128D105259A66EE57396371A1A3605089A39 (void);
-// 0x000005FA System.SByte myReader::readSByte()
+// 0x00000604 System.SByte myReader::readSByte()
 extern void myReader_readSByte_mB2F3C8A75A44E2BF33C2BCA1E2DF5155987C6772 (void);
-// 0x000005FB System.SByte myReader::readsbyte()
+// 0x00000605 System.SByte myReader::readsbyte()
 extern void myReader_readsbyte_mEAD8CECE2C017C0150FCA6E24F3E8ED0D773BDA8 (void);
-// 0x000005FC System.SByte myReader::readByte()
+// 0x00000606 System.SByte myReader::readByte()
 extern void myReader_readByte_mCDDF6ED5E0EB397901E6243495AAFF1897771C74 (void);
-// 0x000005FD System.Void myReader::mark(System.Int32)
+// 0x00000607 System.Void myReader::mark(System.Int32)
 extern void myReader_mark_m4F9318EB449A2E9082286F91799EE9E8CF7E762D (void);
-// 0x000005FE System.Void myReader::reset()
+// 0x00000608 System.Void myReader::reset()
 extern void myReader_reset_mE7E30C18E65522895CB8842EDF245B9D89EF744D (void);
-// 0x000005FF System.Byte myReader::readUnsignedByte()
+// 0x00000609 System.Byte myReader::readUnsignedByte()
 extern void myReader_readUnsignedByte_mF9CF4F40864C78BA0D2A8C19E427A6C50B1E4A36 (void);
-// 0x00000600 System.Int16 myReader::readShort()
+// 0x0000060A System.Int16 myReader::readShort()
 extern void myReader_readShort_m5A4EA10949618178F9479EE630222339309CD2AF (void);
-// 0x00000601 System.UInt16 myReader::readUnsignedShort()
+// 0x0000060B System.UInt16 myReader::readUnsignedShort()
 extern void myReader_readUnsignedShort_mA15D5FC6AC695E964D4E491124752261C00D5834 (void);
-// 0x00000602 System.Int32 myReader::readInt()
+// 0x0000060C System.Int32 myReader::readInt()
 extern void myReader_readInt_mBBE3D6B1C73B3F9EA32C3CEACD7E5686DCDDB1C5 (void);
-// 0x00000603 System.Int64 myReader::readLong()
+// 0x0000060D System.Int64 myReader::readLong()
 extern void myReader_readLong_m28B988A2CB27F61C2796A34DAD3DE686D9940C14 (void);
-// 0x00000604 System.Boolean myReader::readBool()
+// 0x0000060E System.Boolean myReader::readBool()
 extern void myReader_readBool_m69D2BFE9F39F4039327204D7A36C9F85FE07FBF9 (void);
-// 0x00000605 System.Boolean myReader::readBoolean()
+// 0x0000060F System.Boolean myReader::readBoolean()
 extern void myReader_readBoolean_m741F3BFB46800E08CF79B6E514F34DE1E248819B (void);
-// 0x00000606 System.String myReader::readString()
+// 0x00000610 System.String myReader::readString()
 extern void myReader_readString_m24FCD8F8C62DAD2E7B9662F8893AA5E472B1774A (void);
-// 0x00000607 System.String myReader::readStringUTF()
+// 0x00000611 System.String myReader::readStringUTF()
 extern void myReader_readStringUTF_mA39987DBD432667C1F7D85074FDFF61D1BA66926 (void);
-// 0x00000608 System.String myReader::readUTF()
+// 0x00000612 System.String myReader::readUTF()
 extern void myReader_readUTF_m7BDB6B0B2C3063B93376A208946519E334B482F4 (void);
-// 0x00000609 System.Int32 myReader::read()
+// 0x00000613 System.Int32 myReader::read()
 extern void myReader_read_m721E22F92C36D60D39341F8DE6A870EFF8F96B2F (void);
-// 0x0000060A System.Int32 myReader::read(System.SByte[]&)
+// 0x00000614 System.Int32 myReader::read(System.SByte[]&)
 extern void myReader_read_mDA9ABBC0D5E3718551F04D617286646EEBB49384 (void);
-// 0x0000060B System.Void myReader::readFully(System.SByte[]&)
+// 0x00000615 System.Void myReader::readFully(System.SByte[]&)
 extern void myReader_readFully_m8608417048EE24F48B0E1E760D131963204F563C (void);
-// 0x0000060C System.Int32 myReader::available()
+// 0x00000616 System.Int32 myReader::available()
 extern void myReader_available_m929F700B0FC5E5BEB2883E2F0161368D14DB3879 (void);
-// 0x0000060D System.Byte myReader::convertSbyteToByte(System.SByte)
+// 0x00000617 System.Byte myReader::convertSbyteToByte(System.SByte)
 extern void myReader_convertSbyteToByte_m0E14D1FA7D2AFC05842ABB00C912B7EFFC0D4469 (void);
-// 0x0000060E System.Byte[] myReader::convertSbyteToByte(System.SByte[])
+// 0x00000618 System.Byte[] myReader::convertSbyteToByte(System.SByte[])
 extern void myReader_convertSbyteToByte_m77C69F3A94AF675DDF3E31B4CE9C6D1E0FE04D90 (void);
-// 0x0000060F System.Void myReader::Close()
+// 0x00000619 System.Void myReader::Close()
 extern void myReader_Close_m49C5C4EA5E7DEF76AD51D05E0AD607CE693DE4C0 (void);
-// 0x00000610 System.Void myReader::close()
+// 0x0000061A System.Void myReader::close()
 extern void myReader_close_m710ADC4EAF7025A3AF206ABB0C7D123A2A4D027C (void);
-// 0x00000611 System.Void myReader::read(System.SByte[]&,System.Int32,System.Int32)
+// 0x0000061B System.Void myReader::read(System.SByte[]&,System.Int32,System.Int32)
 extern void myReader_read_mBFDA6987192E57F53AEE29FF2CDAD54C6797CA43 (void);
-// 0x00000612 DataInputStream MyStream::readFile(System.String)
+// 0x0000061C DataInputStream MyStream::readFile(System.String)
 extern void MyStream_readFile_m13FB3C94A64FCF1506D6DEAAC2916AAB3628521A (void);
-// 0x00000613 System.Void MyStream::.ctor()
+// 0x0000061D System.Void MyStream::.ctor()
 extern void MyStream__ctor_mFF92A6A7FCF34922CCDC7E57826A71E7D10B0C36 (void);
-// 0x00000614 System.Void MyVector::.ctor()
+// 0x0000061E System.Void MyVector::.ctor()
 extern void MyVector__ctor_m9CAA74C33B5605E7806E3F1C9E1D78A97AE10692 (void);
-// 0x00000615 System.Void MyVector::.ctor(System.String)
+// 0x0000061F System.Void MyVector::.ctor(System.String)
 extern void MyVector__ctor_mC2778AFD53D924579A92258C924A6F1BAE27DD5B (void);
-// 0x00000616 System.Void MyVector::.ctor(System.Collections.ArrayList)
+// 0x00000620 System.Void MyVector::.ctor(System.Collections.ArrayList)
 extern void MyVector__ctor_m048B4036DBE6DE7D76D4EDA9C96562A1F59873DD (void);
-// 0x00000617 System.Void MyVector::addElement(System.Object)
+// 0x00000621 System.Void MyVector::addElement(System.Object)
 extern void MyVector_addElement_mEAC138D2FA33E278970E8870AF36E6F9B335916E (void);
-// 0x00000618 System.Boolean MyVector::contains(System.Object)
+// 0x00000622 System.Boolean MyVector::contains(System.Object)
 extern void MyVector_contains_m61E50E7516A347FECC6B55CD4C383EBDD338BEBF (void);
-// 0x00000619 System.Int32 MyVector::size()
+// 0x00000623 System.Int32 MyVector::size()
 extern void MyVector_size_mF025A05E2021611BFB9E107342658AEB05222BA9 (void);
-// 0x0000061A System.Object MyVector::elementAt(System.Int32)
+// 0x00000624 System.Object MyVector::elementAt(System.Int32)
 extern void MyVector_elementAt_m2058CB2FBF87C401368BB43AE172A9BB65956E4E (void);
-// 0x0000061B System.Void MyVector::set(System.Int32,System.Object)
+// 0x00000625 System.Void MyVector::set(System.Int32,System.Object)
 extern void MyVector_set_mA7B16EE8B10484A5EDD7E9F9F62385D243D36A0F (void);
-// 0x0000061C System.Void MyVector::setElementAt(System.Object,System.Int32)
+// 0x00000626 System.Void MyVector::setElementAt(System.Object,System.Int32)
 extern void MyVector_setElementAt_m2AFDBF259BD0018FC2D8FBFD4748C58719927231 (void);
-// 0x0000061D System.Int32 MyVector::indexOf(System.Object)
+// 0x00000627 System.Int32 MyVector::indexOf(System.Object)
 extern void MyVector_indexOf_m5BA8FC6BCCAD9A1E2EF272C55A8CE58934DDF128 (void);
-// 0x0000061E System.Void MyVector::removeElementAt(System.Int32)
+// 0x00000628 System.Void MyVector::removeElementAt(System.Int32)
 extern void MyVector_removeElementAt_mBAAE9A96CE172AF34B3FAFAF22E50D5F191E97C5 (void);
-// 0x0000061F System.Void MyVector::removeElement(System.Object)
+// 0x00000629 System.Void MyVector::removeElement(System.Object)
 extern void MyVector_removeElement_mD02AC92E6BBD8E66F530EB978E180069029E70E0 (void);
-// 0x00000620 System.Void MyVector::removeAllElements()
+// 0x0000062A System.Void MyVector::removeAllElements()
 extern void MyVector_removeAllElements_mF2D6466281DBBB597BBEDED74C9214256D0CE7D1 (void);
-// 0x00000621 System.Void MyVector::insertElementAt(System.Object,System.Int32)
+// 0x0000062B System.Void MyVector::insertElementAt(System.Object,System.Int32)
 extern void MyVector_insertElementAt_mEEEEE2C8E76785EAABFD08BB8A7E8B1C9B0975B4 (void);
-// 0x00000622 System.Object MyVector::firstElement()
+// 0x0000062C System.Object MyVector::firstElement()
 extern void MyVector_firstElement_m94A5045C21B62FA1D7A4188219F87AFC1180CDEB (void);
-// 0x00000623 System.Object MyVector::lastElement()
+// 0x0000062D System.Object MyVector::lastElement()
 extern void MyVector_lastElement_m432E10733119F47DB68519CE7FB98AFFE1A6173B (void);
-// 0x00000624 System.Void myWriter::.ctor()
+// 0x0000062E System.Void myWriter::.ctor()
 extern void myWriter__ctor_m8F17B95C89DCFB2B7F4E795B5340DD8558999566 (void);
-// 0x00000625 System.Void myWriter::.ctor(System.Int32)
+// 0x0000062F System.Void myWriter::.ctor(System.Int32)
 extern void myWriter__ctor_m0123B3B5BC5575BFFA2B21CFDE4CE3208A6F0699 (void);
-// 0x00000626 System.Void myWriter::writeSByte(System.SByte)
+// 0x00000630 System.Void myWriter::writeSByte(System.SByte)
 extern void myWriter_writeSByte_mF85429DA92DB758CA70F284586E4FE394237DD6F (void);
-// 0x00000627 System.Void myWriter::writeSByteUncheck(System.SByte)
+// 0x00000631 System.Void myWriter::writeSByteUncheck(System.SByte)
 extern void myWriter_writeSByteUncheck_mC6D94B5457998B8227E5155B6D4B6D3009C52D00 (void);
-// 0x00000628 System.Void myWriter::writeByte(System.SByte)
+// 0x00000632 System.Void myWriter::writeByte(System.SByte)
 extern void myWriter_writeByte_m58C21F59EFD99EC5C4BFFAB70A736504075C8F3B (void);
-// 0x00000629 System.Void myWriter::writeByte(System.Int32)
+// 0x00000633 System.Void myWriter::writeByte(System.Int32)
 extern void myWriter_writeByte_m55A2125BEA4D624CE7B8088CED04BFEB232EDA48 (void);
-// 0x0000062A System.Void myWriter::writeChar(System.Char)
+// 0x00000634 System.Void myWriter::writeChar(System.Char)
 extern void myWriter_writeChar_mB6E2C1C68A1A110A660DFC4C060C9A583A05ECDE (void);
-// 0x0000062B System.Void myWriter::writeUnsignedByte(System.Byte)
+// 0x00000635 System.Void myWriter::writeUnsignedByte(System.Byte)
 extern void myWriter_writeUnsignedByte_m4A3683262CF89EC93958600D8C71D1A717D8B19B (void);
-// 0x0000062C System.Void myWriter::writeUnsignedByte(System.Byte[])
+// 0x00000636 System.Void myWriter::writeUnsignedByte(System.Byte[])
 extern void myWriter_writeUnsignedByte_mA5F233DFFA8081B8DF937CE61886541257A92B8D (void);
-// 0x0000062D System.Void myWriter::writeSByte(System.SByte[])
+// 0x00000637 System.Void myWriter::writeSByte(System.SByte[])
 extern void myWriter_writeSByte_mB05B21B32466319C22B783A57934648FD77D2CF6 (void);
-// 0x0000062E System.Void myWriter::writeShort(System.Int16)
+// 0x00000638 System.Void myWriter::writeShort(System.Int16)
 extern void myWriter_writeShort_m7764ED56167AA72D9D47E286A1A5F94057B98545 (void);
-// 0x0000062F System.Void myWriter::writeShort(System.Int32)
+// 0x00000639 System.Void myWriter::writeShort(System.Int32)
 extern void myWriter_writeShort_m90EC64FFD332E3B73F5617E58C47898BB9EF82D8 (void);
-// 0x00000630 System.Void myWriter::writeUnsignedShort(System.UInt16)
+// 0x0000063A System.Void myWriter::writeUnsignedShort(System.UInt16)
 extern void myWriter_writeUnsignedShort_mA597E72A8C84DAB8F4BE14F8BB73F45D536E4020 (void);
-// 0x00000631 System.Void myWriter::writeInt(System.Int32)
+// 0x0000063B System.Void myWriter::writeInt(System.Int32)
 extern void myWriter_writeInt_mF40561F323B05FA911F37C4AFB52F8085A86D1B5 (void);
-// 0x00000632 System.Void myWriter::writeLong(System.Int64)
+// 0x0000063C System.Void myWriter::writeLong(System.Int64)
 extern void myWriter_writeLong_mFE1C174CF6A0E026E74F3E157559F6719C2B9037 (void);
-// 0x00000633 System.Void myWriter::writeBoolean(System.Boolean)
+// 0x0000063D System.Void myWriter::writeBoolean(System.Boolean)
 extern void myWriter_writeBoolean_m6F9C83DD364D526882AE7624BCD9BF26102C8D35 (void);
-// 0x00000634 System.Void myWriter::writeBool(System.Boolean)
+// 0x0000063E System.Void myWriter::writeBool(System.Boolean)
 extern void myWriter_writeBool_mA299E5CED54684AFA4880B15CB8BB0822BAD2668 (void);
-// 0x00000635 System.Void myWriter::writeString(System.String)
+// 0x0000063F System.Void myWriter::writeString(System.String)
 extern void myWriter_writeString_mB8666D60ACF1A5D4E245F473C27F7F38CD0B7D07 (void);
-// 0x00000636 System.Void myWriter::writeUTF(System.String)
+// 0x00000640 System.Void myWriter::writeUTF(System.String)
 extern void myWriter_writeUTF_m4860A7D3A95E7300569542D8D35134ECAB7ACEFC (void);
-// 0x00000637 System.Void myWriter::write(System.SByte[]&,System.Int32,System.Int32)
+// 0x00000641 System.Void myWriter::write(System.SByte[]&,System.Int32,System.Int32)
 extern void myWriter_write_m1B3514436052DEC8603D2A1502ED18FAD3E64587 (void);
-// 0x00000638 System.Void myWriter::write(System.SByte[])
+// 0x00000642 System.Void myWriter::write(System.SByte[])
 extern void myWriter_write_mDA86E0346442BC7BC7C67CA0655A4A4901172EEE (void);
-// 0x00000639 System.SByte[] myWriter::getData()
+// 0x00000643 System.SByte[] myWriter::getData()
 extern void myWriter_getData_mAEC16F2CC1B23908D4ED113782FB29B05D296058 (void);
-// 0x0000063A System.Void myWriter::checkLenght(System.Int32)
+// 0x00000644 System.Void myWriter::checkLenght(System.Int32)
 extern void myWriter_checkLenght_mBB448E8E85966092A698A47EED0AA598C89AE40B (void);
-// 0x0000063B System.Void myWriter::Close()
+// 0x00000645 System.Void myWriter::Close()
 extern void myWriter_Close_m145E9F9A7CFF31EF50BF54A238C982050F01EC9C (void);
-// 0x0000063C System.Void myWriter::close()
+// 0x00000646 System.Void myWriter::close()
 extern void myWriter_close_m95B498D3773EA5F861567DAD817016F941D9B151 (void);
-// 0x0000063D System.Void NClass::.ctor()
+// 0x00000647 System.Void NClass::.ctor()
 extern void NClass__ctor_m46DA6C445BAF27558F29732271957DE284125231 (void);
-// 0x0000063E System.Void Net::update()
+// 0x00000648 System.Void Net::update()
 extern void Net_update_m754C08B5428B05F06E10A03744187F18CF7F3E2F (void);
-// 0x0000063F System.Void Net::connectHTTP(System.String,Command)
+// 0x00000649 System.Void Net::connectHTTP(System.String,Command)
 extern void Net_connectHTTP_m67ABFA6999DCF8457B5047DF187733887434F763 (void);
-// 0x00000640 System.Void Net::connectHTTP2(System.String,Command)
+// 0x0000064A System.Void Net::connectHTTP2(System.String,Command)
 extern void Net_connectHTTP2_mEED681AE75CC88E8C93DFF7B4CD1CD16F29AD251 (void);
-// 0x00000641 System.Void Net::.ctor()
+// 0x0000064B System.Void Net::.ctor()
 extern void Net__ctor_m4DB9F24446ACD7090CC7AF749439A222AECE06EA (void);
-// 0x00000642 System.Void NewBoss::.ctor(System.Int32,System.Int16,System.Int16,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000064C System.Void NewBoss::.ctor(System.Int32,System.Int16,System.Int16,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void NewBoss__ctor_mE83CDD1271BD6DEE20FA5F768575412E237F4222 (void);
-// 0x00000643 System.Void NewBoss::setBody(System.Int16)
+// 0x0000064D System.Void NewBoss::setBody(System.Int16)
 extern void NewBoss_setBody_mB8F8D663085E9ED60F36BA3CD7ED4C3F5303D989 (void);
-// 0x00000644 System.Void NewBoss::clearBody()
+// 0x0000064E System.Void NewBoss::clearBody()
 extern void NewBoss_clearBody_m1BA9D5003B4D38189BFE19955B289BEEF5724095 (void);
-// 0x00000645 System.Boolean NewBoss::isExistNewMob(System.String)
+// 0x0000064F System.Boolean NewBoss::isExistNewMob(System.String)
 extern void NewBoss_isExistNewMob_m0DC937CD5389CEE98EA1977D1E4335328658F0B4 (void);
-// 0x00000646 System.Void NewBoss::checkFrameTick(System.Int32[])
+// 0x00000650 System.Void NewBoss::checkFrameTick(System.Int32[])
 extern void NewBoss_checkFrameTick_m511828A20FE2C66845B08A2F069BC400DC3D87D0 (void);
-// 0x00000647 System.Void NewBoss::updateShadown()
+// 0x00000651 System.Void NewBoss::updateShadown()
 extern void NewBoss_updateShadown_m5884AA51610AA6740CFD3FCE4BB3BFA67E1CF3A0 (void);
-// 0x00000648 System.Void NewBoss::paintShadow(mGraphics)
+// 0x00000652 System.Void NewBoss::paintShadow(mGraphics)
 extern void NewBoss_paintShadow_m8AE4DA852148732B53AF7D2DF2E9A4EE9EE0E99C (void);
-// 0x00000649 System.Void NewBoss::updateSuperEff()
+// 0x00000653 System.Void NewBoss::updateSuperEff()
 extern void NewBoss_updateSuperEff_mAC5FA02D9EC63DE3384850A65632D0CDC6C528E0 (void);
-// 0x0000064A System.Void NewBoss::update()
+// 0x00000654 System.Void NewBoss::update()
 extern void NewBoss_update_m305C3B7C01D5191CC25CBD5531515BD67E271512 (void);
-// 0x0000064B System.Void NewBoss::updateDead()
+// 0x00000655 System.Void NewBoss::updateDead()
 extern void NewBoss_updateDead_m8755AA804C57E904E74880E2DFA4839632D057FF (void);
-// 0x0000064C System.Void NewBoss::updateMobFly()
+// 0x00000656 System.Void NewBoss::updateMobFly()
 extern void NewBoss_updateMobFly_mC299FA31559A2BF7037AB5BB03B8401BA72E6382 (void);
-// 0x0000064D System.Void NewBoss::setAttack(Char)
+// 0x00000657 System.Void NewBoss::setAttack(Char)
 extern void NewBoss_setAttack_mC80954B6A157474293C76A9A8339C79168194572 (void);
-// 0x0000064E System.Void NewBoss::updateInjure()
+// 0x00000658 System.Void NewBoss::updateInjure()
 extern void NewBoss_updateInjure_mDB163660F9634F6602C590C337BCE1F8CC92C9C7 (void);
-// 0x0000064F System.Void NewBoss::updateMobStandWait()
+// 0x00000659 System.Void NewBoss::updateMobStandWait()
 extern void NewBoss_updateMobStandWait_m1D05CEEF687BFFF051D8FC6F4D494A3D874263CE (void);
-// 0x00000650 System.Void NewBoss::setFly()
+// 0x0000065A System.Void NewBoss::setFly()
 extern void NewBoss_setFly_mF9FAB4664F6749CE818810B4D3D66667AD0356CB (void);
-// 0x00000651 System.Void NewBoss::setAttack(Char[],System.Int32[],System.SByte,System.SByte)
+// 0x0000065B System.Void NewBoss::setAttack(Char[],System.Int32[],System.SByte,System.SByte)
 extern void NewBoss_setAttack_m162BDB392CB9E5FAF53553983A01B333620B9B80 (void);
-// 0x00000652 System.Void NewBoss::updateMobAttack()
+// 0x0000065C System.Void NewBoss::updateMobAttack()
 extern void NewBoss_updateMobAttack_m35EFACF8941C9DB7F8C8C37230FDF16B9403418B (void);
-// 0x00000653 System.Void NewBoss::updateMobWalk()
+// 0x0000065D System.Void NewBoss::updateMobWalk()
 extern void NewBoss_updateMobWalk_m5CF68C726DBAA31911810E21BB53856DE40F4F51 (void);
-// 0x00000654 System.Boolean NewBoss::isPaint()
+// 0x0000065E System.Boolean NewBoss::isPaint()
 extern void NewBoss_isPaint_mD7909F319A749BAD563DE9D56A3B0909FD3C48A8 (void);
-// 0x00000655 System.Boolean NewBoss::isUpdate()
+// 0x0000065F System.Boolean NewBoss::isUpdate()
 extern void NewBoss_isUpdate_m393FCA879A431955DE393FBD2FDF76B2B0370C63 (void);
-// 0x00000656 System.Void NewBoss::paint(mGraphics)
+// 0x00000660 System.Void NewBoss::paint(mGraphics)
 extern void NewBoss_paint_m74EE5366E1951A7A6FB680AD6C1469EC4C8BDBE3 (void);
-// 0x00000657 System.Int32 NewBoss::getHPColor()
+// 0x00000661 System.Int32 NewBoss::getHPColor()
 extern void NewBoss_getHPColor_m58A956F19F9360AA0CCBF5A02CB20A38557B1376 (void);
-// 0x00000658 System.Void NewBoss::startDie()
+// 0x00000662 System.Void NewBoss::startDie()
 extern void NewBoss_startDie_m94B52DD8C51C0E544CE29F3E03F37EDCEEC75DAD (void);
-// 0x00000659 System.Void NewBoss::attackOtherMob(Mob)
+// 0x00000663 System.Void NewBoss::attackOtherMob(Mob)
 extern void NewBoss_attackOtherMob_m21A5029696893EFDC265771B35B0E1F00D73D977 (void);
-// 0x0000065A System.Int32 NewBoss::getX()
+// 0x00000664 System.Int32 NewBoss::getX()
 extern void NewBoss_getX_m834A8E9AB3F8AA048D56A24AC0E82102A7A5E2E7 (void);
-// 0x0000065B System.Int32 NewBoss::getY()
+// 0x00000665 System.Int32 NewBoss::getY()
 extern void NewBoss_getY_m5ACCE2C9AB57266D8FCEE5C5B78AB01E3B3EECC1 (void);
-// 0x0000065C System.Int32 NewBoss::getH()
+// 0x00000666 System.Int32 NewBoss::getH()
 extern void NewBoss_getH_m174E922C8DBA89FC7140A4925E3516E89EFFCBF2 (void);
-// 0x0000065D System.Int32 NewBoss::getW()
+// 0x00000667 System.Int32 NewBoss::getW()
 extern void NewBoss_getW_m1163FC4A9FE4B42B40B75F0295519E52812F62E8 (void);
-// 0x0000065E System.Void NewBoss::stopMoving()
+// 0x00000668 System.Void NewBoss::stopMoving()
 extern void NewBoss_stopMoving_m5D7A9EF718661FB37A6AFBE6D1739E512FDB7F20 (void);
-// 0x0000065F System.Boolean NewBoss::isInvisible()
+// 0x00000669 System.Boolean NewBoss::isInvisible()
 extern void NewBoss_isInvisible_m2F0FF79C127A5029F3282E98FF1BC540EEAEF47D (void);
-// 0x00000660 System.Void NewBoss::removeHoldEff()
+// 0x0000066A System.Void NewBoss::removeHoldEff()
 extern void NewBoss_removeHoldEff_mA0D7C88A96BF585FF4DC5E3F6EEBEDA442A04200 (void);
-// 0x00000661 System.Void NewBoss::removeBlindEff()
+// 0x0000066B System.Void NewBoss::removeBlindEff()
 extern void NewBoss_removeBlindEff_m57F16D3F4D694FE7A549557078CBC28EBEA11E3D (void);
-// 0x00000662 System.Void NewBoss::removeSleepEff()
+// 0x0000066C System.Void NewBoss::removeSleepEff()
 extern void NewBoss_removeSleepEff_mA9CE5F7039F27EDBF03D3D19E42652CC46761E3B (void);
-// 0x00000663 System.Void NewBoss::move(System.Int16,System.Int16)
+// 0x0000066D System.Void NewBoss::move(System.Int16,System.Int16)
 extern void NewBoss_move_m1C295F8419D3F297931C24429AB71A0A2ABFC118 (void);
-// 0x00000664 System.Void NewBoss::GetFrame()
+// 0x0000066E System.Void NewBoss::GetFrame()
 extern void NewBoss_GetFrame_mF515B143C52C89C8AF0F5614BC7569B0FA1F94E0 (void);
-// 0x00000665 System.Void NewBoss::setDie()
+// 0x0000066F System.Void NewBoss::setDie()
 extern void NewBoss_setDie_mE95FD2D15EC6AC7E007ED6B0840A48A7169C3EA2 (void);
-// 0x00000666 System.Void NewBoss::.cctor()
+// 0x00000670 System.Void NewBoss::.cctor()
 extern void NewBoss__cctor_mFFAF17C159277D56AF66DA964C41B8CC113E80CC (void);
-// 0x00000667 System.Void NinjaUtil::onLoadMapComplete()
+// 0x00000671 System.Void NinjaUtil::onLoadMapComplete()
 extern void NinjaUtil_onLoadMapComplete_m0279FBC0A13E6206EDE66D3AE74E46A398AA2621 (void);
-// 0x00000668 System.Void NinjaUtil::onLoading()
+// 0x00000672 System.Void NinjaUtil::onLoading()
 extern void NinjaUtil_onLoading_mB86AE772D1F067B8FAB9A8C33A492C9C1BCD6C67 (void);
-// 0x00000669 System.Int32 NinjaUtil::randomNumber(System.Int32)
+// 0x00000673 System.Int32 NinjaUtil::randomNumber(System.Int32)
 extern void NinjaUtil_randomNumber_m725B86ABB3DA464AC56EC348F44D709B3ED8F2E7 (void);
-// 0x0000066A System.SByte[] NinjaUtil::readByteArray(Message)
+// 0x00000674 System.SByte[] NinjaUtil::readByteArray(Message)
 extern void NinjaUtil_readByteArray_mD4A17FD1B58933CBDE4BC4C9F11F9428E1F074AA (void);
-// 0x0000066B System.SByte[] NinjaUtil::readByteArray(myReader)
+// 0x00000675 System.SByte[] NinjaUtil::readByteArray(myReader)
 extern void NinjaUtil_readByteArray_m83567637DE2BF4A00CF6EA8D7BC2904463FDDB6D (void);
-// 0x0000066C System.String NinjaUtil::replace(System.String,System.String,System.String)
+// 0x00000676 System.String NinjaUtil::replace(System.String,System.String,System.String)
 extern void NinjaUtil_replace_m476F8836A33E91662DFE6792FDB3B8D1096EF394 (void);
-// 0x0000066D System.String NinjaUtil::numberTostring(System.String)
+// 0x00000677 System.String NinjaUtil::numberTostring(System.String)
 extern void NinjaUtil_numberTostring_m06E48AEE155724E1874914C1994D4176D5D649BC (void);
-// 0x0000066E System.String NinjaUtil::getDate(System.Int32)
+// 0x00000678 System.String NinjaUtil::getDate(System.Int32)
 extern void NinjaUtil_getDate_mCD0BA448127C56997939B98C470315A23BA63461 (void);
-// 0x0000066F System.String NinjaUtil::getDate2(System.Int64)
+// 0x00000679 System.String NinjaUtil::getDate2(System.Int64)
 extern void NinjaUtil_getDate2_m51C08929E5E39ED9EF9C2979F1199B16218D021C (void);
-// 0x00000670 System.String NinjaUtil::getTime(System.Int32)
+// 0x0000067A System.String NinjaUtil::getTime(System.Int32)
 extern void NinjaUtil_getTime_mC3669AEB5A5EFB13261AAE9BD938847822A50F69 (void);
-// 0x00000671 System.String NinjaUtil::getMoneys(System.Int64)
+// 0x0000067B System.String NinjaUtil::getMoneys(System.Int64)
 extern void NinjaUtil_getMoneys_m5B63C2321BFFA03C66979F5B337F5E4DFC928F6C (void);
-// 0x00000672 System.String NinjaUtil::getTimeAgo(System.Int32)
+// 0x0000067C System.String NinjaUtil::getTimeAgo(System.Int32)
 extern void NinjaUtil_getTimeAgo_mF242A2BA364DE2999DEF4333A00D28AAFFE4D404 (void);
-// 0x00000673 System.String[] NinjaUtil::split(System.String,System.String)
+// 0x0000067D System.String[] NinjaUtil::split(System.String,System.String)
 extern void NinjaUtil_split_m44222909CDC16633956135968DFB2018BC83367C (void);
-// 0x00000674 System.Void NinjaUtil::.ctor()
+// 0x0000067E System.Void NinjaUtil::.ctor()
 extern void NinjaUtil__ctor_m579A81D90DDD59077DDEE16789778F4B95A7DDA5 (void);
-// 0x00000675 System.Void Npc::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000067F System.Void Npc::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Npc__ctor_m81F607E51BE995CEFED74F7A956DF2DBE7156947 (void);
-// 0x00000676 System.Void Npc::setStatus(System.SByte,System.Int32)
+// 0x00000680 System.Void Npc::setStatus(System.SByte,System.Int32)
 extern void Npc_setStatus_m91E46909ECDDEDD18FE09D1B1FBC87234FB515CB (void);
-// 0x00000677 System.Void Npc::clearEffTask()
+// 0x00000681 System.Void Npc::clearEffTask()
 extern void Npc_clearEffTask_m42D7F75C878863E69F9754B52C3C8B3DF58FA402 (void);
-// 0x00000678 System.Void Npc::update()
+// 0x00000682 System.Void Npc::update()
 extern void Npc_update_m5066C59F5308AB68C9397D334D92CF1ABE6B3173 (void);
-// 0x00000679 System.Void Npc::paintHead(mGraphics,System.Int32,System.Int32)
+// 0x00000683 System.Void Npc::paintHead(mGraphics,System.Int32,System.Int32)
 extern void Npc_paintHead_m13BADE3AEA06499E0874C88E5548EDCE908E419B (void);
-// 0x0000067A System.Void Npc::paint(mGraphics)
+// 0x00000684 System.Void Npc::paint(mGraphics)
 extern void Npc_paint_m5759DCFB8D0531E6A73B7AC07DCCAF7A10139629 (void);
-// 0x0000067B System.Void Npc::paintName(mGraphics)
+// 0x00000685 System.Void Npc::paintName(mGraphics)
 extern void Npc_paintName_m15723B0F407D7CF43FD1490D82E0DF9F3D8BB4BD (void);
-// 0x0000067C System.Void Npc::hide()
+// 0x00000686 System.Void Npc::hide()
 extern void Npc_hide_m4BC6944C6D5CD65DA3BA57FAAD032346382B0506 (void);
-// 0x0000067D System.Void Npc::.cctor()
+// 0x00000687 System.Void Npc::.cctor()
 extern void Npc__cctor_m5A9C3B03E12803251B5EC651B0913AB04BC4BD58 (void);
-// 0x0000067E System.Void NpcTemplate::.ctor()
+// 0x00000688 System.Void NpcTemplate::.ctor()
 extern void NpcTemplate__ctor_m579ABE700D53EFB57916B789937B6CE73D09313A (void);
-// 0x0000067F System.Void Paint::loadbg()
+// 0x00000689 System.Void Paint::loadbg()
 extern void Paint_loadbg_m0B86112C7154E2F528D52EF2988B67C0BA9C9697 (void);
-// 0x00000680 System.Void Paint::paintDefaultBg(mGraphics)
+// 0x0000068A System.Void Paint::paintDefaultBg(mGraphics)
 extern void Paint_paintDefaultBg_m717E2831E06944BBDF6A7C134B1ABD65D74A9285 (void);
-// 0x00000681 System.Void Paint::paintfillDefaultBg(mGraphics)
+// 0x0000068B System.Void Paint::paintfillDefaultBg(mGraphics)
 extern void Paint_paintfillDefaultBg_m997B25FB13583C7734BFA39AE950A1518115568B (void);
-// 0x00000682 System.Void Paint::repaintCircleBg()
+// 0x0000068C System.Void Paint::repaintCircleBg()
 extern void Paint_repaintCircleBg_mA6DFFECB17B812F0C33978A3C8D2B18191E18253 (void);
-// 0x00000683 System.Void Paint::paintSolidBg(mGraphics)
+// 0x0000068D System.Void Paint::paintSolidBg(mGraphics)
 extern void Paint_paintSolidBg_m63096A719DFD6B699156F0DE0F9ED4B0B5BA081F (void);
-// 0x00000684 System.Void Paint::paintDefaultPopup(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000068E System.Void Paint::paintDefaultPopup(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintDefaultPopup_mEF5BE19FC317B6353C950B6376F6B88923BBD0DF (void);
-// 0x00000685 System.Void Paint::paintWhitePopup(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000068F System.Void Paint::paintWhitePopup(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintWhitePopup_m9B398AD7488ADEF0732903F3972A0572F4E0CEFB (void);
-// 0x00000686 System.Void Paint::paintDefaultPopupH(mGraphics,System.Int32)
+// 0x00000690 System.Void Paint::paintDefaultPopupH(mGraphics,System.Int32)
 extern void Paint_paintDefaultPopupH_m700BAFBEB58F8D1AD7204AB72D0DB876CEB10B35 (void);
-// 0x00000687 System.Void Paint::paintCmdBar(mGraphics,Command,Command,Command)
+// 0x00000691 System.Void Paint::paintCmdBar(mGraphics,Command,Command,Command)
 extern void Paint_paintCmdBar_m41DCBB807C59A97CDA96A98D8AB35DDCE1F89662 (void);
-// 0x00000688 System.Void Paint::paintTabSoft(mGraphics)
+// 0x00000692 System.Void Paint::paintTabSoft(mGraphics)
 extern void Paint_paintTabSoft_mF2BEAC179C87C0995B1AF27E520741A5C2D933CA (void);
-// 0x00000689 System.Void Paint::paintSelect(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000693 System.Void Paint::paintSelect(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintSelect_mF24C3E328C39DDA967B0ACBC741323CAD3851588 (void);
-// 0x0000068A System.Void Paint::paintLogo(mGraphics,System.Int32,System.Int32)
+// 0x00000694 System.Void Paint::paintLogo(mGraphics,System.Int32,System.Int32)
 extern void Paint_paintLogo_m391590A62E476DA1C79D634445AA1B171A07396A (void);
-// 0x0000068B System.Void Paint::paintHotline(mGraphics,System.String)
+// 0x00000695 System.Void Paint::paintHotline(mGraphics,System.String)
 extern void Paint_paintHotline_m40D2A1A40A0BFCAE151C87C511BBD1E213C2F423 (void);
-// 0x0000068C System.Void Paint::paintBackMenu(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x00000696 System.Void Paint::paintBackMenu(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void Paint_paintBackMenu_mA60C75D36B6C6750073AA267389BBBDDA32A91EE (void);
-// 0x0000068D System.Void Paint::paintMsgBG(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)
+// 0x00000697 System.Void Paint::paintMsgBG(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)
 extern void Paint_paintMsgBG_m9B399E46A8C68A87653565493429F80737EFC060 (void);
-// 0x0000068E System.Void Paint::paintDefaultScrList(mGraphics,System.String,System.String,System.String)
+// 0x00000698 System.Void Paint::paintDefaultScrList(mGraphics,System.String,System.String,System.String)
 extern void Paint_paintDefaultScrList_mDA27F341865FB28C025281EEBF786A4C17BBAB81 (void);
-// 0x0000068F System.Void Paint::paintCheck(mGraphics,System.Int32,System.Int32,System.Int32)
+// 0x00000699 System.Void Paint::paintCheck(mGraphics,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintCheck_m12B0EED16206312100250C7E942AB5C498FEFFC1 (void);
-// 0x00000690 System.Void Paint::paintImgMsg(mGraphics,System.Int32,System.Int32,System.Int32)
+// 0x0000069A System.Void Paint::paintImgMsg(mGraphics,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintImgMsg_m25A318A452CBD9AF53CCAA9D2C228011452238DA (void);
-// 0x00000691 System.Void Paint::paintTitleBoard(mGraphics,System.Int32)
+// 0x0000069B System.Void Paint::paintTitleBoard(mGraphics,System.Int32)
 extern void Paint_paintTitleBoard_mB5A50A883D8DC76DAF35B312FCBF2D7B0A865091 (void);
-// 0x00000692 System.Void Paint::paintCheckPass(mGraphics,System.Int32,System.Int32,System.Boolean,System.Boolean)
+// 0x0000069C System.Void Paint::paintCheckPass(mGraphics,System.Int32,System.Int32,System.Boolean,System.Boolean)
 extern void Paint_paintCheckPass_m09F9DFE4C0CFA6D09B305BDF99F5FCDABFD8C8AA (void);
-// 0x00000693 System.Void Paint::paintInputDlg(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.String[])
+// 0x0000069D System.Void Paint::paintInputDlg(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.String[])
 extern void Paint_paintInputDlg_m141308229876C7D9794EC6DD44B268F6C68D6041 (void);
-// 0x00000694 System.Void Paint::paintIconMainMenu(mGraphics,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32,System.Int32)
+// 0x0000069E System.Void Paint::paintIconMainMenu(mGraphics,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32,System.Int32)
 extern void Paint_paintIconMainMenu_mD98A4574B0AAEA8ECBAE1233CCF62348BFBE31E5 (void);
-// 0x00000695 System.Void Paint::paintLineRoom(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000069F System.Void Paint::paintLineRoom(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintLineRoom_m118159C69DB23BB04B46AAE58B53737BAA81B119 (void);
-// 0x00000696 System.Void Paint::paintCellContaint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x000006A0 System.Void Paint::paintCellContaint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void Paint_paintCellContaint_m751DA3A0C9FB35A4D7A5FBAFAF48CD8F23D02DBC (void);
-// 0x00000697 System.Void Paint::paintScroll(mGraphics,System.Int32,System.Int32,System.Int32)
+// 0x000006A1 System.Void Paint::paintScroll(mGraphics,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintScroll_mD3917D5E904078126E68F02E68092A88CD40ADD4 (void);
-// 0x00000698 System.Int32[] Paint::getColorMsg()
+// 0x000006A2 System.Int32[] Paint::getColorMsg()
 extern void Paint_getColorMsg_m36488F2D3D568D884A27D972BC5738BA91916B5F (void);
-// 0x00000699 System.Void Paint::paintLogo(mGraphics)
+// 0x000006A3 System.Void Paint::paintLogo(mGraphics)
 extern void Paint_paintLogo_m954E6753A68E3B563A9AE7657DB84A9E75A8D973 (void);
-// 0x0000069A System.Void Paint::paintTextLogin(mGraphics,System.Boolean)
+// 0x000006A4 System.Void Paint::paintTextLogin(mGraphics,System.Boolean)
 extern void Paint_paintTextLogin_m8B57490AFCDFCF0BF4E1C39E01138E91C9F1A71B (void);
-// 0x0000069B System.Void Paint::paintSellectBoard(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x000006A5 System.Void Paint::paintSellectBoard(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintSellectBoard_m401455887B33BE9BD629CA5BD7F4039F9F04512B (void);
-// 0x0000069C System.Int32 Paint::isRegisterUsingWAP()
+// 0x000006A6 System.Int32 Paint::isRegisterUsingWAP()
 extern void Paint_isRegisterUsingWAP_m970D43872105F34FCA928428E6D0C718CA419B59 (void);
-// 0x0000069D System.String Paint::getCard()
+// 0x000006A7 System.String Paint::getCard()
 extern void Paint_getCard_mF582CC445E737C7512270A4A6CD5636A4E8AA24E (void);
-// 0x0000069E System.Void Paint::paintSellectedShop(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x000006A8 System.Void Paint::paintSellectedShop(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Paint_paintSellectedShop_m3D0A03F409868E497ACBB44E3E54B1571D598371 (void);
-// 0x0000069F System.String Paint::getUrlUpdateGame()
+// 0x000006A9 System.String Paint::getUrlUpdateGame()
 extern void Paint_getUrlUpdateGame_mDD385A4C5438794E079346D6E327042BFC5F0920 (void);
-// 0x000006A0 System.Void Paint::doSelect(System.Int32)
+// 0x000006AA System.Void Paint::doSelect(System.Int32)
 extern void Paint_doSelect_mEB1B06742C844E866508F090265E51DE3E67A10E (void);
-// 0x000006A1 System.Void Paint::paintPopUp(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
+// 0x000006AB System.Void Paint::paintPopUp(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
 extern void Paint_paintPopUp_mB65333D812621B6F9E70B480306AE7EF70BD939B (void);
-// 0x000006A2 System.Void Paint::paintFrame(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
+// 0x000006AC System.Void Paint::paintFrame(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
 extern void Paint_paintFrame_mDA78942DF542BE90B3A011FE63570BFAFEECE08F (void);
-// 0x000006A3 System.Void Paint::paintFrameSimple(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
+// 0x000006AD System.Void Paint::paintFrameSimple(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
 extern void Paint_paintFrameSimple_m0D76A10498AA92B0C1AA8E2898183ED0DC8D5004 (void);
-// 0x000006A4 System.Void Paint::paintFrameBorder(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
+// 0x000006AE System.Void Paint::paintFrameBorder(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
 extern void Paint_paintFrameBorder_mB06A470D84D46745AB3D0AAF4C221F3358606513 (void);
-// 0x000006A5 System.Void Paint::paintFrameInside(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
+// 0x000006AF System.Void Paint::paintFrameInside(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
 extern void Paint_paintFrameInside_mE27B394ED5FB4EC541F28B22147627EFCA88D69F (void);
-// 0x000006A6 System.Void Paint::paintFrameInsideSelected(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
+// 0x000006B0 System.Void Paint::paintFrameInsideSelected(System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
 extern void Paint_paintFrameInsideSelected_m00F1B503D6445CFE589CA66246682B4EACBAAB00 (void);
-// 0x000006A7 System.Void Paint::.ctor()
+// 0x000006B1 System.Void Paint::.ctor()
 extern void Paint__ctor_m088F60BD2E73A8680B5C0028CEB0E4EB40D10EBB (void);
-// 0x000006A8 System.Void Paint::.cctor()
+// 0x000006B2 System.Void Paint::.cctor()
 extern void Paint__cctor_m6A56C4F2D1C94856D9AE14F916819EEA2AE63494 (void);
-// 0x000006A9 System.Void Panel::.ctor()
+// 0x000006B3 System.Void Panel::.ctor()
 extern void Panel__ctor_m8196A4A880F95EE4659DFB34DA1F5111215FD698 (void);
-// 0x000006AA System.Void Panel::loadBg()
+// 0x000006B4 System.Void Panel::loadBg()
 extern void Panel_loadBg_mEFE8CFA40AE52F215B8106E4154DBBBF5C1C5E2B (void);
-// 0x000006AB System.Void Panel::init()
+// 0x000006B5 System.Void Panel::init()
 extern void Panel_init_m74112D9C24737B37387E86D81CA3351DF71B03EC (void);
-// 0x000006AC System.Int32 Panel::getXMap()
+// 0x000006B6 System.Int32 Panel::getXMap()
 extern void Panel_getXMap_mB8CC3F541E33509FC26E8846B9B25F24506791B1 (void);
-// 0x000006AD System.Int32 Panel::getYMap()
+// 0x000006B7 System.Int32 Panel::getYMap()
 extern void Panel_getYMap_m29DA0584B5E3459FDD39792437904AED51F5BFD7 (void);
-// 0x000006AE System.Int32 Panel::getXMapTask()
+// 0x000006B8 System.Int32 Panel::getXMapTask()
 extern void Panel_getXMapTask_mA10C995CE936469B2FED166AA063CEDDF822215E (void);
-// 0x000006AF System.Int32 Panel::getYMapTask()
+// 0x000006B9 System.Int32 Panel::getYMapTask()
 extern void Panel_getYMapTask_m9AF8BF37F8A5D12068108638DF37E0583E3298E6 (void);
-// 0x000006B0 System.Void Panel::setType(System.Int32)
+// 0x000006BA System.Void Panel::setType(System.Int32)
 extern void Panel_setType_m47510E148D8B90A6FD03479D7BA0491DB01B3BC4 (void);
-// 0x000006B1 System.Void Panel::setTypeMapTrans()
+// 0x000006BB System.Void Panel::setTypeMapTrans()
 extern void Panel_setTypeMapTrans_m664CA33930CFC5806F7479E56D7595F6D6A3514F (void);
-// 0x000006B2 System.Void Panel::setTypeInfomatioin()
+// 0x000006BC System.Void Panel::setTypeInfomatioin()
 extern void Panel_setTypeInfomatioin_mEE688625FC069AE3996AF8A4810BF9805098A591 (void);
-// 0x000006B3 System.Void Panel::setTypeMap()
+// 0x000006BD System.Void Panel::setTypeMap()
 extern void Panel_setTypeMap_m97271CB5B49F0EAF89A4786A70D15D24CA8742DB (void);
-// 0x000006B4 System.Void Panel::setTypeArchivement()
+// 0x000006BE System.Void Panel::setTypeArchivement()
 extern void Panel_setTypeArchivement_mFE1EDBD0C23BACC1AE07702144753C7FAFC082DD (void);
-// 0x000006B5 System.Void Panel::setTypeKiGuiOnly()
+// 0x000006BF System.Void Panel::setTypeKiGuiOnly()
 extern void Panel_setTypeKiGuiOnly_m1497BB7C372108885147BA4881D7A2A6FB9F6141 (void);
-// 0x000006B6 System.Void Panel::setTabKiGui()
+// 0x000006C0 System.Void Panel::setTabKiGui()
 extern void Panel_setTabKiGui_mFC3E6787E18D0D3C4FB11B9210652CF310E32F6E (void);
-// 0x000006B7 System.Void Panel::setTypeBodyOnly()
+// 0x000006C1 System.Void Panel::setTypeBodyOnly()
 extern void Panel_setTypeBodyOnly_m13C24005360F009310DB4BC0835D85D7D177BB56 (void);
-// 0x000006B8 System.Void Panel::addChatMessage(InfoItem)
+// 0x000006C2 System.Void Panel::addChatMessage(InfoItem)
 extern void Panel_addChatMessage_mB1D65E225763051BA12004C6C38ECE056A7818C3 (void);
-// 0x000006B9 System.Void Panel::addPlayerMenu(Command)
+// 0x000006C3 System.Void Panel::addPlayerMenu(Command)
 extern void Panel_addPlayerMenu_m029EE6E7D811F1D641B2E3C1CAC0FCA1B7B5E920 (void);
-// 0x000006BA System.Void Panel::setTabPlayerMenu()
+// 0x000006C4 System.Void Panel::setTabPlayerMenu()
 extern void Panel_setTabPlayerMenu_m2FE3E1B7CB2068C55C6DBBC14994C9C876460E1F (void);
-// 0x000006BB System.Void Panel::setTypeFlag()
+// 0x000006C5 System.Void Panel::setTypeFlag()
 extern void Panel_setTypeFlag_m5DA605D47038E34A9D4D32AF85B10B51DA934FF6 (void);
-// 0x000006BC System.Void Panel::setTabFlag()
+// 0x000006C6 System.Void Panel::setTabFlag()
 extern void Panel_setTabFlag_mC10A571FD5778F5153683AB5C62A4C10031E2F73 (void);
-// 0x000006BD System.Void Panel::setTypePlayerMenu(Char)
+// 0x000006C7 System.Void Panel::setTypePlayerMenu(Char)
 extern void Panel_setTypePlayerMenu_m40E2FFF209D90C04D177CE6D7BBA1547D7EE63EC (void);
-// 0x000006BE System.Void Panel::setTypeFriend()
+// 0x000006C8 System.Void Panel::setTypeFriend()
 extern void Panel_setTypeFriend_mE8FCDFAD9BF4CBBB9DC1D10C665E54DE85B00640 (void);
-// 0x000006BF System.Void Panel::setTypeEnemy()
+// 0x000006C9 System.Void Panel::setTypeEnemy()
 extern void Panel_setTypeEnemy_mAB5C15C46B75D94AF3A41431D21939EA66884BCB (void);
-// 0x000006C0 System.Void Panel::setTypeTop(System.SByte)
+// 0x000006CA System.Void Panel::setTypeTop(System.SByte)
 extern void Panel_setTypeTop_mF51573F12133E5B5E301BFE41F7DD52CDE70EEEB (void);
-// 0x000006C1 System.Void Panel::setTabTop()
+// 0x000006CB System.Void Panel::setTabTop()
 extern void Panel_setTabTop_m1F2644AB36FA381AA909F9518E8284CB4825CAF5 (void);
-// 0x000006C2 System.Void Panel::setTabFriend()
+// 0x000006CC System.Void Panel::setTabFriend()
 extern void Panel_setTabFriend_m89A135BC422A63340BBE897C203B7E31B3FAAD87 (void);
-// 0x000006C3 System.Void Panel::setTabEnemy()
+// 0x000006CD System.Void Panel::setTabEnemy()
 extern void Panel_setTabEnemy_m7CD0E4DE894ECEEE00E0D1DFA6D0EB109FCAEEA1 (void);
-// 0x000006C4 System.Void Panel::setTypeMessage()
+// 0x000006CE System.Void Panel::setTypeMessage()
 extern void Panel_setTypeMessage_m43D712273653B4889F6FE3652873DE5903759EBF (void);
-// 0x000006C5 System.Void Panel::setTypeLockInventory()
+// 0x000006CF System.Void Panel::setTypeLockInventory()
 extern void Panel_setTypeLockInventory_m6B1C44C6CCADE570DFC914BF9CB4015A5248055C (void);
-// 0x000006C6 System.Void Panel::setTypeShop(System.Int32)
+// 0x000006D0 System.Void Panel::setTypeShop(System.Int32)
 extern void Panel_setTypeShop_m5CCF776648E309C8BF513604B5135CDA189E1282 (void);
-// 0x000006C7 System.Void Panel::setTypeBox()
+// 0x000006D1 System.Void Panel::setTypeBox()
 extern void Panel_setTypeBox_m70802DDF25CFBAFE22B32D41B1C8DEE4156F1073 (void);
-// 0x000006C8 System.Void Panel::setTypeCombine()
+// 0x000006D2 System.Void Panel::setTypeCombine()
 extern void Panel_setTypeCombine_m6907F8BCB787E850FA90DA7BD42856E4CE635E0C (void);
-// 0x000006C9 System.Void Panel::setTabCombine()
+// 0x000006D3 System.Void Panel::setTabCombine()
 extern void Panel_setTabCombine_m08C9583DE37AEBA5E0186C7235D990E69723C6A6 (void);
-// 0x000006CA System.Void Panel::setTypeAuto()
+// 0x000006D4 System.Void Panel::setTypeAuto()
 extern void Panel_setTypeAuto_mDE00D652294B8A1D14B3611B52F5A2755B8E479F (void);
-// 0x000006CB System.Void Panel::setTabAuto()
+// 0x000006D5 System.Void Panel::setTabAuto()
 extern void Panel_setTabAuto_mAE7C4CC607318F498363821C615B0CD035DA2042 (void);
-// 0x000006CC System.Void Panel::setTypePetMain()
+// 0x000006D6 System.Void Panel::setTypePetMain()
 extern void Panel_setTypePetMain_mF6355A534FA6CD7CD5C856E225FBAFC2ED5A6AFD (void);
-// 0x000006CD System.Void Panel::setTypeMain()
+// 0x000006D7 System.Void Panel::setTypeMain()
 extern void Panel_setTypeMain_mCE008DC49B13B96741C293E6E76358C3A6E12EE0 (void);
-// 0x000006CE System.Void Panel::setTypeZone()
+// 0x000006D8 System.Void Panel::setTypeZone()
 extern void Panel_setTypeZone_mE87DD92EEE138A0398CEA4389EFFDF3B6D75DA5C (void);
-// 0x000006CF System.Void Panel::addItemDetail(Item)
+// 0x000006D9 System.Void Panel::addItemDetail(Item)
 extern void Panel_addItemDetail_m1AD01FD010545609C422C5B72B2908A2B55F1776 (void);
-// 0x000006D0 System.Void Panel::popUpDetailInit(ChatPopup,System.String)
+// 0x000006DA System.Void Panel::popUpDetailInit(ChatPopup,System.String)
 extern void Panel_popUpDetailInit_m54162D71C35B0BA61CDB8F9A8FA1FCF662B5CCC3 (void);
-// 0x000006D1 System.Void Panel::popUpDetailInitArray(ChatPopup,System.String[])
+// 0x000006DB System.Void Panel::popUpDetailInitArray(ChatPopup,System.String[])
 extern void Panel_popUpDetailInitArray_mAAE29792292C487A0D128A04833C99A8151E36E1 (void);
-// 0x000006D2 System.Void Panel::addMessageDetail(ClanMessage)
+// 0x000006DC System.Void Panel::addMessageDetail(ClanMessage)
 extern void Panel_addMessageDetail_m32720E647FB67A788E8CC9C025264FBF09156400 (void);
-// 0x000006D3 System.Void Panel::addThachDauDetail(TopInfo)
+// 0x000006DD System.Void Panel::addThachDauDetail(TopInfo)
 extern void Panel_addThachDauDetail_m35944EB364667BFC25BBE3CC05060BDE1F5A33F5 (void);
-// 0x000006D4 System.Void Panel::addClanMemberDetail(Member)
+// 0x000006DE System.Void Panel::addClanMemberDetail(Member)
 extern void Panel_addClanMemberDetail_mBCE28C03D5D4182C7D3DDCF075E96C70A535FB39 (void);
-// 0x000006D5 System.Void Panel::addClanDetail(Clan)
+// 0x000006DF System.Void Panel::addClanDetail(Clan)
 extern void Panel_addClanDetail_mBFA9EC0CC21F7D049C372688377D1405DA91EB25 (void);
-// 0x000006D6 System.Void Panel::addSkillDetail(SkillTemplate,Skill,Skill)
+// 0x000006E0 System.Void Panel::addSkillDetail(SkillTemplate,Skill,Skill)
 extern void Panel_addSkillDetail_m40AD65F4CAF3B304D2AD6AE8892D97262281586C (void);
-// 0x000006D7 System.Void Panel::show()
+// 0x000006E1 System.Void Panel::show()
 extern void Panel_show_m81417CD35600EE2045414CF354360BD17C7EB7DB (void);
-// 0x000006D8 System.Void Panel::chatTFUpdateKey()
+// 0x000006E2 System.Void Panel::chatTFUpdateKey()
 extern void Panel_chatTFUpdateKey_mC36DE17652EEFD6E0802F4311787A2B282BD4A0E (void);
-// 0x000006D9 System.Void Panel::updateKey()
+// 0x000006E3 System.Void Panel::updateKey()
 extern void Panel_updateKey_m1499679DA274E58C0CD27F8EA9D710525246CC38 (void);
-// 0x000006DA System.Void Panel::updateKeyAuto()
+// 0x000006E4 System.Void Panel::updateKeyAuto()
 extern void Panel_updateKeyAuto_m67313CB4FFD4FA9E8F4A1EC0DDAB89FF7129BB7C (void);
-// 0x000006DB System.Void Panel::updateKeyPetStatus()
+// 0x000006E5 System.Void Panel::updateKeyPetStatus()
 extern void Panel_updateKeyPetStatus_mC89261D8E24FF5DFE99BEA5CED3C9F9C881EB44C (void);
-// 0x000006DC System.Void Panel::updateKeyPetSkill()
+// 0x000006E6 System.Void Panel::updateKeyPetSkill()
 extern void Panel_updateKeyPetSkill_m2BCD603D56C81ED17DC76183BD1A24F26F1523F5 (void);
-// 0x000006DD System.Void Panel::keyGiaodich()
+// 0x000006E7 System.Void Panel::keyGiaodich()
 extern void Panel_keyGiaodich_mECDDCBC6D1EE2BDAB61C39CD51E51F79E7E89038 (void);
-// 0x000006DE System.Void Panel::updateKeyGiaoDich()
+// 0x000006E8 System.Void Panel::updateKeyGiaoDich()
 extern void Panel_updateKeyGiaoDich_mA4ECFC728F0822961B9DF97462B43B65A6BB76F0 (void);
-// 0x000006DF System.Void Panel::updateKeyTool()
+// 0x000006E9 System.Void Panel::updateKeyTool()
 extern void Panel_updateKeyTool_mFFAF79A64AE6EA39B43B4F099CAADD8F78DC1C2B (void);
-// 0x000006E0 System.Void Panel::updateKeySkill()
+// 0x000006EA System.Void Panel::updateKeySkill()
 extern void Panel_updateKeySkill_mF5A4990D543809A8B19A1534AF4E9AF5045BE0D8 (void);
-// 0x000006E1 System.Void Panel::updateKeyClanIcon()
+// 0x000006EB System.Void Panel::updateKeyClanIcon()
 extern void Panel_updateKeyClanIcon_m71D3BBA3EEE8AEE244EB9E903EA0191A62E3DF11 (void);
-// 0x000006E2 System.Void Panel::setTabGiaoDich(System.Boolean)
+// 0x000006EC System.Void Panel::setTabGiaoDich(System.Boolean)
 extern void Panel_setTabGiaoDich_m5CE0F6C8E8AC76D217AE62EF2357BA0AB35F8C4B (void);
-// 0x000006E3 System.Void Panel::setTypeGiaoDich(Char)
+// 0x000006ED System.Void Panel::setTypeGiaoDich(Char)
 extern void Panel_setTypeGiaoDich_mD5E0A4E75D15E59E2C15DA5F4267773825142961 (void);
-// 0x000006E4 System.Void Panel::paintGiaoDich(mGraphics,System.Boolean)
+// 0x000006EE System.Void Panel::paintGiaoDich(mGraphics,System.Boolean)
 extern void Panel_paintGiaoDich_mF5526BD56BA3888BB0E8121CF7A3C8BC1F08CBD1 (void);
-// 0x000006E5 System.Void Panel::updateKeyMap()
+// 0x000006EF System.Void Panel::updateKeyMap()
 extern void Panel_updateKeyMap_m88264543A2DE9CABF06F476815D1581E2377A9B5 (void);
-// 0x000006E6 System.Void Panel::updateKeyCombine()
+// 0x000006F0 System.Void Panel::updateKeyCombine()
 extern void Panel_updateKeyCombine_m401002E5F3240C6996834B2C8A22C738C2404FFD (void);
-// 0x000006E7 System.Void Panel::updateKeyQuest()
+// 0x000006F1 System.Void Panel::updateKeyQuest()
 extern void Panel_updateKeyQuest_m02074A5B4FF16C4E24F6E80EAF499A98AABF7CDD (void);
-// 0x000006E8 System.Void Panel::getCurrClanOtion()
+// 0x000006F2 System.Void Panel::getCurrClanOtion()
 extern void Panel_getCurrClanOtion_m28538166D16F799B7CEF502C67DBDEF8B46ED19E (void);
-// 0x000006E9 System.Void Panel::updateKeyClansOption()
+// 0x000006F3 System.Void Panel::updateKeyClansOption()
 extern void Panel_updateKeyClansOption_m4CD9A667F96133864D7ECFD8DFD852812F2CD92F (void);
-// 0x000006EA System.Void Panel::updateKeyClans()
+// 0x000006F4 System.Void Panel::updateKeyClans()
 extern void Panel_updateKeyClans_mEF96D66C59C37969395DDFE4E09614295FD1EC2A (void);
-// 0x000006EB System.Void Panel::checkOptionSelect()
+// 0x000006F5 System.Void Panel::checkOptionSelect()
 extern void Panel_checkOptionSelect_mFCE5F3FC52E5C8E4C54A40BAC0B90E033020E345 (void);
-// 0x000006EC System.Void Panel::updateScroolMouse(System.Int32)
+// 0x000006F6 System.Void Panel::updateScroolMouse(System.Int32)
 extern void Panel_updateScroolMouse_m0617319C46353EB9E7E9FFA257B74898F9C97884 (void);
-// 0x000006ED System.Void Panel::updateKeyScrollView()
+// 0x000006F7 System.Void Panel::updateKeyScrollView()
 extern void Panel_updateKeyScrollView_m03F153B7C7B33D1F8922B1B1FA25569EEDEAE8F0 (void);
-// 0x000006EE System.String Panel::subArray(System.String[])
+// 0x000006F8 System.String Panel::subArray(System.String[])
 extern void Panel_subArray_mCE81B6068DC7F30AC1B02F5804627E152859293F (void);
-// 0x000006EF System.Void Panel::updateKeyInTabBar()
+// 0x000006F9 System.Void Panel::updateKeyInTabBar()
 extern void Panel_updateKeyInTabBar_mC9E5424ECCA1D9E0413A1070F9696E04DB7190EF (void);
-// 0x000006F0 System.Void Panel::setTabPetStatus()
+// 0x000006FA System.Void Panel::setTabPetStatus()
 extern void Panel_setTabPetStatus_m899D4840CC1E626326B9CDBB3908792062FEF8FE (void);
-// 0x000006F1 System.Void Panel::setTabPetSkill()
+// 0x000006FB System.Void Panel::setTabPetSkill()
 extern void Panel_setTabPetSkill_m736DCC28213CE086C4851221575A5D7AFC65B41F (void);
-// 0x000006F2 System.Void Panel::setTabTool()
+// 0x000006FC System.Void Panel::setTabTool()
 extern void Panel_setTabTool_m18A44A45FD632F10E62DA57FB69010EF48F35A45 (void);
-// 0x000006F3 System.Void Panel::initTabClans()
+// 0x000006FD System.Void Panel::initTabClans()
 extern void Panel_initTabClans_m0A71CFE99B8530FF903CC31A21DA7C8444DE74BE (void);
-// 0x000006F4 System.Void Panel::setTabClans()
+// 0x000006FE System.Void Panel::setTabClans()
 extern void Panel_setTabClans_m1CEDBF3FA53A770CC74564785585EAA581CC1338 (void);
-// 0x000006F5 System.Void Panel::initLogMessage()
+// 0x000006FF System.Void Panel::initLogMessage()
 extern void Panel_initLogMessage_mD25DA27041E09EA8AAE2D1CCB03EA817483DAC02 (void);
-// 0x000006F6 System.Void Panel::setTabMessage()
+// 0x00000700 System.Void Panel::setTabMessage()
 extern void Panel_setTabMessage_mF114DB5EFB6E126F91996706B48E27F2C722792F (void);
-// 0x000006F7 System.Void Panel::setTabShop()
+// 0x00000701 System.Void Panel::setTabShop()
 extern void Panel_setTabShop_mA581D51F60BA9A45C63D5259EB53E506599E8847 (void);
-// 0x000006F8 System.Void Panel::setTabSkill()
+// 0x00000702 System.Void Panel::setTabSkill()
 extern void Panel_setTabSkill_mFBF10C300FA5519C06399440EC8F520F76910799 (void);
-// 0x000006F9 System.Void Panel::setTabMapTrans()
+// 0x00000703 System.Void Panel::setTabMapTrans()
 extern void Panel_setTabMapTrans_m0E654A0E69F25642C9F4A5BBA34F6DA1884D7775 (void);
-// 0x000006FA System.Void Panel::setTabZone()
+// 0x00000704 System.Void Panel::setTabZone()
 extern void Panel_setTabZone_m142BE9D7940A79B5F281DAD2231D080DDA98BF28 (void);
-// 0x000006FB System.Void Panel::setTabBox()
+// 0x00000705 System.Void Panel::setTabBox()
 extern void Panel_setTabBox_m0C3EA66980AFD34DF1E3960E6B9ACE90F70B5A2D (void);
-// 0x000006FC System.Void Panel::setTabPetInventory()
+// 0x00000706 System.Void Panel::setTabPetInventory()
 extern void Panel_setTabPetInventory_m10C15EF0FA2EF74D6BD0576DA22AB45589A108ED (void);
-// 0x000006FD System.Void Panel::setTabInventory(System.Boolean)
+// 0x00000707 System.Void Panel::setTabInventory(System.Boolean)
 extern void Panel_setTabInventory_m0CBD493FD937C47C501C21C79D1C0D2CAE230CEB (void);
-// 0x000006FE System.Void Panel::setTabMap()
+// 0x00000708 System.Void Panel::setTabMap()
 extern void Panel_setTabMap_m4B786DF61B558207B2692B2A847D74656FD50892 (void);
-// 0x000006FF System.Void Panel::setTabTask()
+// 0x00000709 System.Void Panel::setTabTask()
 extern void Panel_setTabTask_mCED86E56C27CDAD7BA5C2374C9E437BD81AC02DB (void);
-// 0x00000700 System.Void Panel::moveCamera()
+// 0x0000070A System.Void Panel::moveCamera()
 extern void Panel_moveCamera_m0F0FB0859941C7C10757717E8F60AB5C53FEC19A (void);
-// 0x00000701 System.Void Panel::paintDetail(mGraphics)
+// 0x0000070B System.Void Panel::paintDetail(mGraphics)
 extern void Panel_paintDetail_m72DCF69370FD21F8C96428F460434CDD34742AA0 (void);
-// 0x00000702 System.Void Panel::paintTop(mGraphics)
+// 0x0000070C System.Void Panel::paintTop(mGraphics)
 extern void Panel_paintTop_m7A14EE67AA75D0FB59329EB29FB72B421F878762 (void);
-// 0x00000703 System.Void Panel::paint(mGraphics)
+// 0x0000070D System.Void Panel::paint(mGraphics)
 extern void Panel_paint_mDE1E60D0260F16040A70B3BBA159218E3F632B80 (void);
-// 0x00000704 System.Void Panel::paintShop(mGraphics)
+// 0x0000070E System.Void Panel::paintShop(mGraphics)
 extern void Panel_paintShop_mE58D3A62D5ABC6F80A1258A26325DFAEB803FA3A (void);
-// 0x00000705 System.Void Panel::paintAuto(mGraphics)
+// 0x0000070F System.Void Panel::paintAuto(mGraphics)
 extern void Panel_paintAuto_mD59EC0F94C4F72B8C65184106352BBEB628B7A20 (void);
-// 0x00000706 System.Void Panel::paintPetStatus(mGraphics)
+// 0x00000710 System.Void Panel::paintPetStatus(mGraphics)
 extern void Panel_paintPetStatus_mF426672EBA141F8BDC08618A4D1499CDDC6FE034 (void);
-// 0x00000707 System.Void Panel::paintPetSkill(mGraphics)
+// 0x00000711 System.Void Panel::paintPetSkill(mGraphics)
 extern void Panel_paintPetSkill_m64F3712FD776F43A329BA1015C84B3B706E896DD (void);
-// 0x00000708 System.Void Panel::paintPetInventory(mGraphics)
+// 0x00000712 System.Void Panel::paintPetInventory(mGraphics)
 extern void Panel_paintPetInventory_m2F8D33DA1F99F986A9658C1A9ED158D703E9B87D (void);
-// 0x00000709 System.Void Panel::paintScrollArrow(mGraphics)
+// 0x00000713 System.Void Panel::paintScrollArrow(mGraphics)
 extern void Panel_paintScrollArrow_m6CA01F0E02A2E0D814D8E2AFC811C79BC8AAC62B (void);
-// 0x0000070A System.Void Panel::paintTools(mGraphics)
+// 0x00000714 System.Void Panel::paintTools(mGraphics)
 extern void Panel_paintTools_m3B075AE25991666A95206FFB749A6D580174BA80 (void);
-// 0x0000070B System.Void Panel::paintGameSubInfo(mGraphics)
+// 0x00000715 System.Void Panel::paintGameSubInfo(mGraphics)
 extern void Panel_paintGameSubInfo_mD0BCC9A22BA864CF210B4C12B4A5A36D8A43AFB6 (void);
-// 0x0000070C System.Void Panel::paintGameInfo(mGraphics)
+// 0x00000716 System.Void Panel::paintGameInfo(mGraphics)
 extern void Panel_paintGameInfo_mB923E238FF4AEB7B73A67C13215BE6950D3D1045 (void);
-// 0x0000070D System.Void Panel::paintSkill(mGraphics)
+// 0x00000717 System.Void Panel::paintSkill(mGraphics)
 extern void Panel_paintSkill_mB47AFB659DC18885CDF0296599E4F5C9C3CA00BB (void);
-// 0x0000070E System.Void Panel::paintMapTrans(mGraphics)
+// 0x00000718 System.Void Panel::paintMapTrans(mGraphics)
 extern void Panel_paintMapTrans_m8C877908855C31ADAF336E07ABD0CC256A8C2FFF (void);
-// 0x0000070F System.Void Panel::paintZone(mGraphics)
+// 0x00000719 System.Void Panel::paintZone(mGraphics)
 extern void Panel_paintZone_m2965C1CE476410252B481E906C28B5900ECB0A20 (void);
-// 0x00000710 System.Void Panel::paintSpeacialSkill(mGraphics)
+// 0x0000071A System.Void Panel::paintSpeacialSkill(mGraphics)
 extern void Panel_paintSpeacialSkill_m5D62430E08BE753221133D0F83AFBBB9CA9E1E09 (void);
-// 0x00000711 System.Void Panel::paintBox(mGraphics)
+// 0x0000071B System.Void Panel::paintBox(mGraphics)
 extern void Panel_paintBox_mF3DBCF16A27FF272959BF728434AA2EF824F4802 (void);
-// 0x00000712 Member Panel::getCurrMember()
+// 0x0000071C Member Panel::getCurrMember()
 extern void Panel_getCurrMember_m4F1F88CC65105397EB3554FB97BC235ED95040CC (void);
-// 0x00000713 ClanMessage Panel::getCurrMessage()
+// 0x0000071D ClanMessage Panel::getCurrMessage()
 extern void Panel_getCurrMessage_m13F563B43ECF2EC45CF160DB5E585BDA169EACCA (void);
-// 0x00000714 Clan Panel::getCurrClan()
+// 0x0000071E Clan Panel::getCurrClan()
 extern void Panel_getCurrClan_m77C062A12B63BF973C89D626BDC6BDF2DD7B76FE (void);
-// 0x00000715 System.Void Panel::paintLogChat(mGraphics)
+// 0x0000071F System.Void Panel::paintLogChat(mGraphics)
 extern void Panel_paintLogChat_mE915697AECB6A4D89C9AD13BD68EBBDCBCA0449F (void);
-// 0x00000716 System.Void Panel::paintFlagChange(mGraphics)
+// 0x00000720 System.Void Panel::paintFlagChange(mGraphics)
 extern void Panel_paintFlagChange_m009A9A2DE94D438E284559D8B505B2F19E161C3B (void);
-// 0x00000717 System.Void Panel::paintEnemy(mGraphics)
+// 0x00000721 System.Void Panel::paintEnemy(mGraphics)
 extern void Panel_paintEnemy_m268BEDDA37A25357FF1DBA32940E6BD34960C99A (void);
-// 0x00000718 System.Void Panel::paintFriend(mGraphics)
+// 0x00000722 System.Void Panel::paintFriend(mGraphics)
 extern void Panel_paintFriend_m55FDA7EBCF03D9B313375A646A1D54306E3449F9 (void);
-// 0x00000719 System.Void Panel::paintPlayerMenu(mGraphics)
+// 0x00000723 System.Void Panel::paintPlayerMenu(mGraphics)
 extern void Panel_paintPlayerMenu_m246E8BA986F0C41C83095AFBC1352951C749C50F (void);
-// 0x0000071A System.Void Panel::ChatTextField0(System.String,System.String)
+// 0x00000724 System.Void Panel::ChatTextField0(System.String,System.String)
 extern void Panel_ChatTextField0_mB37B57331A50B53192550DF146F1549FF400C964 (void);
-// 0x0000071B System.Void Panel::paintClans(mGraphics)
+// 0x00000725 System.Void Panel::paintClans(mGraphics)
 extern void Panel_paintClans_mF42F5522B91E7076DA170A821DE25955B1A13A9A (void);
-// 0x0000071C System.Void Panel::paintArchivement(mGraphics)
+// 0x00000726 System.Void Panel::paintArchivement(mGraphics)
 extern void Panel_paintArchivement_mA7E50039832F5D9A42140149573B091B98DEC733 (void);
-// 0x0000071D System.Void Panel::paintCombine(mGraphics)
+// 0x00000727 System.Void Panel::paintCombine(mGraphics)
 extern void Panel_paintCombine_m1D4F7BD395AB4591A504E475149B770E96C9B920 (void);
-// 0x0000071E System.Void Panel::paintInventory(mGraphics)
+// 0x00000728 System.Void Panel::paintInventory(mGraphics)
 extern void Panel_paintInventory_m6AEFCEEC57C63A9B8D6DAE22C09AFA570D014328 (void);
-// 0x0000071F System.String Panel::saoTrongBalo(Item)
+// 0x00000729 System.String Panel::saoTrongBalo(Item)
 extern void Panel_saoTrongBalo_mCB7B5EE835B074C601947B60BF353835C0F78277 (void);
-// 0x00000720 System.Int32 Panel::soSao(Item)
+// 0x0000072A System.Int32 Panel::soSao(Item)
 extern void Panel_soSao_m5C41909D76F576F74A4471553C8D381B418A4D52 (void);
-// 0x00000721 System.Void Panel::paintTab(mGraphics)
+// 0x0000072B System.Void Panel::paintTab(mGraphics)
 extern void Panel_paintTab_m8B8B5F3552DCC88D8F6C9F0593BB8D9F26A5989E (void);
-// 0x00000722 System.Void Panel::paintBottomMoneyInfo(mGraphics)
+// 0x0000072C System.Void Panel::paintBottomMoneyInfo(mGraphics)
 extern void Panel_paintBottomMoneyInfo_m15851B26FB25A1AAC9C3F846B61C2F18F24C6855 (void);
-// 0x00000723 System.Void Panel::paintClanInfo(mGraphics)
+// 0x0000072D System.Void Panel::paintClanInfo(mGraphics)
 extern void Panel_paintClanInfo_mA3DC179325FD5A632A72272FBCAF702624F91325 (void);
-// 0x00000724 System.Void Panel::paintToolInfo(mGraphics)
+// 0x0000072E System.Void Panel::paintToolInfo(mGraphics)
 extern void Panel_paintToolInfo_m62420345A2D52B8A6C9A9FD211D59EE300EA7735 (void);
-// 0x00000725 System.Void Panel::paintGiaoDichInfo(mGraphics)
+// 0x0000072F System.Void Panel::paintGiaoDichInfo(mGraphics)
 extern void Panel_paintGiaoDichInfo_m4CCCDDB142EE2BC2A8F76AC40A2789FDB4F6EB49 (void);
-// 0x00000726 System.Void Panel::paintMyInfo(mGraphics)
+// 0x00000730 System.Void Panel::paintMyInfo(mGraphics)
 extern void Panel_paintMyInfo_m9F0CD1B8BD91BBB16ECF193A7AD0A2B1D94A8AFE (void);
-// 0x00000727 System.Void Panel::paintPetInfo(mGraphics)
+// 0x00000731 System.Void Panel::paintPetInfo(mGraphics)
 extern void Panel_paintPetInfo_mCCBC3AA8C83A50A4C11F32372D06F5333E025328 (void);
-// 0x00000728 System.Void Panel::paintCharInfo(mGraphics,Char)
+// 0x00000732 System.Void Panel::paintCharInfo(mGraphics,Char)
 extern void Panel_paintCharInfo_mE3AC506556BB92274F13546FAB48B61C4462958D (void);
-// 0x00000729 System.Void Panel::paintZoneInfo(mGraphics)
+// 0x00000733 System.Void Panel::paintZoneInfo(mGraphics)
 extern void Panel_paintZoneInfo_m0B9CF16C15BD7341D65305E8CBE7A6A7259C3EAB (void);
-// 0x0000072A System.Int32 Panel::getCompare(Item)
+// 0x00000734 System.Int32 Panel::getCompare(Item)
 extern void Panel_getCompare_mB14F0F64193246CA232E2F215B9BF3896AD238E2 (void);
-// 0x0000072B System.Void Panel::paintMapInfo(mGraphics)
+// 0x00000735 System.Void Panel::paintMapInfo(mGraphics)
 extern void Panel_paintMapInfo_mD1176DD83DD6C37F668C0654E9DF7DEE1244D066 (void);
-// 0x0000072C System.Void Panel::paintShopInfo(mGraphics)
+// 0x00000736 System.Void Panel::paintShopInfo(mGraphics)
 extern void Panel_paintShopInfo_m606FDC3B73EECAECD6156AFECDAA8E871E49D1C1 (void);
-// 0x0000072D System.Void Panel::paintItemBoxInfo(mGraphics)
+// 0x00000737 System.Void Panel::paintItemBoxInfo(mGraphics)
 extern void Panel_paintItemBoxInfo_mF3245A1008F867B9EFF5A06B3D83006C859ED00F (void);
-// 0x0000072E System.Void Panel::paintSkillInfo(mGraphics)
+// 0x00000738 System.Void Panel::paintSkillInfo(mGraphics)
 extern void Panel_paintSkillInfo_m9983672442380A75FEF77A08D3845C81C70EB4A1 (void);
-// 0x0000072F System.Void Panel::paintItemBodyBagInfo(mGraphics)
+// 0x00000739 System.Void Panel::paintItemBodyBagInfo(mGraphics)
 extern void Panel_paintItemBodyBagInfo_mBB9421C6248660E8B6578BD41ECCBDC16CE359F7 (void);
-// 0x00000730 System.Void Panel::paintTopInfo(mGraphics)
+// 0x0000073A System.Void Panel::paintTopInfo(mGraphics)
 extern void Panel_paintTopInfo_m67C406288876906C41360804E1E4A7F7B1E25C49 (void);
-// 0x00000731 System.String Panel::getStatus(System.Int32)
+// 0x0000073B System.String Panel::getStatus(System.Int32)
 extern void Panel_getStatus_m5C61FC26EAB8C3BA39FAC9498A8D896ECDB653BB (void);
-// 0x00000732 System.Void Panel::paintPetStatusInfo(mGraphics)
+// 0x0000073C System.Void Panel::paintPetStatusInfo(mGraphics)
 extern void Panel_paintPetStatusInfo_m553FE0F262C5DCA85289D171E2D51573717AE982 (void);
-// 0x00000733 System.Void Panel::paintPetSkillInfo(mGraphics)
+// 0x0000073D System.Void Panel::paintPetSkillInfo(mGraphics)
 extern void Panel_paintPetSkillInfo_mC9E3E7B02EECC3F394C4BE8CEC0DEB356E8F5E02 (void);
-// 0x00000734 System.Void Panel::paintCombineInfo(mGraphics)
+// 0x0000073E System.Void Panel::paintCombineInfo(mGraphics)
 extern void Panel_paintCombineInfo_m23975FE10230DC82FA9F10EBDE58DFD75192ED05 (void);
-// 0x00000735 System.Void Panel::paintInfomation(mGraphics)
+// 0x0000073F System.Void Panel::paintInfomation(mGraphics)
 extern void Panel_paintInfomation_mFB13C8B9393AA079458F00F41955C6DE06B9CD5F (void);
-// 0x00000736 System.Void Panel::paintMap(mGraphics)
+// 0x00000740 System.Void Panel::paintMap(mGraphics)
 extern void Panel_paintMap_m73D035D1262C2C4692F0154CE98AD6D6F9684FBE (void);
-// 0x00000737 System.Void Panel::paintTask(mGraphics)
+// 0x00000741 System.Void Panel::paintTask(mGraphics)
 extern void Panel_paintTask_mDDC6E1935A185CF8BC83298177005E86C38FBDE1 (void);
-// 0x00000738 System.Void Panel::paintMultiLine(mGraphics,mFont,System.String[],System.String,System.Int32,System.Int32,System.Int32)
+// 0x00000742 System.Void Panel::paintMultiLine(mGraphics,mFont,System.String[],System.String,System.Int32,System.Int32,System.Int32)
 extern void Panel_paintMultiLine_m6ABDC758CCC3B54447EFE239CFF540B904C706DC (void);
-// 0x00000739 System.Void Panel::paintMultiLine(mGraphics,mFont,System.String,System.Int32,System.Int32,System.Int32)
+// 0x00000743 System.Void Panel::paintMultiLine(mGraphics,mFont,System.String,System.Int32,System.Int32,System.Int32)
 extern void Panel_paintMultiLine_m5040F0014FE9274F2A3A9615CC7D37F6BADA19A8 (void);
-// 0x0000073A System.Void Panel::cleanCombine()
+// 0x00000744 System.Void Panel::cleanCombine()
 extern void Panel_cleanCombine_mE0E2FF7F9D90A1D8F9CAE1C2631B8B0BE067033F (void);
-// 0x0000073B System.Void Panel::hideNow()
+// 0x00000745 System.Void Panel::hideNow()
 extern void Panel_hideNow_mA3330CE25C06054E376BB41701E5FC364B71D888 (void);
-// 0x0000073C System.Void Panel::hide()
+// 0x00000746 System.Void Panel::hide()
 extern void Panel_hide_m03E6E24D789D22CC14FDF035AE1F9F01673C43DD (void);
-// 0x0000073D System.Void Panel::update()
+// 0x00000747 System.Void Panel::update()
 extern void Panel_update_m31947041EDBBB5786EB4D4133A28B1FA8A3111BC (void);
-// 0x0000073E System.Void Panel::doSpeacialSkill()
+// 0x00000748 System.Void Panel::doSpeacialSkill()
 extern void Panel_doSpeacialSkill_mA9421A59EB8CE0C27A59DEEF3B916CCEADEF510D (void);
-// 0x0000073F System.Void Panel::doFireGameInfo()
+// 0x00000749 System.Void Panel::doFireGameInfo()
 extern void Panel_doFireGameInfo_m01767D27154883EF2BF00F010C64E067A35D4EB9 (void);
-// 0x00000740 System.Void Panel::doFireAuto()
+// 0x0000074A System.Void Panel::doFireAuto()
 extern void Panel_doFireAuto_m31E2B1B2D098872D4EA62A15A0D5AEE75ECCC33C (void);
-// 0x00000741 System.Void Panel::doFirePetMain()
+// 0x0000074B System.Void Panel::doFirePetMain()
 extern void Panel_doFirePetMain_m3D090BFE529A03234358CEFE8993C3445B1F4A60 (void);
-// 0x00000742 System.Void Panel::doFirePetStatus()
+// 0x0000074C System.Void Panel::doFirePetStatus()
 extern void Panel_doFirePetStatus_mDCED5E623514791BBF59509FBA94EC9905B6B85D (void);
-// 0x00000743 System.Void Panel::doFireTop()
+// 0x0000074D System.Void Panel::doFireTop()
 extern void Panel_doFireTop_mC0E9E8FE4D0C95C9E93DF1FA4274F17677254DC9 (void);
-// 0x00000744 System.Void Panel::doFireMapTrans()
+// 0x0000074E System.Void Panel::doFireMapTrans()
 extern void Panel_doFireMapTrans_m91D52511264C447797538622D03BB740EDA26EFC (void);
-// 0x00000745 System.Void Panel::doFireGiaoDich()
+// 0x0000074F System.Void Panel::doFireGiaoDich()
 extern void Panel_doFireGiaoDich_mDE0372EF31BDD8DF039CB6483AD952D28966353E (void);
-// 0x00000746 System.Void Panel::doFireCombine()
+// 0x00000750 System.Void Panel::doFireCombine()
 extern void Panel_doFireCombine_m1DA155FB35AA6891BAD0A7CBF0D31E6E341D65EB (void);
-// 0x00000747 System.Void Panel::doFirePlayerMenu()
+// 0x00000751 System.Void Panel::doFirePlayerMenu()
 extern void Panel_doFirePlayerMenu_m5A02A03C02B0E798BD4A95344431AEC0BE15722E (void);
-// 0x00000748 System.Void Panel::doFireShop()
+// 0x00000752 System.Void Panel::doFireShop()
 extern void Panel_doFireShop_m8CBB445ECDDD0A4F8840626824E9E43DE2290A22 (void);
-// 0x00000749 System.Void Panel::doFireArchivement()
+// 0x00000753 System.Void Panel::doFireArchivement()
 extern void Panel_doFireArchivement_mE6AA53BC6FBA504DC775E44D35E917BDA4ECA48F (void);
-// 0x0000074A System.Void Panel::doFireInventory()
+// 0x00000754 System.Void Panel::doFireInventory()
 extern void Panel_doFireInventory_mF8C1AB3F08647AD050B54DB05E88DAEBB064C823 (void);
-// 0x0000074B System.Void Panel::doRada()
+// 0x00000755 System.Void Panel::doRada()
 extern void Panel_doRada_m0FF3FCECE6AB17999644366FF2C216D9F50A8EE1 (void);
-// 0x0000074C System.Void Panel::doFireTool()
+// 0x00000756 System.Void Panel::doFireTool()
 extern void Panel_doFireTool_mA4076B875E6EC0832CE88419A1F693BD3F660DFC (void);
-// 0x0000074D System.Void Panel::setTypeGameSubInfo()
+// 0x00000757 System.Void Panel::setTypeGameSubInfo()
 extern void Panel_setTypeGameSubInfo_mC8312D70D6F487C3217183B7BEC97FBD4DBD2785 (void);
-// 0x0000074E System.Void Panel::setTypeGameInfo()
+// 0x00000758 System.Void Panel::setTypeGameInfo()
 extern void Panel_setTypeGameInfo_m512A8EFF6784FC49C55BED4EE21F2E87A4F77BCC (void);
-// 0x0000074F System.Void Panel::doFirePet()
+// 0x00000759 System.Void Panel::doFirePet()
 extern void Panel_doFirePet_m9B01E2BACC0F573F693A69B46ED970B280D3A83B (void);
-// 0x00000750 System.Void Panel::searchClan()
+// 0x0000075A System.Void Panel::searchClan()
 extern void Panel_searchClan_mFB0CC4DBE3FFE790602E8731241896618BA38C63 (void);
-// 0x00000751 System.Void Panel::chatClan()
+// 0x0000075B System.Void Panel::chatClan()
 extern void Panel_chatClan_mEB70040934E194E2CB725003FF2103F1BDF1D154 (void);
-// 0x00000752 System.Void Panel::creatClan()
+// 0x0000075C System.Void Panel::creatClan()
 extern void Panel_creatClan_m59E217D7320F10940B475C9D1D5948B9AD834C7B (void);
-// 0x00000753 System.Void Panel::putMoney()
+// 0x0000075D System.Void Panel::putMoney()
 extern void Panel_putMoney_m7C8F9EE645181590C423AA3C8B855C28D8666D39 (void);
-// 0x00000754 System.Void Panel::putQuantily()
+// 0x0000075E System.Void Panel::putQuantily()
 extern void Panel_putQuantily_mAE0B9383684D5D9758AA53BB789D382E70ABA72C (void);
-// 0x00000755 System.Void Panel::chagenSlogan()
+// 0x0000075F System.Void Panel::chagenSlogan()
 extern void Panel_chagenSlogan_m978BE15D3AEAAEBB83F6E0982E94165C90898737 (void);
-// 0x00000756 System.Void Panel::changeIcon()
+// 0x00000760 System.Void Panel::changeIcon()
 extern void Panel_changeIcon_mC0EB1D87E91D6C522F88AC50D6D33E174D4D834D (void);
-// 0x00000757 System.Void Panel::addFriend(InfoItem)
+// 0x00000761 System.Void Panel::addFriend(InfoItem)
 extern void Panel_addFriend_m50E396A3371BA98CE839971087AF086C10B729D3 (void);
-// 0x00000758 System.Void Panel::doFireEnemy()
+// 0x00000762 System.Void Panel::doFireEnemy()
 extern void Panel_doFireEnemy_mCE71C7518B5BAAA56F78F34374FDE1BAA256A785 (void);
-// 0x00000759 System.Void Panel::doFireFriend()
+// 0x00000763 System.Void Panel::doFireFriend()
 extern void Panel_doFireFriend_m294722ED37CAC770C78C8C2B8FCC360D5A49B5D6 (void);
-// 0x0000075A System.Void Panel::doFireChangeFlag()
+// 0x00000764 System.Void Panel::doFireChangeFlag()
 extern void Panel_doFireChangeFlag_m415AA3071455469057C22CC26C216F52820FBAA9 (void);
-// 0x0000075B System.Void Panel::doFireLogMessage()
+// 0x00000765 System.Void Panel::doFireLogMessage()
 extern void Panel_doFireLogMessage_m9A2481EB1E5D7804DB6C25A3B2967432ECDCE4B2 (void);
-// 0x0000075C System.Void Panel::doFireClanOption()
+// 0x00000766 System.Void Panel::doFireClanOption()
 extern void Panel_doFireClanOption_mF1B4C3710D9E35273A1B33AE9CD62C12DA0F201A (void);
-// 0x0000075D System.Void Panel::doFireMain()
+// 0x00000767 System.Void Panel::doFireMain()
 extern void Panel_doFireMain_m1D8BEFF086264E2312B97864415F279C881685AF (void);
-// 0x0000075E System.Void Panel::doFireSkill()
+// 0x00000768 System.Void Panel::doFireSkill()
 extern void Panel_doFireSkill_m9162491D39C06AC5A0A725E95A053B71903DAD4C (void);
-// 0x0000075F System.Void Panel::addLogMessage(InfoItem)
+// 0x00000769 System.Void Panel::addLogMessage(InfoItem)
 extern void Panel_addLogMessage_m176B49A8C5014FB20A6744B5829AB69479CF872D (void);
-// 0x00000760 System.Void Panel::addSkillDetail2(System.Int32)
+// 0x0000076A System.Void Panel::addSkillDetail2(System.Int32)
 extern void Panel_addSkillDetail2_mB16A33D56D9212D0A7392EFA82CE5871E2AF4D68 (void);
-// 0x00000761 System.Void Panel::doFireClanIcon()
+// 0x0000076B System.Void Panel::doFireClanIcon()
 extern void Panel_doFireClanIcon_m3ED4DEF3DA9F439243519D3438797F8BC4B80A19 (void);
-// 0x00000762 System.Void Panel::doFireMap()
+// 0x0000076C System.Void Panel::doFireMap()
 extern void Panel_doFireMap_m76119DD746A9B04C11D2AD0C6F94EDD3993373FB (void);
-// 0x00000763 System.Void Panel::doFireZone()
+// 0x0000076D System.Void Panel::doFireZone()
 extern void Panel_doFireZone_m650C7CB6425149D3C16043616A1DD91063A775D5 (void);
-// 0x00000764 System.Void Panel::updateRequest(System.Int32,System.Int32)
+// 0x0000076E System.Void Panel::updateRequest(System.Int32,System.Int32)
 extern void Panel_updateRequest_m6C2FD6E9DC7081D7D425590C7F158C74E0AC5BC0 (void);
-// 0x00000765 System.Void Panel::doFireBox()
+// 0x0000076F System.Void Panel::doFireBox()
 extern void Panel_doFireBox_m8488E087C1F0D0F806A9CD7288AFB36223868F18 (void);
-// 0x00000766 System.Void Panel::itemRequest(System.SByte,System.String,System.SByte,System.SByte)
+// 0x00000770 System.Void Panel::itemRequest(System.SByte,System.String,System.SByte,System.SByte)
 extern void Panel_itemRequest_m7AE694A0BD175101959FEA81B5076AA5695405EB (void);
-// 0x00000767 System.Void Panel::saleRequest(System.SByte,System.String,System.Int16)
+// 0x00000771 System.Void Panel::saleRequest(System.SByte,System.String,System.Int16)
 extern void Panel_saleRequest_m88673D9F1717733D965CCA5F1C56B7528F788C9E (void);
-// 0x00000768 System.Void Panel::perform(System.Int32,System.Object)
+// 0x00000772 System.Void Panel::perform(System.Int32,System.Object)
 extern void Panel_perform_m02E987A1F14E76B00F34387BC7E16BA498B6528E (void);
-// 0x00000769 System.Void Panel::onChatFromMe(System.String,System.String)
+// 0x00000773 System.Void Panel::onChatFromMe(System.String,System.String)
 extern void Panel_onChatFromMe_m2EC11AD6A92D72EB95F2C0C1631CA3147545AEF8 (void);
-// 0x0000076A System.Void Panel::onCancelChat()
+// 0x00000774 System.Void Panel::onCancelChat()
 extern void Panel_onCancelChat_mB469D06CDD02254D4A8F4F4CBC02FC5F6FA8FEF4 (void);
-// 0x0000076B System.Void Panel::setCombineEff(System.Int32)
+// 0x00000775 System.Void Panel::setCombineEff(System.Int32)
 extern void Panel_setCombineEff_mE1E29067C9ED1A1117D0404187041DCE0B9200BA (void);
-// 0x0000076C System.Void Panel::updateCombineEff()
+// 0x00000776 System.Void Panel::updateCombineEff()
 extern void Panel_updateCombineEff_mAAF78C1BB08DAACDF4B3CE2BD1B9DFACC3D07F7B (void);
-// 0x0000076D System.Void Panel::paintCombineEff(mGraphics)
+// 0x00000777 System.Void Panel::paintCombineEff(mGraphics)
 extern void Panel_paintCombineEff_m5F1573FFECD7DBA91F54523798AD2B23CBED4803 (void);
-// 0x0000076E System.Void Panel::setDotStar()
+// 0x00000778 System.Void Panel::setDotStar()
 extern void Panel_setDotStar_m803AE50E088AA15732BECC6574D394F483056005 (void);
-// 0x0000076F System.Void Panel::paintCombineNPC(mGraphics)
+// 0x00000779 System.Void Panel::paintCombineNPC(mGraphics)
 extern void Panel_paintCombineNPC_m8C564D687EFC9838E31437CA1619186782093032 (void);
-// 0x00000770 System.Void Panel::addTextCombineNPC(System.Int32,System.String)
+// 0x0000077A System.Void Panel::addTextCombineNPC(System.Int32,System.String)
 extern void Panel_addTextCombineNPC_mC2D1D3A0EB7CCFE7B0DF04CD1987DAC739882CBE (void);
-// 0x00000771 System.Void Panel::setTypeOption()
+// 0x0000077B System.Void Panel::setTypeOption()
 extern void Panel_setTypeOption_m2CBAA39DEC62B4F99ED3C1AD40A7FBE0596BE67C (void);
-// 0x00000772 System.Void Panel::setTabOption()
+// 0x0000077C System.Void Panel::setTabOption()
 extern void Panel_setTabOption_m0BDFAD4466D2ABB8D887D5119B0A4CD150C9C09C (void);
-// 0x00000773 System.Void Panel::paintOption(mGraphics)
+// 0x0000077D System.Void Panel::paintOption(mGraphics)
 extern void Panel_paintOption_mC6C35CE5648410E4F41DFA2B236BC164CED1B837 (void);
-// 0x00000774 System.Void Panel::doFireOption()
+// 0x0000077E System.Void Panel::doFireOption()
 extern void Panel_doFireOption_m792ECF89967C448AFED7873BD2E08538D52B4A4C (void);
-// 0x00000775 System.Void Panel::setTypeAccount()
+// 0x0000077F System.Void Panel::setTypeAccount()
 extern void Panel_setTypeAccount_mE6017A9CE36E348E81154A338FC360C51133BE53 (void);
-// 0x00000776 System.Void Panel::setTabAccount()
+// 0x00000780 System.Void Panel::setTabAccount()
 extern void Panel_setTabAccount_m7556EB46154EF1F4DC0219F1817F6F165972C8BB (void);
-// 0x00000777 System.Void Panel::paintAccount(mGraphics)
+// 0x00000781 System.Void Panel::paintAccount(mGraphics)
 extern void Panel_paintAccount_m4FB0F98322A34064E0E188D62D05D303BC5E943B (void);
-// 0x00000778 System.Void Panel::doFireAccount()
+// 0x00000782 System.Void Panel::doFireAccount()
 extern void Panel_doFireAccount_mC7190A54376C98CCB0DF7CECB5AC4EDD7DDFAC0C (void);
-// 0x00000779 System.Void Panel::updateKeyOption()
+// 0x00000783 System.Void Panel::updateKeyOption()
 extern void Panel_updateKeyOption_mF0961760D2EE6D83FE62F7D365EB2315934BE2AE (void);
-// 0x0000077A System.Void Panel::setTypeSpeacialSkill()
+// 0x00000784 System.Void Panel::setTypeSpeacialSkill()
 extern void Panel_setTypeSpeacialSkill_m38158215479C1426F00D7F4ED2DFD3F79DAA2122 (void);
-// 0x0000077B System.Void Panel::setTabSpeacialSkill()
+// 0x00000785 System.Void Panel::setTabSpeacialSkill()
 extern void Panel_setTabSpeacialSkill_m3B9C8127C6A4DEA27CD41B1DD12AED812A839CC8 (void);
-// 0x0000077C System.Boolean Panel::isTypeShop()
+// 0x00000786 System.Boolean Panel::isTypeShop()
 extern void Panel_isTypeShop_m1429F80BA0C558ACFDCA4151B4E473595735CDEF (void);
-// 0x0000077D System.Void Panel::doNotiRuby(System.Int32)
+// 0x00000787 System.Void Panel::doNotiRuby(System.Int32)
 extern void Panel_doNotiRuby_m246E4253DC654CC642CAD95CF1304DE6BA828BF3 (void);
-// 0x0000077E System.Void Panel::paintUpgradeEffect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
+// 0x00000788 System.Void Panel::paintUpgradeEffect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,mGraphics)
 extern void Panel_paintUpgradeEffect_mD05BF9D34A714CCBEBF806CF1695A75E2411D6D6 (void);
-// 0x0000077F System.Int32 Panel::upgradeEffectX(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000789 System.Int32 Panel::upgradeEffectX(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Panel_upgradeEffectX_mF3F92FEA6F612CAA710C392006FD9D36599B7A7D (void);
-// 0x00000780 System.Int32 Panel::upgradeEffectY(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000078A System.Int32 Panel::upgradeEffectY(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Panel_upgradeEffectY_mF0A852F7A891E5DD68DE73388FF2797655B5C259 (void);
-// 0x00000781 System.Int32 Panel::GetColor_ItemBg(System.Int32)
+// 0x0000078B System.Int32 Panel::GetColor_ItemBg(System.Int32)
 extern void Panel_GetColor_ItemBg_m9643A5070C545D515A587D1163DD421627FCDA64 (void);
-// 0x00000782 System.SByte Panel::GetColor_Item_Upgrade(System.Int32)
+// 0x0000078C System.SByte Panel::GetColor_Item_Upgrade(System.Int32)
 extern void Panel_GetColor_Item_Upgrade_mD13764C3C33F5275BAB66FD0D3A9F930CB88BD52 (void);
-// 0x00000783 mFont Panel::GetFont(System.Int32)
+// 0x0000078D mFont Panel::GetFont(System.Int32)
 extern void Panel_GetFont_m2745E66AC673243F8A3535B82561BBADCCBED9A5 (void);
-// 0x00000784 System.Void Panel::paintOptItem(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000078E System.Void Panel::paintOptItem(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Panel_paintOptItem_mC2499E6BBD22A8A7597D895F461D57E75D54A659 (void);
-// 0x00000785 System.Void Panel::paintOptSlotItem(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000078F System.Void Panel::paintOptSlotItem(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Panel_paintOptSlotItem_mD734FCCBB81F2ADD55F3D7071D3FEC459DCC3FC9 (void);
-// 0x00000786 mFont Panel::setTextColor(System.Int32,System.Int32)
+// 0x00000790 mFont Panel::setTextColor(System.Int32,System.Int32)
 extern void Panel_setTextColor_m360CB03DBD287F773E87E6C1EC2E937D9DB18E1C (void);
-// 0x00000787 System.Boolean Panel::GetInventorySelect_isbody(System.Int32,System.Int32,Item[])
+// 0x00000791 System.Boolean Panel::GetInventorySelect_isbody(System.Int32,System.Int32,Item[])
 extern void Panel_GetInventorySelect_isbody_m501D5A6011CF739623B9A744876BB9948BF05985 (void);
-// 0x00000788 System.Int32 Panel::GetInventorySelect_body(System.Int32,System.Int32)
+// 0x00000792 System.Int32 Panel::GetInventorySelect_body(System.Int32,System.Int32)
 extern void Panel_GetInventorySelect_body_m088384A20344838A5E31FC820C65917D4AC90C85 (void);
-// 0x00000789 System.Int32 Panel::GetInventorySelect_bag(System.Int32,System.Int32,Item[])
+// 0x00000793 System.Int32 Panel::GetInventorySelect_bag(System.Int32,System.Int32,Item[])
 extern void Panel_GetInventorySelect_bag_m9257B71C3821E5B65E1155AC6F7699D92FF48D11 (void);
-// 0x0000078A System.Boolean Panel::isTabInven()
+// 0x00000794 System.Boolean Panel::isTabInven()
 extern void Panel_isTabInven_m545C188A2CC14F2DCAAF3B5EDD23F22496EA4EFC (void);
-// 0x0000078B System.Void Panel::updateKeyInvenTab()
+// 0x00000795 System.Void Panel::updateKeyInvenTab()
 extern void Panel_updateKeyInvenTab_mF49551DC21DAB5D959435DE0C737E579767ECFBD (void);
-// 0x0000078C System.Void Panel::updateKeyInventory()
+// 0x00000796 System.Void Panel::updateKeyInventory()
 extern void Panel_updateKeyInventory_m7C733A04CDDB0DAA14BD643A351CBCBF77457F7A (void);
-// 0x0000078D System.Boolean Panel::IsTabOption()
+// 0x00000797 System.Boolean Panel::IsTabOption()
 extern void Panel_IsTabOption_m1FC782ECF9B0CF1125C712B543B36A1C8B4E27AC (void);
-// 0x0000078E System.Int32 Panel::checkCurrentListLength(System.Int32)
+// 0x00000798 System.Int32 Panel::checkCurrentListLength(System.Int32)
 extern void Panel_checkCurrentListLength_m4B6C2EA74F2E95E7815ADE139992AEDD5CFB646D (void);
-// 0x0000078F System.Void Panel::setNewSelected(System.Int32,System.Boolean)
+// 0x00000799 System.Void Panel::setNewSelected(System.Int32,System.Boolean)
 extern void Panel_setNewSelected_mFA1A210CC7BC6B240A9F292722892B5B9A01D654 (void);
-// 0x00000790 System.Void Panel::.cctor()
+// 0x0000079A System.Void Panel::.cctor()
 extern void Panel__cctor_m60B35D841BB579AF946791B5AE6DAC48E6AD61D3 (void);
-// 0x00000791 System.Void Part::.ctor(System.Int32)
+// 0x0000079B System.Void Part::.ctor(System.Int32)
 extern void Part__ctor_m9DC70092CC017F2F8549875C5AEC4354883FA429 (void);
-// 0x00000792 System.Void PartImage::.ctor()
+// 0x0000079C System.Void PartImage::.ctor()
 extern void PartImage__ctor_mE5C13AFC9DDCEB1C9814DD8991D690DD6A48F84C (void);
-// 0x00000793 System.Void PKFlag::.ctor()
+// 0x0000079D System.Void PKFlag::.ctor()
 extern void PKFlag__ctor_mD7147267B6965E202144F0ACB7DF667EEC05B448 (void);
-// 0x00000794 System.Void PlayerDart::.ctor(Char,System.Int32,SkillPaint,System.Int32,System.Int32)
+// 0x0000079E System.Void PlayerDart::.ctor(Char,System.Int32,SkillPaint,System.Int32,System.Int32)
 extern void PlayerDart__ctor_mADB12D2D9E48578381575BCF590E2948B624C073 (void);
-// 0x00000795 System.Void PlayerDart::setAngle(System.Int32)
+// 0x0000079F System.Void PlayerDart::setAngle(System.Int32)
 extern void PlayerDart_setAngle_m7575B8C5F9440893856707648C319B34A6992D87 (void);
-// 0x00000796 System.Void PlayerDart::update()
+// 0x000007A0 System.Void PlayerDart::update()
 extern void PlayerDart_update_m3DCB79FC30A1458F0699B4531E72BDD6E809D735 (void);
-// 0x00000797 System.Void PlayerDart::endMe()
+// 0x000007A1 System.Void PlayerDart::endMe()
 extern void PlayerDart_endMe_m2BF3632DB2D650A8822837823A3EA85BE7012AE0 (void);
-// 0x00000798 System.Void PlayerDart::paint(mGraphics)
+// 0x000007A2 System.Void PlayerDart::paint(mGraphics)
 extern void PlayerDart_paint_m914C0B615412C54AB4E9BF69AE66BBA5385CB258 (void);
-// 0x00000799 System.String PlayerInfo::getName()
+// 0x000007A3 System.String PlayerInfo::getName()
 extern void PlayerInfo_getName_mA64060CE9BA2635AB1B6153E4407A46E70FE44B5 (void);
-// 0x0000079A System.Void PlayerInfo::setMoney(System.Int32)
+// 0x000007A4 System.Void PlayerInfo::setMoney(System.Int32)
 extern void PlayerInfo_setMoney_m5949605D543B7433926F38D466023B1840B4CE15 (void);
-// 0x0000079B System.Void PlayerInfo::setName(System.String)
+// 0x000007A5 System.Void PlayerInfo::setName(System.String)
 extern void PlayerInfo_setName_mCBF8736B9FA710DAB5E712765A277A79CB2BF673 (void);
-// 0x0000079C System.Void PlayerInfo::paint(mGraphics,System.Int32,System.Int32)
+// 0x000007A6 System.Void PlayerInfo::paint(mGraphics,System.Int32,System.Int32)
 extern void PlayerInfo_paint_mFB3673984EC1DC4A913E2AEF3A8D5E3DBE686FA0 (void);
-// 0x0000079D System.Int32 PlayerInfo::getExp()
+// 0x000007A7 System.Int32 PlayerInfo::getExp()
 extern void PlayerInfo_getExp_mD9BD565EDB52A57302A896B78F662037A8FC243A (void);
-// 0x0000079E System.Void PlayerInfo::.ctor()
+// 0x000007A8 System.Void PlayerInfo::.ctor()
 extern void PlayerInfo__ctor_m8ED3F2D1B7789917E0A65CEB89D94F10D834E180 (void);
-// 0x0000079F System.Void Point::.ctor()
+// 0x000007A9 System.Void Point::.ctor()
 extern void Point__ctor_m21FA262C838EFDA8BB37B15C5C9749F2D40973E8 (void);
-// 0x000007A0 System.Void Point::.ctor(System.Int32,System.Int32)
+// 0x000007AA System.Void Point::.ctor(System.Int32,System.Int32)
 extern void Point__ctor_m0CEDA7217E58B46470819CDE50BCE8CDC9CDDC24 (void);
-// 0x000007A1 System.Void Point::.ctor(System.Int32,System.Int32,System.Int32)
+// 0x000007AB System.Void Point::.ctor(System.Int32,System.Int32,System.Int32)
 extern void Point__ctor_mC460934AB35BB82BF80F87464B2CAA8839EA2EA4 (void);
-// 0x000007A2 System.Void Point::update()
+// 0x000007AC System.Void Point::update()
 extern void Point_update_m4009E2D30B1B00CC48543388957BC605E555F516 (void);
-// 0x000007A3 System.Void Point::update_not_f()
+// 0x000007AD System.Void Point::update_not_f()
 extern void Point_update_not_f_m2AB2A8160F2DF2E129DFE6B31AB11B540A07C63B (void);
-// 0x000007A4 System.Void Point::paint(mGraphics)
+// 0x000007AE System.Void Point::paint(mGraphics)
 extern void Point_paint_m2A2BB4104D230CAF9162D1C17D65E930D717ED98 (void);
-// 0x000007A5 System.Void Point::updateInMap()
+// 0x000007AF System.Void Point::updateInMap()
 extern void Point_updateInMap_m184F39BAEE5047AF8CF81A722C8A00943BB163A9 (void);
-// 0x000007A6 System.Int32 Point::setFrameAngle(System.Int32)
+// 0x000007B0 System.Int32 Point::setFrameAngle(System.Int32)
 extern void Point_setFrameAngle_mC4344BA98C9D5FBC964AD87C18467CDF95AB568F (void);
-// 0x000007A7 System.Void Point::create_Arrow(System.Int32)
+// 0x000007B1 System.Void Point::create_Arrow(System.Int32)
 extern void Point_create_Arrow_mCB815AC663D2BA6D0043D9D3706F41BB61282DC1 (void);
-// 0x000007A8 System.Void Point::create_Speed(System.Int32,System.Int32)
+// 0x000007B2 System.Void Point::create_Speed(System.Int32,System.Int32)
 extern void Point_create_Speed_m15080CE9D8EA3F331C4EC435394C6A21C08CDD23 (void);
-// 0x000007A9 System.Void Point::moveTo_xy(System.Int32,System.Int32)
+// 0x000007B3 System.Void Point::moveTo_xy(System.Int32,System.Int32)
 extern void Point_moveTo_xy_m3E9F1D7B38EB712ACF5E45BDC967792A68852FCE (void);
-// 0x000007AA System.Void Point::paint_Arrow(mGraphics,FrameImage,System.Int32,System.Boolean)
+// 0x000007B4 System.Void Point::paint_Arrow(mGraphics,FrameImage,System.Int32,System.Boolean)
 extern void Point_paint_Arrow_m35D862F1E74956C3DDDC2522F623C293C9620DEE (void);
-// 0x000007AB System.Void PopUp::.ctor(System.String,System.Int32,System.Int32)
+// 0x000007B5 System.Void PopUp::.ctor(System.String,System.Int32,System.Int32)
 extern void PopUp__ctor_m479E12F164E54A4D7DB728F6AF9EA9D5515209DD (void);
-// 0x000007AC System.Void PopUp::loadBg()
+// 0x000007B6 System.Void PopUp::loadBg()
 extern void PopUp_loadBg_mE7CCDA63F104718657B4A99607165F0214754A01 (void);
-// 0x000007AD System.Void PopUp::updateXYWH(System.String[],System.Int32,System.Int32)
+// 0x000007B7 System.Void PopUp::updateXYWH(System.String[],System.Int32,System.Int32)
 extern void PopUp_updateXYWH_mB8B0A07F7E2DE6B2E8B04D60503CF467FE87E3F2 (void);
-// 0x000007AE System.Void PopUp::addPopUp(System.Int32,System.Int32,System.String)
+// 0x000007B8 System.Void PopUp::addPopUp(System.Int32,System.Int32,System.String)
 extern void PopUp_addPopUp_m45C8D7CF6FC9E69B153DCADA55310224F06FC116 (void);
-// 0x000007AF System.Void PopUp::addPopUp(PopUp)
+// 0x000007B9 System.Void PopUp::addPopUp(PopUp)
 extern void PopUp_addPopUp_m2162A4AE376912A12E142549AE500A74024089DA (void);
-// 0x000007B0 System.Void PopUp::removePopUp(PopUp)
+// 0x000007BA System.Void PopUp::removePopUp(PopUp)
 extern void PopUp_removePopUp_m27E104AE6703F96AA13B4AA7D2906BA3023D6D18 (void);
-// 0x000007B1 System.Void PopUp::paintClipPopUp(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x000007BB System.Void PopUp::paintClipPopUp(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void PopUp_paintClipPopUp_m25F501E2555DE2CDEA12E4FA2006BA676DBA24AA (void);
-// 0x000007B2 System.Void PopUp::paintPopUp(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x000007BC System.Void PopUp::paintPopUp(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void PopUp_paintPopUp_m2786BF4459A784B996676B9B606C3531B2DCF7FA (void);
-// 0x000007B3 System.Void PopUp::paint(mGraphics)
+// 0x000007BD System.Void PopUp::paint(mGraphics)
 extern void PopUp_paint_m279DD762DBA2CBAFB58B7FC167FB50B2AB9F7B67 (void);
-// 0x000007B4 System.Void PopUp::update()
+// 0x000007BE System.Void PopUp::update()
 extern void PopUp_update_m5E7666AC833216B9A0A11C2901A57004BFEE9643 (void);
-// 0x000007B5 System.Void PopUp::doClick(System.Int32)
+// 0x000007BF System.Void PopUp::doClick(System.Int32)
 extern void PopUp_doClick_m0CC85728F77D68EC2F4C94C9CD405CBFD26EB78B (void);
-// 0x000007B6 System.Void PopUp::paintAll(mGraphics)
+// 0x000007C0 System.Void PopUp::paintAll(mGraphics)
 extern void PopUp_paintAll_mE35D1CDABF92880EAF354AFF899BBAC21F9FADB2 (void);
-// 0x000007B7 System.Void PopUp::updateAll()
+// 0x000007C1 System.Void PopUp::updateAll()
 extern void PopUp_updateAll_m1396668E536A4000BB8DEFDE9E1B78BD229DAA65 (void);
-// 0x000007B8 System.Void PopUp::.cctor()
+// 0x000007C2 System.Void PopUp::.cctor()
 extern void PopUp__cctor_m4C4DC81FC95A2B82F8E9060DE94A0459EAD298A9 (void);
-// 0x000007B9 System.Void PopUpYesNo::setPopUp(System.String,Command,Command)
+// 0x000007C3 System.Void PopUpYesNo::setPopUp(System.String,Command,Command)
 extern void PopUpYesNo_setPopUp_m21EB26F8223C9A040D0BF4BD7B14C003DEACDCE6 (void);
-// 0x000007BA System.Void PopUpYesNo::paint(mGraphics)
+// 0x000007C4 System.Void PopUpYesNo::paint(mGraphics)
 extern void PopUpYesNo_paint_m5CCBEB9071C7CA5D74EE85C510446817C524A51F (void);
-// 0x000007BB System.Void PopUpYesNo::update()
+// 0x000007C5 System.Void PopUpYesNo::update()
 extern void PopUpYesNo_update_mA2B9663341D977C77A6F8D946B40250AB58C0DB9 (void);
-// 0x000007BC System.Void PopUpYesNo::perform(System.Int32,System.Object)
+// 0x000007C6 System.Void PopUpYesNo::perform(System.Int32,System.Object)
 extern void PopUpYesNo_perform_mDFDE17AB64EF35A13AEC90D49FDC91C2B8A38ACF (void);
-// 0x000007BD System.Void PopUpYesNo::.ctor()
+// 0x000007C7 System.Void PopUpYesNo::.ctor()
 extern void PopUpYesNo__ctor_m2659D87396B3AD554F492469D828A8598305DD1F (void);
-// 0x000007BE System.Void Position::.ctor()
+// 0x000007C8 System.Void Position::.ctor()
 extern void Position__ctor_m8196AB184F4B3812F84901CE94CB6CC10E13F5B6 (void);
-// 0x000007BF System.Void Position::.ctor(System.Int32,System.Int32,System.Int32)
+// 0x000007C9 System.Void Position::.ctor(System.Int32,System.Int32,System.Int32)
 extern void Position__ctor_m8D01D0868DF326E3541298E0B492B36B114BAAAB (void);
-// 0x000007C0 System.Void Position::.ctor(System.Int32,System.Int32)
+// 0x000007CA System.Void Position::.ctor(System.Int32,System.Int32)
 extern void Position__ctor_mB840B4A68011C5C3A13B4869A02ACC70EA6C7F12 (void);
-// 0x000007C1 System.Void Position::setPosTo(System.Int32,System.Int32)
+// 0x000007CB System.Void Position::setPosTo(System.Int32,System.Int32)
 extern void Position_setPosTo_m38EFD0B6E75A21887A02AE692C7218C2997BCE3F (void);
-// 0x000007C2 System.Int32 Position::translate()
+// 0x000007CC System.Int32 Position::translate()
 extern void Position_translate_m44C4457087661CF0D354CA30550CCEB2D70D4677 (void);
-// 0x000007C3 System.Void Position::update()
+// 0x000007CD System.Void Position::update()
 extern void Position_update_mF3718A120E7A4C4AE735C8F5E85F2A5C8A04D586 (void);
-// 0x000007C4 System.Void Position::paint(mGraphics)
+// 0x000007CE System.Void Position::paint(mGraphics)
 extern void Position_paint_m4C85C95E07BA8CD3C2441C3EA957A368BB584D87 (void);
-// 0x000007C5 System.Void RadarScr::.ctor()
+// 0x000007CF System.Void RadarScr::.ctor()
 extern void RadarScr__ctor_mBD3D96BCDD282C525B79C958BAD256524A771A4D (void);
-// 0x000007C6 RadarScr RadarScr::gI()
+// 0x000007D0 RadarScr RadarScr::gI()
 extern void RadarScr_gI_mCA59E47258A3A31B6757506BC98F4498C9ECF336 (void);
-// 0x000007C7 System.Void RadarScr::SetRadarScr(MyVector,System.Int32,System.Int32)
+// 0x000007D1 System.Void RadarScr::SetRadarScr(MyVector,System.Int32,System.Int32)
 extern void RadarScr_SetRadarScr_m624EDDC9AE1B809FC128C75B0D8E6477DDC78111 (void);
-// 0x000007C8 System.Void RadarScr::SetNum(System.Int32,System.Int32)
+// 0x000007D2 System.Void RadarScr::SetNum(System.Int32,System.Int32)
 extern void RadarScr_SetNum_m1911BAE7DEE78CF93C34C574FD5C2CF15A446FEC (void);
-// 0x000007C9 System.Void RadarScr::SetListUse()
+// 0x000007D3 System.Void RadarScr::SetListUse()
 extern void RadarScr_SetListUse_mC66AE3F82C9DA6959F12403BFED830BA255FE551 (void);
-// 0x000007CA System.Void RadarScr::listIndex()
+// 0x000007D4 System.Void RadarScr::listIndex()
 extern void RadarScr_listIndex_m9408CFD46E07216BFAC4AAC7410C61536D770553 (void);
-// 0x000007CB System.Void RadarScr::update()
+// 0x000007D5 System.Void RadarScr::update()
 extern void RadarScr_update_mCA049DB88F6E0949EC5F25E566FAD31A89087FF4 (void);
-// 0x000007CC System.Void RadarScr::updateKey()
+// 0x000007D6 System.Void RadarScr::updateKey()
 extern void RadarScr_updateKey_mF46760834EC717BDB48652AD27812054054FDE38 (void);
-// 0x000007CD System.Void RadarScr::doChangeUI()
+// 0x000007D7 System.Void RadarScr::doChangeUI()
 extern void RadarScr_doChangeUI_mC381EDF87FC48439B3534AEC328B86741A7C71C5 (void);
-// 0x000007CE System.Void RadarScr::updateKeyTouchControl()
+// 0x000007D8 System.Void RadarScr::updateKeyTouchControl()
 extern void RadarScr_updateKeyTouchControl_m7EAB4404379824A7C3014B14BC2D8C3C0E1E2159 (void);
-// 0x000007CF System.Void RadarScr::doClickUse(System.Int32)
+// 0x000007D9 System.Void RadarScr::doClickUse(System.Int32)
 extern void RadarScr_doClickUse_mDE77AC8471C6FC8C36398977ABE4A16FE0730851 (void);
-// 0x000007D0 System.Void RadarScr::doClickArrow(System.Int32)
+// 0x000007DA System.Void RadarScr::doClickArrow(System.Int32)
 extern void RadarScr_doClickArrow_m96A03C7B2141C497A42C7B5EA4F3E7EAC827ED73 (void);
-// 0x000007D1 System.Void RadarScr::doClickItem(System.Int32)
+// 0x000007DB System.Void RadarScr::doClickItem(System.Int32)
 extern void RadarScr_doClickItem_mB6E685A4EA129C69E4ABC57CBFC4031FD20A0166 (void);
-// 0x000007D2 System.Void RadarScr::doKeyText(System.Int32)
+// 0x000007DC System.Void RadarScr::doKeyText(System.Int32)
 extern void RadarScr_doKeyText_mBC4DE11C810728632FEDCB8A83B7AF2B52E6FDEF (void);
-// 0x000007D3 System.Void RadarScr::doKeyItem(System.Int32)
+// 0x000007DD System.Void RadarScr::doKeyItem(System.Int32)
 extern void RadarScr_doKeyItem_m6C422857456812EEDB20DC00B96DFADEC95E8299 (void);
-// 0x000007D4 System.Void RadarScr::paint(mGraphics)
+// 0x000007DE System.Void RadarScr::paint(mGraphics)
 extern void RadarScr_paint_mBB2FF3FD5C00D584C039498CDCF4818AE8586872 (void);
-// 0x000007D5 System.Void RadarScr::switchToMe()
+// 0x000007DF System.Void RadarScr::switchToMe()
 extern void RadarScr_switchToMe_mAB10C676CF75E99DBA377916D8F8A24391463DE7 (void);
-// 0x000007D6 System.Void RadarScr::.cctor()
+// 0x000007E0 System.Void RadarScr::.cctor()
 extern void RadarScr__cctor_m506BCA84F6B053B9E8D2E9559E139F560504ADDD (void);
-// 0x000007D7 System.Void Res::init()
+// 0x000007E1 System.Void Res::init()
 extern void Res_init_m5F2A9AA8DD3B29AE10ED2C3E2EB67FE7AED778F7 (void);
-// 0x000007D8 System.Int32 Res::sin(System.Int32)
+// 0x000007E2 System.Int32 Res::sin(System.Int32)
 extern void Res_sin_m638A1CF75A2EA4E7EB3587EB8F3B3055FE4BC5B6 (void);
-// 0x000007D9 System.Int32 Res::cos(System.Int32)
+// 0x000007E3 System.Int32 Res::cos(System.Int32)
 extern void Res_cos_m9A91FEA413D0CD129EE4E3BB4E9A4EA09112F3D3 (void);
-// 0x000007DA System.Int32 Res::tan(System.Int32)
+// 0x000007E4 System.Int32 Res::tan(System.Int32)
 extern void Res_tan_m85190D17DAA5A707B63B9C7DF360E31247B8F0A7 (void);
-// 0x000007DB System.Int32 Res::atan(System.Int32)
+// 0x000007E5 System.Int32 Res::atan(System.Int32)
 extern void Res_atan_m472C0CD851DDC6F7A274AB8569D8F926AC109770 (void);
-// 0x000007DC System.Int32 Res::angle(System.Int32,System.Int32)
+// 0x000007E6 System.Int32 Res::angle(System.Int32,System.Int32)
 extern void Res_angle_mC11BC559D5185A9B58FC913D1A363BCA426A9B68 (void);
-// 0x000007DD System.Int32 Res::fixangle(System.Int32)
+// 0x000007E7 System.Int32 Res::fixangle(System.Int32)
 extern void Res_fixangle_m61AF4B828F69A48D1DC232DDE93581EDE7595CCD (void);
-// 0x000007DE System.Void Res::outz(System.String)
+// 0x000007E8 System.Void Res::outz(System.String)
 extern void Res_outz_mF51EC000D16B49E001011B2C1BAD2F66E72C33D3 (void);
-// 0x000007DF System.Void Res::outz(System.String,System.Int32)
+// 0x000007E9 System.Void Res::outz(System.String,System.Int32)
 extern void Res_outz_m30B56DFB8504743B97D4D18B3060AC4B4015EA2F (void);
-// 0x000007E0 System.Void Res::err(System.String)
+// 0x000007EA System.Void Res::err(System.String)
 extern void Res_err_m74352C93584905389E2A1A448A5CBC49C1599F42 (void);
-// 0x000007E1 System.Void Res::outz2(System.String)
+// 0x000007EB System.Void Res::outz2(System.String)
 extern void Res_outz2_m042A9DACB12FD2FA5F1349C208E266AA80B11791 (void);
-// 0x000007E2 System.Void Res::onScreenDebug(System.String)
+// 0x000007EC System.Void Res::onScreenDebug(System.String)
 extern void Res_onScreenDebug_m07C066717A16586581CA0AD1607B65B934594AB6 (void);
-// 0x000007E3 System.Void Res::paintOnScreenDebug(mGraphics)
+// 0x000007ED System.Void Res::paintOnScreenDebug(mGraphics)
 extern void Res_paintOnScreenDebug_mCF07A7C7A3534EF9357BE21EA4EE100EFDB71E32 (void);
-// 0x000007E4 System.Void Res::updateOnScreenDebug()
+// 0x000007EE System.Void Res::updateOnScreenDebug()
 extern void Res_updateOnScreenDebug_mC16E81CFE4D71CB802369B3F3B6108CBAF201975 (void);
-// 0x000007E5 System.String Res::changeString(System.String)
+// 0x000007EF System.String Res::changeString(System.String)
 extern void Res_changeString_m9DE171F898F671B89A6A77E28AAF1E52003FE7E2 (void);
-// 0x000007E6 System.String Res::replace(System.String,System.String,System.String)
+// 0x000007F0 System.String Res::replace(System.String,System.String,System.String)
 extern void Res_replace_m596F338D2F451B001FEC92C5E42C2CD2B6B8F8CC (void);
-// 0x000007E7 System.Int32 Res::xetVX(System.Int32,System.Int32)
+// 0x000007F1 System.Int32 Res::xetVX(System.Int32,System.Int32)
 extern void Res_xetVX_mBD4983A283437E063690BD4CBFE585E5E0DA8136 (void);
-// 0x000007E8 System.Int32 Res::xetVY(System.Int32,System.Int32)
+// 0x000007F2 System.Int32 Res::xetVY(System.Int32,System.Int32)
 extern void Res_xetVY_m16AE0F5484F3C61EC60C55F88544707A783F8D13 (void);
-// 0x000007E9 System.Int32 Res::random(System.Int32,System.Int32)
+// 0x000007F3 System.Int32 Res::random(System.Int32,System.Int32)
 extern void Res_random_m4C7D8B74D6563FDABCAD9A9B88B6EA731051D971 (void);
-// 0x000007EA System.Int32 Res::random(System.Int32)
+// 0x000007F4 System.Int32 Res::random(System.Int32)
 extern void Res_random_m89E64C67E9CA3A6A5D7A92F73E772E44F33B10A4 (void);
-// 0x000007EB System.Int32 Res::random_Am(System.Int32,System.Int32)
+// 0x000007F5 System.Int32 Res::random_Am(System.Int32,System.Int32)
 extern void Res_random_Am_m3CB94FA13EE7B25588EC78F299280A549507B6EC (void);
-// 0x000007EC System.Int32 Res::random_Am_0(System.Int32)
+// 0x000007F6 System.Int32 Res::random_Am_0(System.Int32)
 extern void Res_random_Am_0_m8E3A9D0D229DD33720202DD27E0FF0C3AD79F4DE (void);
-// 0x000007ED System.Int32 Res::s2tick(System.Int32)
+// 0x000007F7 System.Int32 Res::s2tick(System.Int32)
 extern void Res_s2tick_mC1F97FA6E41745FFAD784F535205035205E5D263 (void);
-// 0x000007EE System.Int32 Res::distance(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x000007F8 System.Int32 Res::distance(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Res_distance_m12B6FF8AB14DA169468E5EA13CEA0318BD8BDBD0 (void);
-// 0x000007EF System.Int32 Res::getDistance(System.Int32,System.Int32)
+// 0x000007F9 System.Int32 Res::getDistance(System.Int32,System.Int32)
 extern void Res_getDistance_m73B4F6318EB79332035B3DE9949DBC664C2AF181 (void);
-// 0x000007F0 System.Int32 Res::sqrt(System.Int32)
+// 0x000007FA System.Int32 Res::sqrt(System.Int32)
 extern void Res_sqrt_mA51CEE686A56D12B1193C0EF8BCDC27F9593732E (void);
-// 0x000007F1 System.Int32 Res::rnd(System.Int32)
+// 0x000007FB System.Int32 Res::rnd(System.Int32)
 extern void Res_rnd_mAC9A3507D82FDF4149DFAD7E36BD919B485A17AE (void);
-// 0x000007F2 System.Int32 Res::abs(System.Int32)
+// 0x000007FC System.Int32 Res::abs(System.Int32)
 extern void Res_abs_m613075BC715AB0662EB7A9CD2E58BF5911EFBFF0 (void);
-// 0x000007F3 System.Boolean Res::inRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x000007FD System.Boolean Res::inRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Res_inRect_m7F2C1868F1FE2DB74F6D865EA8D16AFA7F90A04A (void);
-// 0x000007F4 System.String[] Res::split(System.String,System.String,System.Int32)
+// 0x000007FE System.String[] Res::split(System.String,System.String,System.Int32)
 extern void Res_split_m2045920D16E70F48BC3F71B37E42244B39F6282E (void);
-// 0x000007F5 System.String Res::formatNumber(System.Int64)
+// 0x000007FF System.String Res::formatNumber(System.Int64)
 extern void Res_formatNumber_m0772AEC2D095E6951293C3D2374B5255A283E383 (void);
-// 0x000007F6 System.String Res::formatNumber2(System.Int64)
+// 0x00000800 System.String Res::formatNumber2(System.Int64)
 extern void Res_formatNumber2_m8725137F413D534751ADEE847D39DAECDBF4098F (void);
-// 0x000007F7 System.Void Res::.ctor()
+// 0x00000801 System.Void Res::.ctor()
 extern void Res__ctor_m1C751DDE31A863C6FC0EACFA957ED497281988DF (void);
-// 0x000007F8 System.Void Res::.cctor()
+// 0x00000802 System.Void Res::.cctor()
 extern void Res__cctor_mC51CEABF837C5DE508FD0F229EF1FBF72394FD95 (void);
-// 0x000007F9 System.Void Rms::saveRMS(System.String,System.SByte[])
+// 0x00000803 System.Void Rms::saveRMS(System.String,System.SByte[])
 extern void Rms_saveRMS_mF7CE60C507D5896622CA43DB7367F4A174BC62C6 (void);
-// 0x000007FA System.SByte[] Rms::loadRMS(System.String)
+// 0x00000804 System.SByte[] Rms::loadRMS(System.String)
 extern void Rms_loadRMS_m99C8DC9373B72F46873B7E6A81E133CF8CB7560B (void);
-// 0x000007FB System.String Rms::loadRMSString(System.String)
+// 0x00000805 System.String Rms::loadRMSString(System.String)
 extern void Rms_loadRMSString_m0458A147654E191A49B2C1D9CDBCCE38636ED187 (void);
-// 0x000007FC System.Byte[] Rms::convertSbyteToByte(System.SByte[])
+// 0x00000806 System.Byte[] Rms::convertSbyteToByte(System.SByte[])
 extern void Rms_convertSbyteToByte_m42C7DFC72AC68D67D01C478749D7583BD50E0EE5 (void);
-// 0x000007FD System.Void Rms::saveRMSString(System.String,System.String)
+// 0x00000807 System.Void Rms::saveRMSString(System.String,System.String)
 extern void Rms_saveRMSString_m5CC2A73B0F9A79E8FB75301D183725DE3A880C7A (void);
-// 0x000007FE System.Void Rms::_saveRMS(System.String,System.SByte[])
+// 0x00000808 System.Void Rms::_saveRMS(System.String,System.SByte[])
 extern void Rms__saveRMS_mFDA1B445688C386708DCA6B5B141CF75F6772881 (void);
-// 0x000007FF System.SByte[] Rms::_loadRMS(System.String)
+// 0x00000809 System.SByte[] Rms::_loadRMS(System.String)
 extern void Rms__loadRMS_m66FC23167EC65C373C2620DF311E651BC385A097 (void);
-// 0x00000800 System.Void Rms::update()
+// 0x0000080A System.Void Rms::update()
 extern void Rms_update_mDE22975E1DF1A632362DD146AED855E04BE47B73 (void);
-// 0x00000801 System.Int32 Rms::loadRMSInt(System.String)
+// 0x0000080B System.Int32 Rms::loadRMSInt(System.String)
 extern void Rms_loadRMSInt_m04A406BD0AF69D19BBFC366FD1CE49E74B26BC86 (void);
-// 0x00000802 System.Void Rms::saveRMSInt(System.String,System.Int32)
+// 0x0000080C System.Void Rms::saveRMSInt(System.String,System.Int32)
 extern void Rms_saveRMSInt_m6429922F24AC570BC8C569486E3BD135B981A8C7 (void);
-// 0x00000803 System.String Rms::GetiPhoneDocumentsPath()
+// 0x0000080D System.String Rms::GetiPhoneDocumentsPath()
 extern void Rms_GetiPhoneDocumentsPath_m49EB93EBB70D1E5FBBE783C9089CC0F481CF6354 (void);
-// 0x00000804 System.Void Rms::__saveRMS(System.String,System.SByte[])
+// 0x0000080E System.Void Rms::__saveRMS(System.String,System.SByte[])
 extern void Rms___saveRMS_m993D6833EC3BC09B24D099675DFDE275882C50CB (void);
-// 0x00000805 System.SByte[] Rms::__loadRMS(System.String)
+// 0x0000080F System.SByte[] Rms::__loadRMS(System.String)
 extern void Rms___loadRMS_m5DA1DA93D0759AA8F2D68D878527838C1ACCBBFD (void);
-// 0x00000806 System.Void Rms::clearAll()
+// 0x00000810 System.Void Rms::clearAll()
 extern void Rms_clearAll_m125A175814279942BA80DBF8D8076B7142C493E6 (void);
-// 0x00000807 System.Void Rms::DeleteStorage(System.String)
+// 0x00000811 System.Void Rms::DeleteStorage(System.String)
 extern void Rms_DeleteStorage_m729346BEF5DB6719B3DB2D48914339C521ABADE7 (void);
-// 0x00000808 System.String Rms::ByteArrayToString(System.Byte[])
+// 0x00000812 System.String Rms::ByteArrayToString(System.Byte[])
 extern void Rms_ByteArrayToString_m6E8041232759D72FEE94C09204C0DA010EA998CF (void);
-// 0x00000809 System.Byte[] Rms::StringToByteArray(System.String)
+// 0x00000813 System.Byte[] Rms::StringToByteArray(System.String)
 extern void Rms_StringToByteArray_m212F20D2203D72BE2693294D0732196B81F9A867 (void);
-// 0x0000080A System.Void Rms::deleteRecord(System.String)
+// 0x00000814 System.Void Rms::deleteRecord(System.String)
 extern void Rms_deleteRecord_m4C27204D707CB99D49DCBC0C5502BB3259CBE929 (void);
-// 0x0000080B System.Void Rms::clearRMS()
+// 0x00000815 System.Void Rms::clearRMS()
 extern void Rms_clearRMS_mAE5E64C1833411571C0B7BA79C2062C03721578E (void);
-// 0x0000080C System.Void Rms::saveIP(System.String)
+// 0x00000816 System.Void Rms::saveIP(System.String)
 extern void Rms_saveIP_m704FFB334705D3E0EC13000348D21AE6D1F000B8 (void);
-// 0x0000080D System.String Rms::loadIP()
+// 0x00000817 System.String Rms::loadIP()
 extern void Rms_loadIP_m38173D8DA8B4023049A8C69AE27DFFD96C290FFF (void);
-// 0x0000080E System.Void Rms::.ctor()
+// 0x00000818 System.Void Rms::.ctor()
 extern void Rms__ctor_m31EAE511B3CFCDE0F6AAFC7278B4293AB36C1656 (void);
-// 0x0000080F System.Void ScaleGUI::initScaleGUI()
+// 0x00000819 System.Void ScaleGUI::initScaleGUI()
 extern void ScaleGUI_initScaleGUI_m6E323BBEAE2033304FF63E1BA58EF1E5E690DD1F (void);
-// 0x00000810 System.Void ScaleGUI::BeginGUI()
+// 0x0000081A System.Void ScaleGUI::BeginGUI()
 extern void ScaleGUI_BeginGUI_m7311B658F881A4A71C75FC807D1CB7F032847FA5 (void);
-// 0x00000811 System.Void ScaleGUI::EndGUI()
+// 0x0000081B System.Void ScaleGUI::EndGUI()
 extern void ScaleGUI_EndGUI_m8C661AD0FF2C76CB79FE687501F7CA7FAFE89AEB (void);
-// 0x00000812 System.Single ScaleGUI::scaleX(System.Single)
+// 0x0000081C System.Single ScaleGUI::scaleX(System.Single)
 extern void ScaleGUI_scaleX_mC3CA7CE5E3E655361EA09F16472CB4F0E437A2A0 (void);
-// 0x00000813 System.Single ScaleGUI::scaleY(System.Single)
+// 0x0000081D System.Single ScaleGUI::scaleY(System.Single)
 extern void ScaleGUI_scaleY_m51040AE5FC57AAFA0609DD41E6C256D87B69B59D (void);
-// 0x00000814 System.Void ScaleGUI::.ctor()
+// 0x0000081E System.Void ScaleGUI::.ctor()
 extern void ScaleGUI__ctor_m4DB241F77EB5311D9C59B1C514D75D46384D69CC (void);
-// 0x00000815 System.Void ScaleGUI::.cctor()
+// 0x0000081F System.Void ScaleGUI::.cctor()
 extern void ScaleGUI__cctor_mF6E4DB497621788787EDEE318008A823F7230D47 (void);
-// 0x00000816 System.Void Scroll::clear()
+// 0x00000820 System.Void Scroll::clear()
 extern void Scroll_clear_m2DD2A833B759FAEA2A7236EADC9FBA4E01577DE5 (void);
-// 0x00000817 ScrollResult Scroll::updateKey()
+// 0x00000821 ScrollResult Scroll::updateKey()
 extern void Scroll_updateKey_m2DF23E73EAD0D3296AB780D7361F8334DAC8C7D9 (void);
-// 0x00000818 ScrollResult Scroll::updateKey(System.Boolean)
+// 0x00000822 ScrollResult Scroll::updateKey(System.Boolean)
 extern void Scroll_updateKey_mD28F4F4854627DB75DF5E123B102C6A1FB2F7E3F (void);
-// 0x00000819 ScrollResult Scroll::updateKeyScrollUpDown(System.Boolean)
+// 0x00000823 ScrollResult Scroll::updateKeyScrollUpDown(System.Boolean)
 extern void Scroll_updateKeyScrollUpDown_m054CE40FF0D60BC5CC5F8F59CA2E996EFAD6B5DE (void);
-// 0x0000081A ScrollResult Scroll::updateKeyScrollLeftRight()
+// 0x00000824 ScrollResult Scroll::updateKeyScrollLeftRight()
 extern void Scroll_updateKeyScrollLeftRight_m73066A7EDE865D82AFA8AAAB5487582BCBCEFAE0 (void);
-// 0x0000081B System.Void Scroll::updatecm()
+// 0x00000825 System.Void Scroll::updatecm()
 extern void Scroll_updatecm_m90CF5D4BE2E925595D657244D22A2B11DCCA3B54 (void);
-// 0x0000081C System.Void Scroll::setStyle(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32)
+// 0x00000826 System.Void Scroll::setStyle(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32)
 extern void Scroll_setStyle_m12296143C642ABB4FB55AD8F859F3806317F5550 (void);
-// 0x0000081D System.Void Scroll::moveTo(System.Int32)
+// 0x00000827 System.Void Scroll::moveTo(System.Int32)
 extern void Scroll_moveTo_m69FD171B358C73153DDFD7ED73B0E19558A00940 (void);
-// 0x0000081E Scroll Scroll::gIz()
+// 0x00000828 Scroll Scroll::gIz()
 extern void Scroll_gIz_mFD4B58A95968CDB8DD9BBA3E5F40259AF01AD043 (void);
-// 0x0000081F System.Void Scroll::.ctor()
+// 0x00000829 System.Void Scroll::.ctor()
 extern void Scroll__ctor_m5DAC4850BC685F595B7556C49DB41548F8741EB5 (void);
-// 0x00000820 System.Void ScrollResult::.ctor()
+// 0x0000082A System.Void ScrollResult::.ctor()
 extern void ScrollResult__ctor_m7627C8D4A3B11DDF59B03796492F7E6A32C79BC2 (void);
-// 0x00000821 System.Void ServerEffect::addServerEffect(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000082B System.Void ServerEffect::addServerEffect(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void ServerEffect_addServerEffect_m03309C0372A83EE1679264830CAC98F9A967D007 (void);
-// 0x00000822 System.Void ServerEffect::addServerEffect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x0000082C System.Void ServerEffect::addServerEffect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void ServerEffect_addServerEffect_m653AAC3047F8094E98DA6AE4D809AAD906491A9E (void);
-// 0x00000823 System.Void ServerEffect::addServerEffect(System.Int32,Mob,System.Int32)
+// 0x0000082D System.Void ServerEffect::addServerEffect(System.Int32,Mob,System.Int32)
 extern void ServerEffect_addServerEffect_mAC32536B1A6F8088E27C86CEE398EBBE53FFA90A (void);
-// 0x00000824 System.Void ServerEffect::addServerEffect(System.Int32,Char,System.Int32)
+// 0x0000082E System.Void ServerEffect::addServerEffect(System.Int32,Char,System.Int32)
 extern void ServerEffect_addServerEffect_m86AC5F547CB6DA0642AD0BB64686B815A6BA3483 (void);
-// 0x00000825 System.Void ServerEffect::addServerEffect(System.Int32,Char,System.Int32,System.Int32)
+// 0x0000082F System.Void ServerEffect::addServerEffect(System.Int32,Char,System.Int32,System.Int32)
 extern void ServerEffect_addServerEffect_m18A9B8EA2CB23EFF6DB68505D6C23CD414F969FA (void);
-// 0x00000826 System.Void ServerEffect::addServerEffectWithTime(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000830 System.Void ServerEffect::addServerEffectWithTime(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void ServerEffect_addServerEffectWithTime_mC2C833F144480B92C591243546C2F238709B85AD (void);
-// 0x00000827 System.Void ServerEffect::addServerEffectWithTime(System.Int32,Char,System.Int32)
+// 0x00000831 System.Void ServerEffect::addServerEffectWithTime(System.Int32,Char,System.Int32)
 extern void ServerEffect_addServerEffectWithTime_m03547C91A9FD2CF520AE182C172D4C9475AE534C (void);
-// 0x00000828 System.Void ServerEffect::paint(mGraphics)
+// 0x00000832 System.Void ServerEffect::paint(mGraphics)
 extern void ServerEffect_paint_mBEC615C1A87B96AB2E1E94D9A56C63A76F8A11AB (void);
-// 0x00000829 System.Void ServerEffect::update()
+// 0x00000833 System.Void ServerEffect::update()
 extern void ServerEffect_update_mC3D241224F89A3BF5CC78EADF7A128C739395280 (void);
-// 0x0000082A System.Void ServerEffect::.ctor()
+// 0x00000834 System.Void ServerEffect::.ctor()
 extern void ServerEffect__ctor_m03A9FC8CD3026EF89CFE1FA8A128EDF80DD1A2A1 (void);
-// 0x0000082B System.Void ServerListScreen::.ctor()
+// 0x00000835 System.Void ServerListScreen::.ctor()
 extern void ServerListScreen__ctor_m3D67E5408A48A58C2B874859ABB8CAC8F1735E34 (void);
-// 0x0000082C System.Void ServerListScreen::createDeleteRMS()
+// 0x00000836 System.Void ServerListScreen::createDeleteRMS()
 extern void ServerListScreen_createDeleteRMS_m88925F201279E9B97D716B4E1F20F8DAE1C0D81F (void);
-// 0x0000082D System.Void ServerListScreen::initCommand()
+// 0x00000837 System.Void ServerListScreen::initCommand()
 extern void ServerListScreen_initCommand_m12D895083A264271CDD312BB6747FAB66B23FF14 (void);
-// 0x0000082E System.Void ServerListScreen::doUpdateServer()
+// 0x00000838 System.Void ServerListScreen::doUpdateServer()
 extern void ServerListScreen_doUpdateServer_m1945B17429D81A1D72BEEE6B6CDEB6FBD1619622 (void);
-// 0x0000082F System.Void ServerListScreen::getServerList(System.String)
+// 0x00000839 System.Void ServerListScreen::getServerList(System.String)
 extern void ServerListScreen_getServerList_m2DF0231F6C619F25E0896958D268E1B291BB28DB (void);
-// 0x00000830 System.Void ServerListScreen::paint(mGraphics)
+// 0x0000083A System.Void ServerListScreen::paint(mGraphics)
 extern void ServerListScreen_paint_m457D9A98C897B3D377A2157E6FC9D7A6B9ABF3E7 (void);
-// 0x00000831 System.Void ServerListScreen::selectServer()
+// 0x0000083B System.Void ServerListScreen::selectServer()
 extern void ServerListScreen_selectServer_m63685450DE04368EF757295C2FD7CEC63A807137 (void);
-// 0x00000832 System.Void ServerListScreen::update()
+// 0x0000083C System.Void ServerListScreen::update()
 extern void ServerListScreen_update_m10841568258D4F8A02ABA7E584E26F2D74596F66 (void);
-// 0x00000833 System.Void ServerListScreen::processInput()
+// 0x0000083D System.Void ServerListScreen::processInput()
 extern void ServerListScreen_processInput_m648A5CD46207D45B93F7F1598E7F244361B7CCA7 (void);
-// 0x00000834 System.Void ServerListScreen::updateDeleteData()
+// 0x0000083E System.Void ServerListScreen::updateDeleteData()
 extern void ServerListScreen_updateDeleteData_m63BD78B83F4BE0210F7C67D5AA155171E8E0130B (void);
-// 0x00000835 System.Void ServerListScreen::updateKey()
+// 0x0000083F System.Void ServerListScreen::updateKey()
 extern void ServerListScreen_updateKey_m3DA6F0102C3AC3A0CF8430268D05B8623788A830 (void);
-// 0x00000836 System.String ServerListScreen::Decrypt(System.Byte[])
+// 0x00000840 System.String ServerListScreen::Decrypt(System.Byte[])
 extern void ServerListScreen_Decrypt_m2CB8ED6AF88D3AC48D45CD9DEA3678C12964C663 (void);
-// 0x00000837 System.Void ServerListScreen::saveIP()
+// 0x00000841 System.Void ServerListScreen::saveIP()
 extern void ServerListScreen_saveIP_m85CBDA9210B7B5E32AB4BF4F1F646429D2F185FD (void);
-// 0x00000838 System.Boolean ServerListScreen::allServerConnected()
+// 0x00000842 System.Boolean ServerListScreen::allServerConnected()
 extern void ServerListScreen_allServerConnected_m8CA8F5B278F048CE13F0AB596B813AEFB2A7BC39 (void);
-// 0x00000839 System.Void ServerListScreen::loadIP()
+// 0x00000843 System.Void ServerListScreen::loadIP()
 extern void ServerListScreen_loadIP_m79F43824518FCED168AEBA5A8E32C7035F44EB82 (void);
-// 0x0000083A System.Void ServerListScreen::switchToMe()
+// 0x00000844 System.Void ServerListScreen::switchToMe()
 extern void ServerListScreen_switchToMe_mA0FE99AA0851FA32DBF4E33EE0041810CBA6F0DA (void);
-// 0x0000083B System.Void ServerListScreen::switchToMe2()
+// 0x00000845 System.Void ServerListScreen::switchToMe2()
 extern void ServerListScreen_switchToMe2_m7CA67389432B2D38C1E60474209E249E3785984D (void);
-// 0x0000083C System.Void ServerListScreen::connectOk()
+// 0x00000846 System.Void ServerListScreen::connectOk()
 extern void ServerListScreen_connectOk_m04937E5C80862E945DBCFC2E50E64FAB2FAA057F (void);
-// 0x0000083D System.Void ServerListScreen::cancel()
+// 0x00000847 System.Void ServerListScreen::cancel()
 extern void ServerListScreen_cancel_m1F2F65EA3C2BD3563D7B7569241E58F105C52AAB (void);
-// 0x0000083E System.Void ServerListScreen::perform(System.Int32,System.Object)
+// 0x00000848 System.Void ServerListScreen::perform(System.Int32,System.Object)
 extern void ServerListScreen_perform_mBF117BEF760E80C535D274DD9D321178C7E0A5D4 (void);
-// 0x0000083F System.Void ServerListScreen::init()
+// 0x00000849 System.Void ServerListScreen::init()
 extern void ServerListScreen_init_mA2BE7D24D329180D1B25890A3E914EAB854A2F98 (void);
-// 0x00000840 System.Void ServerListScreen::show2()
+// 0x0000084A System.Void ServerListScreen::show2()
 extern void ServerListScreen_show2_m75D78481E9A56B49A495029BB4EEDA6238128BFE (void);
-// 0x00000841 System.Void ServerListScreen::setLinkDefault(System.SByte)
+// 0x0000084B System.Void ServerListScreen::setLinkDefault(System.SByte)
 extern void ServerListScreen_setLinkDefault_m2A586B6AEB30528B377560E7262C17DD7A9B7298 (void);
-// 0x00000842 System.Void ServerListScreen::.cctor()
+// 0x0000084C System.Void ServerListScreen::.cctor()
 extern void ServerListScreen__cctor_mE096847146F621109785F61AC80A25DC041CFB88 (void);
-// 0x00000843 System.Void ServerListScreen/<>c::.cctor()
+// 0x0000084D System.Void ServerListScreen/<>c::.cctor()
 extern void U3CU3Ec__cctor_m1EDD03B5EAB27E6B118F33F13520A10683C49736 (void);
-// 0x00000844 System.Void ServerListScreen/<>c::.ctor()
+// 0x0000084E System.Void ServerListScreen/<>c::.ctor()
 extern void U3CU3Ec__ctor_m95CC8751E72E78BD2F070A62494905ED5D2E568D (void);
-// 0x00000845 System.Void ServerListScreen/<>c::<.ctor>b__46_0(System.String)
+// 0x0000084F System.Void ServerListScreen/<>c::<.ctor>b__46_0(System.String)
 extern void U3CU3Ec_U3C_ctorU3Eb__46_0_m8A7228DB3338F70209B02DA50CAFC5522FEBE099 (void);
-// 0x00000846 System.Void ServerScr::.ctor()
+// 0x00000850 System.Void ServerScr::.ctor()
 extern void ServerScr__ctor_mC1F3E3FE2F3290B0B6C7251281C0B01AB4587B2C (void);
-// 0x00000847 System.Void ServerScr::switchToMe()
+// 0x00000851 System.Void ServerScr::switchToMe()
 extern void ServerScr_switchToMe_m3F2D84D6DB076FE3CE0CEDDE20AAA8B1D8E04844 (void);
-// 0x00000848 System.Void ServerScr::update()
+// 0x00000852 System.Void ServerScr::update()
 extern void ServerScr_update_m40E57445F2B540FE00A1511E56C2A893E0790D88 (void);
-// 0x00000849 System.Void ServerScr::paint(mGraphics)
+// 0x00000853 System.Void ServerScr::paint(mGraphics)
 extern void ServerScr_paint_m7B37AA1D327C5F9BE2D645D06E338787C01347AC (void);
-// 0x0000084A System.Void ServerScr::updateKey()
+// 0x00000854 System.Void ServerScr::updateKey()
 extern void ServerScr_updateKey_m0716B57B62796AE6373D2DBFF24CADC75A441E8A (void);
-// 0x0000084B System.Void ServerScr::perform(System.Int32,System.Object)
+// 0x00000855 System.Void ServerScr::perform(System.Int32,System.Object)
 extern void ServerScr_perform_m70A9050BAA11C1D24A8827FC905FB68F19E459D7 (void);
-// 0x0000084C Service Service::gI()
+// 0x00000856 Service Service::gI()
 extern void Service_gI_m3CCADAF033AB9D23EEAE06445881D9557028CD32 (void);
-// 0x0000084D System.Void Service::gotoPlayer(System.Int32)
+// 0x00000857 System.Void Service::gotoPlayer(System.Int32)
 extern void Service_gotoPlayer_m6B76A7816D85DD76D3EC6378C78E86F7514B2AD3 (void);
-// 0x0000084E System.Void Service::androidPack()
+// 0x00000858 System.Void Service::androidPack()
 extern void Service_androidPack_m68E5AF9C65471D00C43B55283B9E8F9608F6980A (void);
-// 0x0000084F System.Void Service::charInfo(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+// 0x00000859 System.Void Service::charInfo(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
 extern void Service_charInfo_m02B15EFDE080F90901ABC225E07D09D13B704FE6 (void);
-// 0x00000850 System.Void Service::androidPack2()
+// 0x0000085A System.Void Service::androidPack2()
 extern void Service_androidPack2_mFC26BCA6745065D7536D417AA793783EBD18AC45 (void);
-// 0x00000851 System.Void Service::checkAd(System.SByte)
+// 0x0000085B System.Void Service::checkAd(System.SByte)
 extern void Service_checkAd_mC196BA6139A6C8AFE27CD8CDBAC3B58EA5CA6F10 (void);
-// 0x00000852 System.Void Service::combine(System.SByte,MyVector)
+// 0x0000085C System.Void Service::combine(System.SByte,MyVector)
 extern void Service_combine_m1F37CB9D4A9074CB622072DF87299341DAAD4273 (void);
-// 0x00000853 System.Void Service::giaodich(System.SByte,System.Int32,System.SByte,System.Int32)
+// 0x0000085D System.Void Service::giaodich(System.SByte,System.Int32,System.SByte,System.Int32)
 extern void Service_giaodich_mCF9288961A874F11A6C984BDC2C3052D6948D9B2 (void);
-// 0x00000854 System.Void Service::sendClientInput(TField[])
+// 0x0000085E System.Void Service::sendClientInput(TField[])
 extern void Service_sendClientInput_mCE6D6F5FB1DF5E9B286094AB839B5995A21FA828 (void);
-// 0x00000855 System.Void Service::speacialSkill(System.SByte)
+// 0x0000085F System.Void Service::speacialSkill(System.SByte)
 extern void Service_speacialSkill_m785F35AFB9717F034DE4DB90E12A8B955B848E20 (void);
-// 0x00000856 System.Void Service::test(System.Int16,System.Int16)
+// 0x00000860 System.Void Service::test(System.Int16,System.Int16)
 extern void Service_test_m042B8803BDA048F2F9615813E8862384BBE77473 (void);
-// 0x00000857 System.Void Service::test2()
+// 0x00000861 System.Void Service::test2()
 extern void Service_test2_m8A161B3E5AE9C1167F93541BEA3843875FA5C7CD (void);
-// 0x00000858 System.Void Service::testJoint()
+// 0x00000862 System.Void Service::testJoint()
 extern void Service_testJoint_m4AA7C06EA71B3A0BEFA8CA642C56A173DF56728B (void);
-// 0x00000859 System.Void Service::mobCapcha(System.Char)
+// 0x00000863 System.Void Service::mobCapcha(System.Char)
 extern void Service_mobCapcha_mBC46D659AD9843D26072B1A03992BDE43BAFD0FA (void);
-// 0x0000085A System.Void Service::friend(System.SByte,System.Int32)
+// 0x00000864 System.Void Service::friend(System.SByte,System.Int32)
 extern void Service_friend_mF5341FC7293208FD09E971E2249321AD9C3CD35E (void);
-// 0x0000085B System.Void Service::getArchivemnt(System.Int32)
+// 0x00000865 System.Void Service::getArchivemnt(System.Int32)
 extern void Service_getArchivemnt_mC7E777FBC919DAEFF41F2F6E3CDD8C9602168A19 (void);
-// 0x0000085C System.Void Service::getPlayerMenu(System.Int32)
+// 0x00000866 System.Void Service::getPlayerMenu(System.Int32)
 extern void Service_getPlayerMenu_mFEDA704E28851BDA8ADE9E3333596EF62E575FFD (void);
-// 0x0000085D System.Void Service::clanImage(System.SByte)
+// 0x00000867 System.Void Service::clanImage(System.SByte)
 extern void Service_clanImage_mF7592ABAF07ED346A9FAA5387E7E9715567F7A04 (void);
-// 0x0000085E System.Void Service::skill_not_focus(System.SByte)
+// 0x00000868 System.Void Service::skill_not_focus(System.SByte)
 extern void Service_skill_not_focus_m91FAB1AC98F2C051A85BC620E6785FDEB0B3591D (void);
-// 0x0000085F System.Void Service::clanDonate(System.Int32)
+// 0x00000869 System.Void Service::clanDonate(System.Int32)
 extern void Service_clanDonate_m4E6EDA80AA55EB811B973CA63F3DF2778EF930F7 (void);
-// 0x00000860 System.Void Service::clanMessage(System.Int32,System.String,System.Int32)
+// 0x0000086A System.Void Service::clanMessage(System.Int32,System.String,System.Int32)
 extern void Service_clanMessage_m2EF358A444422B9FBBFE23F95564A759D1DE8786 (void);
-// 0x00000861 System.Void Service::useItem(System.SByte,System.SByte,System.SByte,System.Int16)
+// 0x0000086B System.Void Service::useItem(System.SByte,System.SByte,System.SByte,System.Int16)
 extern void Service_useItem_mFA56BA220B569429436757BEC17757480C99F91E (void);
-// 0x00000862 System.Void Service::joinClan(System.Int32,System.SByte)
+// 0x0000086C System.Void Service::joinClan(System.Int32,System.SByte)
 extern void Service_joinClan_mC21600D77758CB277A64E5FCBE000037FA94BD93 (void);
-// 0x00000863 System.Void Service::clanMember(System.Int32)
+// 0x0000086D System.Void Service::clanMember(System.Int32)
 extern void Service_clanMember_mA598D20606EE25F489E5E09CEFC57086BE75581D (void);
-// 0x00000864 System.Void Service::searchClan(System.String)
+// 0x0000086E System.Void Service::searchClan(System.String)
 extern void Service_searchClan_mD361EB5FDA7BB2FF82079777736636A723BC665D (void);
-// 0x00000865 System.Void Service::requestClan(System.Int16)
+// 0x0000086F System.Void Service::requestClan(System.Int16)
 extern void Service_requestClan_m679E5C61434AE8597079207BA81E377409C0A00D (void);
-// 0x00000866 System.Void Service::clanRemote(System.Int32,System.SByte)
+// 0x00000870 System.Void Service::clanRemote(System.Int32,System.SByte)
 extern void Service_clanRemote_mD5F61D0B60DBEC51B198F1D04D6DFE72EB139C43 (void);
-// 0x00000867 System.Void Service::leaveClan()
+// 0x00000871 System.Void Service::leaveClan()
 extern void Service_leaveClan_m27CD164D653723A9753E4027A266DA8657DE10CA (void);
-// 0x00000868 System.Void Service::clanInvite(System.SByte,System.Int32,System.Int32,System.Int32)
+// 0x00000872 System.Void Service::clanInvite(System.SByte,System.Int32,System.Int32,System.Int32)
 extern void Service_clanInvite_mCA5CC2A5D9FAB2D2231A45B78BB5ACF2FCFFA90B (void);
-// 0x00000869 System.Void Service::getClan(System.SByte,System.SByte,System.String)
+// 0x00000873 System.Void Service::getClan(System.SByte,System.SByte,System.String)
 extern void Service_getClan_mC499C115BFBD7E9EFB622353C3D3350C66FDFD0B (void);
-// 0x0000086A System.Void Service::updateCaption(System.SByte)
+// 0x00000874 System.Void Service::updateCaption(System.SByte)
 extern void Service_updateCaption_m9986AD0850A9854B05F9BE1323F1807BD1919747 (void);
-// 0x0000086B System.Void Service::getItem(System.SByte,System.SByte)
+// 0x00000875 System.Void Service::getItem(System.SByte,System.SByte)
 extern void Service_getItem_m3E6B0F1C176F74D88B15DC5AA6219DE14091AF84 (void);
-// 0x0000086C System.Void Service::getTask(System.Int32,System.Int32,System.Int32)
+// 0x00000876 System.Void Service::getTask(System.Int32,System.Int32,System.Int32)
 extern void Service_getTask_mB35925EB44884E74AF134045B0DEFD0BBEC863F4 (void);
-// 0x0000086D Message Service::messageNotLogin(System.SByte)
+// 0x00000877 Message Service::messageNotLogin(System.SByte)
 extern void Service_messageNotLogin_m423608F4DA33CE467FC27447C541A21F3ADB5018 (void);
-// 0x0000086E Message Service::messageNotMap(System.SByte)
+// 0x00000878 Message Service::messageNotMap(System.SByte)
 extern void Service_messageNotMap_m98C3002EE5862C3F01FFFD410ECC2A75B6692186 (void);
-// 0x0000086F Message Service::messageSubCommand(System.SByte)
+// 0x00000879 Message Service::messageSubCommand(System.SByte)
 extern void Service_messageSubCommand_m63429114FD33A294192EDAB28C1447E758983E4C (void);
-// 0x00000870 System.Void Service::setClientType_()
+// 0x0000087A System.Void Service::setClientType_()
 extern void Service_setClientType__m2811651E9754C365F9C6962B09E1643BC69A4FBA (void);
-// 0x00000871 System.Void Service::setClientType2_()
+// 0x0000087B System.Void Service::setClientType2_()
 extern void Service_setClientType2__mCC5D63AE662DB7CC9CE32EAA5CD348955CF7110E (void);
-// 0x00000872 System.Void Service::setClientType()
+// 0x0000087C System.Void Service::setClientType()
 extern void Service_setClientType_mD8390A1CB8178636B963C26B3B988B5A5F894561 (void);
-// 0x00000873 System.Void Service::setClientType2()
+// 0x0000087D System.Void Service::setClientType2()
 extern void Service_setClientType2_m24C6A492B2B077DF226B99F6262C8EBBB6A3DF06 (void);
-// 0x00000874 System.Void Service::sendCheckController()
+// 0x0000087E System.Void Service::sendCheckController()
 extern void Service_sendCheckController_mF957D951E796A53D91FB1964B974D0E58BCB7F8C (void);
-// 0x00000875 System.Void Service::sendCheckMap()
+// 0x0000087F System.Void Service::sendCheckMap()
 extern void Service_sendCheckMap_m097E8C64AD3FF19EFE1F14C02BC0AA258DC66160 (void);
-// 0x00000876 System.Void Service::login(System.String,System.String,System.String,System.SByte)
+// 0x00000880 System.Void Service::login(System.String,System.String,System.String,System.SByte)
 extern void Service_login_mF850D5135399526913DF2F92102598D71C51F85B (void);
-// 0x00000877 System.Void Service::requestRegister(System.String,System.String,System.String,System.String,System.String)
+// 0x00000881 System.Void Service::requestRegister(System.String,System.String,System.String,System.String,System.String)
 extern void Service_requestRegister_m6618E84848E3E55BDFBBD0DFB3F6080E8B441F66 (void);
-// 0x00000878 System.Void Service::requestChangeMap()
+// 0x00000882 System.Void Service::requestChangeMap()
 extern void Service_requestChangeMap_m172ACEE94EB1D036F0F7CC3C89B3F1E626B6A44A (void);
-// 0x00000879 System.Void Service::magicTree(System.SByte)
+// 0x00000883 System.Void Service::magicTree(System.SByte)
 extern void Service_magicTree_m2419EF77991433862399594B6B795F5262261D98 (void);
-// 0x0000087A System.Void Service::requestChangeZone(System.Int32,System.Int32)
+// 0x00000884 System.Void Service::requestChangeZone(System.Int32,System.Int32)
 extern void Service_requestChangeZone_mE2F1CF77C4F0D04BF75E945AD2FA319F79631940 (void);
-// 0x0000087B System.Void Service::checkMMove(System.Int32)
+// 0x00000885 System.Void Service::checkMMove(System.Int32)
 extern void Service_checkMMove_m6B61E1666F7BEEBD4B689716D79D54D4A86FD83F (void);
-// 0x0000087C System.Void Service::charMove()
+// 0x00000886 System.Void Service::charMove()
 extern void Service_charMove_m31B59A38B3C84EB5C26193C4AE9BB4E8EA3D84C9 (void);
-// 0x0000087D System.Void Service::selectCharToPlay(System.String)
+// 0x00000887 System.Void Service::selectCharToPlay(System.String)
 extern void Service_selectCharToPlay_m4D6ABBEEA368C5692B0E340BECE5DA62F8C10C56 (void);
-// 0x0000087E System.Void Service::selectZone(System.SByte,System.Int32)
+// 0x00000888 System.Void Service::selectZone(System.SByte,System.Int32)
 extern void Service_selectZone_m20A48DB77CBD1BC7D5A571F0AE3653BBF89AF456 (void);
-// 0x0000087F System.Void Service::createChar(System.String,System.Int32,System.Int32)
+// 0x00000889 System.Void Service::createChar(System.String,System.Int32,System.Int32)
 extern void Service_createChar_m857FC3650895DE26CD9F56119587EF92BD83C63F (void);
-// 0x00000880 System.Void Service::requestModTemplate(System.Int32)
+// 0x0000088A System.Void Service::requestModTemplate(System.Int32)
 extern void Service_requestModTemplate_m6C394527D710711CD3CEAEAD457553710E15D671 (void);
-// 0x00000881 System.Void Service::requestNpcTemplate(System.Int32)
+// 0x0000088B System.Void Service::requestNpcTemplate(System.Int32)
 extern void Service_requestNpcTemplate_m611A25EAC5B0746CF816C62B17376DC777ADF1AC (void);
-// 0x00000882 System.Void Service::requestSkill(System.Int32)
+// 0x0000088C System.Void Service::requestSkill(System.Int32)
 extern void Service_requestSkill_m56CB6C27BB49A37E88D00AD8F774795BF62EAD38 (void);
-// 0x00000883 System.Void Service::requestItemInfo(System.Int32,System.Int32)
+// 0x0000088D System.Void Service::requestItemInfo(System.Int32,System.Int32)
 extern void Service_requestItemInfo_m42DD761C3BC95FC8CC2ABE282F6A75316C7FFDD0 (void);
-// 0x00000884 System.Void Service::requestItemPlayer(System.Int32,System.Int32)
+// 0x0000088E System.Void Service::requestItemPlayer(System.Int32,System.Int32)
 extern void Service_requestItemPlayer_m0327DD8502DA8C48C1F0172DD6D471156212AD71 (void);
-// 0x00000885 System.Void Service::upSkill(System.Int32,System.Int32)
+// 0x0000088F System.Void Service::upSkill(System.Int32,System.Int32)
 extern void Service_upSkill_m4094F52C4AA2750B8A2844EF8D5CF116B1855F8F (void);
-// 0x00000886 System.Void Service::saleItem(System.SByte,System.SByte,System.Int16)
+// 0x00000890 System.Void Service::saleItem(System.SByte,System.SByte,System.Int16)
 extern void Service_saleItem_mF8DB6FE4E4321A09519EC3C5A09803C1BD50B1A2 (void);
-// 0x00000887 System.Void Service::buyItem(System.SByte,System.Int32,System.Int32)
+// 0x00000891 System.Void Service::buyItem(System.SByte,System.Int32,System.Int32)
 extern void Service_buyItem_mF16F19853F25120CA31EE508251E1396A92E5C2D (void);
-// 0x00000888 System.Void Service::selectSkill(System.Int32)
+// 0x00000892 System.Void Service::selectSkill(System.Int32)
 extern void Service_selectSkill_m33143F9CD16D34BF6148DE78D89B0570F474F3AF (void);
-// 0x00000889 System.Void Service::getEffData(System.Int16)
+// 0x00000893 System.Void Service::getEffData(System.Int16)
 extern void Service_getEffData_mAE7E0B408907516A00186C5F067F308F8FA495BC (void);
-// 0x0000088A System.Void Service::openUIZone()
+// 0x00000894 System.Void Service::openUIZone()
 extern void Service_openUIZone_m262EC8AC4E5C3D5B3EEE081CB3AA801F9E0EFABE (void);
-// 0x0000088B System.Void Service::confirmMenu(System.Int16,System.SByte)
+// 0x00000895 System.Void Service::confirmMenu(System.Int16,System.SByte)
 extern void Service_confirmMenu_m78FE4E00C650D632FAE4E54C31C84A57EC139AE4 (void);
-// 0x0000088C System.Void Service::openMenu(System.Int32)
+// 0x00000896 System.Void Service::openMenu(System.Int32)
 extern void Service_openMenu_m23A2DD3BACB09B61BDB692E2360C155D59CE9773 (void);
-// 0x0000088D System.Void Service::menu(System.Int32,System.Int32,System.Int32)
+// 0x00000897 System.Void Service::menu(System.Int32,System.Int32,System.Int32)
 extern void Service_menu_m5001B2EEB2CBA8DB1F557329328EE0EE3B29747A (void);
-// 0x0000088E System.Void Service::menuId(System.Int16)
+// 0x00000898 System.Void Service::menuId(System.Int16)
 extern void Service_menuId_m205C9AEF00B5A2F86EFD9BAA6B97F59C412CDDB5 (void);
-// 0x0000088F System.Void Service::textBoxId(System.Int16,System.String)
+// 0x00000899 System.Void Service::textBoxId(System.Int16,System.String)
 extern void Service_textBoxId_mA238E0B1406249200C52E04F9EB47084B32E2278 (void);
-// 0x00000890 System.Void Service::requestItem(System.Int32)
+// 0x0000089A System.Void Service::requestItem(System.Int32)
 extern void Service_requestItem_m06DC354F944DFCE988DE10D733EC8CCF09123F23 (void);
-// 0x00000891 System.Void Service::boxSort()
+// 0x0000089B System.Void Service::boxSort()
 extern void Service_boxSort_m9495909FF368A3CBF2EF19079561B0FEA8E2E5A7 (void);
-// 0x00000892 System.Void Service::boxCoinOut(System.Int32)
+// 0x0000089C System.Void Service::boxCoinOut(System.Int32)
 extern void Service_boxCoinOut_m721A1FEB697CE093B5A3661A18F30D3138AF3F4F (void);
-// 0x00000893 System.Void Service::upgradeItem(Item,Item[],System.Boolean)
+// 0x0000089D System.Void Service::upgradeItem(Item,Item[],System.Boolean)
 extern void Service_upgradeItem_mE006AD874E4440DF410BFEC2E3570006DB9395D7 (void);
-// 0x00000894 System.Void Service::crystalCollectLock(Item[])
+// 0x0000089E System.Void Service::crystalCollectLock(Item[])
 extern void Service_crystalCollectLock_m4B0A57CCA2C4CD82F44767AB30FE42A89E31DB9F (void);
-// 0x00000895 System.Void Service::acceptInviteTrade(System.Int32)
+// 0x0000089F System.Void Service::acceptInviteTrade(System.Int32)
 extern void Service_acceptInviteTrade_m9053E6727183AEE5BA2B303D7AD9CC38D0C551C6 (void);
-// 0x00000896 System.Void Service::cancelInviteTrade()
+// 0x000008A0 System.Void Service::cancelInviteTrade()
 extern void Service_cancelInviteTrade_m38A04D137E061D2EAEEF460963972E81C439E6B4 (void);
-// 0x00000897 System.Void Service::tradeAccept()
+// 0x000008A1 System.Void Service::tradeAccept()
 extern void Service_tradeAccept_mC3EAFDC9FA483578B4A384AAC7355BD31F5CA173 (void);
-// 0x00000898 System.Void Service::tradeItemLock(System.Int32,Item[])
+// 0x000008A2 System.Void Service::tradeItemLock(System.Int32,Item[])
 extern void Service_tradeItemLock_mCA3A6071309534E57931A6725F6DE452E690B719 (void);
-// 0x00000899 System.Void Service::sendPlayerAttack(MyVector,MyVector,System.Int32)
+// 0x000008A3 System.Void Service::sendPlayerAttack(MyVector,MyVector,System.Int32)
 extern void Service_sendPlayerAttack_m35A5F5FB351A0B48DA8BB45D01396901E531F13F (void);
-// 0x0000089A System.Void Service::pickItem(System.Int32)
+// 0x000008A4 System.Void Service::pickItem(System.Int32)
 extern void Service_pickItem_m0685CDFE1C0EC7C30714CEB46CA1FD929310F974 (void);
-// 0x0000089B System.Void Service::throwItem(System.Int32)
+// 0x000008A5 System.Void Service::throwItem(System.Int32)
 extern void Service_throwItem_mD461FCA97746A6335C204C42809BD9239E01A6CE (void);
-// 0x0000089C System.Void Service::returnTownFromDead()
+// 0x000008A6 System.Void Service::returnTownFromDead()
 extern void Service_returnTownFromDead_m3B1DF4AA2D38480044A9447D333CC47283366A35 (void);
-// 0x0000089D System.Void Service::wakeUpFromDead()
+// 0x000008A7 System.Void Service::wakeUpFromDead()
 extern void Service_wakeUpFromDead_m22CEADA4D3823935DDF56E2875E08698617A46B1 (void);
-// 0x0000089E System.Void Service::chat(System.String)
+// 0x000008A8 System.Void Service::chat(System.String)
 extern void Service_chat_m4686CB63DF092E51F66AF120DC128298323D777D (void);
-// 0x0000089F System.Void Service::updateData()
+// 0x000008A9 System.Void Service::updateData()
 extern void Service_updateData_m51C96DE2686D23EA24FFC7444B6949A24EB1699C (void);
-// 0x000008A0 System.Void Service::updateMap()
+// 0x000008AA System.Void Service::updateMap()
 extern void Service_updateMap_m417012C6E54B6FCFBBB2D30E41EB2442C51EF1DA (void);
-// 0x000008A1 System.Void Service::updateSkill()
+// 0x000008AB System.Void Service::updateSkill()
 extern void Service_updateSkill_m6BFB0996F2720CFFD6EF0666B9DD116C06ADB993 (void);
-// 0x000008A2 System.Void Service::updateItem()
+// 0x000008AC System.Void Service::updateItem()
 extern void Service_updateItem_mCB45A72F50F30D8EEA92446EC4DDA4732CA852A8 (void);
-// 0x000008A3 System.Void Service::clientOk()
+// 0x000008AD System.Void Service::clientOk()
 extern void Service_clientOk_m3031A357B047673B6293253105C1BA731766FAC7 (void);
-// 0x000008A4 System.Void Service::tradeInvite(System.Int32)
+// 0x000008AE System.Void Service::tradeInvite(System.Int32)
 extern void Service_tradeInvite_mD2DAD44E42706A880A801B3CCA50FF7D9918852E (void);
-// 0x000008A5 System.Void Service::addFriend(System.String)
+// 0x000008AF System.Void Service::addFriend(System.String)
 extern void Service_addFriend_m8698A9238446C4CA6FAA064C57C022089E7E68CB (void);
-// 0x000008A6 System.Void Service::addPartyAccept(System.Int32)
+// 0x000008B0 System.Void Service::addPartyAccept(System.Int32)
 extern void Service_addPartyAccept_m73396E9AABF34C8CA5DA62C8E69A0D3905448128 (void);
-// 0x000008A7 System.Void Service::addPartyCancel(System.Int32)
+// 0x000008B1 System.Void Service::addPartyCancel(System.Int32)
 extern void Service_addPartyCancel_m2AECD9EA835DBD8D4A56A60A9AD62225A65CC37A (void);
-// 0x000008A8 System.Void Service::testInvite(System.Int32)
+// 0x000008B2 System.Void Service::testInvite(System.Int32)
 extern void Service_testInvite_m7F6B022A2DC9453A244DA0C81FC6D1F89806C5C1 (void);
-// 0x000008A9 System.Void Service::addCuuSat(System.Int32)
+// 0x000008B3 System.Void Service::addCuuSat(System.Int32)
 extern void Service_addCuuSat_m7E765B6C5F6F9BD0FB0AD0990A47932EA322026C (void);
-// 0x000008AA System.Void Service::addParty(System.String)
+// 0x000008B4 System.Void Service::addParty(System.String)
 extern void Service_addParty_mF377123C3ECF3F24C25B3F1090F577E5E66FB437 (void);
-// 0x000008AB System.Void Service::player_vs_player(System.SByte,System.SByte,System.Int32)
+// 0x000008B5 System.Void Service::player_vs_player(System.SByte,System.SByte,System.Int32)
 extern void Service_player_vs_player_mF5C53193CB4D30E5BEC94AEB1A54DCE187401226 (void);
-// 0x000008AC System.Void Service::requestMaptemplate(System.Int32)
+// 0x000008B6 System.Void Service::requestMaptemplate(System.Int32)
 extern void Service_requestMaptemplate_m64308E06E1142DF08A9045B8D082A9F17C5F7827 (void);
-// 0x000008AD System.Void Service::outParty()
+// 0x000008B7 System.Void Service::outParty()
 extern void Service_outParty_mCD40BE49660AC7EB4A20FA298746054FFA4F2A10 (void);
-// 0x000008AE System.Void Service::requestPlayerInfo(MyVector)
+// 0x000008B8 System.Void Service::requestPlayerInfo(MyVector)
 extern void Service_requestPlayerInfo_m485D832B826D48E1730B96C9A4FCD2AD07A7A767 (void);
-// 0x000008AF System.Void Service::pleaseInputParty(System.String)
+// 0x000008B9 System.Void Service::pleaseInputParty(System.String)
 extern void Service_pleaseInputParty_m81B49C27675A778F4D03A018A725368093C64BF7 (void);
-// 0x000008B0 System.Void Service::acceptPleaseParty(System.String)
+// 0x000008BA System.Void Service::acceptPleaseParty(System.String)
 extern void Service_acceptPleaseParty_m667454C7D677AFD2EFA59B11D8D6E72A1A2A2D7E (void);
-// 0x000008B1 System.Void Service::chatPlayer(System.String,System.Int32)
+// 0x000008BB System.Void Service::chatPlayer(System.String,System.Int32)
 extern void Service_chatPlayer_m9271ADA0B7DBCE75CD7EE928CE53441C07C98E52 (void);
-// 0x000008B2 System.Void Service::chatGlobal(System.String)
+// 0x000008BC System.Void Service::chatGlobal(System.String)
 extern void Service_chatGlobal_mDF3C1613737D997D4F2B056C25A2DA31822C7ECA (void);
-// 0x000008B3 System.Void Service::chatPrivate(System.String,System.String)
+// 0x000008BD System.Void Service::chatPrivate(System.String,System.String)
 extern void Service_chatPrivate_mFF1B1C6E84E4AA58D98C71051AA3DFA62AF1905B (void);
-// 0x000008B4 System.Void Service::sendCardInfo(System.String,System.String)
+// 0x000008BE System.Void Service::sendCardInfo(System.String,System.String)
 extern void Service_sendCardInfo_m14AE74C76AC5B4457417E1E1DBE6CDC84A662975 (void);
-// 0x000008B5 System.Void Service::saveRms(System.String,System.SByte[])
+// 0x000008BF System.Void Service::saveRms(System.String,System.SByte[])
 extern void Service_saveRms_m30C39E2FFA7DC6C940AFF8963570247BD85EBDCB (void);
-// 0x000008B6 System.Void Service::loadRMS(System.String)
+// 0x000008C0 System.Void Service::loadRMS(System.String)
 extern void Service_loadRMS_m94950C801D4AB5D8DE1856659F266D3A02A49615 (void);
-// 0x000008B7 System.Void Service::clearTask()
+// 0x000008C1 System.Void Service::clearTask()
 extern void Service_clearTask_m313BC0D84C960A0C40419DD7330FFDEF5C7E1A52 (void);
-// 0x000008B8 System.Void Service::changeName(System.String,System.Int32)
+// 0x000008C2 System.Void Service::changeName(System.String,System.Int32)
 extern void Service_changeName_m1738B645A212A5990811E599602501D6F3F9E6EB (void);
-// 0x000008B9 System.Void Service::requestIcon(System.Int32)
+// 0x000008C3 System.Void Service::requestIcon(System.Int32)
 extern void Service_requestIcon_m5F89EB9C805D21007192467A623DC576C959169A (void);
-// 0x000008BA System.Void Service::doConvertUpgrade(System.Int32,System.Int32,System.Int32)
+// 0x000008C4 System.Void Service::doConvertUpgrade(System.Int32,System.Int32,System.Int32)
 extern void Service_doConvertUpgrade_m8E642615E84329D45C3907E6BDAAE51CDBEE74AF (void);
-// 0x000008BB System.Void Service::inviteClanDun(System.String)
+// 0x000008C5 System.Void Service::inviteClanDun(System.String)
 extern void Service_inviteClanDun_mC472F29BF1FEEBCE50A43A7DB32E34805AA3141F (void);
-// 0x000008BC System.Void Service::inputNumSplit(System.Int32,System.Int32)
+// 0x000008C6 System.Void Service::inputNumSplit(System.Int32,System.Int32)
 extern void Service_inputNumSplit_m4266E6A25B5206ED6E6A3EB009DE8337EA87AD8D (void);
-// 0x000008BD System.Void Service::activeAccProtect(System.Int32)
+// 0x000008C7 System.Void Service::activeAccProtect(System.Int32)
 extern void Service_activeAccProtect_m39180815BC984C296E1556C65B1233351A8DA4E1 (void);
-// 0x000008BE System.Void Service::clearAccProtect(System.Int32)
+// 0x000008C8 System.Void Service::clearAccProtect(System.Int32)
 extern void Service_clearAccProtect_mD6635E7C94DF7BA99A7DCF6DCD222B0B16E0953F (void);
-// 0x000008BF System.Void Service::updateActive(System.Int32,System.Int32)
+// 0x000008C9 System.Void Service::updateActive(System.Int32,System.Int32)
 extern void Service_updateActive_mE917921565CC83CC83633A5E7FE7197E0AA34BD4 (void);
-// 0x000008C0 System.Void Service::openLockAccProtect(System.Int32)
+// 0x000008CA System.Void Service::openLockAccProtect(System.Int32)
 extern void Service_openLockAccProtect_mA917329EA5B1675895C66B60D10CFCB527254D40 (void);
-// 0x000008C1 System.Void Service::getBgTemplate(System.Int16)
+// 0x000008CB System.Void Service::getBgTemplate(System.Int16)
 extern void Service_getBgTemplate_m45742A75B593777F5C40D94F7135CE863C98F3A8 (void);
-// 0x000008C2 System.Void Service::getMapOffline()
+// 0x000008CC System.Void Service::getMapOffline()
 extern void Service_getMapOffline_m0550D9D0A1E07D6814E2A1B952E918FF81B56B0A (void);
-// 0x000008C3 System.Void Service::finishUpdate()
+// 0x000008CD System.Void Service::finishUpdate()
 extern void Service_finishUpdate_m7BFB473B8E0A240D6FB11B789CE14F9770557F13 (void);
-// 0x000008C4 System.Void Service::finishLoadMap()
+// 0x000008CE System.Void Service::finishLoadMap()
 extern void Service_finishLoadMap_m26A9CCA12FA10606705C08AA5E90FB847999AA6B (void);
-// 0x000008C5 System.Void Service::getChest(System.SByte)
+// 0x000008CF System.Void Service::getChest(System.SByte)
 extern void Service_getChest_m8128A123B18100B732D4EB8461CAB0DA3B0D048C (void);
-// 0x000008C6 System.Void Service::requestBagImage(System.SByte)
+// 0x000008D0 System.Void Service::requestBagImage(System.SByte)
 extern void Service_requestBagImage_m358250A471097685D0198D8422639F283AE03ABC (void);
-// 0x000008C7 System.Void Service::getBag(System.SByte)
+// 0x000008D1 System.Void Service::getBag(System.SByte)
 extern void Service_getBag_m0B782F1554539372EEC4953528C7FF5FA27C95BD (void);
-// 0x000008C8 System.Void Service::getBody(System.SByte)
+// 0x000008D2 System.Void Service::getBody(System.SByte)
 extern void Service_getBody_mBEC0344A0C5FC0A349D5AF0A01035A9D8FBEB58C (void);
-// 0x000008C9 System.Void Service::login2(System.String)
+// 0x000008D3 System.Void Service::login2(System.String)
 extern void Service_login2_mB9955F133DE3A866CA31E069C943CF6A6D43249A (void);
-// 0x000008CA System.Void Service::getMagicTree(System.SByte)
+// 0x000008D4 System.Void Service::getMagicTree(System.SByte)
 extern void Service_getMagicTree_mDC084F338D73FD4DD089FE0987738EB5E975EB75 (void);
-// 0x000008CB System.Void Service::upPotential(System.Int32,System.Int32)
+// 0x000008D5 System.Void Service::upPotential(System.Int32,System.Int32)
 extern void Service_upPotential_m77903A7AC8EEA65FA9E9E1F681D45267F1C24116 (void);
-// 0x000008CC System.Void Service::getResource(System.SByte,MyVector)
+// 0x000008D6 System.Void Service::getResource(System.SByte,MyVector)
 extern void Service_getResource_m2DB9A746C3D3A25EE23447B149E673BA4A7E2DA1 (void);
-// 0x000008CD System.Void Service::requestMapSelect(System.Int32)
+// 0x000008D7 System.Void Service::requestMapSelect(System.Int32)
 extern void Service_requestMapSelect_mCD75BEF794A3FEBA517DD1D493038F62BB0A850A (void);
-// 0x000008CE System.Void Service::petInfo()
+// 0x000008D8 System.Void Service::petInfo()
 extern void Service_petInfo_mC6E6DF38D7D8802A534AA473D37BC1E029AC7C92 (void);
-// 0x000008CF System.Void Service::sendTop(System.String,System.SByte)
+// 0x000008D9 System.Void Service::sendTop(System.String,System.SByte)
 extern void Service_sendTop_m846EFB78E70767F731E5468867BA1482D3FBC7E7 (void);
-// 0x000008D0 System.Void Service::enemy(System.SByte,System.Int32)
+// 0x000008DA System.Void Service::enemy(System.SByte,System.Int32)
 extern void Service_enemy_m131593B64BADEEFDEA81212B2541A3260AF75732 (void);
-// 0x000008D1 System.Void Service::kigui(System.SByte,System.Int32,System.SByte,System.Int32,System.Int32)
+// 0x000008DB System.Void Service::kigui(System.SByte,System.Int32,System.SByte,System.Int32,System.Int32)
 extern void Service_kigui_m80193710C52EBE22837249F981D584CD3D90AD02 (void);
-// 0x000008D2 System.Void Service::getFlag(System.SByte,System.SByte)
+// 0x000008DC System.Void Service::getFlag(System.SByte,System.SByte)
 extern void Service_getFlag_m60CD57E15C93AA19D0C11D9B00AD7B6C458491D0 (void);
-// 0x000008D3 System.Void Service::setLockInventory(System.Int32)
+// 0x000008DD System.Void Service::setLockInventory(System.Int32)
 extern void Service_setLockInventory_m94A0E5EC9B76DC0D3104AB1E9882FDA0DCC39C7D (void);
-// 0x000008D4 System.Void Service::petStatus(System.SByte)
+// 0x000008DE System.Void Service::petStatus(System.SByte)
 extern void Service_petStatus_m51C24E5EC0551E951FC2FFAF4D3D7C04E8E4DA1E (void);
-// 0x000008D5 System.Void Service::transportNow()
+// 0x000008DF System.Void Service::transportNow()
 extern void Service_transportNow_m4807F18DB3A6CE7F3E3A5BBB4901B5D65A3CB424 (void);
-// 0x000008D6 System.Void Service::funsion(System.SByte)
+// 0x000008E0 System.Void Service::funsion(System.SByte)
 extern void Service_funsion_m96313B3306032955BE84DEC2A75387F77089CA01 (void);
-// 0x000008D7 System.Void Service::imageSource(MyVector)
+// 0x000008E1 System.Void Service::imageSource(MyVector)
 extern void Service_imageSource_mAEC84D0E60260981263AF5F9A6DAA9B067274DCA (void);
-// 0x000008D8 System.Void Service::getQuayso()
+// 0x000008E2 System.Void Service::getQuayso()
 extern void Service_getQuayso_m08D99F866309DF755C11FBCC9D3C5D1E6C2E077E (void);
-// 0x000008D9 System.Void Service::sendServerData(System.SByte,System.Int32,System.SByte[])
+// 0x000008E3 System.Void Service::sendServerData(System.SByte,System.Int32,System.SByte[])
 extern void Service_sendServerData_m6B824D1B8B07B2994F51F8FAC68F3F29FF92A340 (void);
-// 0x000008DA System.Void Service::changeOnKeyScr(System.SByte[])
+// 0x000008E4 System.Void Service::changeOnKeyScr(System.SByte[])
 extern void Service_changeOnKeyScr_m43F0BBD5953A993B25EB9B17E875E58C31AC3B5F (void);
-// 0x000008DB System.Void Service::requestPean()
+// 0x000008E5 System.Void Service::requestPean()
 extern void Service_requestPean_m2709CF001A18DD5933EF00E0655AD75785F3CB59 (void);
-// 0x000008DC System.Void Service::sendThachDau(System.Int32)
+// 0x000008E6 System.Void Service::sendThachDau(System.Int32)
 extern void Service_sendThachDau_m036E6C3B7BC69FC192AB082617933BA2FE3028C3 (void);
-// 0x000008DD System.Void Service::messagePlayerMenu(System.Int32)
+// 0x000008E7 System.Void Service::messagePlayerMenu(System.Int32)
 extern void Service_messagePlayerMenu_m7A4FAABCBBC52F87069BA3CDD4EDD76B873E506F (void);
-// 0x000008DE System.Void Service::playerMenuAction(System.Int32,System.Int16)
+// 0x000008E8 System.Void Service::playerMenuAction(System.Int32,System.Int16)
 extern void Service_playerMenuAction_m523D9524E7B7E4F4A2A0CD527EF62DE0B06F8B0E (void);
-// 0x000008DF System.Void Service::getImgByName(System.String)
+// 0x000008E9 System.Void Service::getImgByName(System.String)
 extern void Service_getImgByName_m3F11167264685F30588FEA56098C724D187B8AEE (void);
-// 0x000008E0 System.Void Service::SendCrackBall(System.Byte,System.Byte)
+// 0x000008EA System.Void Service::SendCrackBall(System.Byte,System.Byte)
 extern void Service_SendCrackBall_mF0228642C8B347264162827A31A6045CC6AFDC85 (void);
-// 0x000008E1 System.Void Service::SendRada(System.Int32,System.Int32)
+// 0x000008EB System.Void Service::SendRada(System.Int32,System.Int32)
 extern void Service_SendRada_m41F1EF8DD9BA0C283694F93DE3833865B8295EE3 (void);
-// 0x000008E2 System.Void Service::sendOptHat()
+// 0x000008EC System.Void Service::sendOptHat()
 extern void Service_sendOptHat_m721BD8E18A62E551B7DD36D8D5EC128DECC52CE5 (void);
-// 0x000008E3 System.Void Service::sendDelAcc()
+// 0x000008ED System.Void Service::sendDelAcc()
 extern void Service_sendDelAcc_m7309B1780BD23A1E3836BEE2DD0FF87C786CBF13 (void);
-// 0x000008E4 System.Void Service::new_skill_not_focus(System.SByte,System.SByte,System.Int16,System.Int16)
+// 0x000008EE System.Void Service::new_skill_not_focus(System.SByte,System.SByte,System.Int16,System.Int16)
 extern void Service_new_skill_not_focus_mF038A67B0B2F330707F14D7B20A87E2B41749663 (void);
-// 0x000008E5 System.Void Service::.ctor()
+// 0x000008EF System.Void Service::.ctor()
 extern void Service__ctor_m688A2B93AA806954E6FBC9E710FEF7E3E52CFDDE (void);
-// 0x000008E6 System.Void Service::.cctor()
+// 0x000008F0 System.Void Service::.cctor()
 extern void Service__cctor_mE362EC0FED162AAFF04A298B7D7E80DD22D67642 (void);
-// 0x000008E7 System.Void Session_ME::.ctor()
+// 0x000008F1 System.Void Session_ME::.ctor()
 extern void Session_ME__ctor_mC7D5CBAEF68FE44CE4461AC13A9CF834B75E03C5 (void);
-// 0x000008E8 System.Void Session_ME::clearSendingMessage()
+// 0x000008F2 System.Void Session_ME::clearSendingMessage()
 extern void Session_ME_clearSendingMessage_m697C4B05B5B4953EA2DDE559DAF0810C19DAE692 (void);
-// 0x000008E9 Session_ME Session_ME::gI()
+// 0x000008F3 Session_ME Session_ME::gI()
 extern void Session_ME_gI_m08EE51E01B34D2C15C6BA5D68AF6B05C2A74CB76 (void);
-// 0x000008EA System.Boolean Session_ME::isConnected()
+// 0x000008F4 System.Boolean Session_ME::isConnected()
 extern void Session_ME_isConnected_mDA83BFCEDD0D124FB743C10F2ED83F8721AE0B42 (void);
-// 0x000008EB System.Void Session_ME::setHandler(IMessageHandler)
+// 0x000008F5 System.Void Session_ME::setHandler(IMessageHandler)
 extern void Session_ME_setHandler_m5F91DF21B240766BF01A2F39A732DF056209656A (void);
-// 0x000008EC System.Void Session_ME::connect(System.String,System.Int32)
+// 0x000008F6 System.Void Session_ME::connect(System.String,System.Int32)
 extern void Session_ME_connect_m0E076843E8DE5700B9F98FA9797A8C5B33C96F32 (void);
-// 0x000008ED System.Void Session_ME::NetworkInit()
+// 0x000008F7 System.Void Session_ME::NetworkInit()
 extern void Session_ME_NetworkInit_m6CF770637CCAC481C9C154ED345BE1A0711CE67C (void);
-// 0x000008EE System.Void Session_ME::doConnect(System.String,System.Int32)
+// 0x000008F8 System.Void Session_ME::doConnect(System.String,System.Int32)
 extern void Session_ME_doConnect_mE707FDA0A377CF62F807E25798F16A54544BF053 (void);
-// 0x000008EF System.Void Session_ME::sendMessage(Message)
+// 0x000008F9 System.Void Session_ME::sendMessage(Message)
 extern void Session_ME_sendMessage_m35FB31196C653B3F1B2146D0A9E17305E05896B4 (void);
-// 0x000008F0 System.Void Session_ME::doSendMessage(Message)
+// 0x000008FA System.Void Session_ME::doSendMessage(Message)
 extern void Session_ME_doSendMessage_m60070E3C47E666EE472709C68FB35040C6A68D81 (void);
-// 0x000008F1 System.Void Session_ME::doSendMessage2(Message)
+// 0x000008FB System.Void Session_ME::doSendMessage2(Message)
 extern void Session_ME_doSendMessage2_m4BBA425284EDB349EFF9E4A1AF48BA144B57DAE9 (void);
-// 0x000008F2 System.SByte Session_ME::readKey(System.SByte)
+// 0x000008FC System.SByte Session_ME::readKey(System.SByte)
 extern void Session_ME_readKey_m8236AF91FDB1A4BD61355FB281B95F510E8D9447 (void);
-// 0x000008F3 System.SByte Session_ME::writeKey(System.SByte)
+// 0x000008FD System.SByte Session_ME::writeKey(System.SByte)
 extern void Session_ME_writeKey_m59D2B7C233D7080EE0F545D5FCFF4E7234EDF878 (void);
-// 0x000008F4 System.Void Session_ME::onRecieveMsg(Message)
+// 0x000008FE System.Void Session_ME::onRecieveMsg(Message)
 extern void Session_ME_onRecieveMsg_m0DBDD0E34EF257BCB9D93F636C8D410CDF14449A (void);
-// 0x000008F5 System.Void Session_ME::update()
+// 0x000008FF System.Void Session_ME::update()
 extern void Session_ME_update_m2B911BE6842077A7FC788FA6C7101EFED1C38928 (void);
-// 0x000008F6 System.Void Session_ME::close()
+// 0x00000900 System.Void Session_ME::close()
 extern void Session_ME_close_m9E8E26F3FDCF4543183F1A9870E23B49CE5DA828 (void);
-// 0x000008F7 System.Void Session_ME::cleanNetwork()
+// 0x00000901 System.Void Session_ME::cleanNetwork()
 extern void Session_ME_cleanNetwork_m02E012D683A570410873F8211126C435C87A87DD (void);
-// 0x000008F8 System.Int32 Session_ME::currentTimeMillis()
+// 0x00000902 System.Int32 Session_ME::currentTimeMillis()
 extern void Session_ME_currentTimeMillis_m057ADCC9BB33FBF8E4C509BEF50C79A1DA8872C8 (void);
-// 0x000008F9 System.Byte Session_ME::convertSbyteToByte(System.SByte)
+// 0x00000903 System.Byte Session_ME::convertSbyteToByte(System.SByte)
 extern void Session_ME_convertSbyteToByte_mCFDD5072985415D9444763B7216B1B0C321942F8 (void);
-// 0x000008FA System.Byte[] Session_ME::convertSbyteToByte(System.SByte[])
+// 0x00000904 System.Byte[] Session_ME::convertSbyteToByte(System.SByte[])
 extern void Session_ME_convertSbyteToByte_m67360493A77BC1DF5BAE67F6CC21773662ED22D5 (void);
-// 0x000008FB System.Void Session_ME::.cctor()
+// 0x00000905 System.Void Session_ME::.cctor()
 extern void Session_ME__cctor_m659B3B5FA02F2836D4B8ECDA29F73995601E3302 (void);
-// 0x000008FC System.Void Session_ME/Sender::.ctor()
+// 0x00000906 System.Void Session_ME/Sender::.ctor()
 extern void Sender__ctor_mC6018F7253F7878EAF36E01A2593E32707B2A9F6 (void);
-// 0x000008FD System.Void Session_ME/Sender::AddMessage(Message)
+// 0x00000907 System.Void Session_ME/Sender::AddMessage(Message)
 extern void Sender_AddMessage_mE80F5E095646DE4E4ED2D36F12A33A037C37F852 (void);
-// 0x000008FE System.Void Session_ME/Sender::run()
+// 0x00000908 System.Void Session_ME/Sender::run()
 extern void Sender_run_m1D7298E88B6A9B35686FEBA5D4AF6E5636879AA6 (void);
-// 0x000008FF System.Void Session_ME/MessageCollector::run()
+// 0x00000909 System.Void Session_ME/MessageCollector::run()
 extern void MessageCollector_run_mD412587FB63A17D3294ABAA7E580105441D9C97B (void);
-// 0x00000900 System.Void Session_ME/MessageCollector::getKey(Message)
+// 0x0000090A System.Void Session_ME/MessageCollector::getKey(Message)
 extern void MessageCollector_getKey_mB2BD5C810FDA5B13C8364A7EEEF6B0189119135D (void);
-// 0x00000901 System.Void Session_ME/MessageCollector::getKeyV2(Message)
+// 0x0000090B System.Void Session_ME/MessageCollector::getKeyV2(Message)
 extern void MessageCollector_getKeyV2_m8FAA6E5801D27FC6B661C307D3260931F9B6007E (void);
-// 0x00000902 Message Session_ME/MessageCollector::readMessage2(System.SByte)
+// 0x0000090C Message Session_ME/MessageCollector::readMessage2(System.SByte)
 extern void MessageCollector_readMessage2_mF76383E0C6FB3C48DF6D28ABF289C3146C6A1B3C (void);
-// 0x00000903 Message Session_ME/MessageCollector::readMessage()
+// 0x0000090D Message Session_ME/MessageCollector::readMessage()
 extern void MessageCollector_readMessage_m56ECD37B76C0C7B839640338DFF75CA834CF0D24 (void);
-// 0x00000904 System.Void Session_ME/MessageCollector::.ctor()
+// 0x0000090E System.Void Session_ME/MessageCollector::.ctor()
 extern void MessageCollector__ctor_mEF3DB7120315D15E1BFD5DE22F0C9438C494A764 (void);
-// 0x00000905 System.Void Session_ME2::.ctor()
+// 0x0000090F System.Void Session_ME2::.ctor()
 extern void Session_ME2__ctor_m81177E155FB77DB80EAD61DDAC26FBE71C52BDCF (void);
-// 0x00000906 System.Void Session_ME2::clearSendingMessage()
+// 0x00000910 System.Void Session_ME2::clearSendingMessage()
 extern void Session_ME2_clearSendingMessage_m0EB2C010C4D57D11E573FB0D734C74D9D5C9A9B7 (void);
-// 0x00000907 Session_ME2 Session_ME2::gI()
+// 0x00000911 Session_ME2 Session_ME2::gI()
 extern void Session_ME2_gI_m5952BA066D6A86FA59EDABC88564DF04289709B6 (void);
-// 0x00000908 System.Boolean Session_ME2::isConnected()
+// 0x00000912 System.Boolean Session_ME2::isConnected()
 extern void Session_ME2_isConnected_m6F8F893604C10D90C916BD4D322FED0BEC1DF04E (void);
-// 0x00000909 System.Void Session_ME2::setHandler(IMessageHandler)
+// 0x00000913 System.Void Session_ME2::setHandler(IMessageHandler)
 extern void Session_ME2_setHandler_m3E82F51BC1C892BBA0B1EB361236A7820F293E9F (void);
-// 0x0000090A System.Void Session_ME2::connect(System.String,System.Int32)
+// 0x00000914 System.Void Session_ME2::connect(System.String,System.Int32)
 extern void Session_ME2_connect_m9865E69DABC746DE5CFA5842A889399F5958584D (void);
-// 0x0000090B System.Void Session_ME2::NetworkInit()
+// 0x00000915 System.Void Session_ME2::NetworkInit()
 extern void Session_ME2_NetworkInit_mCFCDF988DD3809816CEE0C6E05FDFFD0B03E1CD1 (void);
-// 0x0000090C System.Void Session_ME2::doConnect(System.String,System.Int32)
+// 0x00000916 System.Void Session_ME2::doConnect(System.String,System.Int32)
 extern void Session_ME2_doConnect_mA01E9F820BB2859C03347944AA1126D7C6DA4C9F (void);
-// 0x0000090D System.Void Session_ME2::sendMessage(Message)
+// 0x00000917 System.Void Session_ME2::sendMessage(Message)
 extern void Session_ME2_sendMessage_mDA52AF6BB457E4F5DF7993D5EBF0560DDAAE638F (void);
-// 0x0000090E System.Void Session_ME2::doSendMessage(Message)
+// 0x00000918 System.Void Session_ME2::doSendMessage(Message)
 extern void Session_ME2_doSendMessage_m0428BD4C12D4A64F5D1673670B299FD6D061D58B (void);
-// 0x0000090F System.SByte Session_ME2::readKey(System.SByte)
+// 0x00000919 System.SByte Session_ME2::readKey(System.SByte)
 extern void Session_ME2_readKey_m1900D1FC4D92D0C08B45C5860ADEFAA54720FB83 (void);
-// 0x00000910 System.SByte Session_ME2::writeKey(System.SByte)
+// 0x0000091A System.SByte Session_ME2::writeKey(System.SByte)
 extern void Session_ME2_writeKey_m9AD029EB46E49151FF695B68589360DE5A2A46EA (void);
-// 0x00000911 System.Void Session_ME2::onRecieveMsg(Message)
+// 0x0000091B System.Void Session_ME2::onRecieveMsg(Message)
 extern void Session_ME2_onRecieveMsg_mCAA04F6B222C78D97D8254591453D8F0646A5515 (void);
-// 0x00000912 System.Void Session_ME2::update()
+// 0x0000091C System.Void Session_ME2::update()
 extern void Session_ME2_update_mCE4FC5017F9E50E76108B6B1474E6F813271A744 (void);
-// 0x00000913 System.Void Session_ME2::close()
+// 0x0000091D System.Void Session_ME2::close()
 extern void Session_ME2_close_mDAE7E0C78BB90D54ACB0B3D08F03FA8B2291EE67 (void);
-// 0x00000914 System.Void Session_ME2::cleanNetwork()
+// 0x0000091E System.Void Session_ME2::cleanNetwork()
 extern void Session_ME2_cleanNetwork_m93B57C9470BC3733D4FD23000B15C0C83CCBB537 (void);
-// 0x00000915 System.Int32 Session_ME2::currentTimeMillis()
+// 0x0000091F System.Int32 Session_ME2::currentTimeMillis()
 extern void Session_ME2_currentTimeMillis_m5786CA750418552697571888A0BAF554FFCC408F (void);
-// 0x00000916 System.Byte Session_ME2::convertSbyteToByte(System.SByte)
+// 0x00000920 System.Byte Session_ME2::convertSbyteToByte(System.SByte)
 extern void Session_ME2_convertSbyteToByte_m6CC44203A4B3A37CD328EFF43372116E5D7CC562 (void);
-// 0x00000917 System.Byte[] Session_ME2::convertSbyteToByte(System.SByte[])
+// 0x00000921 System.Byte[] Session_ME2::convertSbyteToByte(System.SByte[])
 extern void Session_ME2_convertSbyteToByte_mBBC3C9829283AB29B077F17AE647354957CBC685 (void);
-// 0x00000918 System.Void Session_ME2::.cctor()
+// 0x00000922 System.Void Session_ME2::.cctor()
 extern void Session_ME2__cctor_mC8055EA02EB24FFDF0538DD08B706CADD04C4997 (void);
-// 0x00000919 System.Void Session_ME2/Sender::.ctor()
+// 0x00000923 System.Void Session_ME2/Sender::.ctor()
 extern void Sender__ctor_m1BF5D1D30D4C7C6F08C8C8E8ABC6C8DA870196F2 (void);
-// 0x0000091A System.Void Session_ME2/Sender::AddMessage(Message)
+// 0x00000924 System.Void Session_ME2/Sender::AddMessage(Message)
 extern void Sender_AddMessage_m2FE8091C2A1EB00CF36245328B4A3EA6BF730C1A (void);
-// 0x0000091B System.Void Session_ME2/Sender::run()
+// 0x00000925 System.Void Session_ME2/Sender::run()
 extern void Sender_run_mE6F022EA748EC198910F51262DBA03BEBD3370C0 (void);
-// 0x0000091C System.Void Session_ME2/MessageCollector::run()
+// 0x00000926 System.Void Session_ME2/MessageCollector::run()
 extern void MessageCollector_run_mAB2767E98E788CA7C3CDC608D3BCB7BED988ACFE (void);
-// 0x0000091D System.Void Session_ME2/MessageCollector::getKey(Message)
+// 0x00000927 System.Void Session_ME2/MessageCollector::getKey(Message)
 extern void MessageCollector_getKey_mBA1466D11FCEC9964A307C61ED763A4A101C10E3 (void);
-// 0x0000091E Message Session_ME2/MessageCollector::readMessage2(System.SByte)
+// 0x00000928 Message Session_ME2/MessageCollector::readMessage2(System.SByte)
 extern void MessageCollector_readMessage2_m3D1FFD4115AA722A117B4BE59D3C095C2D149CAA (void);
-// 0x0000091F Message Session_ME2/MessageCollector::readMessage()
+// 0x00000929 Message Session_ME2/MessageCollector::readMessage()
 extern void MessageCollector_readMessage_mCAAA60B11B576A1A7BF21CEBFB9A10D8DCCDD6E6 (void);
-// 0x00000920 System.Void Session_ME2/MessageCollector::.ctor()
+// 0x0000092A System.Void Session_ME2/MessageCollector::.ctor()
 extern void MessageCollector__ctor_m20EE49AF872F02C727FCBA606E33C20A4F98A1AB (void);
-// 0x00000921 System.String Skill::strCurExp()
+// 0x0000092B System.String Skill::strCurExp()
 extern void Skill_strCurExp_m8E51830697A65D8A67FFC7BE1593CE18A9BC5F16 (void);
-// 0x00000922 System.String Skill::strTimeReplay()
+// 0x0000092C System.String Skill::strTimeReplay()
 extern void Skill_strTimeReplay_mD7E0CC29208B1DD4FE2E3198EDE2C213ECDDE3C9 (void);
-// 0x00000923 System.Void Skill::paint(System.Int32,System.Int32,mGraphics)
+// 0x0000092D System.Void Skill::paint(System.Int32,System.Int32,mGraphics)
 extern void Skill_paint_m7A4C42593158B7126EC89B1BA173716952924326 (void);
-// 0x00000924 System.Void Skill::.ctor()
+// 0x0000092E System.Void Skill::.ctor()
 extern void Skill__ctor_m8F39F568EC682543325A68B8AED780A54AEB0851 (void);
-// 0x00000925 System.Void SkillInfoPaint::.ctor()
+// 0x0000092F System.Void SkillInfoPaint::.ctor()
 extern void SkillInfoPaint__ctor_m8BA0B011DB1FCD56CB52903B4CFF9B2163E8CB9F (void);
-// 0x00000926 System.String SkillOption::getOptionString()
+// 0x00000930 System.String SkillOption::getOptionString()
 extern void SkillOption_getOptionString_m63C13D1E346F0467CF9926884581F4898297F9A0 (void);
-// 0x00000927 System.Void SkillOption::.ctor()
+// 0x00000931 System.Void SkillOption::.ctor()
 extern void SkillOption__ctor_m7C5F45346FC254EBF2BA443EAAC01077C0A1C329 (void);
-// 0x00000928 System.Void SkillOptionTemplate::.ctor()
+// 0x00000932 System.Void SkillOptionTemplate::.ctor()
 extern void SkillOptionTemplate__ctor_m8DECB16F2E43DE2CB73040A64EC0995C48D97F57 (void);
-// 0x00000929 System.Void SkillPaint::.ctor()
+// 0x00000933 System.Void SkillPaint::.ctor()
 extern void SkillPaint__ctor_mCFC620CC9253B5BFB084F890C6B323E4D87CCF8A (void);
-// 0x0000092A System.Void Skills::add(Skill)
+// 0x00000934 System.Void Skills::add(Skill)
 extern void Skills_add_m8B6B8B304E34833C71794005B490011C307B82A4 (void);
-// 0x0000092B Skill Skills::get(System.Int16)
+// 0x00000935 Skill Skills::get(System.Int16)
 extern void Skills_get_m685C03D39DFEE6EFBB334FC562659D9DB00AC765 (void);
-// 0x0000092C System.Void Skills::.ctor()
+// 0x00000936 System.Void Skills::.ctor()
 extern void Skills__ctor_m32C215EFFC229D900EF82E153D8667AA556787F1 (void);
-// 0x0000092D System.Void Skills::.cctor()
+// 0x00000937 System.Void Skills::.cctor()
 extern void Skills__cctor_m0E994A937A378C229043AFA79DC720B7AF4E1EDD (void);
-// 0x0000092E System.Boolean SkillTemplate::isBuffToPlayer()
+// 0x00000938 System.Boolean SkillTemplate::isBuffToPlayer()
 extern void SkillTemplate_isBuffToPlayer_m864CEA0F53D9315FA24AA3616EF93F66A5D8DED2 (void);
-// 0x0000092F System.Boolean SkillTemplate::isUseAlone()
+// 0x00000939 System.Boolean SkillTemplate::isUseAlone()
 extern void SkillTemplate_isUseAlone_m65B062DA86774DB27DA254E2C55B3CBC1B93EFBD (void);
-// 0x00000930 System.Boolean SkillTemplate::isAttackSkill()
+// 0x0000093A System.Boolean SkillTemplate::isAttackSkill()
 extern void SkillTemplate_isAttackSkill_m77DC85A0AE46DF1249600402ABE88B273DB3331B (void);
-// 0x00000931 System.Boolean SkillTemplate::isSkillSpec()
+// 0x0000093B System.Boolean SkillTemplate::isSkillSpec()
 extern void SkillTemplate_isSkillSpec_m762A269AFF5600037DFA254227AE7AF5A31D482B (void);
-// 0x00000932 System.Void SkillTemplate::.ctor()
+// 0x0000093C System.Void SkillTemplate::.ctor()
 extern void SkillTemplate__ctor_m5CF00726BF25D383EC204A57627CD18159ABDB4A (void);
-// 0x00000933 System.Void SmallDart::.ctor(System.Int32,System.Int32)
+// 0x0000093D System.Void SmallDart::.ctor(System.Int32,System.Int32)
 extern void SmallDart__ctor_mF18104F2B0A7E868EA89DE6DA8DBC507D9ED0350 (void);
-// 0x00000934 System.Void SmallImage::.ctor()
+// 0x0000093E System.Void SmallImage::.ctor()
 extern void SmallImage__ctor_m84B5038316EE308B0D583B39A63A3D94A22511D1 (void);
-// 0x00000935 System.Void SmallImage::loadBigRMS()
+// 0x0000093F System.Void SmallImage::loadBigRMS()
 extern void SmallImage_loadBigRMS_mFFBE1CAABAC21B857CA8C51114C1DC5EB8A84A2E (void);
-// 0x00000936 System.Void SmallImage::freeBig()
+// 0x00000940 System.Void SmallImage::freeBig()
 extern void SmallImage_freeBig_m1ECE4B5E680D0CFE01B3F9337267F9B22E4C0698 (void);
-// 0x00000937 System.Void SmallImage::loadBigImage()
+// 0x00000941 System.Void SmallImage::loadBigImage()
 extern void SmallImage_loadBigImage_mF2509D31E6D6E459E1BF1C624AA4A63871FA9B18 (void);
-// 0x00000938 System.Void SmallImage::init()
+// 0x00000942 System.Void SmallImage::init()
 extern void SmallImage_init_m586B584B38EA01D65714990636F4BA9ADE86F180 (void);
-// 0x00000939 System.Void SmallImage::readData(System.Byte[])
+// 0x00000943 System.Void SmallImage::readData(System.Byte[])
 extern void SmallImage_readData_mDA0094D16E82D03F227D9D9AD096FED766CBD762 (void);
-// 0x0000093A System.Void SmallImage::readImage()
+// 0x00000944 System.Void SmallImage::readImage()
 extern void SmallImage_readImage_m6CA5E07F4F2771D2458E5557A3CD41C6C0E010A9 (void);
-// 0x0000093B System.Void SmallImage::clearHastable()
+// 0x00000945 System.Void SmallImage::clearHastable()
 extern void SmallImage_clearHastable_m6380EB9337D852E17D7082883C4A193B9F4AB85A (void);
-// 0x0000093C System.Void SmallImage::createImage(System.Int32)
+// 0x00000946 System.Void SmallImage::createImage(System.Int32)
 extern void SmallImage_createImage_m219FD11CFBA1F02DC690FD0F6A16D6E66BA77340 (void);
-// 0x0000093D System.Void SmallImage::drawSmallImage(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000947 System.Void SmallImage::drawSmallImage(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void SmallImage_drawSmallImage_mE65BC52E3D3E296EC4FE3BA280167CD872FCF658 (void);
-// 0x0000093E System.Void SmallImage::drawSmallImage(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000948 System.Void SmallImage::drawSmallImage(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void SmallImage_drawSmallImage_m14D8F5557BDFD60E4419D1D6B5B1E5AC40B37E58 (void);
-// 0x0000093F System.Void SmallImage::update()
+// 0x00000949 System.Void SmallImage::update()
 extern void SmallImage_update_m509237A31B7B22307E9980338D6D8963EB725C05 (void);
-// 0x00000940 System.Void SmallImage::.cctor()
+// 0x0000094A System.Void SmallImage::.cctor()
 extern void SmallImage__cctor_mEB80021202E5EBCA3ADB937C51320BF6DB9DC359 (void);
-// 0x00000941 System.Int32 SMS::send(System.String,System.String)
+// 0x0000094B System.Int32 SMS::send(System.String,System.String)
 extern void SMS_send_m508867FE2A7B8D9F6F3B48D8F016DA03777D5A47 (void);
-// 0x00000942 System.Int32 SMS::_send(System.String,System.String)
+// 0x0000094C System.Int32 SMS::_send(System.String,System.String)
 extern void SMS__send_mF35BCD0A6AE008315226D0A5011712C272F7B510 (void);
-// 0x00000943 System.Int32 SMS::__send(System.String,System.String)
+// 0x0000094D System.Int32 SMS::__send(System.String,System.String)
 extern void SMS___send_m97E7D11B4E93F89E87421D1BFCFB834C16DC3F2E (void);
-// 0x00000944 System.Void SMS::update()
+// 0x0000094E System.Void SMS::update()
 extern void SMS_update_m77B83872D092EA5A53AB47296647515CF5DA3987 (void);
-// 0x00000945 System.Void SMS::OnSMS()
+// 0x0000094F System.Void SMS::OnSMS()
 extern void SMS_OnSMS_mE2B726FAF522BBF875C4CB4F24AFA3AA55EEBF3A (void);
-// 0x00000946 System.Void SMS::.ctor()
+// 0x00000950 System.Void SMS::.ctor()
 extern void SMS__ctor_m40B5A129D0CAE45EE7D37EB0F83A31367B938615 (void);
-// 0x00000947 System.Void Sound::setActivity(SoundMn/AssetManager)
+// 0x00000951 System.Void Sound::setActivity(SoundMn/AssetManager)
 extern void Sound_setActivity_mA0069381600DCCE10E5F9EE0B8D48BE28346032D (void);
-// 0x00000948 System.Void Sound::stop()
+// 0x00000952 System.Void Sound::stop()
 extern void Sound_stop_m2B15D0AD13811C5145255FE812077B6AD21141BA (void);
-// 0x00000949 System.Boolean Sound::isPlaying()
+// 0x00000953 System.Boolean Sound::isPlaying()
 extern void Sound_isPlaying_m59453EBD5415A372EABB43264A9DEC28EC08781A (void);
-// 0x0000094A System.Void Sound::init()
+// 0x00000954 System.Void Sound::init()
 extern void Sound_init_m354278755473C0CF1982F82010AC383558E4DD57 (void);
-// 0x0000094B System.Void Sound::init(System.Int32[],System.Int32[])
+// 0x00000955 System.Void Sound::init(System.Int32[],System.Int32[])
 extern void Sound_init_m01E9DA39A82DD7357C4FC7F74DD27B4650B19C9D (void);
-// 0x0000094C System.Void Sound::playSound(System.Int32,System.Single)
+// 0x00000956 System.Void Sound::playSound(System.Int32,System.Single)
 extern void Sound_playSound_m78606A7711B3A7A84444459BF6A824CBAE45AB21 (void);
-// 0x0000094D System.Void Sound::playSound1(System.Int32,System.Single)
+// 0x00000957 System.Void Sound::playSound1(System.Int32,System.Single)
 extern void Sound_playSound1_mAB0D97FABE110B8E7874191E5DFFA6E5150F75A4 (void);
-// 0x0000094E System.Void Sound::getAssetSoundFile(System.String,System.Int32)
+// 0x00000958 System.Void Sound::getAssetSoundFile(System.String,System.Int32)
 extern void Sound_getAssetSoundFile_m8AC8765766A16F3B65815EC21F6E6EA5D9ED7C05 (void);
-// 0x0000094F System.Void Sound::stopAllz()
+// 0x00000959 System.Void Sound::stopAllz()
 extern void Sound_stopAllz_m9F14204D7F0B77AF5C5F9B4D7C86BBC70ADEC2A4 (void);
-// 0x00000950 System.Void Sound::stopAllBg()
+// 0x0000095A System.Void Sound::stopAllBg()
 extern void Sound_stopAllBg_mB65FF236B2FB07DB2125E2BEC03E77C85E14C0B5 (void);
-// 0x00000951 System.Void Sound::update()
+// 0x0000095B System.Void Sound::update()
 extern void Sound_update_mDFCD5F3749EE2156EAFC64E93F1CC4A4E6E02072 (void);
-// 0x00000952 System.Void Sound::stopMusic(System.Int32)
+// 0x0000095C System.Void Sound::stopMusic(System.Int32)
 extern void Sound_stopMusic_m148FD7E73AB2C72F2C4620A09641F73FC29D1444 (void);
-// 0x00000953 System.Void Sound::play(System.Int32,System.Single)
+// 0x0000095D System.Void Sound::play(System.Int32,System.Single)
 extern void Sound_play_m812D6AEF2485DC97D8DEA4C3EAE5178FEEE0883E (void);
-// 0x00000954 System.Void Sound::playSoundRun(System.Int32,System.Single)
+// 0x0000095E System.Void Sound::playSoundRun(System.Int32,System.Single)
 extern void Sound_playSoundRun_m64EB975D5C4E06FFCE57309D5E09DAA5D68584B1 (void);
-// 0x00000955 System.Void Sound::sTopSoundRun()
+// 0x0000095F System.Void Sound::sTopSoundRun()
 extern void Sound_sTopSoundRun_m9C8FBC656F389F426BDC4153286B3766E6892304 (void);
-// 0x00000956 System.Boolean Sound::isPlayingSound()
+// 0x00000960 System.Boolean Sound::isPlayingSound()
 extern void Sound_isPlayingSound_mA48893179CE74E09B1E934A75C89C75D8044D2E7 (void);
-// 0x00000957 System.Void Sound::playSoundNatural(System.Int32,System.Single,System.Boolean)
+// 0x00000961 System.Void Sound::playSoundNatural(System.Int32,System.Single,System.Boolean)
 extern void Sound_playSoundNatural_m4811CDB77D0957D36E02608733506278B8C7944F (void);
-// 0x00000958 System.Void Sound::stopSoundNatural(System.Int32)
+// 0x00000962 System.Void Sound::stopSoundNatural(System.Int32)
 extern void Sound_stopSoundNatural_mC3B6C7FF5D350E0276D2CD91648594AE81A82A75 (void);
-// 0x00000959 System.Boolean Sound::isPlayingSoundatural(System.Int32)
+// 0x00000963 System.Boolean Sound::isPlayingSoundatural(System.Int32)
 extern void Sound_isPlayingSoundatural_m39B619936491170567F0B9C5A2AC0B713CDA8B93 (void);
-// 0x0000095A System.Void Sound::playMus(System.Int32,System.Single,System.Boolean)
+// 0x00000964 System.Void Sound::playMus(System.Int32,System.Single,System.Boolean)
 extern void Sound_playMus_mA44BC5B9C15570B820468EC5F0603BD879D42AA7 (void);
-// 0x0000095B System.Void Sound::playSoundBGLoop(System.Int32,System.Single)
+// 0x00000965 System.Void Sound::playSoundBGLoop(System.Int32,System.Single)
 extern void Sound_playSoundBGLoop_m8AB20D1CBDC8FABB1E27D4DFA6F5719F6861ED07 (void);
-// 0x0000095C System.Void Sound::sTopSoundBG(System.Int32)
+// 0x00000966 System.Void Sound::sTopSoundBG(System.Int32)
 extern void Sound_sTopSoundBG_mD81A7D77D237B18E2881CDE26050E9A3F2003A77 (void);
-// 0x0000095D System.Boolean Sound::isPlayingSoundBG(System.Int32)
+// 0x00000967 System.Boolean Sound::isPlayingSoundBG(System.Int32)
 extern void Sound_isPlayingSoundBG_mD0DD871D2F54AEA8BC0B44383E840F3897988966 (void);
-// 0x0000095E System.Void Sound::load(System.String,System.Int32)
+// 0x00000968 System.Void Sound::load(System.String,System.Int32)
 extern void Sound_load_m6509B31EA13E2CCC44B798EE1974549E6B94BF9C (void);
-// 0x0000095F System.Void Sound::_load(System.String,System.Int32)
+// 0x00000969 System.Void Sound::_load(System.String,System.Int32)
 extern void Sound__load_m4FC882B1BE897C94E5EF99327AB8651204A24F16 (void);
-// 0x00000960 System.Void Sound::__load(System.String,System.Int32)
+// 0x0000096A System.Void Sound::__load(System.String,System.Int32)
 extern void Sound___load_m526EDEA53B62EEA2DB84A1905BF1B5557C0B6724 (void);
-// 0x00000961 System.Void Sound::start(System.Single,System.Int32)
+// 0x0000096B System.Void Sound::start(System.Single,System.Int32)
 extern void Sound_start_mF6F8C00D13E4CEA361DA18CF6122D670C50266C4 (void);
-// 0x00000962 System.Void Sound::_start(System.Single,System.Int32)
+// 0x0000096C System.Void Sound::_start(System.Single,System.Int32)
 extern void Sound__start_m5BAE75F9AC04442A9C1769550731D87BF8696355 (void);
-// 0x00000963 System.Void Sound::__start(System.Single,System.Int32)
+// 0x0000096D System.Void Sound::__start(System.Single,System.Int32)
 extern void Sound___start_mEC4487D66DDD2FD21FDA7796FEA093F78555059F (void);
-// 0x00000964 System.Void Sound::stop(System.Int32)
+// 0x0000096E System.Void Sound::stop(System.Int32)
 extern void Sound_stop_m5C7CC44038A0BD8D33051435E7AB7E6C7DA9520D (void);
-// 0x00000965 System.Void Sound::_stop(System.Int32)
+// 0x0000096F System.Void Sound::_stop(System.Int32)
 extern void Sound__stop_m6C279850A67FB4C22B74FF6224F5551AA342635C (void);
-// 0x00000966 System.Void Sound::__stop(System.Int32)
+// 0x00000970 System.Void Sound::__stop(System.Int32)
 extern void Sound___stop_m4D757992717A3704165DAE623F89D60105A05B1E (void);
-// 0x00000967 System.Void Sound::.ctor()
+// 0x00000971 System.Void Sound::.ctor()
 extern void Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F (void);
-// 0x00000968 System.Void Sound::.cctor()
+// 0x00000972 System.Void Sound::.cctor()
 extern void Sound__cctor_mBD3999B4834FD5A5AA457F80FA5BB20174CDF1F1 (void);
-// 0x00000969 System.Void SoundMn::init(SoundMn/AssetManager)
+// 0x00000973 System.Void SoundMn::init(SoundMn/AssetManager)
 extern void SoundMn_init_m4B6131C570C89510AEF6E8865BFD4D775B584D6E (void);
-// 0x0000096A SoundMn SoundMn::gI()
+// 0x00000974 SoundMn SoundMn::gI()
 extern void SoundMn_gI_mC638F7F795F36F9E04F30A3613B22693B6E6B4D7 (void);
-// 0x0000096B System.Void SoundMn::loadSound(System.Int32)
+// 0x00000975 System.Void SoundMn::loadSound(System.Int32)
 extern void SoundMn_loadSound_mE9380935ADBF8F200EF5D83F57679B1ED4EA4EBF (void);
-// 0x0000096C System.Void SoundMn::getSoundOption()
+// 0x00000976 System.Void SoundMn::getSoundOption()
 extern void SoundMn_getSoundOption_mEF70AE6BA60F20A12B62B66FF9F536A08397EFD9 (void);
-// 0x0000096D System.Void SoundMn::getStrOption()
+// 0x00000977 System.Void SoundMn::getStrOption()
 extern void SoundMn_getStrOption_mF623BF010029C1CD373C5998B13A8D0C8F9FC0D8 (void);
-// 0x0000096E System.Void SoundMn::HP_MPup()
+// 0x00000978 System.Void SoundMn::HP_MPup()
 extern void SoundMn_HP_MPup_mFFC6A00C78D5AD172F3DDDA4D45C1C25CA58F988 (void);
-// 0x0000096F System.Void SoundMn::changeFPS()
+// 0x00000979 System.Void SoundMn::changeFPS()
 extern void SoundMn_changeFPS_mC4770C69EC4C2D78D34ABC2F5D648E4D869CA2AA (void);
-// 0x00000970 System.Void SoundMn::charPunch(System.Boolean,System.Single)
+// 0x0000097A System.Void SoundMn::charPunch(System.Boolean,System.Single)
 extern void SoundMn_charPunch_mB26FF1781144ACA67436E33A490B5C6B7D4DE66C (void);
-// 0x00000971 System.Void SoundMn::thaiduonghasan()
+// 0x0000097B System.Void SoundMn::thaiduonghasan()
 extern void SoundMn_thaiduonghasan_mDE8BD2668BD5DD49F0F3DBAC69C1648D46331511 (void);
-// 0x00000972 System.Void SoundMn::rain()
+// 0x0000097C System.Void SoundMn::rain()
 extern void SoundMn_rain_m96E1B90A94349686B3BA3ABA2451BACB7D42C200 (void);
-// 0x00000973 System.Void SoundMn::gongName()
+// 0x0000097D System.Void SoundMn::gongName()
 extern void SoundMn_gongName_mED08C5AC9400F397B9EAB4A1D9D7F444D754DA8E (void);
-// 0x00000974 System.Void SoundMn::gong()
+// 0x0000097E System.Void SoundMn::gong()
 extern void SoundMn_gong_m2FBF074DF67403F88370C0DC2CAA24ECEBD323EC (void);
-// 0x00000975 System.Void SoundMn::getItem()
+// 0x0000097F System.Void SoundMn::getItem()
 extern void SoundMn_getItem_mCFEEEB0825F5731DF285A2A2CAE5FC98B5124422 (void);
-// 0x00000976 System.Void SoundMn::soundToolOption()
+// 0x00000980 System.Void SoundMn::soundToolOption()
 extern void SoundMn_soundToolOption_mA6CC95FFA3A2E1906F175100224EE25F1E328E3D (void);
-// 0x00000977 System.Void SoundMn::chatVipToolOption()
+// 0x00000981 System.Void SoundMn::chatVipToolOption()
 extern void SoundMn_chatVipToolOption_m3C7DF8A6EC487D1E3C88591DD47C49500912FD17 (void);
-// 0x00000978 System.Void SoundMn::analogToolOption()
+// 0x00000982 System.Void SoundMn::analogToolOption()
 extern void SoundMn_analogToolOption_m62352E2A31E5F94608ABE2EAAD685118B589DCAD (void);
-// 0x00000979 System.Void SoundMn::CaseAnalog()
+// 0x00000983 System.Void SoundMn::CaseAnalog()
 extern void SoundMn_CaseAnalog_m078176A2C9FA04D1EBA8DEC57D23A15C554D2EFE (void);
-// 0x0000097A System.Void SoundMn::CaseSizeScr()
+// 0x00000984 System.Void SoundMn::CaseSizeScr()
 extern void SoundMn_CaseSizeScr_m95412C3A2D1456A1A3AE1AF53C928D36AF42A698 (void);
-// 0x0000097B System.Void SoundMn::AuraToolOption()
+// 0x00000985 System.Void SoundMn::AuraToolOption()
 extern void SoundMn_AuraToolOption_mC1F8B883E84825C196CA1349122E675CACB8CCEB (void);
-// 0x0000097C System.Void SoundMn::AuraToolOption2()
+// 0x00000986 System.Void SoundMn::AuraToolOption2()
 extern void SoundMn_AuraToolOption2_m0C53646A853D44CFE82D3D1A019D9F867707E2B8 (void);
-// 0x0000097D System.Void SoundMn::HatToolOption()
+// 0x00000987 System.Void SoundMn::HatToolOption()
 extern void SoundMn_HatToolOption_m692F09EFFA4F5232A988D665752323E296FF1488 (void);
-// 0x0000097E System.Void SoundMn::update()
+// 0x00000988 System.Void SoundMn::update()
 extern void SoundMn_update_m4B38E141343A89D7A9799F5483919E080ACF176B (void);
-// 0x0000097F System.Void SoundMn::closeSound()
+// 0x00000989 System.Void SoundMn::closeSound()
 extern void SoundMn_closeSound_m879A9A0363D2F79964B3DF230559B4AA9405A751 (void);
-// 0x00000980 System.Void SoundMn::openSound()
+// 0x0000098A System.Void SoundMn::openSound()
 extern void SoundMn_openSound_mFA6644B97925744DC62B0CD42401C6120E5D1211 (void);
-// 0x00000981 System.Void SoundMn::bigeExlode()
+// 0x0000098B System.Void SoundMn::bigeExlode()
 extern void SoundMn_bigeExlode_m94574BB3889789DBB4AC43F75E87AD125E631320 (void);
-// 0x00000982 System.Void SoundMn::explode_1()
+// 0x0000098C System.Void SoundMn::explode_1()
 extern void SoundMn_explode_1_m5767A1D70FED40FB3316FD8811757B98BA36B986 (void);
-// 0x00000983 System.Void SoundMn::explode_2()
+// 0x0000098D System.Void SoundMn::explode_2()
 extern void SoundMn_explode_2_m7A1A72392791026D43564F1A5351F7DE5ED785A1 (void);
-// 0x00000984 System.Void SoundMn::traidatKame()
+// 0x0000098E System.Void SoundMn::traidatKame()
 extern void SoundMn_traidatKame_m325FB2A81F934FBB274BE644C2E859520CE7790C (void);
-// 0x00000985 System.Void SoundMn::namekKame()
+// 0x0000098F System.Void SoundMn::namekKame()
 extern void SoundMn_namekKame_m93B0921CE674F80CE70501155AA97BDC28330CAD (void);
-// 0x00000986 System.Void SoundMn::nameLazer()
+// 0x00000990 System.Void SoundMn::nameLazer()
 extern void SoundMn_nameLazer_m3C984A99AFDA9375E91C3FB8CC35A3E5C2ED2B2F (void);
-// 0x00000987 System.Void SoundMn::xaydaKame()
+// 0x00000991 System.Void SoundMn::xaydaKame()
 extern void SoundMn_xaydaKame_mEFEB7D0966BDE0467E1CFB20BEE2CE1FA8A9B3DC (void);
-// 0x00000988 System.Void SoundMn::mobKame(System.Int32)
+// 0x00000992 System.Void SoundMn::mobKame(System.Int32)
 extern void SoundMn_mobKame_m13470F5822F9D4BBCEFF39525CA608434B9DFEB7 (void);
-// 0x00000989 System.Void SoundMn::charRun(System.Single)
+// 0x00000993 System.Void SoundMn::charRun(System.Single)
 extern void SoundMn_charRun_mE41D7493CCBD6042CBD1C4947970CE1F8A03E605 (void);
-// 0x0000098A System.Void SoundMn::monkeyRun(System.Single)
+// 0x00000994 System.Void SoundMn::monkeyRun(System.Single)
 extern void SoundMn_monkeyRun_m7D0597E3BCC709A1BFF24A8F23DEDDC0ED36F74E (void);
-// 0x0000098B System.Void SoundMn::charFall()
+// 0x00000995 System.Void SoundMn::charFall()
 extern void SoundMn_charFall_m52E63CFA767B4AFEECAB35F67378BCBB1B6CC4D9 (void);
-// 0x0000098C System.Void SoundMn::charJump()
+// 0x00000996 System.Void SoundMn::charJump()
 extern void SoundMn_charJump_mF3B57939471FFD70B743558E6F5BE88235E19757 (void);
-// 0x0000098D System.Void SoundMn::panelOpen()
+// 0x00000997 System.Void SoundMn::panelOpen()
 extern void SoundMn_panelOpen_m8E244B3DE5B427971D15DE5E1EEDF5318805399C (void);
-// 0x0000098E System.Void SoundMn::buttonClose()
+// 0x00000998 System.Void SoundMn::buttonClose()
 extern void SoundMn_buttonClose_mC0CB62D7950C86F50A076E42FBD7E876DA137FC1 (void);
-// 0x0000098F System.Void SoundMn::buttonClick()
+// 0x00000999 System.Void SoundMn::buttonClick()
 extern void SoundMn_buttonClick_m0A9406690EA36F7D2A682AB8A8F868B2576EA021 (void);
-// 0x00000990 System.Void SoundMn::stopMove()
+// 0x0000099A System.Void SoundMn::stopMove()
 extern void SoundMn_stopMove_mB30A97E69E5C414110701196E67F4BE90323377B (void);
-// 0x00000991 System.Void SoundMn::charFly()
+// 0x0000099B System.Void SoundMn::charFly()
 extern void SoundMn_charFly_mCAADE1C16368D3BE6B3443BD47BCCB3BEBF31F5E (void);
-// 0x00000992 System.Void SoundMn::stopFly()
+// 0x0000099C System.Void SoundMn::stopFly()
 extern void SoundMn_stopFly_m729A1D7CF0FD56868094046CDE8B5BADD3E3D6F1 (void);
-// 0x00000993 System.Void SoundMn::openMenu()
+// 0x0000099D System.Void SoundMn::openMenu()
 extern void SoundMn_openMenu_mBE9015850F76D8B191B90D817FB6C942AC0B06B4 (void);
-// 0x00000994 System.Void SoundMn::panelClick()
+// 0x0000099E System.Void SoundMn::panelClick()
 extern void SoundMn_panelClick_mA5209472E4F75651A4358AAE4E1121C11BF9F742 (void);
-// 0x00000995 System.Void SoundMn::eatPeans()
+// 0x0000099F System.Void SoundMn::eatPeans()
 extern void SoundMn_eatPeans_m957ADC604523C0C570873817C79E60C843834AE5 (void);
-// 0x00000996 System.Void SoundMn::openDialog()
+// 0x000009A0 System.Void SoundMn::openDialog()
 extern void SoundMn_openDialog_m8C0BBA7A68C776F8860B73A10E1F59C70BF03716 (void);
-// 0x00000997 System.Void SoundMn::hoisinh()
+// 0x000009A1 System.Void SoundMn::hoisinh()
 extern void SoundMn_hoisinh_mAFEA7FD373117B84D9FCC9CDF8B4D8EAA230EF04 (void);
-// 0x00000998 System.Void SoundMn::taitao()
+// 0x000009A2 System.Void SoundMn::taitao()
 extern void SoundMn_taitao_m24F45EF060BD01A9EBF29DDBEA1B3BBBB169EE02 (void);
-// 0x00000999 System.Void SoundMn::taitaoPause()
+// 0x000009A3 System.Void SoundMn::taitaoPause()
 extern void SoundMn_taitaoPause_mF7A3BB6702BACAED827E116F13666E8529294F1B (void);
-// 0x0000099A System.Boolean SoundMn::isPlayRain()
+// 0x000009A4 System.Boolean SoundMn::isPlayRain()
 extern void SoundMn_isPlayRain_mFB63A5459E69C3A058C38415D429FBF2751D5FAE (void);
-// 0x0000099B System.Boolean SoundMn::isPlayAirShip()
+// 0x000009A5 System.Boolean SoundMn::isPlayAirShip()
 extern void SoundMn_isPlayAirShip_mE2F98B9274871B46AC9B424B2A5154CC9A5494C1 (void);
-// 0x0000099C System.Void SoundMn::airShip()
+// 0x000009A6 System.Void SoundMn::airShip()
 extern void SoundMn_airShip_m71E7665A1435622A9A363A88F50873C7607D6151 (void);
-// 0x0000099D System.Void SoundMn::pauseAirShip()
+// 0x000009A7 System.Void SoundMn::pauseAirShip()
 extern void SoundMn_pauseAirShip_m6BFF7A57D5121C89E01DE42CB47AD436E6179CD1 (void);
-// 0x0000099E System.Void SoundMn::resumeAirShip()
+// 0x000009A8 System.Void SoundMn::resumeAirShip()
 extern void SoundMn_resumeAirShip_m75458306001C7E4FDF8B81C2AB170A8C2CF5E1F1 (void);
-// 0x0000099F System.Void SoundMn::stopAll()
+// 0x000009A9 System.Void SoundMn::stopAll()
 extern void SoundMn_stopAll_m3BBA3789102D97D21FB379DBA109A92A49019819 (void);
-// 0x000009A0 System.Void SoundMn::backToRegister()
+// 0x000009AA System.Void SoundMn::backToRegister()
 extern void SoundMn_backToRegister_m61499C6E59E6B1954BBD58A96D9E1F109ED6E224 (void);
-// 0x000009A1 System.Void SoundMn::newKame()
+// 0x000009AB System.Void SoundMn::newKame()
 extern void SoundMn_newKame_m5859644FC85CA5C7276E191BCC05EDB5288EF5DF (void);
-// 0x000009A2 System.Void SoundMn::radarClick()
+// 0x000009AC System.Void SoundMn::radarClick()
 extern void SoundMn_radarClick_m1DC5C041F450B07C90F5577DA56FE5B99989F4D9 (void);
-// 0x000009A3 System.Void SoundMn::radarItem()
+// 0x000009AD System.Void SoundMn::radarItem()
 extern void SoundMn_radarItem_mFBB2A28FBF6B34FB2247A3E467686C9A3CF9304D (void);
-// 0x000009A4 System.Void SoundMn::playSound(System.Int32,System.Int32,System.Int32,System.Single)
+// 0x000009AE System.Void SoundMn::playSound(System.Int32,System.Int32,System.Int32,System.Single)
 extern void SoundMn_playSound_m90B232216EB9D16F2881030FE6677AF34995A3E9 (void);
-// 0x000009A5 System.Void SoundMn::.ctor()
+// 0x000009AF System.Void SoundMn::.ctor()
 extern void SoundMn__ctor_m0B0BE8D8A3218A38D77F839BE1289C64C24A0B98 (void);
-// 0x000009A6 System.Void SoundMn::.cctor()
+// 0x000009B0 System.Void SoundMn::.cctor()
 extern void SoundMn__cctor_mFD77705235EF41EAB1E5A48CBF2B36FED5274D37 (void);
-// 0x000009A7 System.Void SoundMn/MediaPlayer::.ctor()
+// 0x000009B1 System.Void SoundMn/MediaPlayer::.ctor()
 extern void MediaPlayer__ctor_m23C044E0333BAD334F565911C6B937138A7F8F79 (void);
-// 0x000009A8 System.Void SoundMn/SoundPool::.ctor()
+// 0x000009B2 System.Void SoundMn/SoundPool::.ctor()
 extern void SoundPool__ctor_m38E592A11EC9E78555A4B19F979BD56D2C7C2E52 (void);
-// 0x000009A9 System.Void SoundMn/AssetManager::.ctor()
+// 0x000009B3 System.Void SoundMn/AssetManager::.ctor()
 extern void AssetManager__ctor_m395B028BA6C1A68DE4325781EFE3E06D2E57A535 (void);
-// 0x000009AA System.Void SplashScr::.ctor()
+// 0x000009B4 System.Void SplashScr::.ctor()
 extern void SplashScr__ctor_m62A7A07330F81F9EC828BEC396ADD1550099DFAC (void);
-// 0x000009AB System.Void SplashScr::loadSplashScr()
+// 0x000009B5 System.Void SplashScr::loadSplashScr()
 extern void SplashScr_loadSplashScr_mCB4403E7428FFDFF4CC27E2036AB27558C001B7B (void);
-// 0x000009AC System.Void SplashScr::update()
+// 0x000009B6 System.Void SplashScr::update()
 extern void SplashScr_update_m52766352945FAD90806F45184D12AC8BAE16E287 (void);
-// 0x000009AD System.Void SplashScr::loadIP()
+// 0x000009B7 System.Void SplashScr::loadIP()
 extern void SplashScr_loadIP_m8FAF04C7E8AB5D3EE0FE4AD41C88BC5DC615BBAD (void);
-// 0x000009AE System.Void SplashScr::paint(mGraphics)
+// 0x000009B8 System.Void SplashScr::paint(mGraphics)
 extern void SplashScr_paint_m660530E63B1A46FEDDDFDF9C7E9DAF611338077D (void);
-// 0x000009AF System.Void SplashScr::loadImg()
+// 0x000009B9 System.Void SplashScr::loadImg()
 extern void SplashScr_loadImg_m8C8962C1C5676F8F8D96BD1E550EE86DF61F694D (void);
-// 0x000009B0 System.Void SplashScr::.cctor()
+// 0x000009BA System.Void SplashScr::.cctor()
 extern void SplashScr__cctor_mF38AC738CA2A54D557958CC26148D7B058AAC1C5 (void);
-// 0x000009B1 System.Void Sprite::.ctor()
+// 0x000009BB System.Void Sprite::.ctor()
 extern void Sprite__ctor_mB81B7D2C22B32C5E7C33AE71A4BBAA132CF96FD8 (void);
-// 0x000009B2 System.Void StaticObj::.ctor()
+// 0x000009BC System.Void StaticObj::.ctor()
 extern void StaticObj__ctor_m723EBFB4511F38962820BDE78080A18C20CDB7DD (void);
-// 0x000009B3 System.Void StaticObj::.cctor()
+// 0x000009BD System.Void StaticObj::.cctor()
 extern void StaticObj__cctor_m0D8242E849EC3F10C34F1DB55FE6A5BFF7B8CAF4 (void);
-// 0x000009B4 System.Void T1::load()
+// 0x000009BE System.Void T1::load()
 extern void T1_load_m205E964A35D8C4B57AD76355D4640B2E2AE42476 (void);
-// 0x000009B5 System.Void T1::.ctor()
+// 0x000009BF System.Void T1::.ctor()
 extern void T1__ctor_mDFFCBDE7757B3A4991133CB118B1154A498A30BE (void);
-// 0x000009B6 System.Void T2::load()
+// 0x000009C0 System.Void T2::load()
 extern void T2_load_mE50E212F1D0775AF3FE19E16333EB2E64C1C6ECC (void);
-// 0x000009B7 System.Void T2::.ctor()
+// 0x000009C1 System.Void T2::.ctor()
 extern void T2__ctor_mB29097672F0A6172C6EE302E56AD81F8616E93D1 (void);
-// 0x000009B8 System.Void T3::load()
+// 0x000009C2 System.Void T3::load()
 extern void T3_load_m1C1B9A8595E29DCEE69DB340DA87BF9C2E3D9AE4 (void);
-// 0x000009B9 System.Void T3::.ctor()
+// 0x000009C3 System.Void T3::.ctor()
 extern void T3__ctor_mC1334668C879DDEF5D84A163DFB2031F553CF427 (void);
-// 0x000009BA System.Void TabClanIcon::.ctor()
+// 0x000009C4 System.Void TabClanIcon::.ctor()
 extern void TabClanIcon__ctor_mE056FE4A4EFCAB4E5AC4346D810D81AD11DBC79F (void);
-// 0x000009BB System.Void TabClanIcon::init()
+// 0x000009C5 System.Void TabClanIcon::init()
 extern void TabClanIcon_init_m9F7D8988D9C7C61A7D508B9CBE5D7FCA3CBE56F1 (void);
-// 0x000009BC System.Void TabClanIcon::show(System.Boolean)
+// 0x000009C6 System.Void TabClanIcon::show(System.Boolean)
 extern void TabClanIcon_show_m8A2AEC598232C6EDB1A570772BC57E47D2A6BE1A (void);
-// 0x000009BD System.Void TabClanIcon::showRequest(System.Int32)
+// 0x000009C7 System.Void TabClanIcon::showRequest(System.Int32)
 extern void TabClanIcon_showRequest_mD2FC9E165540F40B1ABFAAD4707A38C7717F4974 (void);
-// 0x000009BE System.Void TabClanIcon::hide()
+// 0x000009C8 System.Void TabClanIcon::hide()
 extern void TabClanIcon_hide_mAC30727CA13555FD5F155DF7C8AEE4C986F33E60 (void);
-// 0x000009BF System.Void TabClanIcon::paintPeans(mGraphics)
+// 0x000009C9 System.Void TabClanIcon::paintPeans(mGraphics)
 extern void TabClanIcon_paintPeans_m036E6AB5C79243049C6CC17055AB764FF238E909 (void);
-// 0x000009C0 System.Void TabClanIcon::paintIcon(mGraphics)
+// 0x000009CA System.Void TabClanIcon::paintIcon(mGraphics)
 extern void TabClanIcon_paintIcon_m0F75C2FAA4A9949EC4F12035A3EA2B9DA25E468B (void);
-// 0x000009C1 System.Void TabClanIcon::paint(mGraphics)
+// 0x000009CB System.Void TabClanIcon::paint(mGraphics)
 extern void TabClanIcon_paint_mB0204E034EDA1BFEA8622D259E8A920863F2C038 (void);
-// 0x000009C2 System.Void TabClanIcon::update()
+// 0x000009CC System.Void TabClanIcon::update()
 extern void TabClanIcon_update_mD988773F0A0580CA4856C1DB3C316D05C3AD847C (void);
-// 0x000009C3 System.Void TabClanIcon::updateKey()
+// 0x000009CD System.Void TabClanIcon::updateKey()
 extern void TabClanIcon_updateKey_m7DBA5CA4CD50B64819B84138346888E622A32901 (void);
-// 0x000009C4 System.Void TabClanIcon::perform(System.Int32,System.Object)
+// 0x000009CE System.Void TabClanIcon::perform(System.Int32,System.Object)
 extern void TabClanIcon_perform_m20E2AE52760286E3BC95E8F0C0672383679ADBF3 (void);
-// 0x000009C5 System.Void Task::.ctor(System.Int16,System.SByte,System.String,System.String,System.String[],System.Int16[],System.Int16,System.String[])
+// 0x000009CF System.Void Task::.ctor(System.Int16,System.SByte,System.String,System.String,System.String[],System.Int16[],System.Int16,System.String[])
 extern void Task__ctor_mE42F4B24FE0BF5048D959E5B3E7A638A5D85ED52 (void);
-// 0x000009C6 System.Void TaskOrder::.ctor(System.SByte,System.Int16,System.Int16,System.String,System.String,System.SByte,System.SByte)
+// 0x000009D0 System.Void TaskOrder::.ctor(System.SByte,System.Int16,System.Int16,System.String,System.String,System.SByte,System.SByte)
 extern void TaskOrder__ctor_m3F5DBDFF91EF618E02762FC4D15ABDCE2F9E6ECA (void);
-// 0x000009C7 System.Void TaskTemplate::.ctor()
+// 0x000009D1 System.Void TaskTemplate::.ctor()
 extern void TaskTemplate__ctor_m9D3A2BF669E8BDEC64A1579A8FC5DDF12461D08E (void);
-// 0x000009C8 System.Void Teleport::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32)
+// 0x000009D2 System.Void Teleport::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32)
 extern void Teleport__ctor_mCF7AF5883FA001F6E189F6BC34D40BC2A3252D34 (void);
-// 0x000009C9 System.Void Teleport::addTeleport(Teleport)
+// 0x000009D3 System.Void Teleport::addTeleport(Teleport)
 extern void Teleport_addTeleport_m133DF34500ED2B6088EB8C80E3760E2F3C69E530 (void);
-// 0x000009CA System.Void Teleport::paintHole(mGraphics)
+// 0x000009D4 System.Void Teleport::paintHole(mGraphics)
 extern void Teleport_paintHole_mAAF3BD68B3BD474D440A11E0EBCD85B5DF3946FA (void);
-// 0x000009CB System.Void Teleport::paint(mGraphics)
+// 0x000009D5 System.Void Teleport::paint(mGraphics)
 extern void Teleport_paint_mC4B261F9AFB16673320C84C6E3ADAA72EE7DB6CA (void);
-// 0x000009CC System.Boolean Teleport::XoaTauBay(System.Object)
+// 0x000009D6 System.Boolean Teleport::XoaTauBay(System.Object)
 extern void Teleport_XoaTauBay_mCC008DE10320EF78D7941482AB481E302D64FB5D (void);
-// 0x000009CD System.Void Teleport::update()
+// 0x000009D7 System.Void Teleport::update()
 extern void Teleport_update_mBA1B8D1005CBBE9DBC382F0045B031B4F1A74D90 (void);
-// 0x000009CE System.Void Teleport::.cctor()
+// 0x000009D8 System.Void Teleport::.cctor()
 extern void Teleport__cctor_m9243237F0ADDA31E13D6DFB6A7FB5CBE154D4E26 (void);
-// 0x000009CF System.Void TextInfo::reset()
+// 0x000009D9 System.Void TextInfo::reset()
 extern void TextInfo_reset_m37148A4C085CE2CE1C6A37505ADDA880C0083C13 (void);
-// 0x000009D0 System.Void TextInfo::paint(mGraphics,System.String,System.Int32,System.Int32,System.Int32,System.Int32,mFont)
+// 0x000009DA System.Void TextInfo::paint(mGraphics,System.String,System.Int32,System.Int32,System.Int32,System.Int32,mFont)
 extern void TextInfo_paint_m594BB883C13865E532F02B885BA2C06590EB6735 (void);
-// 0x000009D1 System.Void TextInfo::.ctor()
+// 0x000009DB System.Void TextInfo::.ctor()
 extern void TextInfo__ctor_m1512A8CFA88DF04679FE39689581BCEF80E7EEDA (void);
-// 0x000009D2 System.Void TextInfo::.cctor()
+// 0x000009DC System.Void TextInfo::.cctor()
 extern void TextInfo__cctor_m4F7E4600B2349B1D68B4D8789045181066F1B13D (void);
-// 0x000009D3 System.Void TField::.ctor(mScreen)
+// 0x000009DD System.Void TField::.ctor(mScreen)
 extern void TField__ctor_m707E07C612B781C4DE1171A39B9B59583EC59131 (void);
-// 0x000009D4 System.Void TField::.ctor()
+// 0x000009DE System.Void TField::.ctor()
 extern void TField__ctor_m2A1E3DF915321555EB49A943088981B389DAF347 (void);
-// 0x000009D5 System.Void TField::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x000009DF System.Void TField::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void TField__ctor_m47EE1906A783E94BBA432C8A55E39C2E911D6BB5 (void);
-// 0x000009D6 System.Void TField::.ctor(System.String,System.Int32,System.Int32)
+// 0x000009E0 System.Void TField::.ctor(System.String,System.Int32,System.Int32)
 extern void TField__ctor_m17BED0A17D2F1F7A28E1802A2B96D8F627A8BA8C (void);
-// 0x000009D7 System.Boolean TField::setNormal(System.Char)
+// 0x000009E1 System.Boolean TField::setNormal(System.Char)
 extern void TField_setNormal_m6DB211603889329272BB7EC62FCC7F9F4E087A23 (void);
-// 0x000009D8 System.Void TField::doChangeToTextBox()
+// 0x000009E2 System.Void TField::doChangeToTextBox()
 extern void TField_doChangeToTextBox_m87C10201E3280040D427DB75D46A454E308C905A (void);
-// 0x000009D9 System.Void TField::setVendorTypeMode(System.Int32)
+// 0x000009E3 System.Void TField::setVendorTypeMode(System.Int32)
 extern void TField_setVendorTypeMode_mBABB62159EBDC6795056CAA0DE6498E10112AAB6 (void);
-// 0x000009DA System.Void TField::init()
+// 0x000009E4 System.Void TField::init()
 extern void TField_init_m053BA9C852FAB0B0A2DA8EE56606E0005206B666 (void);
-// 0x000009DB System.Void TField::clearKeyWhenPutText(System.Int32)
+// 0x000009E5 System.Void TField::clearKeyWhenPutText(System.Int32)
 extern void TField_clearKeyWhenPutText_m867F02E700EB86CD775D7B4737A7860E05E59843 (void);
-// 0x000009DC System.Void TField::clearAllText()
+// 0x000009E6 System.Void TField::clearAllText()
 extern void TField_clearAllText_m225D9AD20DB4CF7EA76612C438E16BC9629162E2 (void);
-// 0x000009DD System.Void TField::clear()
+// 0x000009E7 System.Void TField::clear()
 extern void TField_clear_mD0607E301585289422A32DF6A81813A13F9FCF24 (void);
-// 0x000009DE System.Void TField::clearAll()
+// 0x000009E8 System.Void TField::clearAll()
 extern void TField_clearAll_m5EDCFD205059226F25236E191FE5916BE274F124 (void);
-// 0x000009DF System.Void TField::setOffset()
+// 0x000009E9 System.Void TField::setOffset()
 extern void TField_setOffset_m2E32BB63B238CC927EEC3CF0B1C12C836DBA8FAE (void);
-// 0x000009E0 System.Void TField::keyPressedAny(System.Int32)
+// 0x000009EA System.Void TField::keyPressedAny(System.Int32)
 extern void TField_keyPressedAny_m3ADDF4A7123CF6CEE999180A82B4E238011EC8D9 (void);
-// 0x000009E1 System.Void TField::keyPressedAscii(System.Int32)
+// 0x000009EB System.Void TField::keyPressedAscii(System.Int32)
 extern void TField_keyPressedAscii_mE117A1780ACBD7AA401905C3D3833707441A0EAA (void);
-// 0x000009E2 System.Void TField::setMode()
+// 0x000009EC System.Void TField::setMode()
 extern void TField_setMode_m309F027D44388D9C868F4FD5A063631D8C571A65 (void);
-// 0x000009E3 System.Void TField::setDau()
+// 0x000009ED System.Void TField::setDau()
 extern void TField_setDau_m043C96C27DEEE1785F6376445731F8475547BDC4 (void);
-// 0x000009E4 System.Boolean TField::keyPressed(System.Int32)
+// 0x000009EE System.Boolean TField::keyPressed(System.Int32)
 extern void TField_keyPressed_mED9EADEA8478C1A10AA9236D1BBDB602D0096221 (void);
-// 0x000009E5 System.Void TField::setOffset(System.Int32)
+// 0x000009EF System.Void TField::setOffset(System.Int32)
 extern void TField_setOffset_mD00F161BF8A17ED3026B280EAF220E01F0D0B6E5 (void);
-// 0x000009E6 System.Void TField::paintInputTf(mGraphics,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
+// 0x000009F0 System.Void TField::paintInputTf(mGraphics,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String)
 extern void TField_paintInputTf_mFFBCE8E6A15EC7D229615E24A00711CAE214CE09 (void);
-// 0x000009E7 System.Void TField::paint(mGraphics)
+// 0x000009F1 System.Void TField::paint(mGraphics)
 extern void TField_paint_m723D56BEDF434A79B683C00CB148BBD3E66BC966 (void);
-// 0x000009E8 System.Boolean TField::isFocused()
+// 0x000009F2 System.Boolean TField::isFocused()
 extern void TField_isFocused_m8C9DC746D93D5BBDE3CFDB7BB258A2466E35F9BE (void);
-// 0x000009E9 System.String TField::subString(System.String,System.Int32,System.Int32)
+// 0x000009F3 System.String TField::subString(System.String,System.Int32,System.Int32)
 extern void TField_subString_mA77AE1488ACEA3E73565C0DF1A937BA1FA35FCE2 (void);
-// 0x000009EA System.Void TField::setPasswordTest()
+// 0x000009F4 System.Void TField::setPasswordTest()
 extern void TField_setPasswordTest_mA55A34572EDF2A534537942BFA6B953513A49C1B (void);
-// 0x000009EB System.Void TField::update()
+// 0x000009F5 System.Void TField::update()
 extern void TField_update_m814B2505FCF4D5DC3BBD89A8E21B96893C392984 (void);
-// 0x000009EC System.Void TField::setTextBox()
+// 0x000009F6 System.Void TField::setTextBox()
 extern void TField_setTextBox_m64195364025278276BBA5FBE2D3CD9EFFBA27B74 (void);
-// 0x000009ED System.Void TField::setFocus(System.Boolean)
+// 0x000009F7 System.Void TField::setFocus(System.Boolean)
 extern void TField_setFocus_mA8024E4550C22D184C8A62F68AE5E388899A0E01 (void);
-// 0x000009EE System.Void TField::setFocusWithKb(System.Boolean)
+// 0x000009F8 System.Void TField::setFocusWithKb(System.Boolean)
 extern void TField_setFocusWithKb_m75B30785D4816D7AD3953FE9CEA6987133BE1ADF (void);
-// 0x000009EF System.String TField::getText()
+// 0x000009F9 System.String TField::getText()
 extern void TField_getText_mFCD7D323EF26FC195005BA96783EE50137C5A47A (void);
-// 0x000009F0 System.Void TField::clearKb()
+// 0x000009FA System.Void TField::clearKb()
 extern void TField_clearKb_m57D9837FBF8D0984BA9660DD2D4378C32AB47EF2 (void);
-// 0x000009F1 System.Void TField::setText(System.String)
+// 0x000009FB System.Void TField::setText(System.String)
 extern void TField_setText_m082270065C3961E053A902D7C7BCC3B932CF4FAE (void);
-// 0x000009F2 System.Void TField::insertText(System.String)
+// 0x000009FC System.Void TField::insertText(System.String)
 extern void TField_insertText_mE296FBBC597665EE79DD7090A1EC4A7DF0A15476 (void);
-// 0x000009F3 System.Int32 TField::getMaxTextLenght()
+// 0x000009FD System.Int32 TField::getMaxTextLenght()
 extern void TField_getMaxTextLenght_m9128A95FEEC3BA4E653694BF3C11886D6BA759D1 (void);
-// 0x000009F4 System.Void TField::setMaxTextLenght(System.Int32)
+// 0x000009FE System.Void TField::setMaxTextLenght(System.Int32)
 extern void TField_setMaxTextLenght_m61EBFB02EBBFD04345FCF29A2FE30D03120575FD (void);
-// 0x000009F5 System.Int32 TField::getIputType()
+// 0x000009FF System.Int32 TField::getIputType()
 extern void TField_getIputType_m2B20754D541E6302996185227AD3BAAF64FCD25C (void);
-// 0x000009F6 System.Void TField::setIputType(System.Int32)
+// 0x00000A00 System.Void TField::setIputType(System.Int32)
 extern void TField_setIputType_m72F29E07E1F1F559628ABB8FFC773EDB68298B46 (void);
-// 0x000009F7 System.Void TField::perform(System.Int32,System.Object)
+// 0x00000A01 System.Void TField::perform(System.Int32,System.Object)
 extern void TField_perform_m2804C6409BD1B11E4661B106C69CDCD03784A690 (void);
-// 0x000009F8 System.Void TField::.cctor()
+// 0x00000A02 System.Void TField::.cctor()
 extern void TField__cctor_m179255209B69214475434EBCCAC212EF4C721575 (void);
-// 0x000009F9 System.Void TileMap::loadBg()
+// 0x00000A03 System.Void TileMap::loadBg()
 extern void TileMap_loadBg_m5F2A26B72317B947525CB6AE64E4AE9CD76FDB87 (void);
-// 0x000009FA System.Boolean TileMap::isVoDaiMap()
+// 0x00000A04 System.Boolean TileMap::isVoDaiMap()
 extern void TileMap_isVoDaiMap_m82062873FC18E51DEAC74E980B7D7D561270B65C (void);
-// 0x000009FB System.Boolean TileMap::isTrainingMap()
+// 0x00000A05 System.Boolean TileMap::isTrainingMap()
 extern void TileMap_isTrainingMap_mB40F11800EBBE8B1DFBB8CDC78CD7F1DEA6C3476 (void);
-// 0x000009FC System.Boolean TileMap::mapPhuBang()
+// 0x00000A06 System.Boolean TileMap::mapPhuBang()
 extern void TileMap_mapPhuBang_m6F5E4AE9E9C3FC4CA6843A2C0118F9C19EA319C2 (void);
-// 0x000009FD BgItem TileMap::getBIById(System.Int32)
+// 0x00000A07 BgItem TileMap::getBIById(System.Int32)
 extern void TileMap_getBIById_m0B30EA0767930E497B644C5A686210ED70E1355B (void);
-// 0x000009FE System.Boolean TileMap::isOfflineMap()
+// 0x00000A08 System.Boolean TileMap::isOfflineMap()
 extern void TileMap_isOfflineMap_mA63BF0C584B35B0CC872105983DB2E6CFE3EFBB8 (void);
-// 0x000009FF System.Boolean TileMap::isHighterMap()
+// 0x00000A09 System.Boolean TileMap::isHighterMap()
 extern void TileMap_isHighterMap_mB8F1CDA2DFF6A4FE59CE35BCA6CF45EB6C9C1DF8 (void);
-// 0x00000A00 System.Boolean TileMap::isToOfflineMap()
+// 0x00000A0A System.Boolean TileMap::isToOfflineMap()
 extern void TileMap_isToOfflineMap_m5F168142AEDD4251281A8E3ABE09FACCBC4BDED7 (void);
-// 0x00000A01 System.Void TileMap::freeTilemap()
+// 0x00000A0B System.Void TileMap::freeTilemap()
 extern void TileMap_freeTilemap_m47392BDBBAEACE2490E39378CCD53A3529CBF4A5 (void);
-// 0x00000A02 System.Void TileMap::loadTileCreatChar()
+// 0x00000A0C System.Void TileMap::loadTileCreatChar()
 extern void TileMap_loadTileCreatChar_m66583F33E6CADFD09FCDFEF9B21E2FE0D838506E (void);
-// 0x00000A03 System.Boolean TileMap::isExistMoreOne(System.Int32)
+// 0x00000A0D System.Boolean TileMap::isExistMoreOne(System.Int32)
 extern void TileMap_isExistMoreOne_m7C3F279B2C46D23B91B01CD46F3D82628A4C3A8D (void);
-// 0x00000A04 System.Void TileMap::loadTileImage()
+// 0x00000A0E System.Void TileMap::loadTileImage()
 extern void TileMap_loadTileImage_m7BF77C18FCBD634290928E96E0B42344AC217E4C (void);
-// 0x00000A05 System.Void TileMap::setTile(System.Int32,System.Int32[],System.Int32)
+// 0x00000A0F System.Void TileMap::setTile(System.Int32,System.Int32[],System.Int32)
 extern void TileMap_setTile_m81E9C1FE8148503C7FB91A1768830BF4BBFD584F (void);
-// 0x00000A06 System.Void TileMap::loadMap(System.Int32)
+// 0x00000A10 System.Void TileMap::loadMap(System.Int32)
 extern void TileMap_loadMap_m16D907DB74586288DD4E0316FDC3DDE49DBD56F5 (void);
-// 0x00000A07 System.Boolean TileMap::isInAirMap()
+// 0x00000A11 System.Boolean TileMap::isInAirMap()
 extern void TileMap_isInAirMap_m038D011544C9285CF885EB08A199F942157812B3 (void);
-// 0x00000A08 System.Boolean TileMap::isDoubleMap()
+// 0x00000A12 System.Boolean TileMap::isDoubleMap()
 extern void TileMap_isDoubleMap_m9E53C4E1FBB95563CE015599C450628610E2EF41 (void);
-// 0x00000A09 System.Void TileMap::getTile()
+// 0x00000A13 System.Void TileMap::getTile()
 extern void TileMap_getTile_m432EA492FA03733BFBF29CBD0CF3DCF22E061761 (void);
-// 0x00000A0A System.Void TileMap::paintTile(mGraphics,System.Int32,System.Int32,System.Int32)
+// 0x00000A14 System.Void TileMap::paintTile(mGraphics,System.Int32,System.Int32,System.Int32)
 extern void TileMap_paintTile_m4DE010CE7A0A2EB664E783310995A70FCE4560EF (void);
-// 0x00000A0B System.Void TileMap::paintTile(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000A15 System.Void TileMap::paintTile(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void TileMap_paintTile_m80DEE6974D3202126EAC485E41361AE749270047 (void);
-// 0x00000A0C System.Void TileMap::paintTilemapLOW(mGraphics)
+// 0x00000A16 System.Void TileMap::paintTilemapLOW(mGraphics)
 extern void TileMap_paintTilemapLOW_mD6BEE31143A6F5E86A31300934F32FE5B48FE28A (void);
-// 0x00000A0D System.Void TileMap::paintTilemap(mGraphics)
+// 0x00000A17 System.Void TileMap::paintTilemap(mGraphics)
 extern void TileMap_paintTilemap_mF943B65D3B3D38639095F3E6AFAF0734384DA0D0 (void);
-// 0x00000A0E System.Boolean TileMap::isWaterEff()
+// 0x00000A18 System.Boolean TileMap::isWaterEff()
 extern void TileMap_isWaterEff_m69BBC6FBF30E6E96602388BE50C19AE4AE789FAB (void);
-// 0x00000A0F System.Void TileMap::paintOutTilemap(mGraphics)
+// 0x00000A19 System.Void TileMap::paintOutTilemap(mGraphics)
 extern void TileMap_paintOutTilemap_m3551EAE5D1800E98308E0EA2475CDE18B935B5C3 (void);
-// 0x00000A10 System.Void TileMap::loadMapFromResource(System.Int32)
+// 0x00000A1A System.Void TileMap::loadMapFromResource(System.Int32)
 extern void TileMap_loadMapFromResource_m65DCFA75AFCFF33D42F05F19D7D7FCE9CC9A2E7B (void);
-// 0x00000A11 System.Int32 TileMap::tileAt(System.Int32,System.Int32)
+// 0x00000A1B System.Int32 TileMap::tileAt(System.Int32,System.Int32)
 extern void TileMap_tileAt_mD3D382E28DA74B88A14E7A9EE441C1B651E26C62 (void);
-// 0x00000A12 System.Int32 TileMap::tileTypeAt(System.Int32,System.Int32)
+// 0x00000A1C System.Int32 TileMap::tileTypeAt(System.Int32,System.Int32)
 extern void TileMap_tileTypeAt_m5870F2841150C3699B1B1019DD24D594AF9BD11D (void);
-// 0x00000A13 System.Int32 TileMap::tileTypeAtPixel(System.Int32,System.Int32)
+// 0x00000A1D System.Int32 TileMap::tileTypeAtPixel(System.Int32,System.Int32)
 extern void TileMap_tileTypeAtPixel_m08D9116209ABC26A069AC5251C5E131A416F4C95 (void);
-// 0x00000A14 System.Boolean TileMap::tileTypeAt(System.Int32,System.Int32,System.Int32)
+// 0x00000A1E System.Boolean TileMap::tileTypeAt(System.Int32,System.Int32,System.Int32)
 extern void TileMap_tileTypeAt_m3CF3977EBE57358E445EF94A89C44669ACFE2BC7 (void);
-// 0x00000A15 System.Void TileMap::setTileTypeAtPixel(System.Int32,System.Int32,System.Int32)
+// 0x00000A1F System.Void TileMap::setTileTypeAtPixel(System.Int32,System.Int32,System.Int32)
 extern void TileMap_setTileTypeAtPixel_mE72B81279AC95018D0B1C5555525E0BF2E792628 (void);
-// 0x00000A16 System.Void TileMap::setTileTypeAt(System.Int32,System.Int32,System.Int32)
+// 0x00000A20 System.Void TileMap::setTileTypeAt(System.Int32,System.Int32,System.Int32)
 extern void TileMap_setTileTypeAt_m40D931CA54501AA7D718A30CDDBCCB2D2D40F77C (void);
-// 0x00000A17 System.Void TileMap::killTileTypeAt(System.Int32,System.Int32,System.Int32)
+// 0x00000A21 System.Void TileMap::killTileTypeAt(System.Int32,System.Int32,System.Int32)
 extern void TileMap_killTileTypeAt_m1412E67F8B6F2E5B6DE1C0079F9D975A5AEAE864 (void);
-// 0x00000A18 System.Int32 TileMap::tileYofPixel(System.Int32)
+// 0x00000A22 System.Int32 TileMap::tileYofPixel(System.Int32)
 extern void TileMap_tileYofPixel_m8BE15040BA8921E38F9B6CCD231457D0EF6B4968 (void);
-// 0x00000A19 System.Int32 TileMap::tileXofPixel(System.Int32)
+// 0x00000A23 System.Int32 TileMap::tileXofPixel(System.Int32)
 extern void TileMap_tileXofPixel_m45ED815F16F65945FA5A52B2EDBA63866FB8B40F (void);
-// 0x00000A1A System.Void TileMap::loadMainTile()
+// 0x00000A24 System.Void TileMap::loadMainTile()
 extern void TileMap_loadMainTile_m3127E118D260ABEB1F07196699B49886498FC07D (void);
-// 0x00000A1B System.Void TileMap::.ctor()
+// 0x00000A25 System.Void TileMap::.ctor()
 extern void TileMap__ctor_m2FE29F86C3B181DFBAA7A08F5367D0C1525F22DD (void);
-// 0x00000A1C System.Void TileMap::.cctor()
+// 0x00000A26 System.Void TileMap::.cctor()
 extern void TileMap__cctor_m7DAFBA4F064D9FA66162D7F61A99634D01314580 (void);
-// 0x00000A1D System.Void Timer::setTimer(IActionListener,System.Int32,System.Int64)
+// 0x00000A27 System.Void Timer::setTimer(IActionListener,System.Int32,System.Int64)
 extern void Timer_setTimer_m196F1C674B991BE8090EE51A005A207BCB0F06ED (void);
-// 0x00000A1E System.Void Timer::update()
+// 0x00000A28 System.Void Timer::update()
 extern void Timer_update_m59ACFCC04B706DB4F3E5B90155EAD6A42A143F30 (void);
-// 0x00000A1F System.Void Timer::.ctor()
+// 0x00000A29 System.Void Timer::.ctor()
 extern void Timer__ctor_m5FF13F1DAD0527F97E229A1904A8AD662731C4B5 (void);
-// 0x00000A20 System.Void TopInfo::.ctor()
+// 0x00000A2A System.Void TopInfo::.ctor()
 extern void TopInfo__ctor_m788A3FF24BC953E4939FED19163B9B96D879D608 (void);
-// 0x00000A21 System.Void TransportScr::.ctor()
+// 0x00000A2B System.Void TransportScr::.ctor()
 extern void TransportScr__ctor_mB1FA32DE44192927AFA473AB0696ACB55267BD85 (void);
-// 0x00000A22 TransportScr TransportScr::gI()
+// 0x00000A2C TransportScr TransportScr::gI()
 extern void TransportScr_gI_m9DB5431E4CC90FA5B020C9667D5199CEDC7CB4AA (void);
-// 0x00000A23 System.Void TransportScr::switchToMe()
+// 0x00000A2D System.Void TransportScr::switchToMe()
 extern void TransportScr_switchToMe_m2B44F6C244DB51E6A9A1E32365A084C42354A993 (void);
-// 0x00000A24 System.Void TransportScr::paint(mGraphics)
+// 0x00000A2E System.Void TransportScr::paint(mGraphics)
 extern void TransportScr_paint_m8AF719440FD9A0E802402CAE27B7812B37FC9C37 (void);
-// 0x00000A25 System.Void TransportScr::update()
+// 0x00000A2F System.Void TransportScr::update()
 extern void TransportScr_update_mA92730CEB81F918B25189241DD8DA89D574913B5 (void);
-// 0x00000A26 System.Void TransportScr::updateKey()
+// 0x00000A30 System.Void TransportScr::updateKey()
 extern void TransportScr_updateKey_m7773A8E86F599B984BA7C5EAA79EB2BFFE249474 (void);
-// 0x00000A27 System.Void TransportScr::perform(System.Int32,System.Object)
+// 0x00000A31 System.Void TransportScr::perform(System.Int32,System.Object)
 extern void TransportScr_perform_mAE2D99E30F4BD5C3D6052A826CFE8E51055F186D (void);
-// 0x00000A28 System.Void Waypoint::.ctor(System.Int16,System.Int16,System.Int16,System.Int16,System.Boolean,System.Boolean,System.String)
+// 0x00000A32 System.Void Waypoint::.ctor(System.Int16,System.Int16,System.Int16,System.Int16,System.Boolean,System.Boolean,System.String)
 extern void Waypoint__ctor_m1221754A73359D52D72174A8DE4EF2CE8F291D82 (void);
-// 0x00000A29 System.Void Waypoint::perform(System.Int32,System.Object)
+// 0x00000A33 System.Void Waypoint::perform(System.Int32,System.Object)
 extern void Waypoint_perform_m4867E19719BD83C9870072072044FC5EDE830039 (void);
-// 0x00000A2A System.Void Mod.ChatCommand::Noti(System.String)
+// 0x00000A34 System.Void Mod.ChatCommand::Noti(System.String)
 extern void ChatCommand_Noti_m6BB0EFB80CBF539DD08E9B2962A51E68F4695831 (void);
-// 0x00000A2B System.Boolean Mod.ChatCommand::Chat(System.String)
+// 0x00000A35 System.Boolean Mod.ChatCommand::Chat(System.String)
 extern void ChatCommand_Chat_m89ECB728B5FD64DD895E205AF7AAFB418A840D81 (void);
-// 0x00000A2C System.Void Mod.ChatCommand::.ctor()
+// 0x00000A36 System.Void Mod.ChatCommand::.ctor()
 extern void ChatCommand__ctor_m7D57E479FCA4C46FC5A38EA2B511AF866F580C8C (void);
-// 0x00000A2D System.Void Mod.Text::.ctor()
+// 0x00000A37 System.Void Mod.Text::.ctor()
 extern void Text__ctor_m9A61A8B5E034234F4180F799DCCC69C7EA79FFB4 (void);
-// 0x00000A2E System.Void Mod.Text::.cctor()
+// 0x00000A38 System.Void Mod.Text::.cctor()
 extern void Text__cctor_m80019E9A7376E8C8E5BE64A1ACF2893FBAF1C0C4 (void);
-// 0x00000A2F CilentModify.AutoItem CilentModify.AutoItem::getInstance()
+// 0x00000A39 CilentModify.AutoItem CilentModify.AutoItem::getInstance()
 extern void AutoItem_getInstance_mD47B5F18018A85F098A4CCA930E9A313FFF8DDC9 (void);
-// 0x00000A30 System.Void CilentModify.AutoItem::Update()
+// 0x00000A3A System.Void CilentModify.AutoItem::Update()
 extern void AutoItem_Update_m2192ABB03E447307FD824D567A3C8F9CD980E8F9 (void);
-// 0x00000A31 System.Void CilentModify.AutoItem::onChatFromMe(System.String,System.String)
+// 0x00000A3B System.Void CilentModify.AutoItem::onChatFromMe(System.String,System.String)
 extern void AutoItem_onChatFromMe_m86015D6F02487DBFFBAC419962944CF47D5A0292 (void);
-// 0x00000A32 System.Void CilentModify.AutoItem::onCancelChat()
+// 0x00000A3C System.Void CilentModify.AutoItem::onCancelChat()
 extern void AutoItem_onCancelChat_mB9B388817A4C99105CBC479C0A5FB7EDFB8619A7 (void);
-// 0x00000A33 System.Void CilentModify.AutoItem::perform(System.Int32,System.Object)
+// 0x00000A3D System.Void CilentModify.AutoItem::perform(System.Int32,System.Object)
 extern void AutoItem_perform_mB95D1F700898012FC4A7008284049C1B0D5C1FB6 (void);
-// 0x00000A34 System.Void CilentModify.AutoItem::ResetChatTextField()
+// 0x00000A3E System.Void CilentModify.AutoItem::ResetChatTextField()
 extern void AutoItem_ResetChatTextField_m4902139D05EF6C56FAE4A3978573A6EAAE522E2E (void);
-// 0x00000A35 System.Boolean CilentModify.AutoItem::isAutoUse(System.Int32)
+// 0x00000A3F System.Boolean CilentModify.AutoItem::isAutoUse(System.Int32)
 extern void AutoItem_isAutoUse_m7C68659357C3BC0318FFEDE8B79803E0FECEA617 (void);
-// 0x00000A36 System.Void CilentModify.AutoItem::RemoveItemAuto(System.Int32)
+// 0x00000A40 System.Void CilentModify.AutoItem::RemoveItemAuto(System.Int32)
 extern void AutoItem_RemoveItemAuto_mAD09320FA5C20C4839AE080B0C57A1DCC76C495A (void);
-// 0x00000A37 System.Void CilentModify.AutoItem::OpenTFAutoUseItem(CilentModify.AutoItem/Item)
+// 0x00000A41 System.Void CilentModify.AutoItem::OpenTFAutoUseItem(CilentModify.AutoItem/Item)
 extern void AutoItem_OpenTFAutoUseItem_m6FF0707D66AE8D110AB46D8F12487B3AA00AD81C (void);
-// 0x00000A38 System.Void CilentModify.AutoItem::OpenTFAutoTradeItem(CilentModify.AutoItem/Item)
+// 0x00000A42 System.Void CilentModify.AutoItem::OpenTFAutoTradeItem(CilentModify.AutoItem/Item)
 extern void AutoItem_OpenTFAutoTradeItem_mFF9B380A952271867E32034DB7847B6829DDA217 (void);
-// 0x00000A39 System.Void CilentModify.AutoItem::AutoSell(CilentModify.AutoItem/Item)
+// 0x00000A43 System.Void CilentModify.AutoItem::AutoSell(CilentModify.AutoItem/Item)
 extern void AutoItem_AutoSell_m71379C241D556BCE52D684E278E7717334B38CC5 (void);
-// 0x00000A3A System.Void CilentModify.AutoItem::AutoBuy(CilentModify.AutoItem/Item)
+// 0x00000A44 System.Void CilentModify.AutoItem::AutoBuy(CilentModify.AutoItem/Item)
 extern void AutoItem_AutoBuy_m6546288642245285451C039A7857A02AE85FC47E (void);
-// 0x00000A3B System.Void CilentModify.AutoItem::useSet(System.Int32)
+// 0x00000A45 System.Void CilentModify.AutoItem::useSet(System.Int32)
 extern void AutoItem_useSet_mBACE0B9D20262B6D03E90559CD68DAC1FDF86FFE (void);
-// 0x00000A3C System.Void CilentModify.AutoItem::ChangeSet(System.Collections.Generic.List`1<System.String>)
+// 0x00000A46 System.Void CilentModify.AutoItem::ChangeSet(System.Collections.Generic.List`1<System.String>)
 extern void AutoItem_ChangeSet_m45099033C7C9596D3A2F787881CE9AEDFBC97CB5 (void);
-// 0x00000A3D System.Void CilentModify.AutoItem::.ctor()
+// 0x00000A47 System.Void CilentModify.AutoItem::.ctor()
 extern void AutoItem__ctor_m47B7E35784756DB8112CDE7305875C35F2C40B29 (void);
-// 0x00000A3E System.Void CilentModify.AutoItem::.cctor()
+// 0x00000A48 System.Void CilentModify.AutoItem::.cctor()
 extern void AutoItem__cctor_mFCC5BA27610832B183087CE0154223358B594E0B (void);
-// 0x00000A3F System.Void CilentModify.AutoItem::<onChatFromMe>b__2_0()
+// 0x00000A49 System.Void CilentModify.AutoItem::<onChatFromMe>b__2_0()
 extern void AutoItem_U3ConChatFromMeU3Eb__2_0_m52B0FADE2EC1F2746BE860D74353D3FFFF783AEF (void);
-// 0x00000A40 System.Void CilentModify.AutoItem/Item::.ctor(System.Int32,System.String)
+// 0x00000A4A System.Void CilentModify.AutoItem/Item::.ctor(System.Int32,System.String)
 extern void Item__ctor_m67837087D67A30F036571DB79D8AC4DD430A1405 (void);
-// 0x00000A41 System.Void CilentModify.AutoItem/Item::.ctor(System.Int32,System.Int16,System.Boolean,System.Boolean)
+// 0x00000A4B System.Void CilentModify.AutoItem/Item::.ctor(System.Int32,System.Int16,System.Boolean,System.Boolean)
 extern void Item__ctor_m190CE91D3AAB7A09C731935E72D127983C53E4CD (void);
-// 0x00000A42 System.Void CilentModify.AutoItem/Item::AutoBuy(CilentModify.AutoItem/Item)
+// 0x00000A4C System.Void CilentModify.AutoItem/Item::AutoBuy(CilentModify.AutoItem/Item)
 extern void Item_AutoBuy_m279A1253A26FE0A8E0DA91C45E32D5ADCDF8487B (void);
-// 0x00000A43 System.Void CilentModify.AutoItem/<>c::.cctor()
+// 0x00000A4D System.Void CilentModify.AutoItem/<>c::.cctor()
 extern void U3CU3Ec__cctor_m28C33F3219ED8B4D9E50A7F85E9C5073DC200DA5 (void);
-// 0x00000A44 System.Void CilentModify.AutoItem/<>c::.ctor()
+// 0x00000A4E System.Void CilentModify.AutoItem/<>c::.ctor()
 extern void U3CU3Ec__ctor_m8B8AC0D8A9008CFCCC35A526EF9EE090D9A91201 (void);
-// 0x00000A45 System.Void CilentModify.AutoItem/<>c::<onChatFromMe>b__2_1()
+// 0x00000A4F System.Void CilentModify.AutoItem/<>c::<onChatFromMe>b__2_1()
 extern void U3CU3Ec_U3ConChatFromMeU3Eb__2_1_m36E418A10A3029D13367ABFFCA7AE76886E5A534 (void);
-// 0x00000A46 System.Void CilentModify.AutoItem/<>c__DisplayClass12_0::.ctor()
+// 0x00000A50 System.Void CilentModify.AutoItem/<>c__DisplayClass12_0::.ctor()
 extern void U3CU3Ec__DisplayClass12_0__ctor_m0EBE896F3BA570A8FE46A25F53AF2456BB9731A3 (void);
-// 0x00000A47 System.Void CilentModify.AutoItem/<>c__DisplayClass12_0::<useSet>b__0()
+// 0x00000A51 System.Void CilentModify.AutoItem/<>c__DisplayClass12_0::<useSet>b__0()
 extern void U3CU3Ec__DisplayClass12_0_U3CuseSetU3Eb__0_mBB7568D0FDCB0177BBABCF8A3E0CF3C6C40E39B0 (void);
-// 0x00000A48 CilentModify.AutoPean CilentModify.AutoPean::getInstance()
+// 0x00000A52 CilentModify.AutoPean CilentModify.AutoPean::getInstance()
 extern void AutoPean_getInstance_m9D8032AE7F14A9923BA008BD7D880AF742A483C4 (void);
-// 0x00000A49 System.Void CilentModify.AutoPean::Update()
+// 0x00000A53 System.Void CilentModify.AutoPean::Update()
 extern void AutoPean_Update_mE1543130764AAA7D80CA48E9CE7CB46FF3074ED4 (void);
-// 0x00000A4A System.Void CilentModify.AutoPean::onChatFromMe(System.String,System.String)
+// 0x00000A54 System.Void CilentModify.AutoPean::onChatFromMe(System.String,System.String)
 extern void AutoPean_onChatFromMe_mF11A5318B97028EAD5575498D68FE8A62702552D (void);
-// 0x00000A4B System.Void CilentModify.AutoPean::onCancelChat()
+// 0x00000A55 System.Void CilentModify.AutoPean::onCancelChat()
 extern void AutoPean_onCancelChat_m4AEE4616560478C07A67D0A35743EC9A7710C9C4 (void);
-// 0x00000A4C System.Void CilentModify.AutoPean::perform(System.Int32,System.Object)
+// 0x00000A56 System.Void CilentModify.AutoPean::perform(System.Int32,System.Object)
 extern void AutoPean_perform_mBE83B9F840BE5F7EC9782AA9106C028B5BF777E7 (void);
-// 0x00000A4D System.Void CilentModify.AutoPean::ShowMenu()
+// 0x00000A57 System.Void CilentModify.AutoPean::ShowMenu()
 extern void AutoPean_ShowMenu_m7818AB98CB1A9E55B8E5A9BB24590823E095F9D3 (void);
-// 0x00000A4E System.Void CilentModify.AutoPean::LoadData()
+// 0x00000A58 System.Void CilentModify.AutoPean::LoadData()
 extern void AutoPean_LoadData_mE1C712BA597F61EF5439099A038444691DC32FFE (void);
-// 0x00000A4F System.Void CilentModify.AutoPean::SaveData()
+// 0x00000A59 System.Void CilentModify.AutoPean::SaveData()
 extern void AutoPean_SaveData_mD7F45B8CC0D980194F8564FE6D634CD32472E239 (void);
-// 0x00000A50 System.Void CilentModify.AutoPean::ResetChatTextField()
+// 0x00000A5A System.Void CilentModify.AutoPean::ResetChatTextField()
 extern void AutoPean_ResetChatTextField_m9DF31473C13D88223D5635CF9EEF0D29728AEB95 (void);
-// 0x00000A51 System.Void CilentModify.AutoPean::RequestPean()
+// 0x00000A5B System.Void CilentModify.AutoPean::RequestPean()
 extern void AutoPean_RequestPean_m7F0B4DA829E50B42F8960ABE26325CAB659829E3 (void);
-// 0x00000A52 System.Void CilentModify.AutoPean::DonatePean()
+// 0x00000A5C System.Void CilentModify.AutoPean::DonatePean()
 extern void AutoPean_DonatePean_mB622FE514A789C69E3EB2BA3828A38A9AD87EC54 (void);
-// 0x00000A53 System.Void CilentModify.AutoPean::HarvestPean()
+// 0x00000A5D System.Void CilentModify.AutoPean::HarvestPean()
 extern void AutoPean_HarvestPean_mD92F42601C033293B4AC8DD2C4FA930DD932EA88 (void);
-// 0x00000A54 System.Void CilentModify.AutoPean::AutoUsePean()
+// 0x00000A5E System.Void CilentModify.AutoPean::AutoUsePean()
 extern void AutoPean_AutoUsePean_mE755D7E818AFF54436B0FBA16333E25836AC611A (void);
-// 0x00000A55 System.Int32 CilentModify.AutoPean::MyHPPercent()
+// 0x00000A5F System.Int32 CilentModify.AutoPean::MyHPPercent()
 extern void AutoPean_MyHPPercent_m76EF0E7EB144CAA032388B03CB5BDD93DA4043B9 (void);
-// 0x00000A56 System.Int32 CilentModify.AutoPean::MyMPPercent()
+// 0x00000A60 System.Int32 CilentModify.AutoPean::MyMPPercent()
 extern void AutoPean_MyMPPercent_m01B2AD9CCA0ED3B3840892354467B259D17D1130 (void);
-// 0x00000A57 System.Boolean CilentModify.AutoPean::isMyHPLowerThan(System.Int32,System.Int32)
+// 0x00000A61 System.Boolean CilentModify.AutoPean::isMyHPLowerThan(System.Int32,System.Int32)
 extern void AutoPean_isMyHPLowerThan_mE0FE51ADED321FF7C5FE4C22967BAECBFA0B0A17 (void);
-// 0x00000A58 System.Boolean CilentModify.AutoPean::isMyMPLowerThan(System.Int32,System.Int32)
+// 0x00000A62 System.Boolean CilentModify.AutoPean::isMyMPLowerThan(System.Int32,System.Int32)
 extern void AutoPean_isMyMPLowerThan_mB3AD503B88128DFDF4AE6B707DF6952489EAB856 (void);
-// 0x00000A59 System.Void CilentModify.AutoPean::.cctor()
+// 0x00000A63 System.Void CilentModify.AutoPean::.cctor()
 extern void AutoPean__cctor_mA3FF93EC58CA4373483FDD9E928ADEF0FECB4B75 (void);
-// 0x00000A5A System.Void CilentModify.AutoPean::.ctor()
+// 0x00000A64 System.Void CilentModify.AutoPean::.ctor()
 extern void AutoPean__ctor_m8285D84D170CEBE997169F9089B6CC0CFFEA5DC5 (void);
-// 0x00000A5B CilentModify.AutoPick CilentModify.AutoPick::getInstance()
+// 0x00000A65 CilentModify.AutoPick CilentModify.AutoPick::getInstance()
 extern void AutoPick_getInstance_m5610DE3144DB3BF2CAF98A78CBF7E325785309D1 (void);
-// 0x00000A5C System.Void CilentModify.AutoPick::Update()
+// 0x00000A66 System.Void CilentModify.AutoPick::Update()
 extern void AutoPick_Update_mFCEACA315B08ECD2749094F3512C9091F7C6014B (void);
-// 0x00000A5D System.Void CilentModify.AutoPick::onChatFromMe(System.String,System.String)
+// 0x00000A67 System.Void CilentModify.AutoPick::onChatFromMe(System.String,System.String)
 extern void AutoPick_onChatFromMe_mFC296964963BE7541EDAF5CE9D5576785C9E85C7 (void);
-// 0x00000A5E System.Void CilentModify.AutoPick::onCancelChat()
+// 0x00000A68 System.Void CilentModify.AutoPick::onCancelChat()
 extern void AutoPick_onCancelChat_m2453959FBBB975F54270E5114E0FE83D69B67A72 (void);
-// 0x00000A5F System.Void CilentModify.AutoPick::perform(System.Int32,System.Object)
+// 0x00000A69 System.Void CilentModify.AutoPick::perform(System.Int32,System.Object)
 extern void AutoPick_perform_m8BE100F430411AF652CF3B5AF439BD75B2E56D33 (void);
-// 0x00000A60 System.Void CilentModify.AutoPick::ShowMenu()
+// 0x00000A6A System.Void CilentModify.AutoPick::ShowMenu()
 extern void AutoPick_ShowMenu_mD78585598DDFE4464A4D8A254411357D80F93603 (void);
-// 0x00000A61 System.Void CilentModify.AutoPick::ResetChatTextField()
+// 0x00000A6B System.Void CilentModify.AutoPick::ResetChatTextField()
 extern void AutoPick_ResetChatTextField_mA4D7EF50F5677BDD4AC518F78EBA041DC5B00C32 (void);
-// 0x00000A62 System.Void CilentModify.AutoPick::smethod_0()
+// 0x00000A6C System.Void CilentModify.AutoPick::smethod_0()
 extern void AutoPick_smethod_0_mCC70A3B564CA9C2582D8F28B30D57911B9A457A2 (void);
-// 0x00000A63 System.Void CilentModify.AutoPick::smethod_1()
+// 0x00000A6D System.Void CilentModify.AutoPick::smethod_1()
 extern void AutoPick_smethod_1_mD78059E4745FCDA7C5F40C6F617E7BD547E678C2 (void);
-// 0x00000A64 System.Void CilentModify.AutoPick::FocusToNearestItem()
+// 0x00000A6E System.Void CilentModify.AutoPick::FocusToNearestItem()
 extern void AutoPick_FocusToNearestItem_m98851F32C2DF1C5D8C390A53BB2B96E2D172F4F2 (void);
-// 0x00000A65 System.Void CilentModify.AutoPick::PickIt()
+// 0x00000A6F System.Void CilentModify.AutoPick::PickIt()
 extern void AutoPick_PickIt_m7783DF2D750AA4BDB436C5A62B8FBF1E8F29BE7D (void);
-// 0x00000A66 System.Void CilentModify.AutoPick::TeleportTo(System.Int32,System.Int32)
+// 0x00000A70 System.Void CilentModify.AutoPick::TeleportTo(System.Int32,System.Int32)
 extern void AutoPick_TeleportTo_m97400444FB2150359DA2D9B88A698EAAF17804AF (void);
-// 0x00000A67 System.Boolean CilentModify.AutoPick::isPickIt(ItemMap)
+// 0x00000A71 System.Boolean CilentModify.AutoPick::isPickIt(ItemMap)
 extern void AutoPick_isPickIt_mAE46534F965E8355D8BA2EC0542288CB799A6591 (void);
-// 0x00000A68 System.Boolean CilentModify.AutoPick::isNRDMap(System.Int32)
+// 0x00000A72 System.Boolean CilentModify.AutoPick::isNRDMap(System.Int32)
 extern void AutoPick_isNRDMap_m8007ECEBC66CCA2BD00A11B3017A365D2F08F18A (void);
-// 0x00000A69 System.Boolean CilentModify.AutoPick::isNRD(ItemMap)
+// 0x00000A73 System.Boolean CilentModify.AutoPick::isNRD(ItemMap)
 extern void AutoPick_isNRD_m5EA506E151F7EAAAC4BB0927423D5C998F8B5391 (void);
-// 0x00000A6A System.Void CilentModify.AutoPick::.ctor()
+// 0x00000A74 System.Void CilentModify.AutoPick::.ctor()
 extern void AutoPick__ctor_m6CA34CED4AA78FC20609FAD881040CE3C58EDF6D (void);
-// 0x00000A6B System.Void CilentModify.AutoPick::.cctor()
+// 0x00000A75 System.Void CilentModify.AutoPick::.cctor()
 extern void AutoPick__cctor_mE3E20AD2582C3EAED4F85EE308D405E6FA49B5AC (void);
-// 0x00000A6C CilentModify.AutoPoint CilentModify.AutoPoint::getInstance()
+// 0x00000A76 CilentModify.AutoPoint CilentModify.AutoPoint::getInstance()
 extern void AutoPoint_getInstance_mD6ABE990D74A8ED3F8E9016B48B54F2CE9F97E10 (void);
-// 0x00000A6D System.Void CilentModify.AutoPoint::Update()
+// 0x00000A77 System.Void CilentModify.AutoPoint::Update()
 extern void AutoPoint_Update_m0B87A68711FD8E12111BD219B8D128556F2CBA08 (void);
-// 0x00000A6E System.Void CilentModify.AutoPoint::onChatFromMe(System.String,System.String)
+// 0x00000A78 System.Void CilentModify.AutoPoint::onChatFromMe(System.String,System.String)
 extern void AutoPoint_onChatFromMe_m973D12370ADA948474D9C4243D79031DABE85DCE (void);
-// 0x00000A6F System.Void CilentModify.AutoPoint::onCancelChat()
+// 0x00000A79 System.Void CilentModify.AutoPoint::onCancelChat()
 extern void AutoPoint_onCancelChat_mF37D9735D0A38361CFB76B6AAB7FDFD354EE56FA (void);
-// 0x00000A70 System.Void CilentModify.AutoPoint::perform(System.Int32,System.Object)
+// 0x00000A7A System.Void CilentModify.AutoPoint::perform(System.Int32,System.Object)
 extern void AutoPoint_perform_m3125C7FC04B752B746F1E1AEFE9C44469323138F (void);
-// 0x00000A71 System.Void CilentModify.AutoPoint::ShowMenu()
+// 0x00000A7B System.Void CilentModify.AutoPoint::ShowMenu()
 extern void AutoPoint_ShowMenu_mCB399411E652BFBFF242B6A0982BBE7A6B58DFA1 (void);
-// 0x00000A72 System.Void CilentModify.AutoPoint::ShowMenuAutoPoint()
+// 0x00000A7C System.Void CilentModify.AutoPoint::ShowMenuAutoPoint()
 extern void AutoPoint_ShowMenuAutoPoint_m649E85402BFF287DF0C25E02E9961326FD953B85 (void);
-// 0x00000A73 System.Void CilentModify.AutoPoint::ShowMenuAutoPointFast()
+// 0x00000A7D System.Void CilentModify.AutoPoint::ShowMenuAutoPointFast()
 extern void AutoPoint_ShowMenuAutoPointFast_mC6EE1499265F80A9D73660CEFAF5D8CEA9BB223A (void);
-// 0x00000A74 System.Void CilentModify.AutoPoint::ShowMenuAddPoint(System.Int32)
+// 0x00000A7E System.Void CilentModify.AutoPoint::ShowMenuAddPoint(System.Int32)
 extern void AutoPoint_ShowMenuAddPoint_m3B0B21530157D7631545AAEA0EADAFB0239A7F6C (void);
-// 0x00000A75 System.Void CilentModify.AutoPoint::ResetChatTextField()
+// 0x00000A7F System.Void CilentModify.AutoPoint::ResetChatTextField()
 extern void AutoPoint_ResetChatTextField_m4994498CB1B7F258427548609ED9DF06FACB9D4E (void);
-// 0x00000A76 System.Void CilentModify.AutoPoint::LoadData()
+// 0x00000A80 System.Void CilentModify.AutoPoint::LoadData()
 extern void AutoPoint_LoadData_m4CB5DE42CBE0190200BBBE1FD7EC94BBA4649A72 (void);
-// 0x00000A77 System.Void CilentModify.AutoPoint::smethod_0()
+// 0x00000A81 System.Void CilentModify.AutoPoint::smethod_0()
 extern void AutoPoint_smethod_0_m533443F76FF743CA39B9662289920F76084D8C5D (void);
-// 0x00000A78 System.Void CilentModify.AutoPoint::DoIt()
+// 0x00000A82 System.Void CilentModify.AutoPoint::DoIt()
 extern void AutoPoint_DoIt_mEA1DCF4CE0100A5B2FD78DBD6FCD0FF31DB564A1 (void);
-// 0x00000A79 System.Void CilentModify.AutoPoint::.ctor()
+// 0x00000A83 System.Void CilentModify.AutoPoint::.ctor()
 extern void AutoPoint__ctor_m3D64EDEC755355213549A1099F12D75F9D2E08EE (void);
-// 0x00000A7A System.Void CilentModify.AutoPoint::.cctor()
+// 0x00000A84 System.Void CilentModify.AutoPoint::.cctor()
 extern void AutoPoint__cctor_mBC989A6C24302E08EB6D67FA87FB458A79ED3C4F (void);
-// 0x00000A7B CilentModify.AutoSkill CilentModify.AutoSkill::getInstance()
+// 0x00000A85 CilentModify.AutoSkill CilentModify.AutoSkill::getInstance()
 extern void AutoSkill_getInstance_mFF41293880FB6CC5163169EBA520AEEB0C46F102 (void);
-// 0x00000A7C System.Void CilentModify.AutoSkill::Update()
+// 0x00000A86 System.Void CilentModify.AutoSkill::Update()
 extern void AutoSkill_Update_m7793B81C3145DB6857C0DAFEC427401F1F86E608 (void);
-// 0x00000A7D System.Void CilentModify.AutoSkill::onChatFromMe(System.String,System.String)
+// 0x00000A87 System.Void CilentModify.AutoSkill::onChatFromMe(System.String,System.String)
 extern void AutoSkill_onChatFromMe_m558FF54CBCB0B0D8FFA71E94EDAC3F56EAB5DA31 (void);
-// 0x00000A7E System.Void CilentModify.AutoSkill::onCancelChat()
+// 0x00000A88 System.Void CilentModify.AutoSkill::onCancelChat()
 extern void AutoSkill_onCancelChat_m4ED934633D6D456216F5E9D4BB87B7FDE32E61CD (void);
-// 0x00000A7F System.Void CilentModify.AutoSkill::perform(System.Int32,System.Object)
+// 0x00000A89 System.Void CilentModify.AutoSkill::perform(System.Int32,System.Object)
 extern void AutoSkill_perform_mF71A0CFD8BAA7E7703DFDA4D23ABE69BD4245E8C (void);
-// 0x00000A80 System.Void CilentModify.AutoSkill::ShowMenu()
+// 0x00000A8A System.Void CilentModify.AutoSkill::ShowMenu()
 extern void AutoSkill_ShowMenu_m9C657ED7CBE550568B2227280B127FF97ECA22E9 (void);
-// 0x00000A81 System.Void CilentModify.AutoSkill::ShowMenuAutoSkill(System.Int32)
+// 0x00000A8B System.Void CilentModify.AutoSkill::ShowMenuAutoSkill(System.Int32)
 extern void AutoSkill_ShowMenuAutoSkill_m75C80E83BD0B29B54F8DD23531F6824964AAEDB0 (void);
-// 0x00000A82 System.Void CilentModify.AutoSkill::ResetChatTextField()
+// 0x00000A8C System.Void CilentModify.AutoSkill::ResetChatTextField()
 extern void AutoSkill_ResetChatTextField_mBCB76C3F316812EEEED7FF775D156359CAED2EE2 (void);
-// 0x00000A83 System.Void CilentModify.AutoSkill::LoadData()
+// 0x00000A8D System.Void CilentModify.AutoSkill::LoadData()
 extern void AutoSkill_LoadData_m10C640D2E96890B05EDB293028486260A45DAE37 (void);
-// 0x00000A84 System.Void CilentModify.AutoSkill::smethod_6()
+// 0x00000A8E System.Void CilentModify.AutoSkill::smethod_6()
 extern void AutoSkill_smethod_6_mC81CB220A554E284D6856B7DA3DCE6E271FA9D92 (void);
-// 0x00000A85 System.Void CilentModify.AutoSkill::LoadKeySkills()
+// 0x00000A8F System.Void CilentModify.AutoSkill::LoadKeySkills()
 extern void AutoSkill_LoadKeySkills_mD3F3905796C802286D7892D6FCDC064E05B0A90C (void);
-// 0x00000A86 System.Void CilentModify.AutoSkill::AutoSendAttack()
+// 0x00000A90 System.Void CilentModify.AutoSkill::AutoSendAttack()
 extern void AutoSkill_AutoSendAttack_mBA465650B38BC4812C0F1C2B678853C60D51E004 (void);
-// 0x00000A87 System.Void CilentModify.AutoSkill::AutoSkillForPet()
+// 0x00000A91 System.Void CilentModify.AutoSkill::AutoSkillForPet()
 extern void AutoSkill_AutoSkillForPet_m2019FCD22AC2D44F624DCE4A557363A5E92A57AF (void);
-// 0x00000A88 System.Void CilentModify.AutoSkill::AutoUseSkill(System.Int32)
+// 0x00000A92 System.Void CilentModify.AutoSkill::AutoUseSkill(System.Int32)
 extern void AutoSkill_AutoUseSkill_mADA95F5EBC8B72F71D40925C6415414DF76207B6 (void);
-// 0x00000A89 System.Boolean CilentModify.AutoSkill::isMeCanAttackChar(Char)
+// 0x00000A93 System.Boolean CilentModify.AutoSkill::isMeCanAttackChar(Char)
 extern void AutoSkill_isMeCanAttackChar_m9701FC8C633679D2EF60BF0281007902FD64C2F9 (void);
-// 0x00000A8A System.Boolean CilentModify.AutoSkill::isMeHasEnoughMP(Skill)
+// 0x00000A94 System.Boolean CilentModify.AutoSkill::isMeHasEnoughMP(Skill)
 extern void AutoSkill_isMeHasEnoughMP_m9563FEB36CC2DDDFF32431757E485CE1E2D177F8 (void);
-// 0x00000A8B System.Void CilentModify.AutoSkill::SendAttackToCharFocus()
+// 0x00000A95 System.Void CilentModify.AutoSkill::SendAttackToCharFocus()
 extern void AutoSkill_SendAttackToCharFocus_mBD32D7B969315FEB0C58384AED146B6714A1B0B8 (void);
-// 0x00000A8C System.Void CilentModify.AutoSkill::SendAttackToMobFocus()
+// 0x00000A96 System.Void CilentModify.AutoSkill::SendAttackToMobFocus()
 extern void AutoSkill_SendAttackToMobFocus_m7DC223D014F3942E60BBA45C813748DC479EE04E (void);
-// 0x00000A8D System.Int64 CilentModify.AutoSkill::GetCoolDown(Skill)
+// 0x00000A97 System.Int64 CilentModify.AutoSkill::GetCoolDown(Skill)
 extern void AutoSkill_GetCoolDown_m2233FC4FD2DECDEBE9A21B0E9692C271B5603B6F (void);
-// 0x00000A8E System.Int32 CilentModify.AutoSkill::GetMySkillIndex()
+// 0x00000A98 System.Int32 CilentModify.AutoSkill::GetMySkillIndex()
 extern void AutoSkill_GetMySkillIndex_m7C601322262B27DB3497605A939ED05E357F7BD8 (void);
-// 0x00000A8F System.Void CilentModify.AutoSkill::AutoChangeFocus()
+// 0x00000A99 System.Void CilentModify.AutoSkill::AutoChangeFocus()
 extern void AutoSkill_AutoChangeFocus_m76EEAFC89EFFDEB8BF4113DBB5D5F9E28FF9D0B6 (void);
-// 0x00000A90 System.Int64 CilentModify.AutoSkill::GetCooldownAutoChangeFocus(Skill)
+// 0x00000A9A System.Int64 CilentModify.AutoSkill::GetCooldownAutoChangeFocus(Skill)
 extern void AutoSkill_GetCooldownAutoChangeFocus_mA29EEAE052DE09936492C463C43CE120344813A9 (void);
-// 0x00000A91 System.Void CilentModify.AutoSkill::smethod_0()
+// 0x00000A9B System.Void CilentModify.AutoSkill::smethod_0()
 extern void AutoSkill_smethod_0_m254AA77B457CC3BE6049D69423F143C69B089ECC (void);
-// 0x00000A92 System.Void CilentModify.AutoSkill::.cctor()
+// 0x00000A9C System.Void CilentModify.AutoSkill::.cctor()
 extern void AutoSkill__cctor_m4726E45866A52CD34006817CFA8148FE6CEB3C38 (void);
-// 0x00000A93 System.Void CilentModify.AutoSkill::FreezeSelectedSkill()
+// 0x00000A9D System.Void CilentModify.AutoSkill::FreezeSelectedSkill()
 extern void AutoSkill_FreezeSelectedSkill_m863ADEDC2C0151C37218BE0076E70C2168B9327C (void);
-// 0x00000A94 System.Void CilentModify.AutoSkill::ShowOKyNang()
+// 0x00000A9E System.Void CilentModify.AutoSkill::ShowOKyNang()
 extern void AutoSkill_ShowOKyNang_m95E823C135DC0B838327E6DF694F32054EA0A927 (void);
-// 0x00000A95 System.Void CilentModify.AutoSkill::.ctor()
+// 0x00000A9F System.Void CilentModify.AutoSkill::.ctor()
 extern void AutoSkill__ctor_mAA1E5631C889E728B7E8E9C7F7218A0075BFB918 (void);
-// 0x00000A96 System.Void CilentModify.AutoSuDungItem::autobokhi()
+// 0x00000AA0 System.Void CilentModify.AutoSuDungItem::autobokhi()
 extern void AutoSuDungItem_autobokhi_m29EF6DCC351F906789C169C6DC30143F6DEFED1E (void);
-// 0x00000A97 System.Void CilentModify.AutoSuDungItem::autocuongno()
+// 0x00000AA1 System.Void CilentModify.AutoSuDungItem::autocuongno()
 extern void AutoSuDungItem_autocuongno_m2475BC80EADE41515C5D96450A9A71A7A2F33D6D (void);
-// 0x00000A98 System.Void CilentModify.AutoSuDungItem::automaydo()
+// 0x00000AA2 System.Void CilentModify.AutoSuDungItem::automaydo()
 extern void AutoSuDungItem_automaydo_m768267CDD68D1B52BC6B7813948D211FF0E96DAC (void);
-// 0x00000A99 System.Void CilentModify.AutoSuDungItem::autogiapxen()
+// 0x00000AA3 System.Void CilentModify.AutoSuDungItem::autogiapxen()
 extern void AutoSuDungItem_autogiapxen_m5C24668BED69FE8BA2065F2FF47676109A5FC054 (void);
-// 0x00000A9A System.Void CilentModify.AutoSuDungItem::autoandanh()
+// 0x00000AA4 System.Void CilentModify.AutoSuDungItem::autoandanh()
 extern void AutoSuDungItem_autoandanh_mCDEE4B4D190D32BF19F8C85BD57008640E0F135F (void);
-// 0x00000A9B System.Void CilentModify.AutoSuDungItem::autobohuyet()
+// 0x00000AA5 System.Void CilentModify.AutoSuDungItem::autobohuyet()
 extern void AutoSuDungItem_autobohuyet_m6D24BB1D037E24126A49BD7640F947EF942F861A (void);
-// 0x00000A9C System.Void CilentModify.AutoSuDungItem::autocskb()
+// 0x00000AA6 System.Void CilentModify.AutoSuDungItem::autocskb()
 extern void AutoSuDungItem_autocskb_m2F46F2D173EB4E2D66E3426B38FF50E0A55A2E19 (void);
-// 0x00000A9D System.Void CilentModify.AutoSuDungItem::autobokhic2()
+// 0x00000AA7 System.Void CilentModify.AutoSuDungItem::autobokhic2()
 extern void AutoSuDungItem_autobokhic2_mB3C6259E6865CA24F08C1B8011CF18236BA7AF29 (void);
-// 0x00000A9E System.Void CilentModify.AutoSuDungItem::autocuongnoc2()
+// 0x00000AA8 System.Void CilentModify.AutoSuDungItem::autocuongnoc2()
 extern void AutoSuDungItem_autocuongnoc2_mFEA73E56031282DF53839C8A1B8EC0C298537661 (void);
-// 0x00000A9F System.Void CilentModify.AutoSuDungItem::autogiapxenc2()
+// 0x00000AA9 System.Void CilentModify.AutoSuDungItem::autogiapxenc2()
 extern void AutoSuDungItem_autogiapxenc2_mD68F56506DB5F62A805CC7E2E326543CFAA79064 (void);
-// 0x00000AA0 System.Void CilentModify.AutoSuDungItem::autobohuyetc2()
+// 0x00000AAA System.Void CilentModify.AutoSuDungItem::autobohuyetc2()
 extern void AutoSuDungItem_autobohuyetc2_mE629036B26025451B9D51A838DF6A4708A6EE907 (void);
-// 0x00000AA1 System.Void CilentModify.AutoSuDungItem::BongTai()
+// 0x00000AAB System.Void CilentModify.AutoSuDungItem::BongTai()
 extern void AutoSuDungItem_BongTai_m4D294A39BECA30CFB6136E204097DC505F2C7349 (void);
-// 0x00000AA2 System.Void CilentModify.AutoSuDungItem::AutoBT()
+// 0x00000AAC System.Void CilentModify.AutoSuDungItem::AutoBT()
 extern void AutoSuDungItem_AutoBT_m055FE0A239901758895EA45D310EC557C03061E2 (void);
-// 0x00000AA3 System.Void CilentModify.AutoSuDungItem::.ctor()
+// 0x00000AAD System.Void CilentModify.AutoSuDungItem::.ctor()
 extern void AutoSuDungItem__ctor_mA877442A9919CC04DB7AA3DEA4E51F3450F4422A (void);
-// 0x00000AA4 System.Void CilentModify.AutoSuDungItem::.cctor()
+// 0x00000AAE System.Void CilentModify.AutoSuDungItem::.cctor()
 extern void AutoSuDungItem__cctor_mD9524A31103E912A4BAE157E341442E7A8B0D3C3 (void);
-// 0x00000AA5 System.Void CilentModify.AutoTask::.ctor()
+// 0x00000AAF System.Void CilentModify.AutoTask::.ctor()
 extern void AutoTask__ctor_mBD23D93ADDA11F4B6022384537774670EAA7ED3F (void);
-// 0x00000AA6 System.Void CilentModify.AutoTask::.ctor(System.String[])
+// 0x00000AB0 System.Void CilentModify.AutoTask::.ctor(System.String[])
 extern void AutoTask__ctor_m95EF4B3956386B5CF8C1D0B3FD5FECD667B2D150 (void);
-// 0x00000AA7 System.Void CilentModify.AutoTask::paint(mGraphics,System.Int32,System.Int32)
+// 0x00000AB1 System.Void CilentModify.AutoTask::paint(mGraphics,System.Int32,System.Int32)
 extern void AutoTask_paint_m6EAE52094EFF9A2CBC7F61EAFF037D685FDCC079 (void);
-// 0x00000AA8 CilentModify.AutoThuongDe CilentModify.AutoThuongDe::gI()
+// 0x00000AB2 CilentModify.AutoThuongDe CilentModify.AutoThuongDe::gI()
 extern void AutoThuongDe_gI_mB59FDDD26F66435AC63C05077FF51CB1DA479D77 (void);
-// 0x00000AA9 System.Void CilentModify.AutoThuongDe::startMenu()
+// 0x00000AB3 System.Void CilentModify.AutoThuongDe::startMenu()
 extern void AutoThuongDe_startMenu_mFC5FC9CFD79ABEF645520DDA729D689E91032055 (void);
-// 0x00000AAA System.Void CilentModify.AutoThuongDe::StartVongQuay(System.Byte,System.Int32)
+// 0x00000AB4 System.Void CilentModify.AutoThuongDe::StartVongQuay(System.Byte,System.Int32)
 extern void AutoThuongDe_StartVongQuay_m4BFB4983413D5C3E85142C80F8785C0839289805 (void);
-// 0x00000AAB System.Void CilentModify.AutoThuongDe::update()
+// 0x00000AB5 System.Void CilentModify.AutoThuongDe::update()
 extern void AutoThuongDe_update_mC5C0002D2C45AB551DBA7D8C826506A0A336DD63 (void);
-// 0x00000AAC System.Int32 CilentModify.AutoThuongDe::checkTien()
+// 0x00000AB6 System.Int32 CilentModify.AutoThuongDe::checkTien()
 extern void AutoThuongDe_checkTien_m02A314AD4BF35B1D566013AA2D1DC4CEB4BBAB9B (void);
-// 0x00000AAD System.Void CilentModify.AutoThuongDe::infoMe(System.String)
+// 0x00000AB7 System.Void CilentModify.AutoThuongDe::infoMe(System.String)
 extern void AutoThuongDe_infoMe_m7F30A5A150CA84A9569ADCF7A13814AC94EFF72A (void);
-// 0x00000AAE System.Void CilentModify.AutoThuongDe::perform(System.Int32,System.Object)
+// 0x00000AB8 System.Void CilentModify.AutoThuongDe::perform(System.Int32,System.Object)
 extern void AutoThuongDe_perform_mAE4AD62A72550777B18E516820B8EDD7CCF3EA91 (void);
-// 0x00000AAF System.Void CilentModify.AutoThuongDe::runnhando()
+// 0x00000AB9 System.Void CilentModify.AutoThuongDe::runnhando()
 extern void AutoThuongDe_runnhando_m863CBC1F84A5976ABAFA05CBD583BEAB96D792D1 (void);
-// 0x00000AB0 System.Void CilentModify.AutoThuongDe::CloseMenu()
+// 0x00000ABA System.Void CilentModify.AutoThuongDe::CloseMenu()
 extern void AutoThuongDe_CloseMenu_m39761DF2DB79281E97C5BC65E3FF9B1D6747CCBC (void);
-// 0x00000AB1 System.Void CilentModify.AutoThuongDe::checkNumTicket()
+// 0x00000ABB System.Void CilentModify.AutoThuongDe::checkNumTicket()
 extern void AutoThuongDe_checkNumTicket_m502A76D1B370CB79BF378EA267AC8F5764BB5DCD (void);
-// 0x00000AB2 System.Int32 CilentModify.AutoThuongDe::checkTickket()
+// 0x00000ABC System.Int32 CilentModify.AutoThuongDe::checkTickket()
 extern void AutoThuongDe_checkTickket_mC3509DE7379AB08311000A56F0A81FBBBAF4E21A (void);
-// 0x00000AB3 System.Int32 CilentModify.AutoThuongDe::checkNum()
+// 0x00000ABD System.Int32 CilentModify.AutoThuongDe::checkNum()
 extern void AutoThuongDe_checkNum_mF347A75098A0C2B154CA3234182EE935574B57A6 (void);
-// 0x00000AB4 System.Void CilentModify.AutoThuongDe::.ctor()
+// 0x00000ABE System.Void CilentModify.AutoThuongDe::.ctor()
 extern void AutoThuongDe__ctor_mD6551E1BA4E79FB057294DE6909A46C4EA5EE184 (void);
-// 0x00000AB5 System.Void CilentModify.AutoThuongDe::.cctor()
+// 0x00000ABF System.Void CilentModify.AutoThuongDe::.cctor()
 extern void AutoThuongDe__cctor_m44E32AE4BA36B1B480884D063F4256A188A10A62 (void);
-// 0x00000AB6 CilentModify.AutoTrain CilentModify.AutoTrain::getInstance()
+// 0x00000AC0 CilentModify.AutoTrain CilentModify.AutoTrain::getInstance()
 extern void AutoTrain_getInstance_m8EE9791CE95F65C1C0C411357CF8082B9C9932D6 (void);
-// 0x00000AB7 System.Void CilentModify.AutoTrain::Update()
+// 0x00000AC1 System.Void CilentModify.AutoTrain::Update()
 extern void AutoTrain_Update_mA7428968105D1D2A1C81C7EA751BD9D895140C66 (void);
-// 0x00000AB8 System.Void CilentModify.AutoTrain::onChatFromMe(System.String,System.String)
+// 0x00000AC2 System.Void CilentModify.AutoTrain::onChatFromMe(System.String,System.String)
 extern void AutoTrain_onChatFromMe_m000E24764D9735B1B1925D271B2A01E58F5F0B75 (void);
-// 0x00000AB9 System.Void CilentModify.AutoTrain::onCancelChat()
+// 0x00000AC3 System.Void CilentModify.AutoTrain::onCancelChat()
 extern void AutoTrain_onCancelChat_mB13A6C2222553C6B406D9AB25BB4C8F67E85AB7D (void);
-// 0x00000ABA System.Void CilentModify.AutoTrain::perform(System.Int32,System.Object)
+// 0x00000AC4 System.Void CilentModify.AutoTrain::perform(System.Int32,System.Object)
 extern void AutoTrain_perform_mFE756B453AF00109F30CD359A81AA1F86967F548 (void);
-// 0x00000ABB System.Void CilentModify.AutoTrain::ShowMenu()
+// 0x00000AC5 System.Void CilentModify.AutoTrain::ShowMenu()
 extern void AutoTrain_ShowMenu_mBF15CE156C58ED220DB8C7DFF6FD2D048654882D (void);
-// 0x00000ABC System.Void CilentModify.AutoTrain::ShowMenuGoback()
+// 0x00000AC6 System.Void CilentModify.AutoTrain::ShowMenuGoback()
 extern void AutoTrain_ShowMenuGoback_m3B6298C2B3A258FD80CD77599256906C73B3CD77 (void);
-// 0x00000ABD System.Void CilentModify.AutoTrain::ResetChatTextField()
+// 0x00000AC7 System.Void CilentModify.AutoTrain::ResetChatTextField()
 extern void AutoTrain_ResetChatTextField_m02C3F2BC0A57D36F980F64F69D3308BD51B3C7AA (void);
-// 0x00000ABE System.Void CilentModify.AutoTrain::TeleportTo(System.Int32,System.Int32)
+// 0x00000AC8 System.Void CilentModify.AutoTrain::TeleportTo(System.Int32,System.Int32)
 extern void AutoTrain_TeleportTo_m885354034F157D841610206D3CF27DFA1CEB9D44 (void);
-// 0x00000ABF System.Boolean CilentModify.AutoTrain::isMeCanAttack(Mob)
+// 0x00000AC9 System.Boolean CilentModify.AutoTrain::isMeCanAttack(Mob)
 extern void AutoTrain_isMeCanAttack_mCFFF8B66B1C2A165516380E574C74496D0699CF7 (void);
-// 0x00000AC0 System.Boolean CilentModify.AutoTrain::isMeOutOfMP()
+// 0x00000ACA System.Boolean CilentModify.AutoTrain::isMeOutOfMP()
 extern void AutoTrain_isMeOutOfMP_mD1488E6D8601B1CFFE5B1F9638B3A0A1E5798792 (void);
-// 0x00000AC1 Mob CilentModify.AutoTrain::GetNextMob(System.Int32)
+// 0x00000ACB Mob CilentModify.AutoTrain::GetNextMob(System.Int32)
 extern void AutoTrain_GetNextMob_mA9153FCFF0A7337712419865E7883674C77ED117 (void);
-// 0x00000AC2 System.Void CilentModify.AutoTrain::TurnOnAutoTrain()
+// 0x00000ACC System.Void CilentModify.AutoTrain::TurnOnAutoTrain()
 extern void AutoTrain_TurnOnAutoTrain_m54530DFCC672807238965CC30871225FC88FB4F2 (void);
-// 0x00000AC3 System.Void CilentModify.AutoTrain::.cctor()
+// 0x00000ACD System.Void CilentModify.AutoTrain::.cctor()
 extern void AutoTrain__cctor_m31EE6D950B8349C716D0BBE292A081C93EC7F4BF (void);
-// 0x00000AC4 System.Void CilentModify.AutoTrain::DoIt()
+// 0x00000ACE System.Void CilentModify.AutoTrain::DoIt()
 extern void AutoTrain_DoIt_m9B6D5A66246E480DF4192035580394C93E56643A (void);
-// 0x00000AC5 System.Void CilentModify.AutoTrain::UseGrape()
+// 0x00000ACF System.Void CilentModify.AutoTrain::UseGrape()
 extern void AutoTrain_UseGrape_m5CCE3C28129C7070097EBFEAFF77F5F04835157A (void);
-// 0x00000AC6 System.Void CilentModify.AutoTrain::.ctor()
+// 0x00000AD0 System.Void CilentModify.AutoTrain::.ctor()
 extern void AutoTrain__ctor_m7EDC58DECB2571C237624E079EA2FF008528F8FC (void);
-// 0x00000AC7 System.Boolean CilentModify.AutoYardrat::canUseSkill(Skill)
+// 0x00000AD1 System.Boolean CilentModify.AutoYardrat::canUseSkill(Skill)
 extern void AutoYardrat_canUseSkill_m574AFDB44D88EE6854827423B62ADAA73ACAA8E3 (void);
-// 0x00000AC8 CilentModify.AutoYardrat CilentModify.AutoYardrat::gI()
+// 0x00000AD2 CilentModify.AutoYardrat CilentModify.AutoYardrat::gI()
 extern void AutoYardrat_gI_m9570BB00DD88D72003D5A91DB1398412B2D5E535 (void);
-// 0x00000AC9 System.Void CilentModify.AutoYardrat::update()
+// 0x00000AD3 System.Void CilentModify.AutoYardrat::update()
 extern void AutoYardrat_update_m315C8DF9AF62B8069ADA4AAF6421D691A55D4445 (void);
-// 0x00000ACA System.Void CilentModify.AutoYardrat::.ctor()
+// 0x00000AD4 System.Void CilentModify.AutoYardrat::.ctor()
 extern void AutoYardrat__ctor_m621EFB0E0047193889CB744A4530EC7A074D2AF1 (void);
-// 0x00000ACB System.Void CilentModify.AutoYardrat::.cctor()
+// 0x00000AD5 System.Void CilentModify.AutoYardrat::.cctor()
 extern void AutoYardrat__cctor_m6C5615C0E82060F55A11999B2479B2282C87F8E5 (void);
-// 0x00000ACC System.Void CilentModify.Boss::.ctor()
+// 0x00000AD6 System.Void CilentModify.Boss::.ctor()
 extern void Boss__ctor_m9BD141C58C557D2D4603F0626FF96193426F2A80 (void);
-// 0x00000ACD System.Void CilentModify.Boss::.ctor(System.String)
+// 0x00000AD7 System.Void CilentModify.Boss::.ctor(System.String)
 extern void Boss__ctor_m74104F43465EAD4E67D412A50A2187261AAB86D6 (void);
-// 0x00000ACE System.Int32 CilentModify.Boss::GetMapID(System.String)
+// 0x00000AD8 System.Int32 CilentModify.Boss::GetMapID(System.String)
 extern void Boss_GetMapID_m49D83A2F0D24D511D01783C626EB572DA4E6F604 (void);
-// 0x00000ACF System.Void CilentModify.Boss::Paint(mGraphics,System.Int32,System.Int32,System.Int32)
+// 0x00000AD9 System.Void CilentModify.Boss::Paint(mGraphics,System.Int32,System.Int32,System.Int32)
 extern void Boss_Paint_mAE68C5CFDDCB104419CFC130E361E9F5E642DD46 (void);
-// 0x00000AD0 System.Void CilentModify.ComboSkill::.ctor()
+// 0x00000ADA System.Void CilentModify.ComboSkill::.ctor()
 extern void ComboSkill__ctor_m6B2D20887A7C5EA9490D24E294764E66DC3CA6AD (void);
-// 0x00000AD1 System.Void CilentModify.ComboSkill::.cctor()
+// 0x00000ADB System.Void CilentModify.ComboSkill::.cctor()
 extern void ComboSkill__cctor_m977923C3828B5EC52BCF9B42C51B19501DC232A5 (void);
-// 0x00000AD2 CilentModify.PaintCharInMap CilentModify.PaintCharInMap::gI()
+// 0x00000ADC CilentModify.PaintCharInMap CilentModify.PaintCharInMap::gI()
 extern void PaintCharInMap_gI_m607C54DA33F9ABC9D6AD92060A9C6B3DD762A88E (void);
-// 0x00000AD3 System.Void CilentModify.PaintCharInMap::Update()
+// 0x00000ADD System.Void CilentModify.PaintCharInMap::Update()
 extern void PaintCharInMap_Update_mD5CDD0D4C58C7FE3876C742F45BF0474E65F2EF0 (void);
-// 0x00000AD4 System.Void CilentModify.PaintCharInMap::Check()
+// 0x00000ADE System.Void CilentModify.PaintCharInMap::Check()
 extern void PaintCharInMap_Check_m017CFF20ACA9304EA5F16654DB907E8322369992 (void);
-// 0x00000AD5 System.Boolean CilentModify.PaintCharInMap::MapNro()
+// 0x00000ADF System.Boolean CilentModify.PaintCharInMap::MapNro()
 extern void PaintCharInMap_MapNro_m26348A655E0969F2884D578EC5EDE9EBCEE315F4 (void);
-// 0x00000AD6 System.Boolean CilentModify.PaintCharInMap::CheckCharName(Char)
+// 0x00000AE0 System.Boolean CilentModify.PaintCharInMap::CheckCharName(Char)
 extern void PaintCharInMap_CheckCharName_mEEE29E1EA6B6EBDB582E63A669ED0AC74E62237E (void);
-// 0x00000AD7 System.Void CilentModify.PaintCharInMap::PaintFlag(Char,mGraphics,System.Int32,System.Int32)
+// 0x00000AE1 System.Void CilentModify.PaintCharInMap::PaintFlag(Char,mGraphics,System.Int32,System.Int32)
 extern void PaintCharInMap_PaintFlag_mD6D585C4ECB68D38760C60395857665BCBE9022E (void);
-// 0x00000AD8 System.Void CilentModify.PaintCharInMap::Paint(mGraphics)
+// 0x00000AE2 System.Void CilentModify.PaintCharInMap::Paint(mGraphics)
 extern void PaintCharInMap_Paint_mB12070EAB72449C9B02C510A8412E7B2F393D587 (void);
-// 0x00000AD9 System.Void CilentModify.PaintCharInMap::.ctor()
+// 0x00000AE3 System.Void CilentModify.PaintCharInMap::.ctor()
 extern void PaintCharInMap__ctor_m1854D00DF038CEC4553EEBA8BB3452F6C81A07E9 (void);
-// 0x00000ADA System.Void CilentModify.PaintCharInMap::.cctor()
+// 0x00000AE4 System.Void CilentModify.PaintCharInMap::.cctor()
 extern void PaintCharInMap__cctor_m54230435A2177D8D565DFDD9B0BBE2F275F6ECFB (void);
-// 0x00000ADB CilentModify.SpecialSkill CilentModify.SpecialSkill::gI()
+// 0x00000AE5 CilentModify.SpecialSkill CilentModify.SpecialSkill::gI()
 extern void SpecialSkill_gI_m34A0EC8B051FFF7772BA9737ADEF53B61D188B64 (void);
-// 0x00000ADC System.Void CilentModify.SpecialSkill::open()
+// 0x00000AE6 System.Void CilentModify.SpecialSkill::open()
 extern void SpecialSkill_open_m84F342814CC93DED8995CDA17196F793CC6B58C9 (void);
-// 0x00000ADD System.String CilentModify.SpecialSkill::CutString(System.Int32,System.Int32,System.String)
+// 0x00000AE7 System.String CilentModify.SpecialSkill::CutString(System.Int32,System.Int32,System.String)
 extern void SpecialSkill_CutString_m7B527804E276BE6D355CE8F928ECE88780CB40DB (void);
-// 0x00000ADE System.Void CilentModify.SpecialSkill::perform(System.Int32,System.Object)
+// 0x00000AE8 System.Void CilentModify.SpecialSkill::perform(System.Int32,System.Object)
 extern void SpecialSkill_perform_m0ABF550FBA77ADFE3F1C1877B020F76ADA3DC34B (void);
-// 0x00000ADF System.Void CilentModify.SpecialSkill::onChatFromMe(System.String,System.String)
+// 0x00000AE9 System.Void CilentModify.SpecialSkill::onChatFromMe(System.String,System.String)
 extern void SpecialSkill_onChatFromMe_mAAE8789D4DF68340FAE831653EC8C6402E37F395 (void);
-// 0x00000AE0 System.Void CilentModify.SpecialSkill::onCancelChat()
+// 0x00000AEA System.Void CilentModify.SpecialSkill::onCancelChat()
 extern void SpecialSkill_onCancelChat_m542FFD85A5A41BEF339A333B86A4E22774D8B546 (void);
-// 0x00000AE1 System.Void CilentModify.SpecialSkill::startChat(System.Int32,System.String)
+// 0x00000AEB System.Void CilentModify.SpecialSkill::startChat(System.Int32,System.String)
 extern void SpecialSkill_startChat_mA5E178C6F2B6D8D79D96E3F4DEE8BEC609AE0042 (void);
-// 0x00000AE2 System.Void CilentModify.SpecialSkill::In4Me(System.String)
+// 0x00000AEC System.Void CilentModify.SpecialSkill::In4Me(System.String)
 extern void SpecialSkill_In4Me_mAAB2FA3147697A1B5AA185428525BE7351C81F32 (void);
-// 0x00000AE3 System.Void CilentModify.SpecialSkill::AddChatPopup(System.String[])
+// 0x00000AED System.Void CilentModify.SpecialSkill::AddChatPopup(System.String[])
 extern void SpecialSkill_AddChatPopup_mC2B2021ABA26CA05CB0B3FA35E7448263CC4DE93 (void);
-// 0x00000AE4 System.Void CilentModify.SpecialSkill::startMenu()
+// 0x00000AEE System.Void CilentModify.SpecialSkill::startMenu()
 extern void SpecialSkill_startMenu_mCF065C04E11067C31672E3739FFE4E726EFC2989 (void);
-// 0x00000AE5 System.Void CilentModify.SpecialSkill::onChatFromMee(System.String,System.String)
+// 0x00000AEF System.Void CilentModify.SpecialSkill::onChatFromMee(System.String,System.String)
 extern void SpecialSkill_onChatFromMee_m213055E31EE61A46EA30FE50BBD508222E861503 (void);
-// 0x00000AE6 System.Void CilentModify.SpecialSkill::.ctor()
+// 0x00000AF0 System.Void CilentModify.SpecialSkill::.ctor()
 extern void SpecialSkill__ctor_m01957831B3FBD83AA9EA976B94CFB55DCBAD0821 (void);
-// 0x00000AE7 System.Void CilentModify.SpecialSkill::.cctor()
+// 0x00000AF1 System.Void CilentModify.SpecialSkill::.cctor()
 extern void SpecialSkill__cctor_mE8564E93B2764D92B22298A7888A8929A3257211 (void);
-// 0x00000AE8 System.Void CilentModify.SplashPaint::.cctor()
+// 0x00000AF2 System.Void CilentModify.SplashPaint::.cctor()
 extern void SplashPaint__cctor_m8F87FF56EB82994FD3E9A32D15243E90CF19B146 (void);
-// 0x00000AE9 System.Void CilentModify.SplashPaint::LoadData()
+// 0x00000AF3 System.Void CilentModify.SplashPaint::LoadData()
 extern void SplashPaint_LoadData_mD8D9E994625CDD15D41840100EAFF7BFDF0FCB9C (void);
-// 0x00000AEA System.Void CilentModify.SplashPaint::ShowMenuChar()
+// 0x00000AF4 System.Void CilentModify.SplashPaint::ShowMenuChar()
 extern void SplashPaint_ShowMenuChar_mE6F8AB7D23FD97156438A651DF615F50303D828E (void);
-// 0x00000AEB System.Void CilentModify.SplashPaint::paintEff(mGraphics,Mob)
+// 0x00000AF5 System.Void CilentModify.SplashPaint::paintEff(mGraphics,Mob)
 extern void SplashPaint_paintEff_m818C6649836AE7642F0AAA6BA77C22A190B4D52E (void);
-// 0x00000AEC System.Void CilentModify.SplashPaint::paintMe(mGraphics,Char)
+// 0x00000AF6 System.Void CilentModify.SplashPaint::paintMe(mGraphics,Char)
 extern void SplashPaint_paintMe_m9A236B91558C69567A383784E8563D677B4E3492 (void);
-// 0x00000AED System.Void CilentModify.SplashPaint::Paint(mGraphics)
+// 0x00000AF7 System.Void CilentModify.SplashPaint::Paint(mGraphics)
 extern void SplashPaint_Paint_m66FF55CD07D07FD1ACC79C13BF5AF6C42EED4C75 (void);
-// 0x00000AEE System.Void CilentModify.SplashPaint::updateTaskDaily(CilentModify.AutoTask)
+// 0x00000AF8 System.Void CilentModify.SplashPaint::updateTaskDaily(CilentModify.AutoTask)
 extern void SplashPaint_updateTaskDaily_m8708A3992AC0575F8032A83BCDC3141CBCD300BE (void);
-// 0x00000AEF System.Void CilentModify.SplashPaint::ShowMenu()
+// 0x00000AF9 System.Void CilentModify.SplashPaint::ShowMenu()
 extern void SplashPaint_ShowMenu_mB52D8B233E8AF3CDF65A95EFE92C85034AB406E3 (void);
-// 0x00000AF0 System.Void CilentModify.SplashPaint::ResetTF()
+// 0x00000AFA System.Void CilentModify.SplashPaint::ResetTF()
 extern void SplashPaint_ResetTF_m55D560C20DD44C9BB957A6BF66A47D082A063467 (void);
-// 0x00000AF1 System.Void CilentModify.SplashPaint::ShowMenuBoss()
+// 0x00000AFB System.Void CilentModify.SplashPaint::ShowMenuBoss()
 extern void SplashPaint_ShowMenuBoss_mA60E54C4D2EED22BE78A6A8A850E78E5812880AF (void);
-// 0x00000AF2 System.Void CilentModify.SplashPaint::Chat(System.String)
+// 0x00000AFC System.Void CilentModify.SplashPaint::Chat(System.String)
 extern void SplashPaint_Chat_mC25E634E791F667FA3546638EFEF96AD3E34C8E8 (void);
-// 0x00000AF3 System.Void CilentModify.SplashPaint::returnBombTele(System.Boolean)
+// 0x00000AFD System.Void CilentModify.SplashPaint::returnBombTele(System.Boolean)
 extern void SplashPaint_returnBombTele_m9E986E5934C40001C307C7D506E78A0A979E0435 (void);
-// 0x00000AF4 System.Void CilentModify.SplashPaint::MoveChar(System.Int32,System.Int32)
+// 0x00000AFE System.Void CilentModify.SplashPaint::MoveChar(System.Int32,System.Int32)
 extern void SplashPaint_MoveChar_m1F6B6522D1EC667AA49CF64777F24E164B64F696 (void);
-// 0x00000AF5 System.Boolean CilentModify.SplashPaint::returnBugBom()
+// 0x00000AFF System.Boolean CilentModify.SplashPaint::returnBugBom()
 extern void SplashPaint_returnBugBom_m9A6BD450A096C5C7F8028D623BCD2ADF35BC8BB7 (void);
-// 0x00000AF6 System.Int32 CilentModify.SplashPaint::FindIndexItem(System.Int32)
+// 0x00000B00 System.Int32 CilentModify.SplashPaint::FindIndexItem(System.Int32)
 extern void SplashPaint_FindIndexItem_mB77A249DB2AF0B1C59A0DCD367DD6143B78C7831 (void);
-// 0x00000AF7 System.Void CilentModify.SplashPaint::IsAutoTask()
+// 0x00000B01 System.Void CilentModify.SplashPaint::IsAutoTask()
 extern void SplashPaint_IsAutoTask_m20E24E002C8CF66E88B734B6A4AECC061B1FE7DF (void);
-// 0x00000AF8 System.Void CilentModify.SplashPaint::UseItem(System.Int32)
+// 0x00000B02 System.Void CilentModify.SplashPaint::UseItem(System.Int32)
 extern void SplashPaint_UseItem_mE3F7365CADCA96732253F4CD1DEA4B0DA0C171AD (void);
-// 0x00000AF9 System.Void CilentModify.SplashPaint::ShowAuto()
+// 0x00000B03 System.Void CilentModify.SplashPaint::ShowAuto()
 extern void SplashPaint_ShowAuto_mE961B0A18228A49873D0AEB6948BD8A520453173 (void);
-// 0x00000AFA System.Void CilentModify.SplashPaint::perform(System.Int32,System.Object)
+// 0x00000B04 System.Void CilentModify.SplashPaint::perform(System.Int32,System.Object)
 extern void SplashPaint_perform_m6D4D7F0B194448F3BAF5084753E7AEC4C1AC5AFB (void);
-// 0x00000AFB System.Void CilentModify.SplashPaint::UseCapsule()
+// 0x00000B05 System.Void CilentModify.SplashPaint::UseCapsule()
 extern void SplashPaint_UseCapsule_mF1F50C1D72F0278008BC047272B20798C8F9D01D (void);
-// 0x00000AFC CilentModify.SplashPaint CilentModify.SplashPaint::getInstance()
+// 0x00000B06 CilentModify.SplashPaint CilentModify.SplashPaint::getInstance()
 extern void SplashPaint_getInstance_mA6576407BFED38ED0281C731DB181C7939F3C79A (void);
-// 0x00000AFD System.Void CilentModify.SplashPaint::Update()
+// 0x00000B07 System.Void CilentModify.SplashPaint::Update()
 extern void SplashPaint_Update_m19D89062AEBE9EFDBEC26BCE3629CBE179517A68 (void);
-// 0x00000AFE System.Void CilentModify.SplashPaint::TeleportTo(System.Int32,System.Int32)
+// 0x00000B08 System.Void CilentModify.SplashPaint::TeleportTo(System.Int32,System.Int32)
 extern void SplashPaint_TeleportTo_m42A1C62BBB2323615384FCDEA462C6EBE4E9A8E7 (void);
-// 0x00000AFF System.Int32 CilentModify.SplashPaint::GetYGround(System.Int32)
+// 0x00000B09 System.Int32 CilentModify.SplashPaint::GetYGround(System.Int32)
 extern void SplashPaint_GetYGround_mAE2EC6A199E561A95346509A04A62D5B00A3B2A5 (void);
-// 0x00000B00 System.String CilentModify.SplashPaint::Hex2String(System.String,System.Object)
+// 0x00000B0A System.String CilentModify.SplashPaint::Hex2String(System.String,System.Object)
 extern void SplashPaint_Hex2String_mA4755BE93F96BC33FCBD75E9339507577FF7D80D (void);
-// 0x00000B01 System.Void CilentModify.SplashPaint::isMeCanAttack()
+// 0x00000B0B System.Void CilentModify.SplashPaint::isMeCanAttack()
 extern void SplashPaint_isMeCanAttack_m932B5D560D19584CA1225FC8DBB1A1D8EFE548C8 (void);
-// 0x00000B02 System.Boolean CilentModify.SplashPaint::isBoss(Char)
+// 0x00000B0C System.Boolean CilentModify.SplashPaint::isBoss(Char)
 extern void SplashPaint_isBoss_m86EC77F4D68A2457A160FA83BB8E96BCBA4ED0CF (void);
-// 0x00000B03 System.Void CilentModify.SplashPaint::ShowMore()
+// 0x00000B0D System.Void CilentModify.SplashPaint::ShowMore()
 extern void SplashPaint_ShowMore_mBFB087AB9834612B24EB64E5B463EF6BF2005591 (void);
-// 0x00000B04 System.Void CilentModify.SplashPaint::LenhMod()
+// 0x00000B0E System.Void CilentModify.SplashPaint::LenhMod()
 extern void SplashPaint_LenhMod_m885B7EB330AF4B7C7325068A36F7CE8EDECAD7EC (void);
-// 0x00000B05 System.Void CilentModify.SplashPaint::FocusTo(System.Int32)
+// 0x00000B0F System.Void CilentModify.SplashPaint::FocusTo(System.Int32)
 extern void SplashPaint_FocusTo_mA28CFEC04DCF75942712E996A2306CAFF708A619 (void);
-// 0x00000B06 System.Void CilentModify.SplashPaint::ShowHienThi()
+// 0x00000B10 System.Void CilentModify.SplashPaint::ShowHienThi()
 extern void SplashPaint_ShowHienThi_m26C70464DC39A96EB3A4D410BC9D897D4F3E4AE7 (void);
-// 0x00000B07 System.Void CilentModify.SplashPaint::ShowThongTinLienHe()
+// 0x00000B11 System.Void CilentModify.SplashPaint::ShowThongTinLienHe()
 extern void SplashPaint_ShowThongTinLienHe_mDE35DF8DFB417E933A5319ABEC6F29B5A07B1882 (void);
-// 0x00000B08 System.Boolean CilentModify.SplashPaint::isMeInNRDMap()
+// 0x00000B12 System.Boolean CilentModify.SplashPaint::isMeInNRDMap()
 extern void SplashPaint_isMeInNRDMap_m79D0BFEAE6417EF1ACD0645033048BF603B2F9F3 (void);
-// 0x00000B09 System.Void CilentModify.SplashPaint::paintListBosses(mGraphics)
+// 0x00000B13 System.Void CilentModify.SplashPaint::paintListBosses(mGraphics)
 extern void SplashPaint_paintListBosses_mB36EE44FC083AD16ED595F222C4A75DE316E0D74 (void);
-// 0x00000B0A System.Boolean CilentModify.SplashPaint::isTDLT()
+// 0x00000B14 System.Boolean CilentModify.SplashPaint::isTDLT()
 extern void SplashPaint_isTDLT_m62980AA377D7A5D14B9AD91FCD76411ED8290A0C (void);
-// 0x00000B0B System.Void CilentModify.SplashPaint::AutoLogin()
+// 0x00000B15 System.Void CilentModify.SplashPaint::AutoLogin()
 extern void SplashPaint_AutoLogin_mFA6AADE6D3E1AF50EF94628383DE061DEEACA68F (void);
-// 0x00000B0C System.Void CilentModify.SplashPaint::khoaViTri()
+// 0x00000B16 System.Void CilentModify.SplashPaint::khoaViTri()
 extern void SplashPaint_khoaViTri_m5CC5CEA3FB0CA0AE2AAC678F77B12E2DA2832E28 (void);
-// 0x00000B0D System.Void CilentModify.SplashPaint::ShowItem()
+// 0x00000B17 System.Void CilentModify.SplashPaint::ShowItem()
 extern void SplashPaint_ShowItem_mAE6FC1072AF715AE1C9C13DBC72DEAB0557F87F9 (void);
-// 0x00000B0E Skill CilentModify.SplashPaint::GetSkillByIconID(System.Int32)
+// 0x00000B18 Skill CilentModify.SplashPaint::GetSkillByIconID(System.Int32)
 extern void SplashPaint_GetSkillByIconID_m219F1E304AB3193BBB9344B63B4B9B72E1DB3168 (void);
-// 0x00000B0F System.Void CilentModify.SplashPaint::AutoTTNL()
+// 0x00000B19 System.Void CilentModify.SplashPaint::AutoTTNL()
 extern void SplashPaint_AutoTTNL_mE0803D87E85960FE6A27152D71E21435270CCED0 (void);
-// 0x00000B10 System.Void CilentModify.SplashPaint::UseSkill(Skill)
+// 0x00000B1A System.Void CilentModify.SplashPaint::UseSkill(Skill)
 extern void SplashPaint_UseSkill_m505204D94C403121E1D3619A5D55AF419EE8EBBD (void);
-// 0x00000B11 System.Int32 CilentModify.SplashPaint::GetCoolDownSkill(Skill)
+// 0x00000B1B System.Int32 CilentModify.SplashPaint::GetCoolDownSkill(Skill)
 extern void SplashPaint_GetCoolDownSkill_m74B05400AD41BBD44E9C812A48DD2D19DE144666 (void);
-// 0x00000B12 System.Void CilentModify.SplashPaint::hsnm()
+// 0x00000B1C System.Void CilentModify.SplashPaint::hsnm()
 extern void SplashPaint_hsnm_mDA3BF8E97E8746312D65C87E3ADAD13052C1B73E (void);
-// 0x00000B13 Skill CilentModify.SplashPaint::GetSkillByID(System.Int32)
+// 0x00000B1D Skill CilentModify.SplashPaint::GetSkillByID(System.Int32)
 extern void SplashPaint_GetSkillByID_m286D433204D44651BA6FCFF02E8D898C8BEEE3AB (void);
-// 0x00000B14 System.Boolean CilentModify.SplashPaint::checkSkillValid(Skill)
+// 0x00000B1E System.Boolean CilentModify.SplashPaint::checkSkillValid(Skill)
 extern void SplashPaint_checkSkillValid_m2365AB04D5E6FF4A92FA0481419081C7A2FA5121 (void);
-// 0x00000B15 System.Void CilentModify.SplashPaint::AutoHoiSinh()
+// 0x00000B1F System.Void CilentModify.SplashPaint::AutoHoiSinh()
 extern void SplashPaint_AutoHoiSinh_m690AEEAC1B1E0FF501E6EEFF14E100F38A816AA3 (void);
-// 0x00000B16 System.Void CilentModify.SplashPaint::Revive()
+// 0x00000B20 System.Void CilentModify.SplashPaint::Revive()
 extern void SplashPaint_Revive_m4B0D39522C927A06561B25ABDC95AAEC215017B9 (void);
-// 0x00000B17 System.Int32 CilentModify.SplashPaint::GetMySkillIndex()
+// 0x00000B21 System.Int32 CilentModify.SplashPaint::GetMySkillIndex()
 extern void SplashPaint_GetMySkillIndex_m5099B7DAEA800D22B018BB8ABBF91FE80487CADB (void);
-// 0x00000B18 System.Void CilentModify.SplashPaint::FreezeSelectedSkill()
+// 0x00000B22 System.Void CilentModify.SplashPaint::FreezeSelectedSkill()
 extern void SplashPaint_FreezeSelectedSkill_mF5A71ED17443005AB0AFD157C21E65C11CC72E6D (void);
-// 0x00000B19 System.Void CilentModify.SplashPaint::UpdateKey()
+// 0x00000B23 System.Void CilentModify.SplashPaint::UpdateKey()
 extern void SplashPaint_UpdateKey_mAA93B79D47011BE8BCEBC19EFEC882DCE9D43B97 (void);
-// 0x00000B1A System.Void CilentModify.SplashPaint::autoPlay()
+// 0x00000B24 System.Void CilentModify.SplashPaint::autoPlay()
 extern void SplashPaint_autoPlay_mCE3195C1A4CAD6A7F59F07FD785E78FAB0475EBA (void);
-// 0x00000B1B System.Boolean CilentModify.SplashPaint::ReturnTaskDaily()
+// 0x00000B25 System.Boolean CilentModify.SplashPaint::ReturnTaskDaily()
 extern void SplashPaint_ReturnTaskDaily_m4A1F7CD63365E215F098A9CF1E01D9B31DBB40D3 (void);
-// 0x00000B1C System.Void CilentModify.SplashPaint::paintTam(mGraphics,System.Int32,System.Int32)
+// 0x00000B26 System.Void CilentModify.SplashPaint::paintTam(mGraphics,System.Int32,System.Int32)
 extern void SplashPaint_paintTam_mB7CC5DFAF3905EAB3C0BDBFF7818C9382DFA8A2A (void);
-// 0x00000B1D System.String CilentModify.SplashPaint::getFlag(System.Int32)
+// 0x00000B27 System.String CilentModify.SplashPaint::getFlag(System.Int32)
 extern void SplashPaint_getFlag_m4AEC5283F89AF1988BA2F5105A9988EAFD744297 (void);
-// 0x00000B1E System.Void CilentModify.SplashPaint::TFTaskDaily(System.Boolean)
+// 0x00000B28 System.Void CilentModify.SplashPaint::TFTaskDaily(System.Boolean)
 extern void SplashPaint_TFTaskDaily_m0E867E0DC2D194E2A602E8D0F833F968A592D65D (void);
-// 0x00000B1F System.Void CilentModify.SplashPaint::AutoTaskDaily(CilentModify.AutoTask)
+// 0x00000B29 System.Void CilentModify.SplashPaint::AutoTaskDaily(CilentModify.AutoTask)
 extern void SplashPaint_AutoTaskDaily_m132952CF2666200E072381E628F78655A79E1C3B (void);
-// 0x00000B20 System.Void CilentModify.SplashPaint::timeTFDaily(System.Int64)
+// 0x00000B2A System.Void CilentModify.SplashPaint::timeTFDaily(System.Int64)
 extern void SplashPaint_timeTFDaily_m08E26D98FE366C0C533712081F0FCE6C2B65D18F (void);
-// 0x00000B21 CilentModify.AutoTask CilentModify.SplashPaint::BaseTaskDaily()
+// 0x00000B2B CilentModify.AutoTask CilentModify.SplashPaint::BaseTaskDaily()
 extern void SplashPaint_BaseTaskDaily_m3C7DDED8D668426818FE0DA8827EACC9BA5BD7E1 (void);
-// 0x00000B22 System.Boolean CilentModify.SplashPaint::Barrier(System.Int32)
+// 0x00000B2C System.Boolean CilentModify.SplashPaint::Barrier(System.Int32)
 extern void SplashPaint_Barrier_m2EDD66FC79121EACD24461CFAA83139B001916BA (void);
-// 0x00000B23 System.Boolean CilentModify.SplashPaint::Barrier(System.Int32,System.Int32)
+// 0x00000B2D System.Boolean CilentModify.SplashPaint::Barrier(System.Int32,System.Int32)
 extern void SplashPaint_Barrier_m8016900B187657B908AD34F9006D2458880D2D1B (void);
-// 0x00000B24 System.Int32 CilentModify.SplashPaint::AutoY(System.Int32)
+// 0x00000B2E System.Int32 CilentModify.SplashPaint::AutoY(System.Int32)
 extern void SplashPaint_AutoY_mE29BFB21ADCE545815018E17FD916D659C580E8D (void);
-// 0x00000B25 System.Void CilentModify.SplashPaint::MoveTo(System.Int32,System.Int32)
+// 0x00000B2F System.Void CilentModify.SplashPaint::MoveTo(System.Int32,System.Int32)
 extern void SplashPaint_MoveTo_m592929F3576CDDD8E76A2997F025A5E6F7B3ABF4 (void);
-// 0x00000B26 System.Void CilentModify.SplashPaint::FindMod()
+// 0x00000B30 System.Void CilentModify.SplashPaint::FindMod()
 extern void SplashPaint_FindMod_m19CD6F7174582946481242DE7D58362642CAFC9A (void);
-// 0x00000B27 System.Void CilentModify.SplashPaint::AutoXHP()
+// 0x00000B31 System.Void CilentModify.SplashPaint::AutoXHP()
 extern void SplashPaint_AutoXHP_m96B4DC99D28D18A89735BFA3193EA3067DCF8416 (void);
-// 0x00000B28 System.Boolean CilentModify.SplashPaint::isAuto()
+// 0x00000B32 System.Boolean CilentModify.SplashPaint::isAuto()
 extern void SplashPaint_isAuto_m0D90AE967F813D0F6CBCDD9196B917BC5C57EBA9 (void);
-// 0x00000B29 System.Boolean CilentModify.SplashPaint::isTrainCombo()
+// 0x00000B33 System.Boolean CilentModify.SplashPaint::isTrainCombo()
 extern void SplashPaint_isTrainCombo_m66C0013F373BA425A30BBD7E39BADB00FD1C7E9A (void);
-// 0x00000B2A System.Void CilentModify.SplashPaint::CheckClick()
+// 0x00000B34 System.Void CilentModify.SplashPaint::CheckClick()
 extern void SplashPaint_CheckClick_mF566CB2B51B99A580E6CB6D31C20C91D4F094648 (void);
-// 0x00000B2B System.Void CilentModify.SplashPaint::isCharForMe()
+// 0x00000B35 System.Void CilentModify.SplashPaint::isCharForMe()
 extern void SplashPaint_isCharForMe_m00F597F7F02C2CC0FB1E6379D27DAF4224615656 (void);
-// 0x00000B2C System.Int32 CilentModify.SplashPaint::smethod_16()
+// 0x00000B36 System.Int32 CilentModify.SplashPaint::smethod_16()
 extern void SplashPaint_smethod_16_mB8E50DDD291EEDD66E52B96219D1CDA833CE4012 (void);
-// 0x00000B2D System.Int32 CilentModify.SplashPaint::thoiVang()
+// 0x00000B37 System.Int32 CilentModify.SplashPaint::thoiVang()
 extern void SplashPaint_thoiVang_m9090ACBE6CD365EE2650BD0ED27040FE6FB36470 (void);
-// 0x00000B2E System.Void CilentModify.SplashPaint::sellThoiVang()
+// 0x00000B38 System.Void CilentModify.SplashPaint::sellThoiVang()
 extern void SplashPaint_sellThoiVang_m50B34335B790E34CFDE85392EAE2B047BAE5154D (void);
-// 0x00000B2F System.Int32 CilentModify.SplashPaint::getMaxStart(Item)
+// 0x00000B39 System.Int32 CilentModify.SplashPaint::getMaxStart(Item)
 extern void SplashPaint_getMaxStart_m053373C17C4CCBAE5F0AB7806B10B0AD6814D72F (void);
-// 0x00000B30 System.Void CilentModify.SplashPaint::DapDoSao()
+// 0x00000B3A System.Void CilentModify.SplashPaint::DapDoSao()
 extern void SplashPaint_DapDoSao_m92EC1C80811A85D1E5A2EEBFEF96848EC96AA37F (void);
-// 0x00000B31 System.Void CilentModify.SplashPaint::onChatFromMe(System.String,System.String)
+// 0x00000B3B System.Void CilentModify.SplashPaint::onChatFromMe(System.String,System.String)
 extern void SplashPaint_onChatFromMe_m44DAAE8747B15EE257FBE69D6620A6E373370E65 (void);
-// 0x00000B32 System.Void CilentModify.SplashPaint::onCancelChat()
+// 0x00000B3C System.Void CilentModify.SplashPaint::onCancelChat()
 extern void SplashPaint_onCancelChat_m326663265F720C57BBE860D7CAE583E2617643CB (void);
-// 0x00000B33 System.Void CilentModify.SplashPaint::.ctor()
+// 0x00000B3D System.Void CilentModify.SplashPaint::.ctor()
 extern void SplashPaint__ctor_m3C4F0BA254CC2B11E1D96C137E277D0CF36CECCE (void);
-// 0x00000B34 System.Void CilentModify.UpgradeItem::AutoDapDo()
+// 0x00000B3E System.Void CilentModify.UpgradeItem::AutoDapDo()
 extern void UpgradeItem_AutoDapDo_mBEE7236C198BC700E51DBB8DF5057AB126371E69 (void);
-// 0x00000B35 System.Void CilentModify.UpgradeItem::GotoNpc(System.Int32)
+// 0x00000B3F System.Void CilentModify.UpgradeItem::GotoNpc(System.Int32)
 extern void UpgradeItem_GotoNpc_mEEFEB2EA682A7342A85D8C5AC2B1B3110CB2E220 (void);
-// 0x00000B36 System.Void CilentModify.UpgradeItem::GotoXY(System.Int32,System.Int32)
+// 0x00000B40 System.Void CilentModify.UpgradeItem::GotoXY(System.Int32,System.Int32)
 extern void UpgradeItem_GotoXY_m337A6C7893A2F32771EE53CED1E729C347A33DC4 (void);
-// 0x00000B37 System.Void CilentModify.UpgradeItem::BanVang()
+// 0x00000B41 System.Void CilentModify.UpgradeItem::BanVang()
 extern void UpgradeItem_BanVang_mCB472683BD0D5C31680AB9FAF81FF11506C31304 (void);
-// 0x00000B38 System.Int32 CilentModify.UpgradeItem::FindIndexItem(System.Int32)
+// 0x00000B42 System.Int32 CilentModify.UpgradeItem::FindIndexItem(System.Int32)
 extern void UpgradeItem_FindIndexItem_mFCBFE4B5EC9F208262EF1939FC0DF077A185688B (void);
-// 0x00000B39 System.Int32 CilentModify.UpgradeItem::thoiVang()
+// 0x00000B43 System.Int32 CilentModify.UpgradeItem::thoiVang()
 extern void UpgradeItem_thoiVang_m9134D41743D8571DFAFF62748A27655E663B9CC2 (void);
-// 0x00000B3A System.Void CilentModify.UpgradeItem::paint(mGraphics)
+// 0x00000B44 System.Void CilentModify.UpgradeItem::paint(mGraphics)
 extern void UpgradeItem_paint_m737D4EC356CC27FFBA2882921B2ED3AAC6225018 (void);
-// 0x00000B3B System.Void CilentModify.UpgradeItem::.ctor()
+// 0x00000B45 System.Void CilentModify.UpgradeItem::.ctor()
 extern void UpgradeItem__ctor_m5994C8E730E1A71AB855EB3F3680FF0ED8468DFB (void);
-// 0x00000B3C System.Void CilentModify.UpgradeItem::.cctor()
+// 0x00000B46 System.Void CilentModify.UpgradeItem::.cctor()
 extern void UpgradeItem__cctor_m056A36EFC4C005D0C324F193BFC67502AC5B77DE (void);
-// 0x00000B3D CilentModify.Xmap CilentModify.Xmap::getInstance()
+// 0x00000B47 CilentModify.Xmap CilentModify.Xmap::getInstance()
 extern void Xmap_getInstance_mEDDBF7E6A8A99E8FB91B2117298C3E2ACF6CD77C (void);
-// 0x00000B3E System.Void CilentModify.Xmap::Update()
+// 0x00000B48 System.Void CilentModify.Xmap::Update()
 extern void Xmap_Update_mF133968459067FB53C01BA6B4591EFB5F61E9C35 (void);
-// 0x00000B3F System.Void CilentModify.Xmap::perform(System.Int32,System.Object)
+// 0x00000B49 System.Void CilentModify.Xmap::perform(System.Int32,System.Object)
 extern void Xmap_perform_m2F76C4886A504DA5E17F5A4621DF70E98A67774C (void);
-// 0x00000B40 System.Void CilentModify.Xmap::ShowMenu()
+// 0x00000B4A System.Void CilentModify.Xmap::ShowMenu()
 extern void Xmap_ShowMenu_mE36AB6C9C0E360F4EC7526802B73EB6080B39612 (void);
-// 0x00000B41 System.Void CilentModify.Xmap::ShowPlanetMenu()
+// 0x00000B4B System.Void CilentModify.Xmap::ShowPlanetMenu()
 extern void Xmap_ShowPlanetMenu_m246CD9E9EEDDC5565D7B31FC99F81917722A7DB3 (void);
-// 0x00000B42 System.Void CilentModify.Xmap::ShowMapsMenu(System.Int32[])
+// 0x00000B4C System.Void CilentModify.Xmap::ShowMapsMenu(System.Int32[])
 extern void Xmap_ShowMapsMenu_m261429063849EB3E3BD5825CFFFFFAB9660A6ECC (void);
-// 0x00000B43 System.Void CilentModify.Xmap::StartRunToMapId(System.Int32)
+// 0x00000B4D System.Void CilentModify.Xmap::StartRunToMapId(System.Int32)
 extern void Xmap_StartRunToMapId_mFB8F8AFC9160E0ACDB0FCAF37A4577902365E958 (void);
-// 0x00000B44 System.Void CilentModify.Xmap::FinishXmap()
+// 0x00000B4E System.Void CilentModify.Xmap::FinishXmap()
 extern void Xmap_FinishXmap_m2CA6D6C830E80C6E056DE73994BBB000F4E4A275 (void);
-// 0x00000B45 System.Void CilentModify.Xmap::UpdateXmap(System.Int32)
+// 0x00000B4F System.Void CilentModify.Xmap::UpdateXmap(System.Int32)
 extern void Xmap_UpdateXmap_m0AC99CD8965FEF57D850F8D14984F704450681AC (void);
-// 0x00000B46 System.Void CilentModify.Xmap::LoadMapLeft()
+// 0x00000B50 System.Void CilentModify.Xmap::LoadMapLeft()
 extern void Xmap_LoadMapLeft_m1D3A10779BC1BB6AD1937DC3382731EBBDD06023 (void);
-// 0x00000B47 System.Void CilentModify.Xmap::LoadMapCenter()
+// 0x00000B51 System.Void CilentModify.Xmap::LoadMapCenter()
 extern void Xmap_LoadMapCenter_m967BCE6B3B536A76DBD975191A5E3EA57079F044 (void);
-// 0x00000B48 System.Void CilentModify.Xmap::LoadMapRight()
+// 0x00000B52 System.Void CilentModify.Xmap::LoadMapRight()
 extern void Xmap_LoadMapRight_mA061E74D4659A1B65C6BE03E24969624E3A8F1CF (void);
-// 0x00000B49 System.Void CilentModify.Xmap::LoadData()
+// 0x00000B53 System.Void CilentModify.Xmap::LoadData()
 extern void Xmap_LoadData_mBA769F8EBC61F809C4FF7AF7C4E373011337554A (void);
-// 0x00000B4A System.Void CilentModify.Xmap::SaveData()
+// 0x00000B54 System.Void CilentModify.Xmap::SaveData()
 extern void Xmap_SaveData_m2AFE36940A86379079332CBC57923C09602AA41D (void);
-// 0x00000B4B System.Void CilentModify.Xmap::LoadLinkMapsXmap()
+// 0x00000B55 System.Void CilentModify.Xmap::LoadLinkMapsXmap()
 extern void Xmap_LoadLinkMapsXmap_m251991DE1A28D710C38712226E8060B9CE2FF9A3 (void);
-// 0x00000B4C System.Void CilentModify.Xmap::LoadNPCLinkMapsXmap()
+// 0x00000B56 System.Void CilentModify.Xmap::LoadNPCLinkMapsXmap()
 extern void Xmap_LoadNPCLinkMapsXmap_m17B0C8A1B11D2DC67CE25B4C61762E4F423F4C2B (void);
-// 0x00000B4D System.Void CilentModify.Xmap::AddPlanetXmap()
+// 0x00000B57 System.Void CilentModify.Xmap::AddPlanetXmap()
 extern void Xmap_AddPlanetXmap_m41B45E9D64CBBC4F8D7E6BDF03BD55E39F5C97DD (void);
-// 0x00000B4E System.Void CilentModify.Xmap::AddLinkMapsXmap(System.Int32[])
+// 0x00000B58 System.Void CilentModify.Xmap::AddLinkMapsXmap(System.Int32[])
 extern void Xmap_AddLinkMapsXmap_mA3EA163DCD161268F0E9AF2D0A1C84CC7AB28F39 (void);
-// 0x00000B4F System.Void CilentModify.Xmap::AddNPCLinkMapsXmap(System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000B59 System.Void CilentModify.Xmap::AddNPCLinkMapsXmap(System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Xmap_AddNPCLinkMapsXmap_m9FAFC28DE88A1BD455C960BE6FE1786235B557D1 (void);
-// 0x00000B50 System.Void CilentModify.Xmap::Goto(System.Int32)
+// 0x00000B5A System.Void CilentModify.Xmap::Goto(System.Int32)
 extern void Xmap_Goto_m9DBF3AAE8732D0E9F7D60FF5817AF10A1D6DDCA0 (void);
-// 0x00000B51 System.Int32[] CilentModify.Xmap::FindWay(System.Int32)
+// 0x00000B5B System.Int32[] CilentModify.Xmap::FindWay(System.Int32)
 extern void Xmap_FindWay_m200B5CB4B59C9FCD8AE64672C4ACF52F6E0E3B99 (void);
-// 0x00000B52 System.Int32[] CilentModify.Xmap::FindWay(System.Int32,System.Int32[])
+// 0x00000B5C System.Int32[] CilentModify.Xmap::FindWay(System.Int32,System.Int32[])
 extern void Xmap_FindWay_m1E4D86EA71E14854B92B7400EC2D0F9ACBEB95E5 (void);
-// 0x00000B53 System.Boolean CilentModify.Xmap::hasWayGoFutureAndBack(System.Int32[])
+// 0x00000B5D System.Boolean CilentModify.Xmap::hasWayGoFutureAndBack(System.Int32[])
 extern void Xmap_hasWayGoFutureAndBack_m3DEF28CE80096AAB59D1F971BDE6CA3716273D4C (void);
-// 0x00000B54 System.Boolean CilentModify.Xmap::hasWayGoToColdMap(System.Int32[])
+// 0x00000B5E System.Boolean CilentModify.Xmap::hasWayGoToColdMap(System.Int32[])
 extern void Xmap_hasWayGoToColdMap_m9A071B4EBB531E94FFD1337C51BC5A61ADBEEC11 (void);
-// 0x00000B55 System.String CilentModify.Xmap::GetMapName(System.Int32)
+// 0x00000B5F System.String CilentModify.Xmap::GetMapName(System.Int32)
 extern void Xmap_GetMapName_m2963031DD43E7B1B48A2CA56A41A90365A09D444 (void);
-// 0x00000B56 System.Void CilentModify.Xmap::LoadWaypointsInMap()
+// 0x00000B60 System.Void CilentModify.Xmap::LoadWaypointsInMap()
 extern void Xmap_LoadWaypointsInMap_m6CDAE7282872D455B5F5BDE3120901BB9B9B46B9 (void);
-// 0x00000B57 System.Int32 CilentModify.Xmap::GetYGround(System.Int32)
+// 0x00000B61 System.Int32 CilentModify.Xmap::GetYGround(System.Int32)
 extern void Xmap_GetYGround_m619F4EC5DF8ABF55049DC24A1718DEF6DFB26727 (void);
-// 0x00000B58 System.Void CilentModify.Xmap::TeleportTo(System.Int32,System.Int32)
+// 0x00000B62 System.Void CilentModify.Xmap::TeleportTo(System.Int32,System.Int32)
 extern void Xmap_TeleportTo_m0A2F9E4623CC6B6034543F62E098710AEAFBCB32 (void);
-// 0x00000B59 System.Void CilentModify.Xmap::ResetSavedWaypoints()
+// 0x00000B63 System.Void CilentModify.Xmap::ResetSavedWaypoints()
 extern void Xmap_ResetSavedWaypoints_m6EDB2FC4B571ADA1702BD4FB2442073C9410C466 (void);
-// 0x00000B5A System.Boolean CilentModify.Xmap::isNRDMap(System.Int32)
+// 0x00000B64 System.Boolean CilentModify.Xmap::isNRDMap(System.Int32)
 extern void Xmap_isNRDMap_m5EFCCCB5B763D558B5FA2FB47172E6B7063A6541 (void);
-// 0x00000B5B System.Boolean CilentModify.Xmap::isFutureMap(System.Int32)
+// 0x00000B65 System.Boolean CilentModify.Xmap::isFutureMap(System.Int32)
 extern void Xmap_isFutureMap_mF483D7950EEE5F238A555DFD71ED68C317DCD2EE (void);
-// 0x00000B5C System.Boolean CilentModify.Xmap::isNRD(ItemMap)
+// 0x00000B66 System.Boolean CilentModify.Xmap::isNRD(ItemMap)
 extern void Xmap_isNRD_mEE68E7350B6BD9F70C68353789952031E5BDEBCE (void);
-// 0x00000B5D System.Void CilentModify.Xmap::LoadMap(System.Int32)
+// 0x00000B67 System.Void CilentModify.Xmap::LoadMap(System.Int32)
 extern void Xmap_LoadMap_m2991EE74C420D466757ED756A27011FB16E956BF (void);
-// 0x00000B5E System.Void CilentModify.Xmap::TeleportInNRDMap(System.Int32)
+// 0x00000B68 System.Void CilentModify.Xmap::TeleportInNRDMap(System.Int32)
 extern void Xmap_TeleportInNRDMap_mDDCBC69741B403A7EA9E55A14251BA32F366BB52 (void);
-// 0x00000B5F System.Void CilentModify.Xmap::.cctor()
+// 0x00000B69 System.Void CilentModify.Xmap::.cctor()
 extern void Xmap__cctor_m3027C6DEFB2E72F0B6E8873673EE9EC00DDD4BE6 (void);
-// 0x00000B60 System.Int32 CilentModify.Xmap::FindIndexItem(System.Int32)
+// 0x00000B6A System.Int32 CilentModify.Xmap::FindIndexItem(System.Int32)
 extern void Xmap_FindIndexItem_mB9C86E2F2C74D5DFE4A713A5F2136F33A742BF83 (void);
-// 0x00000B61 System.Void CilentModify.Xmap::UseCapsuleVip()
+// 0x00000B6B System.Void CilentModify.Xmap::UseCapsuleVip()
 extern void Xmap_UseCapsuleVip_m4FDE223772524EDF6C00166EF8AF921A7DC72A28 (void);
-// 0x00000B62 System.Void CilentModify.Xmap::GotoNpc(System.Int32,System.Int32,System.Int32)
+// 0x00000B6C System.Void CilentModify.Xmap::GotoNpc(System.Int32,System.Int32,System.Int32)
 extern void Xmap_GotoNpc_m1C41585A88F7BF2F84C6CE77E496B4D1C4D946B0 (void);
-// 0x00000B63 System.Void CilentModify.Xmap::GotoXY(System.Int32,System.Int32)
+// 0x00000B6D System.Void CilentModify.Xmap::GotoXY(System.Int32,System.Int32)
 extern void Xmap_GotoXY_m00BCBA45C2E17CF6846E7910E0ADE897504A3BEC (void);
-// 0x00000B64 System.Void CilentModify.Xmap::.ctor()
+// 0x00000B6E System.Void CilentModify.Xmap::.ctor()
 extern void Xmap__ctor_m80E65BBC9C3BC93B16E61E5144F2193AFD9CB352 (void);
-// 0x00000B65 System.Void CilentModify.Xmap/NextMap::.ctor(System.Int32,System.Int32,System.Int32)
+// 0x00000B6F System.Void CilentModify.Xmap/NextMap::.ctor(System.Int32,System.Int32,System.Int32)
 extern void NextMap__ctor_mA10E65021711C5EC0D6093D0B5CA9DFB946F6FDA (void);
-// 0x00000B66 System.Void CilentModify.Xmap/NextMap::GotoMap()
+// 0x00000B70 System.Void CilentModify.Xmap/NextMap::GotoMap()
 extern void NextMap_GotoMap_mDE60EA45697366A0080B045C2AA67E8B7B1D4F43 (void);
-// 0x00000B67 Waypoint CilentModify.Xmap/NextMap::GetWayPoint()
+// 0x00000B71 Waypoint CilentModify.Xmap/NextMap::GetWayPoint()
 extern void NextMap_GetWayPoint_mA9D4A2C418C1E211EEA0DDD89A689B00B3DA6181 (void);
-// 0x00000B68 System.String CilentModify.Xmap/NextMap::GetMapName()
+// 0x00000B72 System.String CilentModify.Xmap/NextMap::GetMapName()
 extern void NextMap_GetMapName_mC033178317860E50C644D6BA98BE8B07527DF7F2 (void);
-// 0x00000B69 System.Void CilentModify.Xmap/NextMap::Enter(Waypoint)
+// 0x00000B73 System.Void CilentModify.Xmap/NextMap::Enter(Waypoint)
 extern void NextMap_Enter_m3CE799B808E63C4C498DC1C5BC013A29B17C174C (void);
-// 0x00000B6A System.String CilentModify.Xmap/NextMap::GetMapName(PopUp)
+// 0x00000B74 System.String CilentModify.Xmap/NextMap::GetMapName(PopUp)
 extern void NextMap_GetMapName_mA196AEA87D1AEDF25143CEC1D5CCFE546939A2B5 (void);
-// 0x00000B6B System.Void CilentModify.Xmap/NextMap::TeleportTo(System.Int32,System.Int32)
+// 0x00000B75 System.Void CilentModify.Xmap/NextMap::TeleportTo(System.Int32,System.Int32)
 extern void NextMap_TeleportTo_m5AF08F90C82EA9EDC7ED024B58DA7CB21227A542 (void);
-// 0x00000B6C BaseMod.AutoChat BaseMod.AutoChat::getInstance()
+// 0x00000B76 BaseMod.AutoChat BaseMod.AutoChat::getInstance()
 extern void AutoChat_getInstance_m088F4036B5158640634BDD5BA4EF847712A03F7E (void);
-// 0x00000B6D System.Void BaseMod.AutoChat::Update()
+// 0x00000B77 System.Void BaseMod.AutoChat::Update()
 extern void AutoChat_Update_m6AB6DD122636AED64562D717D1AA646CBE137547 (void);
-// 0x00000B6E System.Void BaseMod.AutoChat::onChatFromMe(System.String,System.String)
+// 0x00000B78 System.Void BaseMod.AutoChat::onChatFromMe(System.String,System.String)
 extern void AutoChat_onChatFromMe_mBEDCB83D68E18150C343E6ED24F5A328BDE42466 (void);
-// 0x00000B6F System.Void BaseMod.AutoChat::onCancelChat()
+// 0x00000B79 System.Void BaseMod.AutoChat::onCancelChat()
 extern void AutoChat_onCancelChat_m151728E9E123BF6816AEF2CBFD278DB7F4528458 (void);
-// 0x00000B70 System.Void BaseMod.AutoChat::perform(System.Int32,System.Object)
+// 0x00000B7A System.Void BaseMod.AutoChat::perform(System.Int32,System.Object)
 extern void AutoChat_perform_mB4AE3FF37B68C93F455D6171B3A04F232F19DE2D (void);
-// 0x00000B71 System.Void BaseMod.AutoChat::ShowMenu()
+// 0x00000B7B System.Void BaseMod.AutoChat::ShowMenu()
 extern void AutoChat_ShowMenu_m4A7F3A0CBD9074A4810D03AA23BFF873D09B8412 (void);
-// 0x00000B72 System.Void BaseMod.AutoChat::ResetChatTextField()
+// 0x00000B7C System.Void BaseMod.AutoChat::ResetChatTextField()
 extern void AutoChat_ResetChatTextField_mE08B92FDE1158DA697B8C7F78C4E35D80ED7B5D7 (void);
-// 0x00000B73 System.Void BaseMod.AutoChat::LoadSavedData()
+// 0x00000B7D System.Void BaseMod.AutoChat::LoadSavedData()
 extern void AutoChat_LoadSavedData_m38079EFF81DB8A636D87A8DC478F50DAE5B02EE1 (void);
-// 0x00000B74 System.Void BaseMod.AutoChat::SaveData()
+// 0x00000B7E System.Void BaseMod.AutoChat::SaveData()
 extern void AutoChat_SaveData_mB0168DED357ABCDEB9D24AD114B9F07228539A8C (void);
-// 0x00000B75 System.Void BaseMod.AutoChat::ChatPublic()
+// 0x00000B7F System.Void BaseMod.AutoChat::ChatPublic()
 extern void AutoChat_ChatPublic_m72497115A451E2F374968B68C89AEA4D5C7F0A79 (void);
-// 0x00000B76 System.Void BaseMod.AutoChat::ChatGlobal()
+// 0x00000B80 System.Void BaseMod.AutoChat::ChatGlobal()
 extern void AutoChat_ChatGlobal_m1A87B48C74C62096CE6747068E7AE2ED57544EFD (void);
-// 0x00000B77 System.Void BaseMod.AutoChat::SpamChatGlobal()
+// 0x00000B81 System.Void BaseMod.AutoChat::SpamChatGlobal()
 extern void AutoChat_SpamChatGlobal_mB08B75F6D61DD0BA771D182C9B76FFD5082D0094 (void);
-// 0x00000B78 System.Void BaseMod.AutoChat::ChatInbox()
+// 0x00000B82 System.Void BaseMod.AutoChat::ChatInbox()
 extern void AutoChat_ChatInbox_m0021E84E8A624CB1A8FF4412335BB9EDEC8E2F97 (void);
-// 0x00000B79 System.Boolean BaseMod.AutoChat::isInboxable(Char)
+// 0x00000B83 System.Boolean BaseMod.AutoChat::isInboxable(Char)
 extern void AutoChat_isInboxable_mE355B3DCD60247F34D7CDB8F6AD87BC6F6CAED06 (void);
-// 0x00000B7A System.Void BaseMod.AutoChat::.cctor()
+// 0x00000B84 System.Void BaseMod.AutoChat::.cctor()
 extern void AutoChat__cctor_m1717BCC1D604BF86DA1A81902976AABB4605D459 (void);
-// 0x00000B7B System.Void BaseMod.AutoChat::.ctor()
+// 0x00000B85 System.Void BaseMod.AutoChat::.ctor()
 extern void AutoChat__ctor_m3D88194D7E7C70D2C8AF62A88DBE98E89F423E20 (void);
-// 0x00000B7C System.Void Assets.Scripts.CilentModify.Mod.KeyPress::keyPress()
+// 0x00000B86 System.Void Assets.Scripts.CilentModify.Mod.KeyPress::keyPress()
 extern void KeyPress_keyPress_m563966B9543390808D4C28C7415A9E6D282A70AA (void);
-// 0x00000B7D System.Void Assets.Scripts.CilentModify.Mod.KeyPress::.ctor()
+// 0x00000B87 System.Void Assets.Scripts.CilentModify.Mod.KeyPress::.ctor()
 extern void KeyPress__ctor_m426C210CD17011DF61D428172A736F81AF000850 (void);
-// 0x00000B7E System.Void Assets.src.g.BigBoss::.ctor(System.Int32,System.Int16,System.Int16,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000B88 System.Void Assets.src.g.BigBoss::.ctor(System.Int32,System.Int16,System.Int16,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void BigBoss__ctor_mEFCD1DD8BE4857E74E43BD76A2F69155D2EC27FE (void);
-// 0x00000B7F System.Void Assets.src.g.BigBoss::getDataB2()
+// 0x00000B89 System.Void Assets.src.g.BigBoss::getDataB2()
 extern void BigBoss_getDataB2_m9B9899E7DB65F72A202E778A3F8CD872C988B9FD (void);
-// 0x00000B80 System.Void Assets.src.g.BigBoss::getDataB()
+// 0x00000B8A System.Void Assets.src.g.BigBoss::getDataB()
 extern void BigBoss_getDataB_m8D45BA08BD08AB7DD23ABC343B234A438CDD1B85 (void);
-// 0x00000B81 System.Void Assets.src.g.BigBoss::setBody(System.Int16)
+// 0x00000B8B System.Void Assets.src.g.BigBoss::setBody(System.Int16)
 extern void BigBoss_setBody_m673383FDAEB6CD06798131D0D2C6945A1C721EE9 (void);
-// 0x00000B82 System.Void Assets.src.g.BigBoss::clearBody()
+// 0x00000B8C System.Void Assets.src.g.BigBoss::clearBody()
 extern void BigBoss_clearBody_m29BD590D622F92F2AB0EC0D68892284573D76EE6 (void);
-// 0x00000B83 System.Boolean Assets.src.g.BigBoss::isExistNewMob(System.String)
+// 0x00000B8D System.Boolean Assets.src.g.BigBoss::isExistNewMob(System.String)
 extern void BigBoss_isExistNewMob_m26721CB529004664D67206938B045F7DA2FCA86C (void);
-// 0x00000B84 System.Void Assets.src.g.BigBoss::checkFrameTick(System.Int32[])
+// 0x00000B8E System.Void Assets.src.g.BigBoss::checkFrameTick(System.Int32[])
 extern void BigBoss_checkFrameTick_mFDD2413F7972DFD20382FE3133E88381A1E95CD0 (void);
-// 0x00000B85 System.Void Assets.src.g.BigBoss::updateShadown()
+// 0x00000B8F System.Void Assets.src.g.BigBoss::updateShadown()
 extern void BigBoss_updateShadown_mFF6CE657F88D305599B3F8803687E1525875926A (void);
-// 0x00000B86 System.Void Assets.src.g.BigBoss::paintShadow(mGraphics)
+// 0x00000B90 System.Void Assets.src.g.BigBoss::paintShadow(mGraphics)
 extern void BigBoss_paintShadow_m715E782E42FBF42BD2286139E7C658832F29DF80 (void);
-// 0x00000B87 System.Void Assets.src.g.BigBoss::updateSuperEff()
+// 0x00000B91 System.Void Assets.src.g.BigBoss::updateSuperEff()
 extern void BigBoss_updateSuperEff_m470997A67A8E6EF399179AEB607FE3F8DA6475AA (void);
-// 0x00000B88 System.Void Assets.src.g.BigBoss::update()
+// 0x00000B92 System.Void Assets.src.g.BigBoss::update()
 extern void BigBoss_update_m6E4274F8A2B9EDF8BB6BD7AB858A0DD2080646D5 (void);
-// 0x00000B89 System.Void Assets.src.g.BigBoss::updateDead()
+// 0x00000B93 System.Void Assets.src.g.BigBoss::updateDead()
 extern void BigBoss_updateDead_mCCA869BD709AA58BE0AF1825D45E434E7526A334 (void);
-// 0x00000B8A System.Void Assets.src.g.BigBoss::updateMobFly()
+// 0x00000B94 System.Void Assets.src.g.BigBoss::updateMobFly()
 extern void BigBoss_updateMobFly_m364898B1B51EEF6E024FC855CDA3953C97626F6C (void);
-// 0x00000B8B System.Void Assets.src.g.BigBoss::setInjure()
+// 0x00000B95 System.Void Assets.src.g.BigBoss::setInjure()
 extern void BigBoss_setInjure_m4507B8CCB0D06E64BF30289405C337FE3381429E (void);
-// 0x00000B8C System.Void Assets.src.g.BigBoss::setAttack(Char)
+// 0x00000B96 System.Void Assets.src.g.BigBoss::setAttack(Char)
 extern void BigBoss_setAttack_mB9770715AB9E74343681461A66A011E7C26157BA (void);
-// 0x00000B8D System.Boolean Assets.src.g.BigBoss::isSpecial()
+// 0x00000B97 System.Boolean Assets.src.g.BigBoss::isSpecial()
 extern void BigBoss_isSpecial_mA095C015C3BBE9075655A29438D2736353EBEF8D (void);
-// 0x00000B8E System.Void Assets.src.g.BigBoss::updateInjure()
+// 0x00000B98 System.Void Assets.src.g.BigBoss::updateInjure()
 extern void BigBoss_updateInjure_m3700F5E81EDC844DDB4E9CEADC856C18785790D1 (void);
-// 0x00000B8F System.Void Assets.src.g.BigBoss::updateMobStandWait()
+// 0x00000B99 System.Void Assets.src.g.BigBoss::updateMobStandWait()
 extern void BigBoss_updateMobStandWait_mE1A491D08851BAC02169297FD747945620218C9C (void);
-// 0x00000B90 System.Void Assets.src.g.BigBoss::setFly()
+// 0x00000B9A System.Void Assets.src.g.BigBoss::setFly()
 extern void BigBoss_setFly_m64FC2BA38A54CD3A50F2C0087E46FE64072057A3 (void);
-// 0x00000B91 System.Void Assets.src.g.BigBoss::setAttack(Char[],System.Int32[],System.SByte)
+// 0x00000B9B System.Void Assets.src.g.BigBoss::setAttack(Char[],System.Int32[],System.SByte)
 extern void BigBoss_setAttack_m02E3643FE1C8CD3A165AADCE69BD78F4D05C991E (void);
-// 0x00000B92 System.Void Assets.src.g.BigBoss::updateMobAttack()
+// 0x00000B9C System.Void Assets.src.g.BigBoss::updateMobAttack()
 extern void BigBoss_updateMobAttack_m7B0DA39706209205CB4654088059D392F011B44F (void);
-// 0x00000B93 System.Void Assets.src.g.BigBoss::updateMobWalk()
+// 0x00000B9D System.Void Assets.src.g.BigBoss::updateMobWalk()
 extern void BigBoss_updateMobWalk_m05EEE1C12E03C67C8D415A998EE2D230A84A7EC0 (void);
-// 0x00000B94 System.Boolean Assets.src.g.BigBoss::isPaint()
+// 0x00000B9E System.Boolean Assets.src.g.BigBoss::isPaint()
 extern void BigBoss_isPaint_mC6FB217E0E34E2D451FFCDC9ABFD69437E6F847C (void);
-// 0x00000B95 System.Boolean Assets.src.g.BigBoss::isUpdate()
+// 0x00000B9F System.Boolean Assets.src.g.BigBoss::isUpdate()
 extern void BigBoss_isUpdate_mC0300D895E970748A6A5E291BD2F460FEB3662E9 (void);
-// 0x00000B96 System.Boolean Assets.src.g.BigBoss::checkIsBoss()
+// 0x00000BA0 System.Boolean Assets.src.g.BigBoss::checkIsBoss()
 extern void BigBoss_checkIsBoss_mE4AC3B46DB9EA301495BD60CAB878640E92140F8 (void);
-// 0x00000B97 System.Void Assets.src.g.BigBoss::paint(mGraphics)
+// 0x00000BA1 System.Void Assets.src.g.BigBoss::paint(mGraphics)
 extern void BigBoss_paint_m6CAA6BA8E1420D60FAC84DB8A5F3C5EAD60BDAF4 (void);
-// 0x00000B98 System.Int32 Assets.src.g.BigBoss::getHPColor()
+// 0x00000BA2 System.Int32 Assets.src.g.BigBoss::getHPColor()
 extern void BigBoss_getHPColor_m19A59D44225B9BBD4D7897EB1289A72DC564B2A9 (void);
-// 0x00000B99 System.Void Assets.src.g.BigBoss::startDie()
+// 0x00000BA3 System.Void Assets.src.g.BigBoss::startDie()
 extern void BigBoss_startDie_m9EFACCC70917884CC2C80AE16DC69741B716C064 (void);
-// 0x00000B9A System.Void Assets.src.g.BigBoss::attackOtherMob(Mob)
+// 0x00000BA4 System.Void Assets.src.g.BigBoss::attackOtherMob(Mob)
 extern void BigBoss_attackOtherMob_m3B4B3C0180A2EB5BD125219BC5A9B4112399D1A0 (void);
-// 0x00000B9B System.Int32 Assets.src.g.BigBoss::getX()
+// 0x00000BA5 System.Int32 Assets.src.g.BigBoss::getX()
 extern void BigBoss_getX_mE76D08485484C51784ED109212DCC6B787B78DC0 (void);
-// 0x00000B9C System.Int32 Assets.src.g.BigBoss::getY()
+// 0x00000BA6 System.Int32 Assets.src.g.BigBoss::getY()
 extern void BigBoss_getY_m9CF5C7C6A0E600130C383F2E74EC5B806C118859 (void);
-// 0x00000B9D System.Int32 Assets.src.g.BigBoss::getH()
+// 0x00000BA7 System.Int32 Assets.src.g.BigBoss::getH()
 extern void BigBoss_getH_mF17CE47F452A71828EFB43097AC8C702254F1628 (void);
-// 0x00000B9E System.Int32 Assets.src.g.BigBoss::getW()
+// 0x00000BA8 System.Int32 Assets.src.g.BigBoss::getW()
 extern void BigBoss_getW_m9D6DBDB1FEFE645B02B7DE409473CF4514362D6A (void);
-// 0x00000B9F System.Void Assets.src.g.BigBoss::stopMoving()
+// 0x00000BA9 System.Void Assets.src.g.BigBoss::stopMoving()
 extern void BigBoss_stopMoving_mDD57CCBA6F1D1B4D5120722067FC8A34381CE196 (void);
-// 0x00000BA0 System.Boolean Assets.src.g.BigBoss::isInvisible()
+// 0x00000BAA System.Boolean Assets.src.g.BigBoss::isInvisible()
 extern void BigBoss_isInvisible_m84F3266DF17E3887265FAD5851C351E89BED2EEC (void);
-// 0x00000BA1 System.Void Assets.src.g.BigBoss::removeHoldEff()
+// 0x00000BAB System.Void Assets.src.g.BigBoss::removeHoldEff()
 extern void BigBoss_removeHoldEff_m6651580A1F5D11203192EABA8E9A66096E184A5B (void);
-// 0x00000BA2 System.Void Assets.src.g.BigBoss::removeBlindEff()
+// 0x00000BAC System.Void Assets.src.g.BigBoss::removeBlindEff()
 extern void BigBoss_removeBlindEff_m92491C7C4DEEB5AE849D612B3550EFD3AB42CABF (void);
-// 0x00000BA3 System.Void Assets.src.g.BigBoss::removeSleepEff()
+// 0x00000BAD System.Void Assets.src.g.BigBoss::removeSleepEff()
 extern void BigBoss_removeSleepEff_m43EFB333EBC6E08446021B5FEBE3DFE5AB26C1DA (void);
-// 0x00000BA4 System.Void Assets.src.g.BigBoss::.cctor()
+// 0x00000BAE System.Void Assets.src.g.BigBoss::.cctor()
 extern void BigBoss__cctor_m347902EFB0A228447692A01C13AB94C79FEED2D3 (void);
-// 0x00000BA5 System.Void Assets.src.g.ClientInput::init(System.String)
+// 0x00000BAF System.Void Assets.src.g.ClientInput::init(System.String)
 extern void ClientInput_init_m5210D149654F5EE490EC8339D5E7BDD8C390C32A (void);
-// 0x00000BA6 Assets.src.g.ClientInput Assets.src.g.ClientInput::gI()
+// 0x00000BB0 Assets.src.g.ClientInput Assets.src.g.ClientInput::gI()
 extern void ClientInput_gI_mBB356AA401DE284DBE043163D1DC66E52856F98B (void);
-// 0x00000BA7 System.Void Assets.src.g.ClientInput::switchToMe()
+// 0x00000BB1 System.Void Assets.src.g.ClientInput::switchToMe()
 extern void ClientInput_switchToMe_m4B91B9B37541D299267D5E6DF0073F1B8C01FDC8 (void);
-// 0x00000BA8 System.Void Assets.src.g.ClientInput::setInput(System.Int32,System.String)
+// 0x00000BB2 System.Void Assets.src.g.ClientInput::setInput(System.Int32,System.String)
 extern void ClientInput_setInput_m7AC0AB1AA48B96C85F4C442CDC118AA7D6A6C4D9 (void);
-// 0x00000BA9 System.Void Assets.src.g.ClientInput::paint(mGraphics)
+// 0x00000BB3 System.Void Assets.src.g.ClientInput::paint(mGraphics)
 extern void ClientInput_paint_mDD9A15FB07B2A09885F8ADC05CB5C355EA7B7907 (void);
-// 0x00000BAA System.Void Assets.src.g.ClientInput::update()
+// 0x00000BB4 System.Void Assets.src.g.ClientInput::update()
 extern void ClientInput_update_m5F6C8CA1F2C0E3D12ACABE439A07616DFEED323F (void);
-// 0x00000BAB System.Void Assets.src.g.ClientInput::keyPress(System.Int32)
+// 0x00000BB5 System.Void Assets.src.g.ClientInput::keyPress(System.Int32)
 extern void ClientInput_keyPress_mBF203E56DEEFC9408AFFFB5677C4E9A33463EA83 (void);
-// 0x00000BAC System.Void Assets.src.g.ClientInput::updateKey()
+// 0x00000BB6 System.Void Assets.src.g.ClientInput::updateKey()
 extern void ClientInput_updateKey_m4FC3F4A399BB43C111A17CB7DA4EEC2B0291A23D (void);
-// 0x00000BAD System.Void Assets.src.g.ClientInput::clearScreen()
+// 0x00000BB7 System.Void Assets.src.g.ClientInput::clearScreen()
 extern void ClientInput_clearScreen_mA975F0EC0292426823B530FFF617FECA30646B7C (void);
-// 0x00000BAE System.Void Assets.src.g.ClientInput::perform(System.Int32,System.Object)
+// 0x00000BB8 System.Void Assets.src.g.ClientInput::perform(System.Int32,System.Object)
 extern void ClientInput_perform_m0BB38538B1DBC2F0E33E7A3E450A70DE375D4D1A (void);
-// 0x00000BAF System.Void Assets.src.g.ClientInput::.ctor()
+// 0x00000BB9 System.Void Assets.src.g.ClientInput::.ctor()
 extern void ClientInput__ctor_m2149F18541BE9BCF1526CAA641A6B93368761AC3 (void);
-// 0x00000BB0 System.Void Assets.src.g.GameInfo::.ctor()
+// 0x00000BBA System.Void Assets.src.g.GameInfo::.ctor()
 extern void GameInfo__ctor_m79D1786A72DD6DB2668AB49E0560C07165655849 (void);
-// 0x00000BB1 System.Void Assets.src.g.ImageSource::.ctor(System.String,System.SByte)
+// 0x00000BBB System.Void Assets.src.g.ImageSource::.ctor(System.String,System.SByte)
 extern void ImageSource__ctor_m1EEA0E3AB93784E802C06F9A246334FC33EC5890 (void);
-// 0x00000BB2 System.Void Assets.src.g.ImageSource::checkRMS()
+// 0x00000BBC System.Void Assets.src.g.ImageSource::checkRMS()
 extern void ImageSource_checkRMS_m63E8083C769476A874C32D37EA767D312D9A29E6 (void);
-// 0x00000BB3 System.SByte Assets.src.g.ImageSource::getVersionRMSByID(System.String)
+// 0x00000BBD System.SByte Assets.src.g.ImageSource::getVersionRMSByID(System.String)
 extern void ImageSource_getVersionRMSByID_mB345B0140F340BC52D98E675771A76A95BE4F324 (void);
-// 0x00000BB4 System.SByte Assets.src.g.ImageSource::getCurrVersionByID(System.String)
+// 0x00000BBE System.SByte Assets.src.g.ImageSource::getCurrVersionByID(System.String)
 extern void ImageSource_getCurrVersionByID_mD6240934F6EA538C5D65A75348B1E683FC0D2990 (void);
-// 0x00000BB5 System.Boolean Assets.src.g.ImageSource::isExistID(System.String)
+// 0x00000BBF System.Boolean Assets.src.g.ImageSource::isExistID(System.String)
 extern void ImageSource_isExistID_m3012151E97A85D39C0EF63347944197AEF18BF82 (void);
-// 0x00000BB6 System.Void Assets.src.g.ImageSource::saveRMS()
+// 0x00000BC0 System.Void Assets.src.g.ImageSource::saveRMS()
 extern void ImageSource_saveRMS_m34267B1DD4F11460769E6E71EE391DD2B07855F1 (void);
-// 0x00000BB7 System.Void Assets.src.g.ImageSource::.cctor()
+// 0x00000BC1 System.Void Assets.src.g.ImageSource::.cctor()
 extern void ImageSource__cctor_m050F1D06144526A79241DC01B7F88BFF237FB009 (void);
-// 0x00000BB8 System.Void Assets.src.g.Mabu::.ctor()
+// 0x00000BC2 System.Void Assets.src.g.Mabu::.ctor()
 extern void Mabu__ctor_m146F27F8B7B830C7A5830F1CDFB432CFBC385154 (void);
-// 0x00000BB9 System.Void Assets.src.g.Mabu::eat(System.Int32)
+// 0x00000BC3 System.Void Assets.src.g.Mabu::eat(System.Int32)
 extern void Mabu_eat_mE308823B5D7ABA6C71D828BEEA5600D8A483EF4A (void);
-// 0x00000BBA System.Void Assets.src.g.Mabu::checkFrameTick(System.Int32[])
+// 0x00000BC4 System.Void Assets.src.g.Mabu::checkFrameTick(System.Int32[])
 extern void Mabu_checkFrameTick_m7F27396ADA35A2D48DC8B1E6F7B99577CA22535D (void);
-// 0x00000BBB System.Void Assets.src.g.Mabu::getData1()
+// 0x00000BC5 System.Void Assets.src.g.Mabu::getData1()
 extern void Mabu_getData1_mDF6562F5A1F9C80E959DB55362CED6993F3619A6 (void);
-// 0x00000BBC System.Void Assets.src.g.Mabu::setSkill(System.SByte,System.Int16,System.Int16,Char[],System.Int32[])
+// 0x00000BC6 System.Void Assets.src.g.Mabu::setSkill(System.SByte,System.Int16,System.Int16,Char[],System.Int32[])
 extern void Mabu_setSkill_m9A7AC4070EECE84D75C5D0C4EA4F0B5ABBD497D8 (void);
-// 0x00000BBD System.Void Assets.src.g.Mabu::getData2()
+// 0x00000BC7 System.Void Assets.src.g.Mabu::getData2()
 extern void Mabu_getData2_m8808F936DC3E806929F29ED9EAE01D7078418ACA (void);
-// 0x00000BBE System.Void Assets.src.g.Mabu::update()
+// 0x00000BC8 System.Void Assets.src.g.Mabu::update()
 extern void Mabu_update_m94BF84CB9DDA14378B78AD70E237FDEC1E3E711C (void);
-// 0x00000BBF System.Void Assets.src.g.Mabu::paint(mGraphics)
+// 0x00000BC9 System.Void Assets.src.g.Mabu::paint(mGraphics)
 extern void Mabu_paint_m04A9826E51E1C27A9D45D0ED4D4581F45AFFD8BB (void);
-// 0x00000BC0 System.Void Assets.src.g.Mabu::.cctor()
+// 0x00000BCA System.Void Assets.src.g.Mabu::.cctor()
 extern void Mabu__cctor_mF2F984C0352D75517F2656E637FFEA7A40013716 (void);
-// 0x00000BC1 System.Void Assets.src.g.PetFollow::.ctor()
+// 0x00000BCB System.Void Assets.src.g.PetFollow::.ctor()
 extern void PetFollow__ctor_m5402DDDCB0F0D51380858F5CCF63D26806D73C7F (void);
-// 0x00000BC2 System.Void Assets.src.g.PetFollow::SetImg(System.Int32,System.Int32[],System.Int32,System.Int32)
+// 0x00000BCC System.Void Assets.src.g.PetFollow::SetImg(System.Int32,System.Int32[],System.Int32,System.Int32)
 extern void PetFollow_SetImg_mFF4651FE56131AFD5139FCBABCA2E0C881057B41 (void);
-// 0x00000BC3 System.Void Assets.src.g.PetFollow::paint(mGraphics)
+// 0x00000BCD System.Void Assets.src.g.PetFollow::paint(mGraphics)
 extern void PetFollow_paint_m3992482AAF625E08A7ABCD7224FDA72DBFB927DF (void);
-// 0x00000BC4 System.Void Assets.src.g.PetFollow::update()
+// 0x00000BCE System.Void Assets.src.g.PetFollow::update()
 extern void PetFollow_update_m6923E9D2A95CD9D8742A1ADF5BF5288FB9438E05 (void);
-// 0x00000BC5 System.Void Assets.src.g.PetFollow::remove()
+// 0x00000BCF System.Void Assets.src.g.PetFollow::remove()
 extern void PetFollow_remove_m633E64490E8E4ECD2EAF1C096A5DFD9A24E2654D (void);
-// 0x00000BC6 System.Void Assets.src.g.PetFollow::moveCamera()
+// 0x00000BD0 System.Void Assets.src.g.PetFollow::moveCamera()
 extern void PetFollow_moveCamera_m97E65CEEA366B4608A8F4DB8843B461C8B20EE27 (void);
-// 0x00000BC7 System.Void Assets.src.g.RegisterScreen::.ctor(System.SByte)
+// 0x00000BD1 System.Void Assets.src.g.RegisterScreen::.ctor(System.SByte)
 extern void RegisterScreen__ctor_m344C23980075A923E5C48849A9C9260D8A501CFD (void);
-// 0x00000BC8 System.Void Assets.src.g.RegisterScreen::switchToMe()
+// 0x00000BD2 System.Void Assets.src.g.RegisterScreen::switchToMe()
 extern void RegisterScreen_switchToMe_mD3D25D3EA1AEFE37B12BD8DED1B7719112BCFFB0 (void);
-// 0x00000BC9 System.Void Assets.src.g.RegisterScreen::doMenu()
+// 0x00000BD3 System.Void Assets.src.g.RegisterScreen::doMenu()
 extern void RegisterScreen_doMenu_mE29427391BB706AA3BC95BDA6F4B155BF256BA98 (void);
-// 0x00000BCA System.Void Assets.src.g.RegisterScreen::doRegister()
+// 0x00000BD4 System.Void Assets.src.g.RegisterScreen::doRegister()
 extern void RegisterScreen_doRegister_m28D626FBF336083BAAD74C4E36CB195094F91A86 (void);
-// 0x00000BCB System.Void Assets.src.g.RegisterScreen::doRegister(System.String)
+// 0x00000BD5 System.Void Assets.src.g.RegisterScreen::doRegister(System.String)
 extern void RegisterScreen_doRegister_mE893EA62312AA482AD4EF3BEE387FE149CB0882A (void);
-// 0x00000BCC System.Void Assets.src.g.RegisterScreen::doViewFAQ()
+// 0x00000BD6 System.Void Assets.src.g.RegisterScreen::doViewFAQ()
 extern void RegisterScreen_doViewFAQ_m9D4CA935EFA663B80AC37D2DDAFE5D11F3EFE0D2 (void);
-// 0x00000BCD System.Void Assets.src.g.RegisterScreen::doSelectServer()
+// 0x00000BD7 System.Void Assets.src.g.RegisterScreen::doSelectServer()
 extern void RegisterScreen_doSelectServer_mC1D5031C51ED8B2B1A4762E3A397F9122734EF17 (void);
-// 0x00000BCE System.Void Assets.src.g.RegisterScreen::saveIndexServer(System.Int32)
+// 0x00000BD8 System.Void Assets.src.g.RegisterScreen::saveIndexServer(System.Int32)
 extern void RegisterScreen_saveIndexServer_mFB431C0684A60D22285C567B8777EC99EFF4A536 (void);
-// 0x00000BCF System.Int32 Assets.src.g.RegisterScreen::loadIndexServer()
+// 0x00000BD9 System.Int32 Assets.src.g.RegisterScreen::loadIndexServer()
 extern void RegisterScreen_loadIndexServer_mEAE3D530523A934C5E20113C36F58D7CE2B43FEB (void);
-// 0x00000BD0 System.Void Assets.src.g.RegisterScreen::doLogin()
+// 0x00000BDA System.Void Assets.src.g.RegisterScreen::doLogin()
 extern void RegisterScreen_doLogin_m921F423B8E2937D9D441D07C86B574EA317FA92F (void);
-// 0x00000BD1 System.Void Assets.src.g.RegisterScreen::savePass()
+// 0x00000BDB System.Void Assets.src.g.RegisterScreen::savePass()
 extern void RegisterScreen_savePass_m7C62523DD909B9667D90BB513588AB356FA31C6A (void);
-// 0x00000BD2 System.Void Assets.src.g.RegisterScreen::update()
+// 0x00000BDC System.Void Assets.src.g.RegisterScreen::update()
 extern void RegisterScreen_update_m01DE8A2AE27EEF5BE5CCA4B77999629CC403B2CE (void);
-// 0x00000BD3 System.Void Assets.src.g.RegisterScreen::doChangeTip()
+// 0x00000BDD System.Void Assets.src.g.RegisterScreen::doChangeTip()
 extern void RegisterScreen_doChangeTip_m0E20F318E9B355FFA2809488BBC133555C290EC6 (void);
-// 0x00000BD4 System.Void Assets.src.g.RegisterScreen::updateLogo()
+// 0x00000BDE System.Void Assets.src.g.RegisterScreen::updateLogo()
 extern void RegisterScreen_updateLogo_m4002D8A5D8D64261DE2CE5F0DF320B4DD6C59DAC (void);
-// 0x00000BD5 System.Void Assets.src.g.RegisterScreen::keyPress(System.Int32)
+// 0x00000BDF System.Void Assets.src.g.RegisterScreen::keyPress(System.Int32)
 extern void RegisterScreen_keyPress_mE88FE30BB09D5B24288B8DCF31299967D2971107 (void);
-// 0x00000BD6 System.Void Assets.src.g.RegisterScreen::unLoad()
+// 0x00000BE0 System.Void Assets.src.g.RegisterScreen::unLoad()
 extern void RegisterScreen_unLoad_mEE64BBF12101FC2969861C14717BA69D2A662AFF (void);
-// 0x00000BD7 System.Void Assets.src.g.RegisterScreen::paint(mGraphics)
+// 0x00000BE1 System.Void Assets.src.g.RegisterScreen::paint(mGraphics)
 extern void RegisterScreen_paint_mA3CBF92BA92AC18EC3B1836DFDDAA3F9EA2CCD4A (void);
-// 0x00000BD8 System.Void Assets.src.g.RegisterScreen::turnOffFocus()
+// 0x00000BE2 System.Void Assets.src.g.RegisterScreen::turnOffFocus()
 extern void RegisterScreen_turnOffFocus_mFA2F359A4653CF994C38A1F3FF300BB887DA5245 (void);
-// 0x00000BD9 System.Void Assets.src.g.RegisterScreen::processFocus()
+// 0x00000BE3 System.Void Assets.src.g.RegisterScreen::processFocus()
 extern void RegisterScreen_processFocus_m47870CDE6F32E150FC1C1195AD7217DCC6176F80 (void);
-// 0x00000BDA System.Void Assets.src.g.RegisterScreen::updateKey()
+// 0x00000BE4 System.Void Assets.src.g.RegisterScreen::updateKey()
 extern void RegisterScreen_updateKey_mE49E4436287DA294B1F56D460F44C564F606B87C (void);
-// 0x00000BDB System.Void Assets.src.g.RegisterScreen::resetLogo()
+// 0x00000BE5 System.Void Assets.src.g.RegisterScreen::resetLogo()
 extern void RegisterScreen_resetLogo_m875D9A5945F4EA13DB72B99BA204BB6A4559F19D (void);
-// 0x00000BDC System.Void Assets.src.g.RegisterScreen::perform(System.Int32,System.Object)
+// 0x00000BE6 System.Void Assets.src.g.RegisterScreen::perform(System.Int32,System.Object)
 extern void RegisterScreen_perform_m24CBDE2C02363A55DD2AEE9DF2E9BC08C90BF017 (void);
-// 0x00000BDD System.Void Assets.src.g.RegisterScreen::actRegisterLeft()
+// 0x00000BE7 System.Void Assets.src.g.RegisterScreen::actRegisterLeft()
 extern void RegisterScreen_actRegisterLeft_m31ACD4AB3E062895F86601C704ECC819018F148F (void);
-// 0x00000BDE System.Void Assets.src.g.RegisterScreen::actRegister()
+// 0x00000BE8 System.Void Assets.src.g.RegisterScreen::actRegister()
 extern void RegisterScreen_actRegister_mA01CFABE8E72FAF5B08C8A2DF31F1D20AFE042E0 (void);
-// 0x00000BDF System.Void Assets.src.g.RegisterScreen::backToRegister()
+// 0x00000BE9 System.Void Assets.src.g.RegisterScreen::backToRegister()
 extern void RegisterScreen_backToRegister_m8F45A3CA709D319B3DF309A2F088609065415737 (void);
-// 0x00000BE0 System.Void Assets.src.g.RegisterScreen::.cctor()
+// 0x00000BEA System.Void Assets.src.g.RegisterScreen::.cctor()
 extern void RegisterScreen__cctor_m4FF62095F9D47AFD775A2E00F7352695107389C5 (void);
-// 0x00000BE1 System.Void Assets.src.f.Controller2::readMessage(Message)
+// 0x00000BEB System.Void Assets.src.f.Controller2::readMessage(Message)
 extern void Controller2_readMessage_mD77D0717B83AC13EE6C8D6D10DD73AA8091DDE1C (void);
-// 0x00000BE2 System.Void Assets.src.f.Controller2::readLuckyRound(Message)
+// 0x00000BEC System.Void Assets.src.f.Controller2::readLuckyRound(Message)
 extern void Controller2_readLuckyRound_m97AD852AF258BF3A5A7C76CF403F663095705738 (void);
-// 0x00000BE3 System.Void Assets.src.f.Controller2::readInfoRada(Message)
+// 0x00000BED System.Void Assets.src.f.Controller2::readInfoRada(Message)
 extern void Controller2_readInfoRada_mBEE686B5241E20DEB2FEFB3E117BC08F65863BC3 (void);
-// 0x00000BE4 System.Void Assets.src.f.Controller2::readInfoEffChar(Message)
+// 0x00000BEE System.Void Assets.src.f.Controller2::readInfoEffChar(Message)
 extern void Controller2_readInfoEffChar_m15B70B9BCA044EA4ACC741766871B4F189B08EED (void);
-// 0x00000BE5 System.Void Assets.src.f.Controller2::readActionBoss(Message,System.Int32)
+// 0x00000BEF System.Void Assets.src.f.Controller2::readActionBoss(Message,System.Int32)
 extern void Controller2_readActionBoss_mA9926E0F51A6E2BC8F9D0F789950ACEE6194CA3D (void);
-// 0x00000BE6 System.Void Assets.src.f.Controller2::.ctor()
+// 0x00000BF0 System.Void Assets.src.f.Controller2::.ctor()
 extern void Controller2__ctor_mF52113B76707177F85DA4CEFE80B39A30423D000 (void);
-// 0x00000BE7 System.Void Assets.src.e.ChatVip::.ctor()
+// 0x00000BF1 System.Void Assets.src.e.ChatVip::.ctor()
 extern void ChatVip__ctor_m685D69202FEF1FE3EEA40292676F4F5315F51CCC (void);
-// 0x00000BE8 System.Void Assets.src.e.Small::.ctor(Image,System.Int32)
+// 0x00000BF2 System.Void Assets.src.e.Small::.ctor(Image,System.Int32)
 extern void Small__ctor_m2E06214058ABCA5383CCBBD69237FB097A7DBB95 (void);
-// 0x00000BE9 System.Void Assets.src.e.Small::paint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000BF3 System.Void Assets.src.e.Small::paint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Small_paint_mDB8A868D8B7238C6F2FDB7ED6E4B0CEBE9766AA2 (void);
-// 0x00000BEA System.Void Assets.src.e.Small::paint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+// 0x00000BF4 System.Void Assets.src.e.Small::paint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 extern void Small_paint_m821E026387F046B35C51D2241740EBF94FFA4F6F (void);
-// 0x00000BEB System.Void Assets.src.e.Small::paint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+// 0x00000BF5 System.Void Assets.src.e.Small::paint(mGraphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
 extern void Small_paint_m8DC7ACBC012AB3E78552E2651887DB483F803C6C (void);
-// 0x00000BEC System.Void Assets.src.e.Small::update()
+// 0x00000BF6 System.Void Assets.src.e.Small::update()
 extern void Small_update_m8940E7001CEA5F8CB05DE83817A17211A9B7B024 (void);
-// 0x00000BED System.Void Assets.src.e.SmallSave::.ctor()
+// 0x00000BF7 System.Void Assets.src.e.SmallSave::.ctor()
 extern void SmallSave__ctor_m76D5BE86C147470316CDE158CF21CADC1E636E2F (void);
-static Il2CppMethodPointer s_methodPointers[3053] = 
+static Il2CppMethodPointer s_methodPointers[3063] = 
 {
 	ActionChat__ctor_m7928CA040DD926704F69AEF6D95A657431862114,
 	ActionChat_Invoke_mEE6A90FD638AE7F41E960417592742168F54FA71,
@@ -7282,10 +7302,17 @@ static Il2CppMethodPointer s_methodPointers[3053] =
 	MagicTree_update_m3416DB9AF0E35FF344EDAED9D3AAFD9DF3E12E7D,
 	MagicTree_perform_m95FACC7C87C6D03AB56AEF52C27F376A6EB13AA5,
 	MagicTree__cctor_m8916612812098DFCD4DF3173862DD065930788E4,
+	Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20,
+	Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E,
+	Main_get_mainSafeArea_mD72945DE47B7CE710ABE1BCC4ED92CACE0175197,
+	Main_set_mainSafeArea_mBBF0C27C8143646DD99F4EA83EE83CE6A41674E7,
 	Main_Start_m5864CE07B60D35921FE23903087087FC5C3CF8FD,
 	Main_SetInit_m6D88826AFEA3EC7A426B3956C9D3A0D9DDE00C67,
 	Main_OnHideUnity_m2571F1C9E2DD8F77F65AB8AEA05E106BD171EB0F,
 	Main_OnGUI_m0CD2DA3ADF0DB56997530A9C84B4DCB7A1A92789,
+	Main_get_HasNotchIphone_m54D9DB6FBE8F36A9B0473C7145714E3828DB4487,
+	Main_fillRect_m81F1CAE5F48F29964F8F78CCF7426850E0F7C9DD,
+	Main_DrawRectangleBorder_m63607D4088035FCFE86D2386AA43A6F8035B1D40,
 	Main_setsizeChange_mDCD622A625317348074A7B5770CE9B72E3B4B269,
 	Main_setBackupIcloud_m43D070BE0267A893E40BA73F3A261EDDEC5C7247,
 	Main_GetMacAddress_mF8CE8BE43FA169C4E61C98BEB72ED4846E741C64,
@@ -7293,12 +7320,14 @@ static Il2CppMethodPointer s_methodPointers[3053] =
 	Main_closeKeyBoard_m76FEE5AC26F6C81EA78B551AEB93A1E24907BE69,
 	Main_FixedUpdate_m6D96D8B0058674E0FFA5EFB706F8B98A25B0F717,
 	Main_Update_m6A75833947272413C503ECE10B0D91F56F193526,
+	Main_checkInput_goc_mE3CDC222ED45CE10FC4A366C216AB5288979869D,
 	Main_checkInput_m43C0C520387C8218FB32F70A504FA86C9306061A,
 	Main_OnApplicationQuit_mFB8FEEC631840E4D5F2FDAE0CFA5542F108998B9,
 	Main_OnApplicationPause_m3BF5BE77070EC009BAEA59CEF3A5081526C6A1BC,
 	Main_exit_m215CC2FD93AC61FC507E65385A5ADBF04CC4E3F4,
 	Main_detectCompactDevice_m2E5FE104B73DFC60C1A6A8196E75F4DF8D61AA8F,
 	Main_checkCanSendSMS_mA8292E9B5596528F5F788ED9387558FB82DC0EC2,
+	Main_AdjustSafeArea_mE6E3165CD8263558B28C1A5EB45160E37D9D426A,
 	Main__ctor_mC5886B5D00EEF6A6D8F96F3A84762F8AD71E51B6,
 	Main__cctor_mE712A9712182678B8D576BF727AE8CC8ADEE4875,
 	MainImage__ctor_mB71F9FD921EDCE8F47227A003F8C247EA481C09B,
@@ -7373,6 +7402,7 @@ static Il2CppMethodPointer s_methodPointers[3053] =
 	mGraphics_getClipY_m74A9FAAB5AE7CAE9ABD9C76A5374A74B7E5F224F,
 	mGraphics_getClipWidth_m566972B63DB4A50DBEC54243A57B0BE377340331,
 	mGraphics_getClipHeight_m2B66689983ECE1DCCC782A65FD1819942D701554,
+	mGraphics_fillRect_m08FA0B7CA7D3D1B1DCF91EF9CA489F4D7B428216,
 	mGraphics_fillRect_m62A5492ABE6EE41417E1CCAFB0ED8CEE0DF7A893,
 	mGraphics_drawLine_m33432F3F49D925F8028D5E5AB7C98124938F6D0F,
 	mGraphics_setColorMiniMap_m67854F600863BC001F0DEB05077BA7BE6EA542CD,
@@ -9120,974 +9150,974 @@ static Il2CppMethodPointer s_methodPointers[3053] =
 	Small_update_m8940E7001CEA5F8CB05DE83817A17211A9B7B024,
 	SmallSave__ctor_m76D5BE86C147470316CDE158CF21CADC1E636E2F,
 };
-static const int32_t s_InvokerIndices[3053] = 
+static const int32_t s_InvokerIndices[3063] = 
 {
-	716,
-	1103,
-	406,
-	1103,
-	716,
-	454,
+	718,
+	1105,
+	407,
+	1105,
+	718,
+	455,
 	170,
-	1103,
-	716,
-	1270,
-	595,
-	1103,
-	1270,
-	2241,
-	2241,
-	2241,
-	1270,
-	717,
-	1270,
-	1270,
-	1103,
-	2196,
-	2389,
-	1270,
-	1270,
-	1103,
-	2196,
-	1270,
-	2389,
+	1105,
+	718,
+	1272,
+	597,
+	1105,
+	1272,
+	2244,
+	2244,
+	2244,
+	1272,
+	719,
+	1272,
+	1272,
+	1105,
+	2199,
+	2392,
+	1272,
+	1272,
+	1105,
+	2199,
+	1272,
+	2392,
 	64,
-	1270,
-	1094,
-	1270,
-	2131,
-	1103,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1218,
-	1270,
-	1270,
-	1270,
-	463,
-	1270,
-	1270,
-	1218,
-	1218,
-	1218,
-	1103,
-	1234,
-	1270,
-	1103,
-	1234,
-	1234,
-	1234,
-	1234,
-	1270,
-	1218,
-	1270,
-	1270,
-	1270,
-	1094,
-	2389,
-	1095,
-	2389,
-	2360,
-	2389,
-	2389,
-	2389,
-	2337,
-	2337,
-	1270,
-	1103,
-	1103,
-	1270,
-	1103,
-	717,
-	717,
-	1103,
-	1103,
-	2333,
+	1272,
+	1096,
+	1272,
+	2134,
+	1105,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1220,
+	1272,
+	1272,
+	1272,
+	464,
+	1272,
+	1272,
+	1220,
+	1220,
+	1220,
+	1105,
+	1236,
+	1272,
+	1105,
+	1236,
+	1236,
+	1236,
+	1236,
+	1272,
+	1220,
+	1272,
+	1272,
+	1272,
+	1096,
+	2392,
+	1097,
+	2392,
+	2363,
+	2392,
+	2392,
+	2392,
+	2340,
+	2340,
+	1272,
+	1105,
+	1105,
+	1272,
+	1105,
+	719,
+	719,
+	1105,
+	1105,
+	2336,
+	2042,
+	2340,
+	2340,
+	2340,
+	2340,
+	2340,
+	2392,
+	2392,
+	1272,
+	1272,
+	1272,
+	2392,
+	2134,
+	2134,
+	1220,
+	1220,
+	1272,
+	1105,
+	1272,
+	2392,
+	1758,
+	2244,
 	2039,
-	2337,
-	2337,
-	2337,
-	2337,
-	2337,
-	2389,
-	2389,
-	1270,
-	1270,
-	1270,
-	2389,
-	2131,
-	2131,
-	1218,
-	1218,
-	1270,
-	1103,
-	1270,
-	2389,
-	1756,
-	2241,
-	2037,
-	1270,
+	1272,
 	64,
-	1270,
-	1094,
-	1270,
-	2131,
-	1103,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1218,
-	1270,
-	1270,
-	1270,
-	463,
-	1270,
-	1270,
-	1218,
-	1218,
-	1218,
-	1103,
-	1234,
-	1270,
-	1103,
-	1234,
-	1234,
-	1234,
-	1234,
-	1270,
-	1218,
-	1270,
-	1270,
-	1270,
-	2389,
-	1270,
-	1270,
-	1234,
-	1234,
-	2330,
-	1244,
-	1234,
-	961,
-	296,
-	1103,
-	1234,
-	2373,
-	2373,
-	2389,
-	1270,
-	1270,
-	1095,
-	1018,
-	1244,
-	1244,
-	1218,
-	1218,
-	1270,
-	1270,
-	2360,
-	1234,
-	1234,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	665,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	373,
-	1270,
-	1270,
-	373,
-	224,
-	1270,
-	1270,
-	1270,
-	1263,
-	1270,
-	1270,
-	2196,
-	1270,
+	1272,
+	1096,
+	1272,
+	2134,
+	1105,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1220,
+	1272,
+	1272,
+	1272,
+	464,
+	1272,
+	1272,
+	1220,
+	1220,
+	1220,
+	1105,
+	1236,
+	1272,
+	1105,
+	1236,
+	1236,
+	1236,
+	1236,
+	1272,
+	1220,
+	1272,
+	1272,
+	1272,
+	2392,
+	1272,
+	1272,
+	1236,
+	1236,
+	2333,
+	1246,
+	1236,
+	963,
+	297,
+	1105,
+	1236,
+	2376,
+	2376,
+	2392,
+	1272,
+	1272,
+	1097,
+	1020,
+	1246,
+	1246,
+	1220,
+	1220,
+	1272,
+	1272,
+	2363,
+	1236,
+	1236,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	667,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	374,
+	1272,
+	1272,
+	374,
+	225,
+	1272,
+	1272,
+	1272,
+	1265,
+	1272,
+	1272,
+	2199,
+	1272,
 	94,
-	1270,
-	1270,
-	1270,
-	434,
-	1270,
-	1270,
-	1103,
-	1103,
-	1103,
-	1270,
-	1270,
-	1218,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1218,
-	1218,
-	1218,
-	1218,
-	714,
-	1270,
-	1270,
-	1270,
-	1076,
-	714,
-	1244,
-	1270,
-	1218,
-	1218,
-	434,
-	1076,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	457,
-	1234,
-	1103,
-	1103,
-	1103,
-	1270,
-	1103,
+	1272,
+	1272,
+	1272,
+	435,
+	1272,
+	1272,
+	1105,
+	1105,
+	1105,
+	1272,
+	1272,
+	1220,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1220,
+	1220,
+	1220,
+	1220,
+	716,
+	1272,
+	1272,
+	1272,
+	1078,
+	716,
+	1246,
+	1272,
+	1220,
+	1220,
+	435,
+	1078,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	458,
+	1236,
+	1105,
+	1105,
+	1105,
+	1272,
+	1105,
 	134,
-	842,
-	297,
-	297,
+	844,
+	298,
+	298,
 	124,
-	1103,
-	2196,
-	434,
-	1611,
-	1218,
-	1270,
-	1244,
-	1244,
-	1270,
-	1095,
-	2131,
-	1218,
-	1103,
-	1103,
-	1270,
-	1270,
-	1270,
-	2337,
-	1365,
-	714,
-	280,
-	1270,
-	631,
-	631,
-	1270,
-	1218,
-	1218,
-	852,
-	1270,
-	1234,
-	1234,
-	1234,
-	1234,
-	1103,
-	1270,
-	1270,
-	1218,
-	1218,
-	1095,
-	864,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	427,
-	1270,
-	1270,
-	1115,
-	1270,
-	1270,
-	284,
-	1270,
-	1016,
-	1103,
-	665,
-	1103,
-	1103,
-	1270,
-	1234,
-	1270,
+	1105,
+	2199,
+	435,
+	1613,
+	1220,
+	1272,
+	1246,
+	1246,
+	1272,
+	1097,
+	2134,
+	1220,
+	1105,
+	1105,
+	1272,
+	1272,
+	1272,
+	2340,
+	1367,
+	716,
+	281,
+	1272,
+	633,
+	633,
+	1272,
+	1220,
+	1220,
+	854,
+	1272,
+	1236,
+	1236,
+	1236,
+	1236,
+	1105,
+	1272,
+	1272,
+	1220,
+	1220,
+	1097,
+	866,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	428,
+	1272,
+	1272,
+	1117,
+	1272,
+	1272,
+	285,
+	1272,
+	1018,
+	1105,
+	667,
+	1105,
+	1105,
+	1272,
+	1236,
+	1272,
 	189,
-	842,
-	1270,
-	961,
-	1103,
-	1103,
-	1103,
-	1103,
-	454,
-	454,
-	842,
-	1094,
+	844,
+	1272,
+	963,
+	1105,
+	1105,
+	1105,
+	1105,
+	455,
+	455,
+	844,
+	1096,
 	62,
 	36,
-	1270,
-	2389,
-	2054,
-	1824,
-	1824,
-	1583,
-	1757,
-	1270,
-	1103,
-	714,
-	1095,
-	1270,
-	1103,
-	673,
-	1270,
-	2389,
-	1270,
-	1270,
-	1270,
-	1095,
-	2373,
-	438,
-	717,
-	717,
-	1270,
-	1270,
-	1270,
-	1103,
-	673,
-	1103,
-	1103,
-	1270,
-	2337,
-	2237,
-	2128,
-	1270,
-	2389,
-	1270,
-	1821,
-	454,
-	673,
-	1270,
-	1270,
-	2389,
-	1270,
-	1270,
+	1272,
+	2392,
+	2057,
+	1826,
+	1826,
+	1585,
+	1759,
+	1272,
+	1105,
+	716,
+	1097,
+	1272,
+	1105,
+	675,
+	1272,
+	2392,
+	1272,
+	1272,
+	1272,
+	1097,
+	2376,
+	439,
+	719,
+	719,
+	1272,
+	1272,
+	1272,
+	1105,
+	675,
+	1105,
+	1105,
+	1272,
+	2340,
+	2240,
+	2131,
+	1272,
+	2392,
+	1272,
+	1823,
+	455,
+	675,
+	1272,
+	1272,
+	2392,
+	1272,
+	1272,
 	137,
-	1270,
-	309,
-	456,
-	714,
-	297,
-	1103,
-	1270,
-	1270,
-	1103,
-	1356,
-	1218,
-	519,
-	2373,
-	2373,
-	1076,
-	1076,
-	1076,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	708,
-	1018,
-	1018,
-	714,
-	1115,
-	1103,
-	717,
-	1103,
-	1103,
-	1103,
-	1103,
-	529,
-	1103,
-	1103,
-	467,
-	714,
-	1018,
-	1103,
-	714,
-	1103,
-	1103,
-	1270,
-	2389,
-	2337,
-	2337,
-	2337,
-	2337,
-	2337,
-	2337,
-	1270,
-	1270,
-	2373,
-	295,
-	1270,
-	1270,
-	673,
-	1270,
-	1270,
-	1270,
-	1095,
-	1095,
-	1103,
-	1103,
-	1270,
-	1218,
-	1218,
-	1270,
-	1270,
-	2373,
-	2389,
-	2337,
-	1103,
-	1270,
-	1270,
-	1095,
-	1270,
-	1270,
-	1103,
-	673,
-	2389,
-	1270,
-	1103,
-	1103,
-	2389,
-	2241,
-	2241,
-	2241,
-	1233,
-	1234,
-	1234,
-	1074,
-	1270,
-	1270,
-	1244,
-	1261,
+	1272,
+	310,
+	457,
+	716,
+	298,
+	1105,
+	1272,
+	1272,
+	1105,
+	1358,
+	1220,
+	521,
+	2376,
+	2376,
+	1078,
+	1078,
+	1078,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	710,
+	1020,
+	1020,
+	716,
+	1117,
+	1105,
+	719,
+	1105,
+	1105,
+	1105,
+	1105,
+	531,
+	1105,
+	1105,
+	468,
+	716,
+	1020,
+	1105,
+	716,
+	1105,
+	1105,
+	1272,
+	2392,
+	2340,
+	2340,
+	2340,
+	2340,
+	2340,
+	2340,
+	1272,
+	1272,
+	2376,
+	296,
+	1272,
+	1272,
+	675,
+	1272,
+	1272,
+	1272,
+	1097,
+	1097,
+	1105,
+	1105,
+	1272,
+	1220,
+	1220,
+	1272,
+	1272,
+	2376,
+	2392,
+	2340,
+	1105,
+	1272,
+	1272,
+	1097,
+	1272,
+	1272,
+	1105,
+	675,
+	2392,
+	1272,
+	1105,
+	1105,
+	2392,
+	2244,
+	2244,
+	2244,
 	1235,
-	1218,
-	1234,
-	1234,
-	1074,
-	1234,
-	416,
-	1270,
-	1095,
-	1094,
-	1095,
-	1103,
-	1244,
-	1270,
-	1115,
-	1103,
+	1236,
+	1236,
 	1076,
-	1103,
-	1095,
-	1270,
-	1270,
-	1270,
-	2337,
-	2333,
-	2238,
-	1625,
-	2337,
-	2337,
-	2337,
-	2337,
-	2389,
-	1270,
-	2389,
-	1270,
+	1272,
+	1272,
+	1246,
+	1263,
+	1237,
+	1220,
+	1236,
+	1236,
+	1076,
+	1236,
+	417,
+	1272,
+	1097,
+	1096,
+	1097,
+	1105,
+	1246,
+	1272,
+	1117,
+	1105,
+	1078,
+	1105,
+	1097,
+	1272,
+	1272,
+	1272,
+	2340,
+	2336,
+	2241,
+	1627,
+	2340,
+	2340,
+	2340,
+	2340,
+	2392,
+	1272,
+	2392,
+	1272,
 	120,
 	116,
-	2333,
-	2337,
-	2238,
-	2131,
-	1218,
-	454,
-	1270,
-	1103,
-	1270,
-	2389,
-	1270,
-	1103,
-	1270,
-	2389,
-	323,
-	2389,
-	1270,
-	1019,
-	1244,
-	1016,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	719,
+	2336,
+	2340,
+	2241,
+	2134,
+	1220,
+	455,
+	1272,
+	1105,
+	1272,
+	2392,
+	1272,
+	1105,
+	1272,
+	2392,
+	324,
+	2392,
+	1272,
+	1021,
+	1246,
+	1018,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	721,
 	125,
-	719,
-	1270,
-	1472,
-	1270,
-	1103,
-	1270,
-	2389,
-	1270,
-	1270,
-	2389,
-	1103,
-	1270,
-	2389,
-	2337,
-	2337,
-	2337,
-	2337,
-	1270,
-	2389,
-	1234,
-	1270,
-	1611,
-	1103,
-	1270,
-	1270,
-	1270,
+	721,
+	1272,
+	1474,
+	1272,
+	1105,
+	1272,
+	2392,
+	1272,
+	1272,
+	2392,
+	1105,
+	1272,
+	2392,
+	2340,
+	2340,
+	2340,
+	2340,
+	1272,
+	2392,
+	1236,
+	1272,
+	1613,
+	1105,
+	1272,
+	1272,
+	1272,
 	39,
 	40,
 	15,
-	2238,
-	1805,
-	1270,
-	1270,
-	1103,
-	1270,
-	626,
-	1095,
-	961,
-	673,
-	665,
+	2241,
+	1807,
+	1272,
+	1272,
+	1105,
+	1272,
+	628,
+	1097,
+	963,
+	675,
+	667,
 	181,
 	76,
-	1095,
-	1270,
-	1103,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
+	1097,
+	1272,
+	1105,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
 	47,
-	1270,
-	1270,
-	284,
-	1103,
-	1270,
-	1270,
-	1103,
-	1076,
-	1076,
-	1270,
-	1270,
-	1270,
-	714,
-	1270,
-	1270,
-	714,
-	1270,
-	1270,
-	714,
-	1270,
-	1270,
-	1103,
-	2389,
-	665,
-	434,
-	1270,
+	1272,
+	1272,
+	285,
+	1105,
+	1272,
+	1272,
+	1105,
+	1078,
+	1078,
+	1272,
+	1272,
+	1272,
+	716,
+	1272,
+	1272,
+	716,
+	1272,
+	1272,
+	716,
+	1272,
+	1272,
+	1105,
+	2392,
+	667,
+	435,
+	1272,
 	181,
-	1270,
-	1103,
-	1235,
-	297,
-	2389,
-	2337,
-	2333,
-	2389,
-	2389,
-	2369,
-	1270,
-	2389,
-	284,
-	1103,
-	1270,
-	1095,
-	454,
-	297,
+	1272,
+	1105,
+	1237,
+	298,
+	2392,
+	2340,
+	2336,
+	2392,
+	2392,
+	2372,
+	1272,
+	2392,
+	285,
+	1105,
+	1272,
+	1097,
+	455,
+	298,
 	118,
+	721,
+	1105,
+	1272,
+	2376,
+	1272,
+	2376,
+	1272,
+	2392,
+	1272,
+	1272,
+	1272,
+	2363,
+	2392,
+	2392,
+	2340,
+	2340,
+	1272,
+	1272,
+	1236,
+	1236,
+	2055,
+	1105,
+	2044,
+	2340,
+	2392,
+	1354,
+	1481,
+	2340,
+	2340,
+	2363,
+	2340,
+	2392,
+	2336,
+	2336,
+	2336,
+	1097,
+	1097,
+	1097,
+	1097,
+	667,
+	1097,
+	667,
+	2363,
+	667,
+	667,
+	1513,
+	1513,
+	2392,
+	2392,
+	2392,
+	1105,
+	1105,
+	2392,
+	2340,
+	2340,
+	2054,
+	2392,
+	315,
+	1826,
+	1485,
+	1835,
+	2241,
+	1940,
+	1940,
+	667,
+	2363,
+	2244,
+	2244,
+	2244,
+	1940,
+	348,
+	1272,
+	521,
+	1272,
+	1272,
+	1885,
+	1105,
+	1272,
+	1808,
+	1272,
+	1513,
+	675,
+	2392,
+	2392,
+	2392,
+	1272,
+	1272,
+	1272,
+	1636,
+	2340,
+	1272,
+	1105,
+	2392,
+	1272,
+	1272,
+	844,
+	1272,
+	1105,
+	1220,
+	1220,
+	2392,
+	1272,
+	2392,
+	1272,
+	1325,
+	1272,
+	1220,
+	1220,
+	1272,
+	2199,
+	2392,
+	1272,
+	1105,
+	1105,
+	1105,
+	1272,
+	1272,
+	1105,
+	1105,
+	1272,
+	1272,
+	1117,
+	1105,
+	1220,
 	719,
-	1103,
-	1270,
-	2373,
-	1270,
-	2373,
-	1270,
-	2389,
-	1270,
-	1270,
-	1270,
-	2360,
-	2389,
-	2389,
-	2337,
-	2337,
-	1270,
-	1270,
-	1234,
-	1234,
-	2052,
-	1103,
-	2041,
-	2337,
-	2389,
-	1352,
-	1479,
-	2337,
-	2337,
-	2360,
-	2337,
-	2389,
-	2333,
-	2333,
-	2333,
-	1095,
-	1095,
-	1095,
-	1095,
-	665,
-	1095,
-	665,
-	2360,
-	665,
-	665,
-	1511,
-	1511,
-	2389,
-	2389,
-	2389,
-	1103,
-	1103,
-	2389,
-	2337,
-	2337,
-	2051,
-	2389,
-	314,
-	1824,
-	1483,
-	1833,
-	2238,
-	1938,
-	1938,
-	665,
-	2360,
-	2241,
-	2241,
-	2241,
-	1938,
-	347,
-	1270,
-	519,
-	1270,
-	1270,
-	1883,
-	1103,
-	1270,
-	1806,
-	1270,
-	1511,
-	673,
-	2389,
-	2389,
-	2389,
-	1270,
-	1270,
-	1270,
-	1634,
-	2337,
-	1270,
-	1103,
-	2389,
-	1270,
-	1270,
-	842,
-	1270,
-	1103,
-	1218,
-	1218,
-	2389,
-	1270,
-	2389,
-	1270,
-	1323,
-	1270,
-	1218,
-	1218,
-	1270,
-	2196,
-	2389,
-	1270,
-	1103,
-	1103,
-	1103,
-	1270,
-	1270,
-	1103,
-	1103,
-	1270,
-	1270,
-	1115,
-	1103,
-	1218,
-	717,
-	717,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	2373,
-	2389,
-	1270,
-	1270,
-	1270,
-	1800,
-	2389,
-	2389,
-	1218,
-	454,
-	1103,
-	1218,
-	852,
-	1218,
-	1218,
-	1270,
-	1095,
-	1270,
-	1218,
-	1270,
-	1270,
-	586,
+	719,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	2376,
+	2392,
+	1272,
+	1272,
+	1272,
+	1802,
+	2392,
+	2392,
+	1220,
+	455,
+	1105,
+	1220,
+	854,
+	1220,
+	1220,
+	1272,
+	1097,
+	1272,
+	1220,
+	1272,
+	1272,
+	588,
 	94,
-	1218,
-	1270,
-	852,
-	1103,
-	1270,
-	519,
-	519,
-	665,
-	1270,
-	1270,
-	665,
-	1076,
-	1270,
-	1270,
-	665,
-	1270,
-	1270,
-	624,
-	1270,
-	1270,
-	1218,
-	708,
-	708,
-	1103,
-	1270,
-	1270,
-	1218,
-	1270,
-	1270,
-	1270,
-	1095,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1218,
-	1103,
-	714,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1270,
-	1103,
-	2237,
-	2238,
-	2245,
-	2238,
-	2373,
-	1103,
-	2337,
-	1103,
-	717,
-	451,
-	1270,
-	1270,
-	1244,
-	1244,
-	1103,
-	1218,
-	1103,
-	1103,
-	1400,
-	2389,
-	2389,
-	1672,
-	2389,
-	2389,
-	2337,
-	1270,
-	1270,
-	1270,
-	1218,
-	1218,
-	1218,
-	1218,
-	2039,
-	2389,
-	460,
-	2368,
-	2380,
-	1270,
-	717,
-	1270,
+	1220,
+	1272,
+	854,
+	1105,
+	1272,
+	521,
+	521,
+	667,
+	1272,
+	1272,
+	667,
+	1078,
+	1272,
+	1272,
+	667,
+	1272,
+	1272,
+	626,
+	1272,
+	1272,
+	1220,
+	710,
+	710,
+	1105,
+	1272,
+	1272,
+	1220,
+	1272,
+	1272,
+	1272,
+	1097,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1220,
+	1105,
+	716,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1272,
+	1105,
+	2240,
+	2241,
+	2248,
+	2241,
+	2376,
+	1105,
+	2340,
+	1105,
+	719,
+	452,
+	1272,
+	1272,
+	1246,
+	1246,
+	1105,
+	1220,
+	1105,
+	1105,
+	1402,
+	2392,
+	2392,
+	1674,
+	2392,
+	2392,
+	2340,
+	1272,
+	1272,
+	1272,
+	1220,
+	1220,
+	1220,
+	1220,
+	2042,
+	2392,
+	461,
+	2371,
+	2383,
+	1272,
+	719,
+	1272,
 	199,
 	133,
-	1270,
-	1103,
-	1270,
-	1270,
-	462,
-	290,
-	1095,
-	679,
-	673,
-	2389,
-	1270,
-	1103,
-	717,
-	1103,
-	1270,
-	1103,
-	1270,
-	1103,
-	2389,
-	2337,
-	2360,
-	297,
+	1272,
+	1105,
+	1272,
+	1272,
+	463,
+	291,
+	1097,
+	681,
+	675,
+	2392,
+	1272,
+	1105,
+	719,
+	1105,
+	1272,
+	1105,
+	1272,
+	1105,
+	2392,
+	2340,
+	2363,
+	298,
+	1308,
+	1628,
 	1306,
-	1626,
-	1304,
-	1319,
-	2337,
-	1511,
-	2360,
-	1103,
-	2389,
-	1883,
-	2360,
-	2389,
-	2333,
-	2389,
-	2360,
-	2337,
-	2337,
-	2389,
-	2389,
-	1270,
+	1321,
+	2340,
+	1513,
+	2363,
+	1105,
+	2392,
+	1885,
+	2363,
+	2392,
+	2336,
+	2392,
+	2363,
+	2340,
+	2340,
+	2392,
+	2392,
+	1272,
 	0,
 	0,
 	0,
 	0,
 	0,
-	2373,
-	2241,
-	2241,
-	1382,
-	1971,
-	2241,
-	1756,
-	2132,
-	2241,
-	1581,
-	2141,
-	2389,
-	2373,
-	2241,
-	2241,
-	1382,
-	1971,
-	2241,
-	2241,
-	2241,
-	1382,
-	2373,
-	1971,
-	2199,
-	2199,
-	1234,
-	1234,
-	2337,
-	2337,
-	1244,
-	1234,
-	1234,
+	2376,
+	2244,
+	2244,
+	1384,
+	1973,
+	2244,
+	1758,
+	2135,
+	2244,
+	1583,
+	2144,
+	2392,
+	2376,
+	2244,
+	2244,
+	1384,
+	1973,
+	2244,
+	2244,
+	2244,
+	1384,
+	2376,
+	1973,
+	2202,
+	2202,
+	1236,
+	1236,
+	2340,
+	2340,
+	1246,
+	1236,
+	1236,
 	60,
-	1270,
-	1270,
+	1272,
+	1272,
 	0,
 	0,
 	0,
@@ -10098,84 +10128,84 @@ static const int32_t s_InvokerIndices[3053] =
 	0,
 	0,
 	0,
-	1834,
-	1981,
-	2241,
-	1838,
-	1821,
-	1270,
-	2389,
-	1270,
-	297,
-	1270,
-	1270,
-	299,
-	456,
-	1218,
-	673,
-	1270,
-	1270,
-	2389,
-	1831,
-	2389,
-	2337,
-	2337,
-	2389,
-	2389,
-	1270,
-	1103,
+	1836,
+	1983,
+	2244,
+	1840,
+	1823,
+	1272,
+	2392,
+	1272,
+	298,
+	1272,
+	1272,
+	300,
+	457,
+	1220,
+	675,
+	1272,
+	1272,
+	2392,
+	1833,
+	2392,
+	2340,
+	2340,
+	2392,
+	2392,
+	1272,
+	1105,
+	462,
+	1272,
+	2376,
+	1272,
+	1105,
+	1272,
+	1272,
+	1097,
+	1272,
 	461,
-	1270,
-	2373,
-	1270,
-	1103,
-	1270,
-	1270,
-	1095,
-	1270,
-	460,
-	714,
+	716,
 	112,
-	664,
-	434,
-	434,
+	666,
+	435,
+	435,
 	8,
-	728,
-	1115,
-	1115,
-	1572,
-	1978,
-	454,
-	1270,
-	717,
-	1270,
-	454,
-	1270,
-	1270,
-	461,
-	1103,
-	1095,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1103,
-	1831,
-	2368,
-	2368,
-	2368,
-	2368,
+	730,
+	1117,
+	1117,
+	1574,
+	1980,
+	455,
+	1272,
+	719,
+	1272,
+	455,
+	1272,
+	1272,
+	462,
+	1105,
+	1097,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1105,
 	1833,
-	2368,
-	2368,
-	1831,
-	2389,
-	2389,
-	2368,
-	2368,
+	2371,
+	2371,
+	2371,
+	2371,
+	1835,
+	2371,
+	2371,
 	1833,
-	1270,
+	2392,
+	2392,
+	2371,
+	2371,
+	1835,
+	1272,
 	0,
 	0,
 	0,
@@ -10209,239 +10239,249 @@ static const int32_t s_InvokerIndices[3053] =
 	0,
 	0,
 	0,
-	1244,
+	1246,
 	0,
-	1270,
-	1270,
-	1627,
-	2389,
-	1270,
-	2389,
-	0,
-	0,
+	1272,
+	1272,
+	1629,
+	2392,
+	1272,
+	2392,
 	0,
 	0,
 	0,
-	1270,
-	1244,
-	286,
-	297,
-	961,
-	961,
-	961,
-	1244,
-	961,
-	842,
-	1244,
-	1244,
-	1218,
-	1244,
-	1244,
-	1218,
-	1218,
-	1218,
-	1218,
-	1218,
-	1218,
-	1218,
-	1218,
-	1234,
-	284,
-	1270,
+	0,
+	0,
+	1272,
+	1246,
+	287,
+	298,
+	963,
+	963,
+	963,
+	1246,
+	963,
+	844,
+	1246,
+	1246,
+	1220,
+	1246,
+	1246,
+	1220,
+	1220,
+	1220,
+	1220,
+	1220,
+	1220,
+	1220,
+	1220,
+	1236,
+	285,
+	1272,
 	109,
 	111,
-	665,
-	1270,
-	1103,
-	1218,
-	1270,
-	1270,
-	1103,
-	1270,
-	1234,
-	1234,
-	1234,
-	1234,
-	1270,
-	1218,
-	2389,
-	1270,
-	1270,
-	665,
-	1244,
-	1244,
-	1244,
-	1270,
+	667,
+	1272,
+	1105,
+	1220,
+	1272,
+	1272,
+	1105,
+	1272,
+	1236,
+	1236,
+	1236,
+	1236,
+	1272,
+	1220,
+	2392,
+	1272,
+	1272,
+	667,
+	1246,
+	1246,
+	1246,
+	1272,
 	6,
-	2337,
-	2237,
-	2178,
-	2178,
-	1270,
-	2389,
-	1270,
-	632,
-	476,
-	652,
-	2128,
-	2238,
-	2128,
-	2238,
-	1095,
-	454,
-	454,
-	1270,
-	2389,
-	1270,
-	2389,
-	1270,
-	1270,
-	454,
-	1095,
-	1270,
+	2340,
+	2240,
+	2181,
+	2181,
+	1272,
+	2392,
+	1272,
+	634,
+	478,
+	654,
+	2131,
+	2241,
+	2131,
+	2241,
+	1097,
+	455,
+	455,
+	1272,
+	2392,
+	1272,
+	2392,
+	1272,
+	1272,
+	455,
+	1097,
+	1272,
 	67,
-	1270,
-	1270,
-	1270,
-	1270,
-	2389,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1095,
-	1234,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
-	1270,
-	1103,
-	1270,
-	1270,
-	673,
-	1270,
-	1270,
-	1270,
-	2389,
-	2389,
-	1270,
-	1103,
+	1272,
+	1272,
+	1272,
+	1272,
+	2392,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1097,
+	1236,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1272,
+	1105,
+	1272,
+	1272,
+	675,
+	1272,
+	1272,
+	1272,
+	2392,
+	2392,
+	1272,
+	1105,
 	116,
-	1103,
-	1270,
-	673,
-	2389,
-	1270,
-	1270,
-	1076,
-	1270,
-	1270,
-	2337,
-	1244,
-	1270,
-	2389,
-	1270,
-	1270,
-	1270,
-	1270,
-	1076,
-	2389,
-	2360,
-	2360,
-	1270,
-	2389,
-	1270,
-	719,
-	1270,
-	2389,
-	2196,
-	1938,
-	1938,
-	1938,
-	1270,
-	2238,
-	1270,
-	2389,
-	714,
-	454,
-	714,
-	1218,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	673,
-	1270,
-	1095,
-	1270,
-	1115,
-	727,
-	1244,
-	1244,
-	1244,
-	1234,
-	1270,
-	313,
-	1115,
-	2389,
-	1095,
-	896,
-	896,
-	1095,
+	1105,
+	1272,
+	675,
+	2392,
+	2371,
+	2371,
+	2381,
+	2341,
+	1272,
+	1272,
+	1078,
+	1272,
+	2363,
+	180,
+	473,
+	1272,
+	2340,
+	1246,
+	1272,
+	2392,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1078,
+	2392,
+	2363,
+	2363,
+	1272,
+	1272,
+	2392,
+	1272,
+	721,
+	1272,
+	2392,
+	2199,
+	1940,
+	1940,
+	1940,
+	1272,
+	2241,
+	1272,
+	2392,
+	716,
+	455,
+	716,
+	1220,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	675,
+	1272,
+	1097,
+	1272,
+	1117,
+	729,
+	1246,
+	1246,
+	1246,
+	1236,
+	1272,
+	314,
+	1117,
+	2392,
+	1097,
+	898,
+	898,
+	1097,
 	136,
-	897,
+	899,
 	195,
 	195,
 	135,
 	135,
 	135,
-	594,
-	1018,
-	594,
-	594,
-	594,
-	529,
-	969,
-	969,
-	969,
-	1234,
+	596,
+	1020,
+	596,
+	596,
+	596,
+	531,
+	971,
+	971,
+	971,
+	1236,
 	195,
-	1981,
-	1270,
-	1270,
-	2389,
-	717,
-	665,
-	732,
-	1234,
-	1234,
-	284,
-	1234,
-	1234,
-	1234,
-	1234,
+	1983,
+	1272,
+	1272,
+	2392,
+	719,
+	667,
+	734,
+	1236,
+	1236,
+	285,
+	1236,
+	1236,
+	1236,
+	1236,
+	181,
 	116,
-	284,
-	896,
-	1014,
-	284,
-	284,
-	1095,
-	1079,
-	1095,
-	298,
-	680,
+	285,
+	898,
+	1016,
+	285,
+	285,
+	1097,
+	1081,
+	1097,
+	299,
+	682,
 	190,
-	1095,
+	1097,
 	17,
 	19,
 	18,
@@ -10451,1736 +10491,1736 @@ static const int32_t s_InvokerIndices[3053] =
 	27,
 	26,
 	25,
-	468,
-	297,
+	469,
+	298,
 	189,
-	297,
-	454,
-	318,
+	298,
+	455,
+	319,
 	116,
 	116,
-	1270,
-	603,
+	1272,
+	605,
 	125,
-	454,
-	2199,
-	2199,
-	2124,
-	1763,
-	2141,
+	455,
+	2202,
+	2202,
+	2127,
+	1765,
+	2144,
 	189,
-	1719,
-	2192,
-	2199,
-	2199,
+	1721,
+	2195,
+	2202,
+	2202,
 	116,
-	1270,
-	1103,
+	1272,
+	1105,
 	73,
 	17,
-	1270,
-	2389,
+	1272,
+	2392,
 	181,
-	1095,
-	1270,
+	1097,
+	1272,
 	0,
-	1218,
-	1270,
-	1094,
-	1270,
-	2131,
-	1270,
-	1103,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	2373,
-	2373,
-	2373,
-	2245,
-	2389,
-	1103,
-	1218,
-	1218,
-	1218,
-	1270,
-	1270,
-	1270,
-	1270,
-	1244,
-	1218,
-	1218,
-	1218,
-	1270,
-	1103,
-	1234,
-	1270,
-	1103,
-	1234,
-	1234,
-	1234,
-	1234,
-	1270,
-	1218,
-	1270,
-	1270,
-	1270,
-	1270,
-	1218,
-	2389,
-	2389,
-	1822,
-	2389,
-	1270,
-	1270,
-	1270,
-	2373,
-	1270,
-	1270,
-	1103,
-	1270,
-	1095,
-	1270,
-	1270,
-	673,
+	1220,
+	1272,
+	1096,
+	1272,
+	2134,
+	1272,
+	1105,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	2376,
+	2376,
+	2376,
+	2248,
+	2392,
+	1105,
+	1220,
+	1220,
+	1220,
+	1272,
+	1272,
+	1272,
+	1272,
+	1246,
+	1220,
+	1220,
+	1220,
+	1272,
+	1105,
+	1236,
+	1272,
+	1105,
+	1236,
+	1236,
+	1236,
+	1236,
+	1272,
+	1220,
+	1272,
+	1272,
+	1272,
+	1272,
+	1220,
+	2392,
+	2392,
+	1824,
+	2392,
+	1272,
+	1272,
+	1272,
+	2376,
+	1272,
+	1272,
+	1105,
+	1272,
+	1097,
+	1272,
+	1272,
+	675,
 	65,
 	37,
-	1095,
-	1346,
-	1318,
-	1270,
-	2196,
-	1103,
-	1347,
-	2389,
-	1270,
-	665,
-	1234,
-	1234,
-	1103,
-	1103,
-	1095,
-	1095,
-	665,
-	665,
-	665,
-	1234,
-	1234,
-	284,
-	665,
-	2389,
-	2340,
-	1981,
-	1270,
-	2389,
-	1270,
-	1270,
-	2389,
-	1095,
-	1270,
-	1270,
-	2131,
-	1103,
-	1270,
-	2389,
-	1270,
-	1270,
-	1270,
-	1103,
-	314,
-	1103,
-	1270,
-	2389,
+	1097,
+	1348,
+	1320,
+	1272,
 	2199,
-	2199,
-	1574,
-	2238,
-	2239,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
+	1105,
+	1349,
+	2392,
+	1272,
+	667,
+	1236,
+	1236,
+	1105,
+	1105,
+	1097,
+	1097,
+	667,
+	667,
+	667,
+	1236,
+	1236,
+	285,
+	667,
+	2392,
+	2343,
+	1983,
+	1272,
+	2392,
+	1272,
+	1272,
+	2392,
+	1097,
+	1272,
+	1272,
+	2134,
+	1105,
+	1272,
+	2392,
+	1272,
+	1272,
+	1272,
+	1105,
+	315,
+	1105,
+	1272,
+	2392,
+	2202,
+	2202,
+	1576,
+	2241,
+	2242,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	1481,
+	1484,
 	1479,
-	1482,
-	1477,
-	2369,
-	2389,
-	2241,
-	2241,
-	2241,
-	2241,
-	2368,
-	2337,
-	2389,
-	2373,
-	2389,
-	2389,
-	2389,
-	2389,
-	2337,
-	2389,
-	2241,
-	2241,
-	1270,
-	2389,
-	1103,
-	1270,
-	1218,
-	1018,
-	1270,
-	1244,
-	1234,
-	717,
-	1103,
-	1103,
-	852,
-	1270,
-	2389,
-	2196,
-	1270,
-	1270,
-	1234,
-	961,
-	560,
-	1270,
-	1103,
-	1103,
-	1261,
-	1261,
-	1261,
-	1095,
-	1270,
-	1218,
-	1233,
-	1265,
-	1234,
+	2372,
+	2392,
+	2244,
+	2244,
+	2244,
+	2244,
+	2371,
+	2340,
+	2392,
+	2376,
+	2392,
+	2392,
+	2392,
+	2392,
+	2340,
+	2392,
+	2244,
+	2244,
+	1272,
+	2392,
+	1105,
+	1272,
+	1220,
+	1020,
+	1272,
+	1246,
+	1236,
+	719,
+	1105,
+	1105,
+	854,
+	1272,
+	2392,
+	2199,
+	1272,
+	1272,
+	1236,
+	963,
+	562,
+	1272,
+	1105,
+	1105,
+	1263,
+	1263,
+	1263,
+	1097,
+	1272,
+	1220,
 	1235,
-	1218,
-	1218,
-	1244,
-	1244,
-	1244,
-	1234,
-	944,
-	1074,
-	1234,
-	2132,
-	2241,
-	1270,
-	1270,
-	416,
-	2241,
-	1270,
-	1270,
-	1103,
-	1103,
-	1103,
-	852,
-	1234,
-	1016,
-	673,
-	714,
-	969,
-	1095,
-	1103,
-	1270,
-	714,
-	1244,
-	1244,
-	1270,
-	1095,
-	1115,
-	1115,
-	1115,
-	1095,
-	1120,
+	1267,
+	1236,
+	1237,
+	1220,
+	1220,
+	1246,
+	1246,
+	1246,
+	1236,
+	946,
 	1076,
-	1103,
-	1103,
-	1094,
-	1095,
-	1120,
-	1095,
+	1236,
+	2135,
+	2244,
+	1272,
+	1272,
+	417,
+	2244,
+	1272,
+	1272,
+	1105,
+	1105,
+	1105,
+	854,
+	1236,
+	1018,
+	675,
+	716,
+	971,
+	1097,
+	1105,
+	1272,
+	716,
+	1246,
+	1246,
+	1272,
+	1097,
+	1117,
+	1117,
+	1117,
+	1097,
+	1122,
+	1078,
+	1105,
+	1105,
 	1096,
-	1076,
-	1076,
-	1103,
-	1103,
-	416,
-	1103,
-	1244,
-	1095,
-	1270,
-	1270,
-	1270,
-	2389,
-	2054,
-	2054,
-	1270,
+	1097,
+	1122,
+	1097,
+	1098,
+	1078,
+	1078,
+	1105,
+	1105,
+	417,
+	1105,
+	1246,
+	1097,
+	1272,
+	1272,
+	1272,
+	2392,
+	2057,
+	2057,
+	1272,
 	64,
-	1094,
-	1270,
-	2131,
-	1103,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	316,
-	1270,
-	1270,
-	1218,
-	1218,
-	1103,
-	1234,
-	1270,
-	1103,
-	1234,
-	1234,
-	1234,
-	1234,
-	1270,
-	1218,
-	1270,
-	1270,
-	1270,
-	631,
-	1270,
-	1270,
-	2389,
-	2389,
-	1270,
-	2196,
+	1096,
+	1272,
+	2134,
+	1105,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	317,
+	1272,
+	1272,
+	1220,
+	1220,
+	1105,
+	1236,
+	1272,
+	1105,
+	1236,
+	1236,
+	1236,
+	1236,
+	1272,
+	1220,
+	1272,
+	1272,
+	1272,
+	633,
+	1272,
+	1272,
+	2392,
+	2392,
+	1272,
+	2199,
+	2244,
+	2244,
+	1763,
+	2244,
 	2241,
+	2242,
 	2241,
-	1761,
+	2242,
 	2241,
-	2238,
-	2239,
-	2238,
-	2239,
-	2238,
-	1981,
-	1270,
+	1983,
+	1272,
 	116,
-	726,
-	2389,
-	1270,
-	454,
-	1103,
-	1103,
-	1270,
-	2389,
-	1270,
-	2389,
-	1103,
-	1103,
-	1270,
-	1103,
+	728,
+	2392,
+	1272,
+	455,
+	1105,
+	1105,
+	1272,
+	2392,
+	1272,
+	2392,
+	1105,
+	1105,
+	1272,
+	1105,
 	189,
 	189,
-	714,
-	314,
-	1103,
+	716,
+	315,
+	1105,
 	189,
-	454,
-	717,
+	455,
+	719,
 	124,
 	46,
-	314,
-	297,
-	297,
-	714,
+	315,
+	298,
+	298,
+	716,
 	188,
 	126,
 	70,
 	189,
 	124,
-	297,
-	1244,
-	1103,
-	708,
+	298,
+	1246,
+	1105,
+	710,
 	189,
-	1234,
-	1244,
+	1236,
+	1246,
 	189,
-	1244,
-	1095,
+	1246,
+	1097,
 	182,
 	182,
 	182,
 	182,
 	182,
 	182,
-	1270,
-	2389,
-	1270,
-	2389,
-	1270,
-	1234,
-	1234,
-	1234,
-	1234,
-	1095,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1103,
-	1270,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1115,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	717,
-	717,
-	1103,
-	1103,
-	1103,
-	1103,
-	462,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1076,
-	1103,
-	708,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
-	1270,
+	1272,
+	2392,
+	1272,
+	2392,
+	1272,
+	1236,
+	1236,
+	1236,
+	1236,
+	1097,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1105,
+	1272,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1117,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	719,
+	719,
+	1105,
+	1105,
+	1105,
+	1105,
+	463,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1078,
+	1105,
+	710,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1272,
+	1020,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1078,
+	1272,
+	1272,
+	1272,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1246,
+	1246,
+	1246,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	719,
+	1105,
+	1105,
+	1105,
+	1105,
+	2244,
+	2202,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	719,
+	1105,
+	971,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
 	1018,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1076,
-	1270,
-	1270,
-	1270,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1244,
-	1244,
-	1244,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	717,
-	1103,
-	1103,
-	1103,
-	1103,
-	2241,
-	2199,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	717,
-	1103,
-	969,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1016,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
-	1103,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
+	1105,
 	82,
 	140,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1095,
-	1270,
-	1270,
-	1270,
-	665,
-	1270,
-	326,
-	475,
-	673,
-	717,
-	1270,
-	1095,
-	1270,
-	1103,
-	1270,
-	1103,
-	673,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1218,
-	1095,
-	1348,
-	1435,
-	1435,
-	2196,
-	2259,
-	2238,
-	73,
-	73,
-	1971,
-	348,
-	560,
-	374,
-	1218,
-	1270,
-	1270,
-	1218,
-	961,
-	652,
-	2389,
-	1095,
-	1270,
-	1270,
-	191,
-	1095,
-	1270,
-	1270,
-	1103,
-	1244,
-	1095,
-	1103,
-	454,
-	1234,
-	1270,
-	1270,
-	665,
-	434,
-	1270,
-	1270,
-	1103,
-	1270,
-	961,
-	1095,
-	665,
-	665,
-	307,
-	454,
-	2389,
-	454,
-	1806,
-	2337,
-	2337,
-	72,
-	1351,
-	1103,
-	1270,
-	1095,
-	2337,
-	2389,
-	2389,
-	462,
-	1103,
-	1270,
-	673,
-	1270,
-	1270,
-	434,
-	665,
-	665,
-	1234,
-	1270,
-	1103,
-	1270,
-	2373,
-	454,
-	2039,
-	2389,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
-	1095,
-	1095,
-	1095,
-	1095,
-	1103,
-	1270,
-	2389,
-	2389,
-	2196,
-	2196,
-	2196,
-	2196,
-	1938,
-	2196,
-	2337,
-	2052,
-	2337,
-	2337,
-	2337,
-	2337,
-	2389,
-	2241,
-	1761,
-	1938,
-	1938,
-	1938,
-	2196,
-	1938,
-	2196,
-	2196,
-	1538,
-	1938,
-	2196,
-	2196,
-	2196,
-	1365,
-	1760,
-	2239,
-	2239,
-	1270,
-	2389,
-	2054,
-	2241,
-	2241,
-	2241,
-	2054,
-	2054,
-	2241,
-	2389,
-	2199,
-	2052,
-	2373,
-	2054,
-	2241,
-	2389,
-	2337,
-	2241,
-	2241,
-	2337,
-	2389,
-	2337,
-	2373,
-	1270,
-	2389,
-	2389,
-	2389,
-	2277,
-	2277,
-	1270,
-	2389,
-	1270,
-	1244,
-	1013,
-	1013,
-	1244,
-	1270,
-	38,
-	1095,
-	2373,
-	1270,
-	1270,
-	1611,
-	1473,
-	1808,
-	1808,
-	1615,
-	1611,
-	1808,
-	1103,
-	1270,
-	1270,
-	1270,
-	2389,
-	1270,
-	2389,
-	2337,
-	1103,
-	1270,
-	1270,
-	1270,
-	2389,
-	1270,
-	2241,
-	2389,
-	2360,
-	2389,
-	1270,
-	1270,
-	1270,
-	1270,
-	673,
-	1270,
-	1270,
-	1115,
-	2389,
-	2389,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1103,
-	1270,
-	673,
-	2373,
-	1095,
-	1270,
-	23,
-	1270,
-	1115,
-	727,
-	325,
-	1103,
-	1115,
-	631,
-	1270,
-	1270,
-	1120,
-	726,
-	1095,
-	1095,
-	1115,
-	1115,
-	1095,
-	437,
-	328,
-	679,
-	1095,
-	1103,
-	1094,
-	679,
-	1270,
-	324,
-	479,
-	1115,
-	728,
-	434,
-	1019,
-	1019,
-	2245,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	315,
-	199,
-	1270,
-	1115,
-	665,
-	1095,
-	1270,
-	1103,
-	726,
-	454,
-	1095,
-	1095,
-	1095,
-	665,
-	665,
-	665,
-	477,
-	473,
-	1095,
-	1094,
-	1270,
-	634,
-	1095,
-	434,
-	1094,
-	633,
-	1095,
-	1270,
-	1095,
-	460,
-	1103,
-	1095,
-	1270,
-	1270,
-	673,
-	461,
-	1095,
-	1095,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
-	1103,
-	1095,
-	1095,
-	1095,
-	1095,
-	1103,
-	478,
-	1095,
-	1270,
-	1103,
-	1103,
-	1103,
-	714,
-	1103,
-	717,
-	717,
-	717,
-	1103,
-	1270,
-	714,
-	1095,
-	434,
-	1103,
-	665,
-	1095,
-	1095,
-	665,
-	1095,
-	1094,
-	1270,
-	1270,
-	1270,
-	1115,
-	1115,
-	1115,
-	1115,
-	1103,
-	1115,
-	665,
-	727,
-	1095,
-	1270,
-	719,
-	726,
-	203,
-	728,
-	1095,
-	1115,
-	1270,
-	1115,
-	1103,
-	1270,
-	474,
-	1103,
-	1270,
-	1095,
-	1095,
-	664,
-	1103,
-	624,
-	665,
-	1270,
-	1270,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1097,
+	1272,
+	1272,
+	1272,
+	667,
+	1272,
 	327,
-	1270,
-	2389,
-	1270,
-	1270,
-	2373,
-	1218,
-	1103,
-	714,
-	1270,
-	714,
-	1103,
-	2337,
-	2337,
+	477,
+	675,
+	719,
+	1272,
+	1097,
+	1272,
+	1105,
+	1272,
+	1105,
+	675,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1220,
+	1097,
+	1350,
+	1437,
+	1437,
+	2199,
 	2262,
-	2262,
-	2337,
-	2389,
-	1270,
-	2389,
-	2368,
-	2132,
 	2241,
-	2389,
-	1270,
-	1103,
-	1270,
-	1270,
-	1103,
-	1103,
-	1019,
-	1244,
-	1270,
-	1270,
-	1270,
-	2373,
-	1218,
-	1103,
-	714,
-	1270,
-	714,
-	1103,
-	2337,
-	2262,
-	2262,
-	2337,
-	2389,
-	1270,
-	2389,
-	2368,
-	2132,
-	2241,
-	2389,
-	1270,
-	1103,
-	1270,
-	1270,
-	1103,
-	1019,
-	1244,
-	1270,
-	1244,
-	1244,
+	73,
+	73,
+	1973,
+	349,
+	562,
+	375,
+	1220,
+	1272,
+	1272,
+	1220,
+	963,
+	654,
+	2392,
+	1097,
+	1272,
+	1272,
+	191,
+	1097,
+	1272,
+	1272,
+	1105,
+	1246,
+	1097,
+	1105,
+	455,
+	1236,
+	1272,
+	1272,
+	667,
 	435,
-	1270,
-	1270,
-	1244,
-	1270,
-	1270,
-	1270,
-	2337,
-	2237,
-	1270,
-	2389,
-	1218,
-	1218,
-	1218,
-	1218,
-	1270,
-	665,
-	1270,
-	2389,
-	2389,
-	2389,
-	2389,
-	1103,
-	1270,
-	2389,
-	2333,
-	1400,
-	1306,
-	2389,
-	2389,
-	1942,
-	1942,
-	1942,
-	2389,
-	2389,
-	1270,
-	2337,
-	2389,
-	2360,
-	2389,
-	2054,
-	2043,
-	2043,
-	2052,
-	2389,
-	2389,
-	2389,
-	2333,
-	2043,
-	2043,
-	2389,
-	2360,
+	1272,
+	1272,
+	1105,
+	1272,
+	963,
+	1097,
+	667,
+	667,
+	308,
+	455,
+	2392,
+	455,
+	1808,
+	2340,
+	2340,
+	72,
+	1353,
+	1105,
+	1272,
+	1097,
+	2340,
+	2392,
+	2392,
+	463,
+	1105,
+	1272,
+	675,
+	1272,
+	1272,
+	435,
+	667,
+	667,
+	1236,
+	1272,
+	1105,
+	1272,
+	2376,
+	455,
+	2042,
+	2392,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1097,
+	1097,
+	1097,
+	1097,
+	1105,
+	1272,
+	2392,
+	2392,
+	2199,
+	2199,
+	2199,
+	2199,
+	1940,
+	2199,
+	2340,
+	2055,
+	2340,
+	2340,
+	2340,
+	2340,
+	2392,
+	2244,
+	1763,
+	1940,
+	1940,
+	1940,
+	2199,
+	1940,
+	2199,
+	2199,
+	1540,
+	1940,
+	2199,
+	2199,
+	2199,
+	1367,
+	1762,
+	2242,
+	2242,
+	1272,
+	2392,
+	2057,
+	2244,
+	2244,
+	2244,
+	2057,
+	2057,
+	2244,
+	2392,
+	2202,
+	2055,
+	2376,
+	2057,
+	2244,
+	2392,
+	2340,
+	2244,
+	2244,
+	2340,
+	2392,
+	2340,
+	2376,
+	1272,
+	2392,
+	2392,
+	2392,
+	2280,
+	2280,
+	1272,
+	2392,
+	1272,
+	1246,
+	1015,
+	1015,
+	1246,
+	1272,
+	38,
+	1097,
+	2376,
+	1272,
+	1272,
+	1613,
+	1475,
 	1810,
-	2333,
-	2128,
 	1810,
-	2043,
-	2333,
-	2128,
-	2052,
-	2052,
-	2052,
-	2062,
-	2062,
-	2062,
-	2333,
-	2333,
-	2333,
-	1270,
-	2389,
-	2337,
-	2373,
-	1095,
-	1270,
-	1270,
-	1270,
-	1270,
-	627,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
+	1617,
+	1613,
+	1810,
+	1105,
+	1272,
+	1272,
+	1272,
+	2392,
+	1272,
+	2392,
+	2340,
+	1105,
+	1272,
+	1272,
+	1272,
+	2392,
+	1272,
+	2244,
+	2392,
+	2363,
+	2392,
+	1272,
+	1272,
+	1272,
+	1272,
+	675,
+	1272,
+	1272,
+	1117,
+	2392,
+	2392,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1105,
+	1272,
+	675,
+	2376,
+	1097,
+	1272,
+	23,
+	1272,
+	1117,
+	729,
+	326,
+	1105,
+	1117,
+	633,
+	1272,
+	1272,
+	1122,
+	728,
+	1097,
+	1097,
 	1117,
 	1117,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1218,
-	1218,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1612,
-	1270,
-	2389,
-	1270,
-	1270,
-	1270,
-	1270,
-	2389,
-	1270,
-	2389,
-	1103,
-	2389,
-	2389,
-	1270,
-	1270,
-	2389,
-	2389,
-	1270,
-	2389,
-	1270,
-	2389,
-	1270,
-	1270,
-	1270,
-	1076,
-	1095,
-	1270,
-	1103,
-	1103,
-	1103,
-	1270,
-	1270,
-	673,
+	1097,
+	438,
+	329,
+	681,
+	1097,
+	1105,
+	1096,
+	681,
+	1272,
+	325,
+	481,
+	1117,
+	730,
+	435,
+	1021,
+	1021,
+	2248,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	316,
+	199,
+	1272,
+	1117,
+	667,
+	1097,
+	1272,
+	1105,
+	728,
+	455,
+	1097,
+	1097,
+	1097,
+	667,
+	667,
+	667,
+	479,
+	475,
+	1097,
+	1096,
+	1272,
+	636,
+	1097,
+	435,
+	1096,
+	635,
+	1097,
+	1272,
+	1097,
+	461,
+	1105,
+	1097,
+	1272,
+	1272,
+	675,
+	462,
+	1097,
+	1097,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1105,
+	1097,
+	1097,
+	1097,
+	1097,
+	1105,
+	480,
+	1097,
+	1272,
+	1105,
+	1105,
+	1105,
+	716,
+	1105,
+	719,
+	719,
+	719,
+	1105,
+	1272,
+	716,
+	1097,
+	435,
+	1105,
+	667,
+	1097,
+	1097,
+	667,
+	1097,
+	1096,
+	1272,
+	1272,
+	1272,
+	1117,
+	1117,
+	1117,
+	1117,
+	1105,
+	1117,
+	667,
+	729,
+	1097,
+	1272,
+	721,
+	728,
+	204,
+	730,
+	1097,
+	1117,
+	1272,
+	1117,
+	1105,
+	1272,
+	476,
+	1105,
+	1272,
+	1097,
+	1097,
+	666,
+	1105,
+	626,
+	667,
+	1272,
+	1272,
+	328,
+	1272,
+	2392,
+	1272,
+	1272,
+	2376,
+	1220,
+	1105,
+	716,
+	1272,
+	716,
+	1105,
+	2340,
+	2340,
+	2265,
+	2265,
+	2340,
+	2392,
+	1272,
+	2392,
+	2371,
+	2135,
+	2244,
+	2392,
+	1272,
+	1105,
+	1272,
+	1272,
+	1105,
+	1105,
+	1021,
+	1246,
+	1272,
+	1272,
+	1272,
+	2376,
+	1220,
+	1105,
+	716,
+	1272,
+	716,
+	1105,
+	2340,
+	2265,
+	2265,
+	2340,
+	2392,
+	1272,
+	2392,
+	2371,
+	2135,
+	2244,
+	2392,
+	1272,
+	1105,
+	1272,
+	1272,
+	1105,
+	1021,
+	1246,
+	1272,
+	1246,
+	1246,
+	436,
+	1272,
+	1272,
+	1246,
+	1272,
+	1272,
+	1272,
+	2340,
+	2240,
+	1272,
+	2392,
+	1220,
+	1220,
+	1220,
+	1220,
+	1272,
+	667,
+	1272,
+	2392,
+	2392,
+	2392,
+	2392,
+	1105,
+	1272,
+	2392,
+	2336,
+	1402,
+	1308,
+	2392,
+	2392,
+	1944,
+	1944,
+	1944,
+	2392,
+	2392,
+	1272,
+	2340,
+	2392,
+	2363,
+	2392,
+	2057,
+	2046,
+	2046,
+	2055,
+	2392,
+	2392,
+	2392,
+	2336,
+	2046,
+	2046,
+	2392,
+	2363,
+	1812,
+	2336,
+	2131,
+	1812,
+	2046,
+	2336,
+	2131,
+	2055,
+	2055,
+	2055,
+	2065,
+	2065,
+	2065,
+	2336,
+	2336,
+	2336,
+	1272,
+	2392,
+	2340,
+	2376,
+	1097,
+	1272,
+	1272,
+	1272,
+	1272,
+	629,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1119,
+	1119,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1220,
+	1220,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1614,
+	1272,
+	2392,
+	1272,
+	1272,
+	1272,
+	1272,
+	2392,
+	1272,
+	2392,
+	1105,
+	2392,
+	2392,
+	1272,
+	1272,
+	2392,
+	2392,
+	1272,
+	2392,
+	1272,
+	2392,
+	1272,
+	1272,
+	1272,
+	1078,
+	1097,
+	1272,
+	1105,
+	1105,
+	1105,
+	1272,
+	1272,
+	675,
 	35,
 	91,
-	1270,
+	1272,
 	66,
-	2337,
-	1103,
-	1103,
-	2131,
-	1270,
-	2389,
-	2389,
-	1355,
-	1270,
-	2389,
-	1103,
-	1270,
-	284,
-	454,
-	2135,
-	1270,
-	2333,
-	1270,
-	1095,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
-	1095,
-	2389,
-	1270,
-	842,
-	1095,
+	2340,
+	1105,
+	1105,
+	2134,
+	1272,
+	2392,
+	2392,
+	1357,
+	1272,
+	2392,
+	1105,
+	1272,
+	285,
+	455,
+	2138,
+	1272,
+	2336,
+	1272,
+	1097,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1097,
+	2392,
+	1272,
+	844,
+	1097,
 	9,
-	1103,
-	1218,
-	402,
-	1270,
-	1270,
-	1270,
-	1076,
-	1076,
-	1244,
-	1270,
-	1103,
-	1103,
-	1234,
-	1095,
-	1234,
-	1095,
-	673,
-	2389,
-	2389,
-	2360,
-	2360,
-	2360,
-	2238,
-	2360,
-	2360,
-	2360,
-	2389,
-	2389,
-	2128,
-	2389,
-	1808,
-	2333,
-	2360,
-	2360,
-	2389,
-	1625,
-	1400,
-	2337,
-	2337,
-	2360,
-	2337,
-	2333,
-	1938,
-	1938,
-	1938,
-	1672,
-	1805,
-	1805,
-	1805,
-	2196,
-	2196,
-	2389,
-	1270,
-	2389,
-	1823,
-	2389,
-	1270,
-	1270,
-	1270,
-	2373,
-	1270,
-	1103,
-	1270,
-	1270,
-	673,
+	1105,
+	1220,
+	403,
+	1272,
+	1272,
+	1272,
+	1078,
+	1078,
+	1246,
+	1272,
+	1105,
+	1105,
+	1236,
+	1097,
+	1236,
+	1097,
+	675,
+	2392,
+	2392,
+	2363,
+	2363,
+	2363,
+	2241,
+	2363,
+	2363,
+	2363,
+	2392,
+	2392,
+	2131,
+	2392,
+	1810,
+	2336,
+	2363,
+	2363,
+	2392,
+	1627,
+	1402,
+	2340,
+	2340,
+	2363,
+	2340,
+	2336,
+	1940,
+	1940,
+	1940,
+	1674,
+	1807,
+	1807,
+	1807,
+	2199,
+	2199,
+	2392,
+	1272,
+	2392,
+	1825,
+	2392,
+	1272,
+	1272,
+	1272,
+	2376,
+	1272,
+	1105,
+	1272,
+	1272,
+	675,
 	63,
-	673,
-	2337,
-	2131,
-	1270,
-	1270,
-	2389,
-	2373,
-	2389,
-	717,
-	1270,
-	673,
-	2389,
-	2128,
-	2333,
-	2337,
-	2337,
-	2337,
-	1103,
-	2333,
-	2337,
-	1270,
-	2389,
-	1270,
-	673,
-	278,
-	1103,
-	2389,
-	1270,
-	1270,
-	1270,
-	1270,
-	2373,
-	2389,
-	717,
-	1270,
-	673,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2368,
-	2368,
-	1883,
-	1883,
-	2389,
-	1270,
-	2373,
-	2389,
-	717,
-	1270,
-	673,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2039,
-	2131,
-	2128,
-	2131,
-	1270,
-	2389,
-	2373,
-	2389,
-	717,
-	1270,
-	673,
-	2389,
-	2389,
-	2389,
-	2333,
-	2389,
-	2389,
-	2389,
-	2389,
-	1270,
-	2389,
-	2373,
-	2389,
-	717,
-	1270,
-	673,
-	2389,
-	2333,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2333,
-	2131,
-	2131,
-	2389,
-	2389,
-	2210,
-	2368,
-	2389,
-	2210,
-	2389,
-	2389,
-	2389,
-	2389,
-	1270,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	1270,
-	2389,
-	1270,
-	1103,
-	454,
-	2373,
-	2389,
-	625,
-	1270,
-	1234,
-	2337,
-	673,
-	1270,
-	1270,
-	1270,
-	1234,
-	1234,
-	1270,
-	2389,
-	2373,
-	2389,
-	717,
-	1270,
-	673,
-	2389,
-	2389,
-	2389,
-	2039,
-	2131,
-	2360,
-	2238,
-	2389,
-	2389,
-	2389,
-	2389,
-	1270,
-	852,
-	2373,
-	2389,
-	1270,
-	2389,
-	1270,
-	1103,
-	969,
-	297,
-	1270,
-	2389,
-	2373,
-	2389,
-	2389,
-	2360,
-	2131,
-	1632,
-	2337,
-	1270,
-	2389,
-	2373,
-	1270,
-	394,
-	673,
-	717,
-	1270,
-	2041,
-	1103,
-	2337,
-	2389,
-	717,
-	1270,
-	2389,
-	2389,
-	2389,
-	2389,
-	2054,
-	2054,
-	2337,
-	2337,
-	2389,
-	2389,
-	2389,
-	2337,
-	1076,
-	2039,
-	2360,
-	2196,
-	2389,
-	2333,
-	2389,
-	673,
-	1270,
-	2373,
-	2389,
-	2039,
-	2196,
-	1981,
-	2389,
-	2131,
-	2389,
-	2389,
-	2333,
-	2389,
-	2389,
-	2360,
-	2337,
-	2360,
-	2389,
-	2389,
-	2389,
-	2238,
-	2389,
-	2337,
-	2199,
-	2389,
-	2238,
-	2131,
-	2389,
-	2389,
-	2368,
-	2389,
-	2389,
-	2389,
-	2360,
-	1822,
-	2238,
-	1076,
-	1103,
-	1096,
-	1244,
-	2128,
-	1883,
-	2196,
-	2039,
-	2389,
-	2389,
-	2360,
-	2360,
-	2389,
-	2389,
-	2368,
-	2368,
-	2389,
-	2199,
-	2389,
-	717,
-	1270,
-	1270,
-	2389,
-	2333,
-	2039,
-	2389,
-	2196,
-	2368,
-	2337,
-	1270,
-	2389,
-	2373,
-	2389,
-	673,
-	2389,
-	2389,
-	2337,
-	2333,
-	2389,
-	2333,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2337,
-	1611,
-	2333,
-	2238,
-	1972,
-	2131,
-	2131,
-	2238,
-	2389,
-	2196,
-	2039,
-	2389,
-	2128,
-	2128,
-	2131,
-	2333,
-	2333,
-	2389,
-	2196,
-	2389,
-	1805,
-	2039,
-	1270,
-	434,
-	1270,
-	1244,
-	1244,
-	1103,
-	1018,
-	665,
-	2373,
-	2389,
-	717,
-	1270,
-	673,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2389,
-	2131,
-	2389,
-	1270,
-	2389,
-	1270,
-	64,
-	1270,
-	1270,
-	1094,
-	1270,
-	2131,
-	1103,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1103,
-	1218,
-	1270,
-	1270,
-	1270,
-	463,
-	1270,
-	1270,
-	1218,
-	1218,
-	1218,
-	1103,
-	1234,
-	1270,
-	1103,
-	1234,
-	1234,
-	1234,
-	1234,
-	1270,
-	1218,
-	1270,
-	1270,
-	1270,
-	2389,
-	1103,
-	2373,
-	1270,
-	673,
-	1103,
-	1270,
-	1095,
-	1270,
-	1270,
-	673,
-	1270,
-	1270,
+	675,
+	2340,
+	2134,
+	1272,
+	1272,
+	2392,
+	2376,
+	2392,
 	719,
-	2389,
-	2261,
-	2261,
+	1272,
+	675,
+	2392,
 	2131,
-	2389,
-	2389,
-	1270,
-	1095,
-	1103,
-	1270,
-	202,
-	1270,
-	1270,
-	1103,
-	2389,
-	1270,
-	291,
-	1103,
-	1270,
-	1270,
-	1270,
-	1115,
-	1270,
-	1270,
-	1270,
-	1103,
-	1270,
-	1270,
-	1095,
-	1234,
-	1270,
-	1270,
-	1270,
-	1270,
-	1270,
-	1095,
-	1270,
-	1103,
-	1270,
-	1270,
-	1270,
-	1270,
-	673,
-	1270,
-	1270,
-	1270,
-	2389,
-	2337,
-	2337,
-	2337,
-	2337,
-	2052,
-	1270,
-	1270,
-	714,
+	2336,
+	2340,
+	2340,
+	2340,
+	1105,
+	2336,
+	2340,
+	1272,
+	2392,
+	1272,
+	675,
+	279,
+	1105,
+	2392,
+	1272,
+	1272,
+	1272,
+	1272,
+	2376,
+	2392,
+	719,
+	1272,
+	675,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2371,
+	2371,
+	1885,
+	1885,
+	2392,
+	1272,
+	2376,
+	2392,
+	719,
+	1272,
+	675,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2042,
+	2134,
+	2131,
+	2134,
+	1272,
+	2392,
+	2376,
+	2392,
+	719,
+	1272,
+	675,
+	2392,
+	2392,
+	2392,
+	2336,
+	2392,
+	2392,
+	2392,
+	2392,
+	1272,
+	2392,
+	2376,
+	2392,
+	719,
+	1272,
+	675,
+	2392,
+	2336,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2336,
+	2134,
+	2134,
+	2392,
+	2392,
+	2213,
+	2371,
+	2392,
+	2213,
+	2392,
+	2392,
+	2392,
+	2392,
+	1272,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	1272,
+	2392,
+	1272,
+	1105,
+	455,
+	2376,
+	2392,
+	627,
+	1272,
+	1236,
+	2340,
+	675,
+	1272,
+	1272,
+	1272,
+	1236,
+	1236,
+	1272,
+	2392,
+	2376,
+	2392,
+	719,
+	1272,
+	675,
+	2392,
+	2392,
+	2392,
+	2042,
+	2134,
+	2363,
+	2241,
+	2392,
+	2392,
+	2392,
+	2392,
+	1272,
+	854,
+	2376,
+	2392,
+	1272,
+	2392,
+	1272,
+	1105,
+	971,
+	298,
+	1272,
+	2392,
+	2376,
+	2392,
+	2392,
+	2363,
+	2134,
+	1634,
+	2340,
+	1272,
+	2392,
+	2376,
+	1272,
+	395,
+	675,
+	719,
+	1272,
+	2044,
+	1105,
+	2340,
+	2392,
+	719,
+	1272,
+	2392,
+	2392,
+	2392,
+	2392,
+	2057,
+	2057,
+	2340,
+	2340,
+	2392,
+	2392,
+	2392,
+	2340,
+	1078,
+	2042,
+	2363,
+	2199,
+	2392,
+	2336,
+	2392,
+	675,
+	1272,
+	2376,
+	2392,
+	2042,
+	2199,
+	1983,
+	2392,
+	2134,
+	2392,
+	2392,
+	2336,
+	2392,
+	2392,
+	2363,
+	2340,
+	2363,
+	2392,
+	2392,
+	2392,
+	2241,
+	2392,
+	2340,
+	2202,
+	2392,
+	2241,
+	2134,
+	2392,
+	2392,
+	2371,
+	2392,
+	2392,
+	2392,
+	2363,
+	1824,
+	2241,
+	1078,
+	1105,
+	1098,
+	1246,
+	2131,
+	1885,
+	2199,
+	2042,
+	2392,
+	2392,
+	2363,
+	2363,
+	2392,
+	2392,
+	2371,
+	2371,
+	2392,
+	2202,
+	2392,
+	719,
+	1272,
+	1272,
+	2392,
+	2336,
+	2042,
+	2392,
+	2199,
+	2371,
+	2340,
+	1272,
+	2392,
+	2376,
+	2392,
+	675,
+	2392,
+	2392,
+	2340,
+	2336,
+	2392,
+	2336,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2340,
+	1613,
+	2336,
+	2241,
+	1974,
+	2134,
+	2134,
+	2241,
+	2392,
+	2199,
+	2042,
+	2392,
+	2131,
+	2131,
+	2134,
+	2336,
+	2336,
+	2392,
+	2199,
+	2392,
+	1807,
+	2042,
+	1272,
+	435,
+	1272,
+	1246,
+	1246,
+	1105,
+	1020,
+	667,
+	2376,
+	2392,
+	719,
+	1272,
+	675,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2392,
+	2134,
+	2392,
+	1272,
+	2392,
+	1272,
+	64,
+	1272,
+	1272,
+	1096,
+	1272,
+	2134,
+	1105,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1105,
+	1220,
+	1272,
+	1272,
+	1272,
+	464,
+	1272,
+	1272,
+	1220,
+	1220,
+	1220,
+	1105,
+	1236,
+	1272,
+	1105,
+	1236,
+	1236,
+	1236,
+	1236,
+	1272,
+	1220,
+	1272,
+	1272,
+	1272,
+	2392,
+	1105,
+	2376,
+	1272,
+	675,
+	1105,
+	1272,
+	1097,
+	1272,
+	1272,
+	675,
+	1272,
+	1272,
+	721,
+	2392,
+	2264,
+	2264,
+	2134,
+	2392,
+	2392,
+	1272,
+	1097,
+	1105,
+	1272,
+	203,
+	1272,
+	1272,
+	1105,
+	2392,
+	1272,
+	292,
+	1105,
+	1272,
+	1272,
+	1272,
+	1117,
+	1272,
+	1272,
+	1272,
+	1105,
+	1272,
+	1272,
+	1097,
+	1236,
+	1272,
+	1272,
+	1272,
+	1272,
+	1272,
+	1097,
+	1272,
+	1105,
+	1272,
+	1272,
+	1272,
+	1272,
+	675,
+	1272,
+	1272,
+	1272,
+	2392,
+	2340,
+	2340,
+	2340,
+	2340,
+	2055,
+	1272,
+	1272,
+	716,
 	189,
 	45,
 	16,
-	1270,
-	1270,
+	1272,
+	1272,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	3053,
+	3063,
 	s_methodPointers,
 	0,
 	NULL,

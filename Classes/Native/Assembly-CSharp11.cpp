@@ -7457,6 +7457,10 @@ struct Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields
 	int32_t ___a_42;
 	// System.Boolean Main::isCompactDevice
 	bool ___isCompactDevice_43;
+	// UnityEngine.ScreenOrientation Main::lastLanscape
+	int32_t ___lastLanscape_44;
+	// UnityEngine.Rect Main::<mainSafeArea>k__BackingField
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___U3CmainSafeAreaU3Ek__BackingField_45;
 };
 
 // Main
@@ -8361,10 +8365,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rms_deleteRecord_m4C27204D707CB99D49DCBC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rms_saveRMSString_m5CC2A73B0F9A79E8FB75301D183725DE3A880C7A (String_t* ___0_filename, String_t* ___1_data, const RuntimeMethod* method) ;
 // System.String Rms::loadRMSString(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Rms_loadRMSString_m0458A147654E191A49B2C1D9CDBCCE38636ED187 (String_t* ___0_fileName, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.Screen::get_width()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.Screen::get_height()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+// System.Int32 Main::get_width()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20 (const RuntimeMethod* method) ;
+// System.Int32 Main::get_height()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E (const RuntimeMethod* method) ;
 // UnityEngine.Matrix4x4 UnityEngine.GUI::get_matrix()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 GUI_get_matrix_m3CA02DED0598EE32BD9E66CA533A78EFB0A246FC (const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Matrix4x4>::Add(T)
@@ -22052,6 +22056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleGUI_initScaleGUI_m6E323BBEAE2033304
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral432215D84B1923AFCBDCFD5D05BA9511C0428C09);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCFE7F8CE331FE32E19232E498E43BD081A05C66F);
@@ -22059,34 +22064,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleGUI_initScaleGUI_m6E323BBEAE2033304
 	}
 	int32_t V_0 = 0;
 	{
-		// Cout.println("Init Scale GUI: Screen.w=" + Screen.width + " Screen.h=" + Screen.height);
+		// Cout.println("Init Scale GUI: Screen.w=" + Main.width + " Screen.h=" + Main.height);
+		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		int32_t L_0;
-		L_0 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		L_0 = Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20(NULL);
 		V_0 = L_0;
 		String_t* L_1;
 		L_1 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		int32_t L_2;
-		L_2 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		L_2 = Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E(NULL);
 		V_0 = L_2;
 		String_t* L_3;
 		L_3 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		String_t* L_4;
 		L_4 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral432215D84B1923AFCBDCFD5D05BA9511C0428C09, L_1, _stringLiteralCFE7F8CE331FE32E19232E498E43BD081A05C66F, L_3, NULL);
 		Cout_println_m0A635C7677DEEFAE9B526557274A125FEBCFC801(L_4, NULL);
-		// WIDTH = Screen.width;
+		// WIDTH = Main.width;
 		int32_t L_5;
-		L_5 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		L_5 = Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20(NULL);
 		il2cpp_codegen_runtime_class_init_inline(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___WIDTH_1 = ((float)L_5);
-		// HEIGHT = Screen.height;
+		// HEIGHT = Main.height;
 		int32_t L_6;
-		L_6 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		L_6 = Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E(NULL);
 		((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___HEIGHT_2 = ((float)L_6);
 		// scaleScreen = false;
 		((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___scaleScreen_0 = (bool)0;
-		// if (Screen.width <= 1200)
+		// if (Main.width <= 1200)
 		int32_t L_7;
-		L_7 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		L_7 = Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20(NULL);
 		// }
 		return;
 	}
@@ -22099,6 +22105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleGUI_BeginGUI_m7311B658F881A4A71C75F
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -22129,12 +22136,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleGUI_BeginGUI_m7311B658F881A4A71C75F
 		List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_inline(L_1, L_2, List_1_Add_m64F9F4C32CDD01D323D17E7A61A97EB924206093_RuntimeMethod_var);
 		// Matrix4x4 matrix4x = default(Matrix4x4);
 		il2cpp_codegen_initobj((&V_0), sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6));
-		// float num = Screen.width;
+		// float num = Main.width;
+		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		int32_t L_3;
-		L_3 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
-		// float num2 = Screen.height;
+		L_3 = Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20(NULL);
+		// float num2 = Main.height;
 		int32_t L_4;
-		L_4 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		L_4 = Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E(NULL);
 		V_1 = ((float)L_4);
 		// float num3 = num / num2;
 		float L_5 = V_1;
@@ -22144,7 +22152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleGUI_BeginGUI_m7311B658F881A4A71C75F
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		V_3 = L_6;
-		// num4 = ((!(num3 < WIDTH / HEIGHT)) ? ((float)Screen.height / HEIGHT) : ((float)Screen.width / WIDTH));
+		// num4 = ((!(num3 < WIDTH / HEIGHT)) ? ((float)Main.height / HEIGHT) : ((float)Main.width / WIDTH));
 		float L_7 = ((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___WIDTH_1;
 		float L_8 = ((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___HEIGHT_2;
 		if ((!(((float)((float)(((float)L_3)/L_5))) < ((float)((float)(L_7/L_8))))))
@@ -22153,8 +22161,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleGUI_BeginGUI_m7311B658F881A4A71C75F
 		}
 	}
 	{
+		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		int32_t L_9;
-		L_9 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		L_9 = Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20(NULL);
 		il2cpp_codegen_runtime_class_init_inline(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		float L_10 = ((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___WIDTH_1;
 		G_B4_0 = ((float)(((float)L_9)/L_10));
@@ -22163,8 +22172,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScaleGUI_BeginGUI_m7311B658F881A4A71C75F
 
 IL_0057:
 	{
+		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		int32_t L_11;
-		L_11 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		L_11 = Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E(NULL);
 		il2cpp_codegen_runtime_class_init_inline(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		float L_12 = ((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___HEIGHT_2;
 		G_B4_0 = ((float)(((float)L_11)/L_12));
@@ -22256,6 +22266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleGUI_scaleX_mC3CA7CE5E3E655361EA09F
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -22276,12 +22287,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleGUI_scaleX_mC3CA7CE5E3E655361EA09F
 
 IL_0009:
 	{
-		// x = x * WIDTH / (float)Screen.width;
+		// x = x * WIDTH / (float)Main.width;
 		float L_2 = ___0_x;
 		il2cpp_codegen_runtime_class_init_inline(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		float L_3 = ((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___WIDTH_1;
+		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		int32_t L_4;
-		L_4 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		L_4 = Main_get_width_m1090B288C72D843AE1D017CAF4F932E0F7E12E20(NULL);
 		___0_x = ((float)(((float)il2cpp_codegen_multiply(L_2, L_3))/((float)L_4)));
 		// return x;
 		float L_5 = ___0_x;
@@ -22294,6 +22306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleGUI_scaleY_m51040AE5FC57AAFA0609DD
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -22314,12 +22327,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScaleGUI_scaleY_m51040AE5FC57AAFA0609DD
 
 IL_0009:
 	{
-		// y = y * HEIGHT / (float)Screen.height;
+		// y = y * HEIGHT / (float)Main.height;
 		float L_2 = ___0_y;
 		il2cpp_codegen_runtime_class_init_inline(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var);
 		float L_3 = ((ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_StaticFields*)il2cpp_codegen_static_fields_for(ScaleGUI_tAC0F093B231E7B5B21591E227A94BCC5F3BBF8A6_il2cpp_TypeInfo_var))->___HEIGHT_2;
+		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
 		int32_t L_4;
-		L_4 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		L_4 = Main_get_height_mF84660DB35C03EE54D4CE3A3B970437FBD5AA71E(NULL);
 		___0_y = ((float)(((float)il2cpp_codegen_multiply(L_2, L_3))/((float)L_4)));
 		// return y;
 		float L_5 = ___0_y;

@@ -638,6 +638,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GUIUtility_Internal_GetControlID_Injected();
 		Register_UnityEngine_GUIUtility_Internal_GetControlID_Injected();
 
+		//System.Int32 UnityEngine.GUIUtility::Internal_GetHotControl()
+		void Register_UnityEngine_GUIUtility_Internal_GetHotControl();
+		Register_UnityEngine_GUIUtility_Internal_GetHotControl();
+
+		//System.Int32 UnityEngine.GUIUtility::Internal_GetKeyboardControl()
+		void Register_UnityEngine_GUIUtility_Internal_GetKeyboardControl();
+		Register_UnityEngine_GUIUtility_Internal_GetKeyboardControl();
+
 		//System.Int32 UnityEngine.GUIUtility::get_guiDepth()
 		void Register_UnityEngine_GUIUtility_get_guiDepth();
 		Register_UnityEngine_GUIUtility_get_guiDepth();
@@ -1210,9 +1218,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Screen_RequestOrientation();
 		Register_UnityEngine_Screen_RequestOrientation();
 
+		//System.Void UnityEngine.Screen::SetOrientationEnabled(UnityEngine.EnabledOrientation,System.Boolean)
+		void Register_UnityEngine_Screen_SetOrientationEnabled();
+		Register_UnityEngine_Screen_SetOrientationEnabled();
+
 		//System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,UnityEngine.FullScreenMode,System.Int32)
 		void Register_UnityEngine_Screen_SetResolution();
 		Register_UnityEngine_Screen_SetResolution();
+
+		//System.Void UnityEngine.Screen::get_safeArea_Injected(UnityEngine.Rect&)
+		void Register_UnityEngine_Screen_get_safeArea_Injected();
+		Register_UnityEngine_Screen_get_safeArea_Injected();
+
+		//UnityEngine.ScreenOrientation UnityEngine.Screen::GetScreenOrientation()
+		void Register_UnityEngine_Screen_GetScreenOrientation();
+		Register_UnityEngine_Screen_GetScreenOrientation();
 
 	//End Registrations for type : UnityEngine.Screen
 
@@ -1433,6 +1453,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Color[] UnityEngine.Texture2D::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_GetPixels();
 		Register_UnityEngine_Texture2D_GetPixels();
+
+		//UnityEngine.Texture2D UnityEngine.Texture2D::get_whiteTexture()
+		void Register_UnityEngine_Texture2D_get_whiteTexture();
+		Register_UnityEngine_Texture2D_get_whiteTexture();
 
 	//End Registrations for type : UnityEngine.Texture2D
 

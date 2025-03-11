@@ -7676,6 +7676,10 @@ struct Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields
 	int32_t ___a_42;
 	// System.Boolean Main::isCompactDevice
 	bool ___isCompactDevice_43;
+	// UnityEngine.ScreenOrientation Main::lastLanscape
+	int32_t ___lastLanscape_44;
+	// UnityEngine.Rect Main::<mainSafeArea>k__BackingField
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___U3CmainSafeAreaU3Ek__BackingField_45;
 };
 
 // Main
@@ -14545,11 +14549,11 @@ IL_008b:
 	}
 	try
 	{// begin try (depth: 1)
-		// float num = Time.timeScale = float.Parse(text.Substring(1));
+		// float num = Time.timeScale = float.Parse(text.Substring(6));
 		String_t* L_20 = ___0_text;
 		NullCheck(L_20);
 		String_t* L_21;
-		L_21 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_20, 1, NULL);
+		L_21 = String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472(L_20, 6, NULL);
 		float L_22;
 		L_22 = Single_Parse_m621F610BB84997A2E3C4686913F482316CD3E6B8(L_21, NULL);
 		float L_23 = L_22;
