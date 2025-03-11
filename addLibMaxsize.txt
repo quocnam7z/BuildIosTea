@@ -1,0 +1,3 @@
+git config --global alias.addsafe '!git add . && git reset Libraries/libiPhone-lib.a'
+git lfs track "Libraries/libiPhone-lib.a"
+git add Libraries/libiPhone-lib.a
