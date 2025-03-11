@@ -4481,30 +4481,32 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 // Main
 struct Main_t6125012C4D88701077DD3C4660130C5535730E1E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// ClientType Main::EmulatorClient
+	int32_t ___EmulatorClient_4;
 	// System.Int32 Main::level
-	int32_t ___level_24;
+	int32_t ___level_25;
 	// System.Int32 Main::updateCount
-	int32_t ___updateCount_26;
+	int32_t ___updateCount_27;
 	// System.Int32 Main::paintCount
-	int32_t ___paintCount_27;
+	int32_t ___paintCount_28;
 	// System.Int32 Main::count
-	int32_t ___count_28;
+	int32_t ___count_29;
 	// System.Int32 Main::fps
-	int32_t ___fps_29;
+	int32_t ___fps_30;
 	// System.Int32 Main::max
-	int32_t ___max_30;
+	int32_t ___max_31;
 	// System.Int32 Main::up
-	int32_t ___up_31;
+	int32_t ___up_32;
 	// System.Int32 Main::upmax
-	int32_t ___upmax_32;
+	int32_t ___upmax_33;
 	// System.Int64 Main::timefps
-	int64_t ___timefps_33;
+	int64_t ___timefps_34;
 	// System.Int64 Main::timeup
-	int64_t ___timeup_34;
+	int64_t ___timeup_35;
 	// System.Boolean Main::isRun
-	bool ___isRun_35;
+	bool ___isRun_36;
 	// UnityEngine.Vector2 Main::lastMousePos
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lastMousePos_41;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lastMousePos_42;
 };
 
 // Archivement
@@ -7804,57 +7806,57 @@ struct mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE_StaticFields
 struct Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields
 {
 	// Main Main::main
-	Main_t6125012C4D88701077DD3C4660130C5535730E1E* ___main_4;
+	Main_t6125012C4D88701077DD3C4660130C5535730E1E* ___main_5;
 	// mGraphics Main::g
-	mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE* ___g_5;
+	mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE* ___g_6;
 	// GameMidlet Main::midlet
-	GameMidlet_tFD9198A8DAC9B07B11E740D3AA194381385FC93F* ___midlet_6;
+	GameMidlet_tFD9198A8DAC9B07B11E740D3AA194381385FC93F* ___midlet_7;
 	// System.String Main::res
-	String_t* ___res_7;
+	String_t* ___res_8;
 	// System.String Main::mainThreadName
-	String_t* ___mainThreadName_8;
+	String_t* ___mainThreadName_9;
 	// System.Boolean Main::started
-	bool ___started_9;
+	bool ___started_10;
 	// System.Boolean Main::isIpod
-	bool ___isIpod_10;
+	bool ___isIpod_11;
 	// System.Boolean Main::isIphone4
-	bool ___isIphone4_11;
+	bool ___isIphone4_12;
 	// System.Boolean Main::isPC
-	bool ___isPC_12;
+	bool ___isPC_13;
 	// System.Boolean Main::isWindowsPhone
-	bool ___isWindowsPhone_13;
+	bool ___isWindowsPhone_14;
 	// System.Boolean Main::isIPhone
-	bool ___isIPhone_14;
+	bool ___isIPhone_15;
 	// System.Boolean Main::IphoneVersionApp
-	bool ___IphoneVersionApp_15;
+	bool ___IphoneVersionApp_16;
 	// System.String Main::IMEI
-	String_t* ___IMEI_16;
+	String_t* ___IMEI_17;
 	// System.Int32 Main::versionIp
-	int32_t ___versionIp_17;
+	int32_t ___versionIp_18;
 	// System.Boolean Main::isAndroid
-	bool ___isAndroid_18;
+	bool ___isAndroid_19;
 	// System.Int32 Main::numberQuit
-	int32_t ___numberQuit_19;
+	int32_t ___numberQuit_20;
 	// System.Int32 Main::typeClient
-	int32_t ___typeClient_20;
+	int32_t ___typeClient_21;
 	// System.Int32 Main::waitTick
-	int32_t ___waitTick_36;
+	int32_t ___waitTick_37;
 	// System.Int32 Main::f
-	int32_t ___f_37;
+	int32_t ___f_38;
 	// System.Boolean Main::isResume
-	bool ___isResume_38;
+	bool ___isResume_39;
 	// System.Boolean Main::isMiniApp
-	bool ___isMiniApp_39;
+	bool ___isMiniApp_40;
 	// System.Boolean Main::isQuitApp
-	bool ___isQuitApp_40;
+	bool ___isQuitApp_41;
 	// System.Int32 Main::a
-	int32_t ___a_42;
+	int32_t ___a_43;
 	// System.Boolean Main::isCompactDevice
-	bool ___isCompactDevice_43;
+	bool ___isCompactDevice_44;
 	// UnityEngine.ScreenOrientation Main::lastLanscape
-	int32_t ___lastLanscape_44;
+	int32_t ___lastLanscape_45;
 	// UnityEngine.Rect Main::<mainSafeArea>k__BackingField
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___U3CmainSafeAreaU3Ek__BackingField_45;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___U3CmainSafeAreaU3Ek__BackingField_46;
 };
 
 // Main
@@ -13279,11 +13281,11 @@ IL_0f9b_2:
 					int8_t L_605;
 					L_605 = myReader_readByte_mCDDF6ED5E0EB397901E6243495AAFF1897771C74(L_604, NULL);
 					il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-					((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___typeClient_20 = L_605;
+					((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___typeClient_21 = L_605;
 					// Rms.clearAll();
 					Rms_clearAll_m125A175814279942BA80DBF8D8076B7142C493E6(NULL);
 					// Rms.saveRMSInt("clienttype", Main.typeClient);
-					int32_t L_606 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___typeClient_20;
+					int32_t L_606 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___typeClient_21;
 					Rms_saveRMSInt_m6429922F24AC570BC8C569486E3BD135B981A8C7(_stringLiteral347A810DF931F6B4B2BFF18F7420891BA6439152, L_606, NULL);
 					// Rms.saveRMSInt("lastZoomlevel", mGraphics.zoomLevel);
 					il2cpp_codegen_runtime_class_init_inline(mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE_il2cpp_TypeInfo_var);

@@ -4414,6 +4414,16 @@ struct AutoSkill_tF55BCBC6D9156E0CFCBBDD847D8723D857048422_StaticFields
 	bool ___isSaveData_17;
 	// System.Int64 CilentModify.AutoSkill::lastTimeAutoUseSkill
 	int64_t ___lastTimeAutoUseSkill_18;
+	// System.Boolean CilentModify.AutoSkill::isAutoDeKOK
+	bool ___isAutoDeKOK_19;
+	// System.Int64 CilentModify.AutoSkill::lastTimeKOK
+	int64_t ___lastTimeKOK_20;
+	// System.Int32 CilentModify.AutoSkill::KOK_X
+	int32_t ___KOK_X_21;
+	// System.Int32 CilentModify.AutoSkill::KOK_Y
+	int32_t ___KOK_Y_22;
+	// System.Int32 CilentModify.AutoSkill::KOK_Speed
+	int32_t ___KOK_Speed_23;
 };
 
 // CilentModify.AutoSkill

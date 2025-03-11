@@ -5314,30 +5314,32 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 // Main
 struct Main_t6125012C4D88701077DD3C4660130C5535730E1E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// ClientType Main::EmulatorClient
+	int32_t ___EmulatorClient_4;
 	// System.Int32 Main::level
-	int32_t ___level_24;
+	int32_t ___level_25;
 	// System.Int32 Main::updateCount
-	int32_t ___updateCount_26;
+	int32_t ___updateCount_27;
 	// System.Int32 Main::paintCount
-	int32_t ___paintCount_27;
+	int32_t ___paintCount_28;
 	// System.Int32 Main::count
-	int32_t ___count_28;
+	int32_t ___count_29;
 	// System.Int32 Main::fps
-	int32_t ___fps_29;
+	int32_t ___fps_30;
 	// System.Int32 Main::max
-	int32_t ___max_30;
+	int32_t ___max_31;
 	// System.Int32 Main::up
-	int32_t ___up_31;
+	int32_t ___up_32;
 	// System.Int32 Main::upmax
-	int32_t ___upmax_32;
+	int32_t ___upmax_33;
 	// System.Int64 Main::timefps
-	int64_t ___timefps_33;
+	int64_t ___timefps_34;
 	// System.Int64 Main::timeup
-	int64_t ___timeup_34;
+	int64_t ___timeup_35;
 	// System.Boolean Main::isRun
-	bool ___isRun_35;
+	bool ___isRun_36;
 	// UnityEngine.Vector2 Main::lastMousePos
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lastMousePos_41;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lastMousePos_42;
 };
 
 // System.Collections.Generic.List`1<CilentModify.Boss>
@@ -5443,6 +5445,16 @@ struct AutoSkill_tF55BCBC6D9156E0CFCBBDD847D8723D857048422_StaticFields
 	bool ___isSaveData_17;
 	// System.Int64 CilentModify.AutoSkill::lastTimeAutoUseSkill
 	int64_t ___lastTimeAutoUseSkill_18;
+	// System.Boolean CilentModify.AutoSkill::isAutoDeKOK
+	bool ___isAutoDeKOK_19;
+	// System.Int64 CilentModify.AutoSkill::lastTimeKOK
+	int64_t ___lastTimeKOK_20;
+	// System.Int32 CilentModify.AutoSkill::KOK_X
+	int32_t ___KOK_X_21;
+	// System.Int32 CilentModify.AutoSkill::KOK_Y
+	int32_t ___KOK_Y_22;
+	// System.Int32 CilentModify.AutoSkill::KOK_Speed
+	int32_t ___KOK_Speed_23;
 };
 
 // CilentModify.AutoSkill
@@ -9436,57 +9448,57 @@ struct mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE_StaticFields
 struct Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields
 {
 	// Main Main::main
-	Main_t6125012C4D88701077DD3C4660130C5535730E1E* ___main_4;
+	Main_t6125012C4D88701077DD3C4660130C5535730E1E* ___main_5;
 	// mGraphics Main::g
-	mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE* ___g_5;
+	mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE* ___g_6;
 	// GameMidlet Main::midlet
-	GameMidlet_tFD9198A8DAC9B07B11E740D3AA194381385FC93F* ___midlet_6;
+	GameMidlet_tFD9198A8DAC9B07B11E740D3AA194381385FC93F* ___midlet_7;
 	// System.String Main::res
-	String_t* ___res_7;
+	String_t* ___res_8;
 	// System.String Main::mainThreadName
-	String_t* ___mainThreadName_8;
+	String_t* ___mainThreadName_9;
 	// System.Boolean Main::started
-	bool ___started_9;
+	bool ___started_10;
 	// System.Boolean Main::isIpod
-	bool ___isIpod_10;
+	bool ___isIpod_11;
 	// System.Boolean Main::isIphone4
-	bool ___isIphone4_11;
+	bool ___isIphone4_12;
 	// System.Boolean Main::isPC
-	bool ___isPC_12;
+	bool ___isPC_13;
 	// System.Boolean Main::isWindowsPhone
-	bool ___isWindowsPhone_13;
+	bool ___isWindowsPhone_14;
 	// System.Boolean Main::isIPhone
-	bool ___isIPhone_14;
+	bool ___isIPhone_15;
 	// System.Boolean Main::IphoneVersionApp
-	bool ___IphoneVersionApp_15;
+	bool ___IphoneVersionApp_16;
 	// System.String Main::IMEI
-	String_t* ___IMEI_16;
+	String_t* ___IMEI_17;
 	// System.Int32 Main::versionIp
-	int32_t ___versionIp_17;
+	int32_t ___versionIp_18;
 	// System.Boolean Main::isAndroid
-	bool ___isAndroid_18;
+	bool ___isAndroid_19;
 	// System.Int32 Main::numberQuit
-	int32_t ___numberQuit_19;
+	int32_t ___numberQuit_20;
 	// System.Int32 Main::typeClient
-	int32_t ___typeClient_20;
+	int32_t ___typeClient_21;
 	// System.Int32 Main::waitTick
-	int32_t ___waitTick_36;
+	int32_t ___waitTick_37;
 	// System.Int32 Main::f
-	int32_t ___f_37;
+	int32_t ___f_38;
 	// System.Boolean Main::isResume
-	bool ___isResume_38;
+	bool ___isResume_39;
 	// System.Boolean Main::isMiniApp
-	bool ___isMiniApp_39;
+	bool ___isMiniApp_40;
 	// System.Boolean Main::isQuitApp
-	bool ___isQuitApp_40;
+	bool ___isQuitApp_41;
 	// System.Int32 Main::a
-	int32_t ___a_42;
+	int32_t ___a_43;
 	// System.Boolean Main::isCompactDevice
-	bool ___isCompactDevice_43;
+	bool ___isCompactDevice_44;
 	// UnityEngine.ScreenOrientation Main::lastLanscape
-	int32_t ___lastLanscape_44;
+	int32_t ___lastLanscape_45;
 	// UnityEngine.Rect Main::<mainSafeArea>k__BackingField
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___U3CmainSafeAreaU3Ek__BackingField_45;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___U3CmainSafeAreaU3Ek__BackingField_46;
 };
 
 // Main
@@ -21955,7 +21967,7 @@ IL_004c:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_14 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_15 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_15 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B11_0 = L_14;
 		if (!L_15)
 		{
@@ -22011,7 +22023,7 @@ IL_008e:
 		// GameCanvas.keyPressed[(!Main.isPC) ? 5 : 25] = false;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_21 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_22 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_22 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B17_0 = L_21;
 		if (!L_22)
 		{
@@ -22215,7 +22227,7 @@ IL_018d:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_48 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_49 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_49 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B35_0 = L_48;
 		if (!L_49)
 		{
@@ -22274,7 +22286,7 @@ IL_01b5:
 		// GameCanvas.keyPressed[(!Main.isPC) ? 5 : 25] = false;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_56 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_57 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_57 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B41_0 = L_56;
 		if (!L_57)
 		{
@@ -22448,7 +22460,7 @@ IL_027e:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_86 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_87 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_87 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B57_0 = L_86;
 		if (!L_87)
 		{
@@ -23551,7 +23563,7 @@ IL_078d:
 		il2cpp_codegen_runtime_class_init_inline(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var);
 		SkillU5BU5D_tD6CF5D2C7A0F98E450228A8DDB33BC5A920CBA14* L_289 = ((GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_StaticFields*)il2cpp_codegen_static_fields_for(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var))->___keySkill_239;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_290 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_290 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B157_0 = L_289;
 		if (!L_290)
 		{
@@ -23811,7 +23823,7 @@ IL_08d2:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_342 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_343 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_343 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B178_0 = L_342;
 		if (!L_343)
 		{
@@ -23846,7 +23858,7 @@ IL_0909:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_346 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_347 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_347 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B182_0 = L_346;
 		if (!L_347)
 		{
@@ -23881,7 +23893,7 @@ IL_092c:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_348 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_349 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_349 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B186_0 = L_348;
 		if (!L_349)
 		{
@@ -23952,7 +23964,7 @@ IL_095b:
 	{
 		// if (!Main.isPC)
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_358 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_358 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_358)
 		{
 			goto IL_1464;
@@ -23987,7 +23999,7 @@ IL_099d:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_362 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_363 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_363 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B197_0 = L_362;
 		if (!L_363)
 		{
@@ -24027,7 +24039,7 @@ IL_09ae:
 	{
 		// if (!Main.isPC)
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_367 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_367 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_367)
 		{
 			goto IL_1464;
@@ -24062,7 +24074,7 @@ IL_09e9:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_371 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_372 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_372 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B205_0 = L_371;
 		if (!L_372)
 		{
@@ -24196,7 +24208,7 @@ IL_0a88:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_391 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_392 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_392 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B216_0 = L_391;
 		if (!L_392)
 		{
@@ -24344,7 +24356,7 @@ IL_0b26:
 		// if (GameCanvas.keyPressed[(!Main.isPC) ? 5 : 25])
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_413 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_414 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_414 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B228_0 = L_413;
 		if (!L_414)
 		{
@@ -24379,7 +24391,7 @@ IL_0b52:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_417 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_418 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_418 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B232_0 = L_417;
 		if (!L_418)
 		{
@@ -24414,7 +24426,7 @@ IL_0b75:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_419 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_420 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_420 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B236_0 = L_419;
 		if (!L_420)
 		{
@@ -24530,7 +24542,7 @@ IL_0be8:
 	{
 		// if (Main.isPC)
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_439 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_439 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (!L_439)
 		{
 			goto IL_1464;
@@ -24632,7 +24644,7 @@ IL_0c7f:
 	{
 		// if (!Main.isPC)
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_458 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_458 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_458)
 		{
 			goto IL_1464;
@@ -24717,7 +24729,7 @@ IL_0d12:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_473 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_474 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_474 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B258_0 = L_473;
 		if (!L_474)
 		{
@@ -24797,7 +24809,7 @@ IL_0d6e:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_485 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_486 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_486 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B265_0 = L_485;
 		if (!L_486)
 		{
@@ -24894,7 +24906,7 @@ IL_0dcc:
 		// if (GameCanvas.keyPressed[(!Main.isPC) ? 5 : 25])
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_499 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_500 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_500 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B273_0 = L_499;
 		if (!L_500)
 		{
@@ -24929,7 +24941,7 @@ IL_0dfe:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_503 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_504 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_504 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B277_0 = L_503;
 		if (!L_504)
 		{
@@ -24963,7 +24975,7 @@ IL_0e1c:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_505 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_506 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_506 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B281_0 = L_505;
 		if (!L_506)
 		{
@@ -25056,7 +25068,7 @@ IL_0e72:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_519 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_520 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_520 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B290_0 = L_519;
 		if (!L_520)
 		{
@@ -25148,7 +25160,7 @@ IL_0ec5:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_533 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_534 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_534 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B299_0 = L_533;
 		if (!L_534)
 		{
@@ -25293,7 +25305,7 @@ IL_0f5c:
 		// if (GameCanvas.keyPressed[(!Main.isPC) ? 5 : 25])
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_558 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_559 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_559 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B312_0 = L_558;
 		if (!L_559)
 		{
@@ -25328,7 +25340,7 @@ IL_0f88:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_562 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_563 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_563 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B316_0 = L_562;
 		if (!L_563)
 		{
@@ -25362,7 +25374,7 @@ IL_0fa6:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_564 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_565 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_565 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B320_0 = L_564;
 		if (!L_565)
 		{
@@ -25523,7 +25535,7 @@ IL_1078:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_594 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_595 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_595 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B332_0 = L_594;
 		if (!L_595)
 		{
@@ -25645,7 +25657,7 @@ IL_1120:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_614 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_615 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_615 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B341_0 = L_614;
 		if (!L_615)
 		{
@@ -25781,7 +25793,7 @@ IL_11c7:
 		// if (GameCanvas.keyPressed[(!Main.isPC) ? 5 : 25])
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_636 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_637 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_637 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B351_0 = L_636;
 		if (!L_637)
 		{
@@ -25816,7 +25828,7 @@ IL_11f4:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_640 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_641 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_641 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B355_0 = L_640;
 		if (!L_641)
 		{
@@ -25873,7 +25885,7 @@ IL_1212:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_646 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_647 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_647 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B361_0 = L_646;
 		if (!L_647)
 		{
@@ -26013,7 +26025,7 @@ IL_12e9:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_672 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_673 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_673 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B371_0 = L_672;
 		if (!L_673)
 		{
@@ -26089,7 +26101,7 @@ IL_133c:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_682 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_683 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_683 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B378_0 = L_682;
 		if (!L_683)
 		{
@@ -26176,7 +26188,7 @@ IL_138b:
 		// if (GameCanvas.keyPressed[(!Main.isPC) ? 5 : 25])
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_694 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_695 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_695 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B386_0 = L_694;
 		if (!L_695)
 		{
@@ -26211,7 +26223,7 @@ IL_13b7:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_698 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_699 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_699 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B390_0 = L_698;
 		if (!L_699)
 		{
@@ -26243,7 +26255,7 @@ IL_13cd:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_700 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_701 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_701 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B394_0 = L_700;
 		if (!L_701)
 		{
@@ -26319,7 +26331,7 @@ IL_141a:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_710 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_711 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_711 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B401_0 = L_710;
 		if (!L_711)
 		{
@@ -26396,7 +26408,7 @@ IL_1464:
 		// if (GameCanvas.keyPressed[(!Main.isPC) ? 8 : 22] && GameCanvas.keyAsciiPress != 56)
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_720 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_721 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_721 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B408_0 = L_720;
 		if (!L_721)
 		{
@@ -26439,7 +26451,7 @@ IL_1480:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_725 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_726 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_726 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B413_0 = L_725;
 		if (!L_726)
 		{
@@ -27784,7 +27796,7 @@ IL_009c:
 IL_00b6:
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_36 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_36 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_36)
 		{
 			goto IL_00c6;
@@ -28195,7 +28207,7 @@ IL_0116:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_58 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_58 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_58)
 		{
 			goto IL_0139;
@@ -29383,7 +29395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameScr_checkAuto_m7650EBCAC49F8AF722AF2
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_2 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_2 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B1_0 = L_1;
 		if (!L_2)
 		{
@@ -29417,7 +29429,7 @@ IL_0017:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_5 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_6 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_6 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B5_0 = L_5;
 		if (!L_6)
 		{
@@ -29451,7 +29463,7 @@ IL_002b:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_10 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_10 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B9_0 = L_9;
 		if (!L_10)
 		{
@@ -29519,7 +29531,7 @@ IL_0061:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_20 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_20 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B16_0 = L_19;
 		if (!L_20)
 		{
@@ -29632,7 +29644,7 @@ IL_00d7:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_36 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_37 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_37 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B27_0 = L_36;
 		if (!L_37)
 		{
@@ -29667,7 +29679,7 @@ IL_00fe:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_38 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_39 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_39 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B31_0 = L_38;
 		if (!L_39)
 		{
@@ -29692,7 +29704,7 @@ IL_0116:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_40 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_41 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_41 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B34_0 = L_40;
 		G_B34_1 = G_B33_0;
 		G_B34_2 = G_B33_1;
@@ -33876,7 +33888,7 @@ IL_010e:
 	{
 		// if (Main.isPC)
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_21 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_21 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (!L_21)
 		{
 			goto IL_011b;
@@ -34716,7 +34728,7 @@ IL_05e9:
 	{
 		// if (!Main.isPC)
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_193 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_193 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_193)
 		{
 			goto IL_0612;
@@ -34768,7 +34780,7 @@ IL_0632:
 		V_7 = (Skill_t19752D8A45B2FDFBADD3DD75DD39B603EDB357AE*)NULL;
 		// skill = (Main.isPC ? keySkill[selectedIndexSkill] : onScreenSkill[selectedIndexSkill]);
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_200 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_200 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_200)
 		{
 			goto IL_064a;
@@ -34838,7 +34850,7 @@ IL_0665:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_215 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_216 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_216 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B99_0 = L_215;
 		if (!L_216)
 		{
@@ -34883,7 +34895,7 @@ IL_0689:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_222 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_223 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_223 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B104_0 = L_222;
 		if (!L_223)
 		{
@@ -34917,7 +34929,7 @@ IL_06a6:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_226 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_227 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_227 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B108_0 = L_226;
 		if (!L_227)
 		{
@@ -34965,7 +34977,7 @@ IL_06c3:
 		// GameCanvas.keyHold[(!Main.isPC) ? 2 : 21] = false;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_231 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_232 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_232 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B113_0 = L_231;
 		if (!L_232)
 		{
@@ -34997,7 +35009,7 @@ IL_06dc:
 		// GameCanvas.keyHold[(!Main.isPC) ? 4 : 23] = false;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_234 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_235 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_235 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B116_0 = L_234;
 		if (!L_235)
 		{
@@ -35025,7 +35037,7 @@ IL_06f7:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_236 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyHold_17;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_237 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_237 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B119_0 = L_236;
 		if (!L_237)
 		{
@@ -39690,7 +39702,7 @@ IL_0ac2:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_411 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isIpod_10;
+		bool L_411 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isIpod_11;
 		if (L_411)
 		{
 			goto IL_0ad8;
@@ -39698,7 +39710,7 @@ IL_0ac2:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_412 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isIphone4_11;
+		bool L_412 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isIphone4_12;
 		if (!L_412)
 		{
 			goto IL_0ada;
@@ -42999,7 +43011,7 @@ IL_0036:
 		// g.drawImage((!Main.isPC || Main.isAndroid) ? imgChat2 : imgChatsPC2, xC + 17, yC + 17 + mGraphics.addYWhenOpenKeyBoard, mGraphics.HCENTER | mGraphics.VCENTER);
 		mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE* L_6 = ___0_g;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_7 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_7 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B7_0 = L_6;
 		if (!L_7)
 		{
@@ -43009,7 +43021,7 @@ IL_0036:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_8 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isAndroid_18;
+		bool L_8 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isAndroid_19;
 		G_B8_0 = G_B7_0;
 		if (L_8)
 		{
@@ -43052,7 +43064,7 @@ IL_0079:
 		// g.drawImage((!Main.isPC || Main.isAndroid) ? imgChat : imgChatPC, xC + 17, yC + 17 + mGraphics.addYWhenOpenKeyBoard, mGraphics.HCENTER | mGraphics.VCENTER);
 		mGraphics_t1DA407CAFB073F74C5A08C04CEE397C0913A9BBE* L_16 = ___0_g;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_17 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_17 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B12_0 = L_16;
 		if (!L_17)
 		{
@@ -43062,7 +43074,7 @@ IL_0079:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_18 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isAndroid_18;
+		bool L_18 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isAndroid_19;
 		G_B13_0 = G_B12_0;
 		if (L_18)
 		{
@@ -45540,7 +45552,7 @@ IL_04bc:
 	{
 		// Skill[] array = (Main.isPC ? keySkill : ((!GameCanvas.isTouch) ? keySkill : onScreenSkill));
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_162 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_162 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_162)
 		{
 			goto IL_04e2;
@@ -45619,7 +45631,7 @@ IL_0550:
 	{
 		// int num4 = (Main.isPC ? array.Length : ((!GameCanvas.isTouch) ? array.Length : nSkill));
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_180 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_180 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_180)
 		{
 			goto IL_056b;
@@ -45666,7 +45678,7 @@ IL_0577:
 	{
 		// if (Main.isPC && !Main.isAndroid)
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_185 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_185 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (!L_185)
 		{
 			goto IL_0696;
@@ -45674,7 +45686,7 @@ IL_0577:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_186 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isAndroid_18;
+		bool L_186 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isAndroid_19;
 		if (L_186)
 		{
 			goto IL_0696;
@@ -46048,7 +46060,7 @@ IL_07a6:
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_316 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_316 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		if (L_316)
 		{
 			goto IL_081c;
@@ -52660,7 +52672,7 @@ IL_0016:
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_7 = ((GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_StaticFields*)il2cpp_codegen_static_fields_for(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var))->___keyPressed_15;
 		il2cpp_codegen_runtime_class_init_inline(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var);
-		bool L_8 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_12;
+		bool L_8 = ((Main_t6125012C4D88701077DD3C4660130C5535730E1E_StaticFields*)il2cpp_codegen_static_fields_for(Main_t6125012C4D88701077DD3C4660130C5535730E1E_il2cpp_TypeInfo_var))->___isPC_13;
 		G_B6_0 = L_7;
 		if (!L_8)
 		{
