@@ -1130,8 +1130,8 @@ struct Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F  : public RuntimeObject
 	int64_t ___currS_259;
 	// System.Boolean Char::havePet
 	bool ___havePet_260;
-	// MovePoint Char::currentMovePoint
-	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ___currentMovePoint_261;
+	// MovePoint Char::_currentMovePoint
+	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ____currentMovePoint_261;
 	// System.Int32 Char::bom
 	int32_t ___bom_262;
 	// System.Int32 Char::delayFall
@@ -9043,6 +9043,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Controller_loadInfoMap_mA1BCF873F55585E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cout_LogError2_mB157EAB3FDA033582552621DE510EB72CAAB38DB (String_t* ___0_str, const RuntimeMethod* method) ;
 // System.Void BgItem::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BgItem__ctor_mE4BB69E901555A048CE61F772CDC60B7B6338BBA (BgItem_t126DB32D124852BF117B0DBB06D8A744125A5279* __this, const RuntimeMethod* method) ;
+// MovePoint Char::get_currentMovePoint()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MovePoint_t935B2561B2469906D762963068D2E58357E88159* Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) ;
 // System.Void Char::createShadow(System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_createShadow_m0BD5C61B4AAF9499E6966FEF236DB12E0F81E720 (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_life, const RuntimeMethod* method) ;
 // System.Void Service::requestChangeZone(System.Int32,System.Int32)
@@ -32913,7 +32915,8 @@ IL_8735_2:
 					// if (char2.currentMovePoint != null)
 					Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_5673 = V_427;
 					NullCheck(L_5673);
-					MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_5674 = L_5673->___currentMovePoint_261;
+					MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_5674;
+					L_5674 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(L_5673, NULL);
 					if (!L_5674)
 					{
 						goto IL_879b_2;
@@ -32934,7 +32937,8 @@ IL_8735_2:
 					Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_5680 = V_427;
 					Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_5681 = V_427;
 					NullCheck(L_5681);
-					MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_5682 = L_5681->___currentMovePoint_261;
+					MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_5682;
+					L_5682 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(L_5681, NULL);
 					NullCheck(L_5682);
 					int32_t L_5683 = L_5682->___xEnd_0;
 					NullCheck(L_5680);
@@ -32943,7 +32947,8 @@ IL_8735_2:
 					Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_5684 = V_427;
 					Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_5685 = V_427;
 					NullCheck(L_5685);
-					MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_5686 = L_5685->___currentMovePoint_261;
+					MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_5686;
+					L_5686 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(L_5685, NULL);
 					NullCheck(L_5686);
 					int32_t L_5687 = L_5686->___yEnd_1;
 					NullCheck(L_5684);
@@ -37592,6 +37597,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 {
 	{
 		int32_t L_0 = __this->____stringLength_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MovePoint_t935B2561B2469906D762963068D2E58357E88159* Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _currentMovePoint;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_0 = __this->____currentMovePoint_261;
 		return L_0;
 	}
 }

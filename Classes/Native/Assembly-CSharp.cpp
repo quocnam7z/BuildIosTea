@@ -1046,8 +1046,8 @@ struct Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F  : public RuntimeObject
 	int64_t ___currS_259;
 	// System.Boolean Char::havePet
 	bool ___havePet_260;
-	// MovePoint Char::currentMovePoint
-	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ___currentMovePoint_261;
+	// MovePoint Char::_currentMovePoint
+	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ____currentMovePoint_261;
 	// System.Int32 Char::bom
 	int32_t ___bom_262;
 	// System.Int32 Char::delayFall
@@ -4418,12 +4418,14 @@ struct AutoSkill_tF55BCBC6D9156E0CFCBBDD847D8723D857048422_StaticFields
 	bool ___isAutoDeKOK_19;
 	// System.Int64 CilentModify.AutoSkill::lastTimeKOK
 	int64_t ___lastTimeKOK_20;
+	// System.Int32 CilentModify.AutoSkill::KOK_IDMap
+	int32_t ___KOK_IDMap_21;
 	// System.Int32 CilentModify.AutoSkill::KOK_X
-	int32_t ___KOK_X_21;
+	int32_t ___KOK_X_22;
 	// System.Int32 CilentModify.AutoSkill::KOK_Y
-	int32_t ___KOK_Y_22;
+	int32_t ___KOK_Y_23;
 	// System.Int32 CilentModify.AutoSkill::KOK_Speed
-	int32_t ___KOK_Speed_23;
+	int32_t ___KOK_Speed_24;
 };
 
 // CilentModify.AutoSkill
@@ -8414,6 +8416,8 @@ struct PointU5BU5D_tBF08949C6A5139156312E05FFEBA360828D28F4C  : public RuntimeAr
 
 
 
+// Char Char::myCharz()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* Char_myCharz_m9DE62929FABFA1CCB394459859AB6253266AF5DA (const RuntimeMethod* method) ;
 // System.Void MyVector::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MyVector__ctor_m9CAA74C33B5605E7806E3F1C9E1D78A97AE10692 (MyVector_t5E551DE127AB217F3BF51644B186993381C11E30* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
@@ -8426,8 +8430,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.Void Cout::LogError(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Cout_LogError_m76D25E80FED10E31F38A00D4C6A10C91BDC2879A (String_t* ___0_str, const RuntimeMethod* method) ;
-// Char Char::myCharz()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* Char_myCharz_m9DE62929FABFA1CCB394459859AB6253266AF5DA (const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCD5F35DEDCAFE51ACD4E033726FC2EF8DF7E9B4D (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean System.String::StartsWith(System.String)
@@ -8518,6 +8520,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_UpdSkillPaint_NEW_mE2158B9883892B78
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_updateShadown_m28B8FC84D28DA90636BFB105A91001B9E2D678D3 (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) ;
 // System.Void Effect::update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Effect_update_mDD20C6EE6D6B2FB39BF5B25DB62D6449A70AE887 (Effect_t7314F450E1367CA54E7FC18EA08439D1A160EB09* __this, const RuntimeMethod* method) ;
+// System.Void Char::set_currentMovePoint(MovePoint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, MovePoint_t935B2561B2469906D762963068D2E58357E88159* ___0_value, const RuntimeMethod* method) ;
 // System.Void ServerEffect::addServerEffect(System.Int32,System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerEffect_addServerEffect_m03309C0372A83EE1679264830CAC98F9A967D007 (int32_t ___0_id, int32_t ___1_cx, int32_t ___2_cy, int32_t ___3_loopCount, const RuntimeMethod* method) ;
 // System.Int32 TileMap::tileTypeAtPixel(System.Int32,System.Int32)
@@ -8568,6 +8572,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Arrow_update_mB00FFAB21690FCE9924359079D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerDart_update_m3DCB79FC30A1458F0699B4531E72BDD6E809D735 (PlayerDart_tABEE8108A1F7365CE461BC54449EB21508B98F28* __this, const RuntimeMethod* method) ;
 // System.Void Char::removeHoleEff()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_removeHoleEff_m75B878D9C6373336AFCC19870A84108D145C10F1 (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) ;
+// MovePoint Char::get_currentMovePoint()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MovePoint_t935B2561B2469906D762963068D2E58357E88159* Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) ;
 // System.Boolean MyVector::contains(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MyVector_contains_m61E50E7516A347FECC6B55CD4C383EBDD338BEBF (MyVector_t5E551DE127AB217F3BF51644B186993381C11E30* __this, RuntimeObject* ___0_o, const RuntimeMethod* method) ;
 // System.Boolean Char::isInWaypoint()
@@ -8943,6 +8949,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_SetSkillPaint_STT_mD6D15292501A973C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// MovePoint Char::get_currentMovePoint()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MovePoint_t935B2561B2469906D762963068D2E58357E88159* Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1 (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _currentMovePoint;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_0 = __this->____currentMovePoint_261;
+		return L_0;
+	}
+}
+// System.Void Char::set_currentMovePoint(MovePoint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, MovePoint_t935B2561B2469906D762963068D2E58357E88159* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if(this.charID == Char.myCharz().charID)
+		int32_t L_0 = __this->___charID_42;
+		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
+		Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_1;
+		L_1 = Char_myCharz_m9DE62929FABFA1CCB394459859AB6253266AF5DA(NULL);
+		NullCheck(L_1);
+		int32_t L_2 = L_1->___charID_42;
+		// _currentMovePoint = value;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_3 = ___0_value;
+		__this->____currentMovePoint_261 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____currentMovePoint_261), (void*)L_3);
+		// }
+		return;
+	}
+}
 // System.Void Char::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char__ctor_mED746E068B8B330450B831A1058E39BAB4867CDC (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) 
 {
@@ -13914,8 +13954,7 @@ IL_074b:
 IL_07b7:
 	{
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// telePortSkill = false;
 		__this->___telePortSkill_378 = (bool)0;
 		// ServerEffect.addServerEffect(173, cx, cy, 1);
@@ -14243,8 +14282,7 @@ IL_09bd:
 		__this->___moveFast_161 = (Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___moveFast_161), (void*)(Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)NULL);
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// cf = 17;
 		__this->___cf_111 = ((int32_t)17);
 		// if (flag && cgender != 2)
@@ -14655,8 +14693,7 @@ IL_0c91:
 		__this->___moveFast_161 = (Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___moveFast_161), (void*)(Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB*)NULL);
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// posDisY++;
 		int32_t L_314 = __this->___posDisY_314;
 		__this->___posDisY_314 = ((int32_t)il2cpp_codegen_add(L_314, 1));
@@ -15382,7 +15419,8 @@ IL_10f7:
 		}
 	}
 	{
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_429 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_429;
+		L_429 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_429)
 		{
 			goto IL_1125;
@@ -15933,14 +15971,14 @@ IL_144b:
 	}
 	{
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 	}
 
 IL_145a:
 	{
 		// if (currentMovePoint != null)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_523 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_523;
+		L_523 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_523)
 		{
 			goto IL_1925;
@@ -15949,7 +15987,8 @@ IL_145a:
 	{
 		// if (abs(cx - currentMovePoint.xEnd) <= 16 && abs(cy - currentMovePoint.yEnd) <= 16)
 		int32_t L_524 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_525 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_525;
+		L_525 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_525);
 		int32_t L_526 = L_525->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -15962,7 +16001,8 @@ IL_145a:
 	}
 	{
 		int32_t L_528 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_529 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_529;
+		L_529 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_529);
 		int32_t L_530 = L_529->___yEnd_1;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -15975,19 +16015,20 @@ IL_145a:
 	}
 	{
 		// cx = (currentMovePoint.xEnd + cx) / 2;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_532 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_532;
+		L_532 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_532);
 		int32_t L_533 = L_532->___xEnd_0;
 		int32_t L_534 = __this->___cx_33;
 		__this->___cx_33 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_533, L_534))/2));
 		// cy = currentMovePoint.yEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_535 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_535;
+		L_535 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_535);
 		int32_t L_536 = L_535->___yEnd_1;
 		__this->___cy_34 = L_536;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// GameScr.instance.clickMoving = false;
 		il2cpp_codegen_runtime_class_init_inline(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var);
 		GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6* L_537 = ((GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_StaticFields*)il2cpp_codegen_static_fields_for(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var))->___instance_13;
@@ -16038,7 +16079,8 @@ IL_151b:
 IL_152a:
 	{
 		// cdir = ((currentMovePoint.xEnd > cx) ? 1 : (-1));
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_544 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_544;
+		L_544 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_544);
 		int32_t L_545 = L_544->___xEnd_0;
 		int32_t L_546 = __this->___cx_33;
@@ -16080,7 +16122,8 @@ IL_1542:
 		// statusMe = 2;
 		__this->___statusMe_40 = 2;
 		// if (currentMovePoint != null)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_550 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_550;
+		L_550 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_550)
 		{
 			goto IL_1587;
@@ -16099,7 +16142,8 @@ IL_1587:
 	{
 		// if (abs(cx - currentMovePoint.xEnd) <= 10)
 		int32_t L_553 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_554 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_554;
+		L_554 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_554);
 		int32_t L_555 = L_554->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -16112,7 +16156,8 @@ IL_1587:
 	}
 	{
 		// if (currentMovePoint.yEnd > cy)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_557 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_557;
+		L_557 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_557);
 		int32_t L_558 = L_557->___yEnd_1;
 		int32_t L_559 = __this->___cy_34;
@@ -16154,7 +16199,8 @@ IL_15ce:
 IL_15d6:
 	{
 		// if (TileMap.tileTypeAt(currentMovePoint.xEnd + chw * b, cy + chh * j, 2))
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_561 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_561;
+		L_561 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_561);
 		int32_t L_562 = L_561->___xEnd_0;
 		int32_t L_563 = __this->___chw_99;
@@ -16205,8 +16251,7 @@ IL_1613:
 	}
 	{
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// GameScr.instance.clickMoving = false;
 		il2cpp_codegen_runtime_class_init_inline(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var);
 		GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6* L_572 = ((GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_StaticFields*)il2cpp_codegen_static_fields_for(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var))->___instance_13;
@@ -16234,7 +16279,8 @@ IL_164a:
 		NullCheck(L_575);
 		SoundMn_charJump_mF3B57939471FFD70B743558E6F5BE88235E19757(L_575, NULL);
 		// cx = currentMovePoint.xEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_576 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_576;
+		L_576 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_576);
 		int32_t L_577 = L_576->___xEnd_0;
 		__this->___cx_33 = L_577;
@@ -16259,7 +16305,8 @@ IL_1688:
 		NullCheck(L_578);
 		SoundMn_charJump_mF3B57939471FFD70B743558E6F5BE88235E19757(L_578, NULL);
 		// cx = currentMovePoint.xEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_579 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_579;
+		L_579 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_579);
 		int32_t L_580 = L_579->___xEnd_0;
 		__this->___cx_33 = L_580;
@@ -16336,7 +16383,8 @@ IL_1710:
 IL_175f:
 	{
 		// if (currentMovePoint.yEnd < cy + 10)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_596 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_596;
+		L_596 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_596);
 		int32_t L_597 = L_596->___yEnd_1;
 		int32_t L_598 = __this->___cy_34;
@@ -16352,7 +16400,8 @@ IL_175f:
 		__this->___cvy_36 = ((int32_t)-5);
 		// if (abs(cy - currentMovePoint.yEnd) <= 10)
 		int32_t L_599 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_600 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_600;
+		L_600 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_600);
 		int32_t L_601 = L_600->___yEnd_1;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -16365,7 +16414,8 @@ IL_175f:
 	}
 	{
 		// cy = currentMovePoint.yEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_603 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_603;
+		L_603 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_603);
 		int32_t L_604 = L_603->___yEnd_1;
 		__this->___cy_34 = L_604;
@@ -16377,7 +16427,8 @@ IL_17b8:
 	{
 		// if (abs(cx - currentMovePoint.xEnd) <= 10)
 		int32_t L_605 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_606 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_606;
+		L_606 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_606);
 		int32_t L_607 = L_606->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -16418,8 +16469,7 @@ IL_17f1:
 	}
 	{
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// GameScr.instance.clickMoving = false;
 		il2cpp_codegen_runtime_class_init_inline(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var);
 		GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6* L_614 = ((GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_StaticFields*)il2cpp_codegen_static_fields_for(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var))->___instance_13;
@@ -16470,7 +16520,8 @@ IL_1852:
 IL_1859:
 	{
 		// if (currentMovePoint.yEnd > cy)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_619 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_619;
+		L_619 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_619);
 		int32_t L_620 = L_619->___yEnd_1;
 		int32_t L_621 = __this->___cy_34;
@@ -16511,8 +16562,7 @@ IL_1859:
 		// statusMe = 4;
 		__this->___statusMe_40 = 4;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// GameScr.instance.clickMoving = false;
 		il2cpp_codegen_runtime_class_init_inline(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var);
 		GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6* L_630 = ((GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_StaticFields*)il2cpp_codegen_static_fields_for(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var))->___instance_13;
@@ -16548,8 +16598,7 @@ IL_18d0:
 		// statusMe = 4;
 		__this->___statusMe_40 = 4;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// GameScr.instance.clickMoving = false;
 		il2cpp_codegen_runtime_class_init_inline(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var);
 		GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6* L_638 = ((GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_StaticFields*)il2cpp_codegen_static_fields_for(GameScr_t7DBA24E06D787249E531A43317C4E2403E4AF7F6_il2cpp_TypeInfo_var))->___instance_13;
@@ -16590,7 +16639,8 @@ IL_194b:
 		// bool flag4 = false;
 		V_15 = (bool)0;
 		// if (currentMovePoint != null)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_641 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_641;
+		L_641 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_641)
 		{
 			goto IL_1bcd;
@@ -16598,7 +16648,8 @@ IL_194b:
 	}
 	{
 		// if (abs(currentMovePoint.xEnd - cx) < 17 && abs(currentMovePoint.yEnd - cy) < 25)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_642 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_642;
+		L_642 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_642);
 		int32_t L_643 = L_642->___xEnd_0;
 		int32_t L_644 = __this->___cx_33;
@@ -16611,7 +16662,8 @@ IL_194b:
 		}
 	}
 	{
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_646 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_646;
+		L_646 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_646);
 		int32_t L_647 = L_646->___yEnd_1;
 		int32_t L_648 = __this->___cy_34;
@@ -16625,18 +16677,19 @@ IL_194b:
 	}
 	{
 		// cx = currentMovePoint.xEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_650 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_650;
+		L_650 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_650);
 		int32_t L_651 = L_650->___xEnd_0;
 		__this->___cx_33 = L_651;
 		// cy = currentMovePoint.yEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_652 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_652;
+		L_652 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_652);
 		int32_t L_653 = L_652->___yEnd_1;
 		__this->___cy_34 = L_653;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// if ((TileMap.tileTypeAtPixel(cx, cy) & 2) == 2)
 		int32_t L_654 = __this->___cx_33;
 		int32_t L_655 = __this->___cy_34;
@@ -16728,7 +16781,8 @@ IL_1a5f:
 	{
 		// else if (cy == currentMovePoint.yEnd)
 		int32_t L_669 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_670 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_670;
+		L_670 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_670);
 		int32_t L_671 = L_670->___yEnd_1;
 		if ((!(((uint32_t)L_669) == ((uint32_t)L_671))))
@@ -16739,7 +16793,8 @@ IL_1a5f:
 	{
 		// if (cx != currentMovePoint.xEnd)
 		int32_t L_672 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_673 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_673;
+		L_673 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_673);
 		int32_t L_674 = L_673->___xEnd_0;
 		if ((((int32_t)L_672) == ((int32_t)L_674)))
@@ -16750,7 +16805,8 @@ IL_1a5f:
 	{
 		// cx = (cx + currentMovePoint.xEnd) / 2;
 		int32_t L_675 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_676 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_676;
+		L_676 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_676);
 		int32_t L_677 = L_676->___xEnd_0;
 		__this->___cx_33 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_675, L_677))/2));
@@ -16765,7 +16821,8 @@ IL_1ab6:
 	{
 		// else if (cy < currentMovePoint.yEnd)
 		int32_t L_679 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_680 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_680;
+		L_680 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_680);
 		int32_t L_681 = L_680->___yEnd_1;
 		if ((((int32_t)L_679) >= ((int32_t)L_681)))
@@ -16778,7 +16835,8 @@ IL_1ab6:
 		__this->___cf_111 = ((int32_t)12);
 		// cx = (cx + currentMovePoint.xEnd) / 2;
 		int32_t L_682 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_683 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_683;
+		L_683 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_683);
 		int32_t L_684 = L_683->___xEnd_0;
 		__this->___cx_33 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_682, L_684))/2));
@@ -16846,7 +16904,8 @@ IL_1b5c:
 	{
 		// cy = (cy + currentMovePoint.yEnd) / 2;
 		int32_t L_701 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_702 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_702;
+		L_702 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_702);
 		int32_t L_703 = L_702->___yEnd_1;
 		__this->___cy_34 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_701, L_703))/2));
@@ -16859,13 +16918,15 @@ IL_1b90:
 		__this->___cf_111 = 7;
 		// cx = (cx + currentMovePoint.xEnd) / 2;
 		int32_t L_704 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_705 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_705;
+		L_705 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_705);
 		int32_t L_706 = L_705->___xEnd_0;
 		__this->___cx_33 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_704, L_706))/2));
 		// cy = (cy + currentMovePoint.yEnd) / 2;
 		int32_t L_707 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_708 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_708;
+		L_708 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_708);
 		int32_t L_709 = L_708->___yEnd_1;
 		__this->___cy_34 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_707, L_709))/2));
@@ -16903,14 +16964,14 @@ IL_1bd0:
 		NullCheck(L_713);
 		RuntimeObject* L_714;
 		L_714 = MyVector_firstElement_m94A5045C21B62FA1D7A4188219F87AFC1180CDEB(L_713, NULL);
-		__this->___currentMovePoint_261 = ((MovePoint_t935B2561B2469906D762963068D2E58357E88159*)CastclassClass((RuntimeObject*)L_714, MovePoint_t935B2561B2469906D762963068D2E58357E88159_il2cpp_TypeInfo_var));
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)((MovePoint_t935B2561B2469906D762963068D2E58357E88159*)CastclassClass((RuntimeObject*)L_714, MovePoint_t935B2561B2469906D762963068D2E58357E88159_il2cpp_TypeInfo_var)));
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, ((MovePoint_t935B2561B2469906D762963068D2E58357E88159*)CastclassClass((RuntimeObject*)L_714, MovePoint_t935B2561B2469906D762963068D2E58357E88159_il2cpp_TypeInfo_var)), NULL);
 		// vMovePoints.removeElementAt(0);
 		MyVector_t5E551DE127AB217F3BF51644B186993381C11E30* L_715 = __this->___vMovePoints_245;
 		NullCheck(L_715);
 		MyVector_removeElementAt_mBAAE9A96CE172AF34B3FAFAF22E50D5F191E97C5(L_715, 0, NULL);
 		// if (currentMovePoint.status == 2)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_716 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_716;
+		L_716 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_716);
 		int32_t L_717 = L_716->___status_5;
 		if ((!(((uint32_t)L_717) == ((uint32_t)2))))
@@ -16939,19 +17000,22 @@ IL_1bd0:
 		__this->___cp2_38 = 0;
 		// cvx = -(cx - currentMovePoint.xEnd) / 10;
 		int32_t L_721 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_722 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_722;
+		L_722 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_722);
 		int32_t L_723 = L_722->___xEnd_0;
 		__this->___cvx_35 = ((int32_t)(((-((int32_t)il2cpp_codegen_subtract(L_721, L_723))))/((int32_t)10)));
 		// cvy = -(cy - currentMovePoint.yEnd) / 10;
 		int32_t L_724 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_725 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_725;
+		L_725 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_725);
 		int32_t L_726 = L_725->___yEnd_1;
 		__this->___cvy_36 = ((int32_t)(((-((int32_t)il2cpp_codegen_subtract(L_724, L_726))))/((int32_t)10)));
 		// if (cx - currentMovePoint.xEnd > 0)
 		int32_t L_727 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_728 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_728;
+		L_728 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_728);
 		int32_t L_729 = L_728->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_727, L_729))) <= ((int32_t)0)))
@@ -16969,7 +17033,8 @@ IL_1ca6:
 	{
 		// else if (cx - currentMovePoint.xEnd < 0)
 		int32_t L_730 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_731 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_731;
+		L_731 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_731);
 		int32_t L_732 = L_731->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_730, L_732))) >= ((int32_t)0)))
@@ -16989,7 +17054,8 @@ IL_1cca:
 		__this->___statusMe_40 = 2;
 		// if (cx - currentMovePoint.xEnd > 0)
 		int32_t L_733 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_734 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_734;
+		L_734 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_734);
 		int32_t L_735 = L_734->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_733, L_735))) <= ((int32_t)0)))
@@ -17007,7 +17073,8 @@ IL_1cef:
 	{
 		// else if (cx - currentMovePoint.xEnd < 0)
 		int32_t L_736 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_737 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_737;
+		L_737 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_737);
 		int32_t L_738 = L_737->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_736, L_738))) >= ((int32_t)0)))
@@ -17034,7 +17101,8 @@ IL_1d0b:
 IL_1d2a:
 	{
 		// else if (currentMovePoint.status == 3)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_741 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_741;
+		L_741 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_741);
 		int32_t L_742 = L_741->___status_5;
 		if ((!(((uint32_t)L_742) == ((uint32_t)3))))
@@ -17063,19 +17131,22 @@ IL_1d2a:
 		__this->___cp2_38 = 0;
 		// cvx = -(cx - currentMovePoint.xEnd) / 10;
 		int32_t L_746 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_747 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_747;
+		L_747 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_747);
 		int32_t L_748 = L_747->___xEnd_0;
 		__this->___cvx_35 = ((int32_t)(((-((int32_t)il2cpp_codegen_subtract(L_746, L_748))))/((int32_t)10)));
 		// cvy = -(cy - currentMovePoint.yEnd) / 10;
 		int32_t L_749 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_750 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_750;
+		L_750 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_750);
 		int32_t L_751 = L_750->___yEnd_1;
 		__this->___cvy_36 = ((int32_t)(((-((int32_t)il2cpp_codegen_subtract(L_749, L_751))))/((int32_t)10)));
 		// if (cx - currentMovePoint.xEnd > 0)
 		int32_t L_752 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_753 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_753;
+		L_753 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_753);
 		int32_t L_754 = L_753->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_752, L_754))) <= ((int32_t)0)))
@@ -17093,7 +17164,8 @@ IL_1dc6:
 	{
 		// else if (cx - currentMovePoint.xEnd < 0)
 		int32_t L_755 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_756 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_756;
+		L_756 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_756);
 		int32_t L_757 = L_756->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_755, L_757))) >= ((int32_t)0)))
@@ -17130,7 +17202,8 @@ IL_1dea:
 		L_765 = GameCanvas_startDust_m4830EAAA8EC4916B18EB5DC55CF30AC664ED4D01(L_762, 1, ((int32_t)il2cpp_codegen_subtract(L_763, 8)), L_764, NULL);
 		// if (cx - currentMovePoint.xEnd > 0)
 		int32_t L_766 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_767 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_767;
+		L_767 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_767);
 		int32_t L_768 = L_767->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_766, L_768))) <= ((int32_t)0)))
@@ -17148,7 +17221,8 @@ IL_1e44:
 	{
 		// else if (cx - currentMovePoint.xEnd < 0)
 		int32_t L_769 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_770 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_770;
+		L_770 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_770);
 		int32_t L_771 = L_770->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_769, L_771))) >= ((int32_t)0)))
@@ -17165,7 +17239,8 @@ IL_1e60:
 	{
 		// cvx = abs(cx - currentMovePoint.xEnd) / 10 * cdir;
 		int32_t L_772 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_773 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_773;
+		L_773 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_773);
 		int32_t L_774 = L_773->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -17181,7 +17256,8 @@ IL_1e60:
 IL_1e94:
 	{
 		// else if (currentMovePoint.status == 4)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_777 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_777;
+		L_777 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_777);
 		int32_t L_778 = L_777->___status_5;
 		if ((!(((uint32_t)L_778) == ((uint32_t)4))))
@@ -17194,7 +17270,8 @@ IL_1e94:
 		__this->___statusMe_40 = 4;
 		// if (cx - currentMovePoint.xEnd > 0)
 		int32_t L_779 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_780 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_780;
+		L_780 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_780);
 		int32_t L_781 = L_780->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_779, L_781))) <= ((int32_t)0)))
@@ -17212,7 +17289,8 @@ IL_1ec7:
 	{
 		// else if (cx - currentMovePoint.xEnd < 0)
 		int32_t L_782 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_783 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_783;
+		L_783 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_783);
 		int32_t L_784 = L_783->___xEnd_0;
 		if ((((int32_t)((int32_t)il2cpp_codegen_subtract(L_782, L_784))) >= ((int32_t)0)))
@@ -17229,7 +17307,8 @@ IL_1ee3:
 	{
 		// cvx = abs(cx - currentMovePoint.xEnd) / 9 * cdir;
 		int32_t L_785 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_786 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_786;
+		L_786 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_786);
 		int32_t L_787 = L_786->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -17245,18 +17324,19 @@ IL_1ee3:
 IL_1f13:
 	{
 		// cx = currentMovePoint.xEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_790 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_790;
+		L_790 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_790);
 		int32_t L_791 = L_790->___xEnd_0;
 		__this->___cx_33 = L_791;
 		// cy = currentMovePoint.yEnd;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_792 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_792;
+		L_792 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_792);
 		int32_t L_793 = L_792->___yEnd_1;
 		__this->___cy_34 = L_793;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 	}
 
 IL_1f3c:
@@ -17631,8 +17711,7 @@ IL_214b:
 		// cp3 = 0;
 		__this->___cp3_39 = 0;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 	}
 
 IL_2163:
@@ -19154,8 +19233,7 @@ IL_0094:
 		__this->___effPaints_307 = (EffectPaintU5BU5D_tC89F776D92B494F9952DCF515B983F91E23689D8*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___effPaints_307), (void*)(EffectPaintU5BU5D_tC89F776D92B494F9952DCF515B983F91E23689D8*)NULL);
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// arr = null;
 		__this->___arr_302 = (Arrow_t7048A6830A9F76E0448BBD44FD9C3C00BC138DBF*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___arr_302), (void*)(Arrow_t7048A6830A9F76E0448BBD44FD9C3C00BC138DBF*)NULL);
@@ -20114,8 +20192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_setResetPoint_m035D952D8DE3BC08D098
 		// InfoDlg.hide();
 		InfoDlg_hide_m814AC3464EB8EF2DB1324DDD359DD8CF01A864B8(NULL);
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// int num = cx - x;
 		int32_t L_0 = __this->___cx_33;
 		// if (cy - y == 0)
@@ -20323,8 +20400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_updateResetPoint_m273FD141717D06428
 		il2cpp_codegen_runtime_class_init_inline(GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE_il2cpp_TypeInfo_var);
 		GameCanvas_clearAllPointerEvent_m92D47FDBFDE736C2C335BDFFC963CC51A4EC02A6(NULL);
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// cp1++;
 		int32_t L_0 = __this->___cp1_37;
 		__this->___cp1_37 = ((int32_t)il2cpp_codegen_add(L_0, 1));
@@ -21539,8 +21615,7 @@ IL_005e:
 		// cp3 = 0;
 		__this->___cp3_39 = 0;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 	}
 
 IL_0092:
@@ -22275,7 +22350,8 @@ IL_0092:
 		}
 	}
 	{
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_16 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_16;
+		L_16 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_16)
 		{
 			goto IL_00bc;
@@ -22284,7 +22360,8 @@ IL_0092:
 	{
 		// num2 = abs(cx - currentMovePoint.xEnd);
 		int32_t L_17 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_18 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_18;
+		L_18 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_18);
 		int32_t L_19 = L_18->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -22597,7 +22674,8 @@ IL_02e3:
 		}
 	}
 	{
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_75 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_75;
+		L_75 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_75)
 		{
 			goto IL_0313;
@@ -22606,7 +22684,8 @@ IL_02e3:
 	{
 		// int num3 = abs(cx - currentMovePoint.xEnd);
 		int32_t L_76 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_77 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_77;
+		L_77 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_77);
 		int32_t L_78 = L_77->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -22788,7 +22867,8 @@ IL_009a:
 		}
 	}
 	{
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_11 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_11;
+		L_11 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_11)
 		{
 			goto IL_0110;
@@ -22796,7 +22876,8 @@ IL_009a:
 	}
 	{
 		// int num = currentMovePoint.xEnd - cx;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_12 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_12;
+		L_12 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_12);
 		int32_t L_13 = L_12->___xEnd_0;
 		int32_t L_14 = __this->___cx_33;
@@ -23192,7 +23273,8 @@ IL_030e:
 		}
 	}
 	{
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_75 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_75;
+		L_75 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_75)
 		{
 			goto IL_033e;
@@ -23200,7 +23282,8 @@ IL_030e:
 	}
 	{
 		int32_t L_76 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_77 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_77;
+		L_77 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_77);
 		int32_t L_78 = L_77->___yEnd_1;
 		if ((((int32_t)L_76) >= ((int32_t)L_78)))
@@ -23650,7 +23733,8 @@ IL_019f:
 		}
 	}
 	{
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_41 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_41;
+		L_41 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_41)
 		{
 			goto IL_0228;
@@ -23658,7 +23742,8 @@ IL_019f:
 	}
 	{
 		// int num = currentMovePoint.xEnd - cx;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_42 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_42;
+		L_42 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_42);
 		int32_t L_43 = L_42->___xEnd_0;
 		int32_t L_44 = __this->___cx_33;
@@ -24119,7 +24204,8 @@ IL_04ee:
 IL_050d:
 	{
 		// if (currentMovePoint != null && cy > currentMovePoint.yEnd)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_138 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_138;
+		L_138 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_138)
 		{
 			goto IL_052e;
@@ -24127,7 +24213,8 @@ IL_050d:
 	}
 	{
 		int32_t L_139 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_140 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_140;
+		L_140 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_140);
 		int32_t L_141 = L_140->___yEnd_1;
 		if ((((int32_t)L_139) <= ((int32_t)L_141)))
@@ -24276,8 +24363,7 @@ IL_006d:
 		// cp2 = 0;
 		__this->___cp2_38 = 0;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// return;
 		return;
 	}
@@ -24345,7 +24431,8 @@ IL_00d6:
 	}
 	{
 		// if (currentMovePoint != null)
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_20 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_20;
+		L_20 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		if (!L_20)
 		{
 			goto IL_0165;
@@ -24354,7 +24441,8 @@ IL_00d6:
 	{
 		// int num3 = abs(cx - currentMovePoint.xEnd);
 		int32_t L_21 = __this->___cx_33;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_22 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_22;
+		L_22 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_22);
 		int32_t L_23 = L_22->___xEnd_0;
 		il2cpp_codegen_runtime_class_init_inline(Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F_il2cpp_TypeInfo_var);
@@ -24363,7 +24451,8 @@ IL_00d6:
 		V_3 = L_24;
 		// int num4 = abs(cy - currentMovePoint.yEnd);
 		int32_t L_25 = __this->___cy_34;
-		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_26 = __this->___currentMovePoint_261;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_26;
+		L_26 = Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline(__this, NULL);
 		NullCheck(L_26);
 		int32_t L_27 = L_26->___yEnd_1;
 		int32_t L_28;
@@ -24569,8 +24658,7 @@ IL_01fe:
 	}
 	{
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		goto IL_02ba;
 	}
 
@@ -24609,8 +24697,7 @@ IL_025e:
 	}
 	{
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 	}
 
 IL_02ba:
@@ -28545,8 +28632,7 @@ IL_0404:
 		int32_t L_138 = L_137->___cy_34;
 		__this->___cy_34 = L_138;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 	}
 
 IL_0466:
@@ -28570,8 +28656,7 @@ IL_0466:
 		int32_t L_143 = L_142->___y_31;
 		__this->___cy_34 = L_143;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 	}
 
 IL_0497:
@@ -37480,8 +37565,7 @@ IL_0029:
 		// cp3 = 0;
 		__this->___cp3_39 = 0;
 		// currentMovePoint = null;
-		__this->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(__this, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// cf = 25;
 		__this->___cf_111 = ((int32_t)25);
 		// return;
@@ -48209,6 +48293,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char__cctor_mB5A773CF70E3D6EE0E9FD1EA896
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MovePoint_t935B2561B2469906D762963068D2E58357E88159* Char_get_currentMovePoint_m7EF5185D0750A79538138230BF49333937D15DD1_inline (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => _currentMovePoint;
+		MovePoint_t935B2561B2469906D762963068D2E58357E88159* L_0 = __this->____currentMovePoint_261;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameCanvas_t3C221610BEBCBA21285DC2E692D0CEC84918B2CE* GameCanvas_gI_mB1A629F4B3454E987DF9AC3FF55A67B636AAE50B_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

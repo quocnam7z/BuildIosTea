@@ -3201,8 +3201,8 @@ struct Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F  : public RuntimeObject
 	int64_t ___currS_259;
 	// System.Boolean Char::havePet
 	bool ___havePet_260;
-	// MovePoint Char::currentMovePoint
-	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ___currentMovePoint_261;
+	// MovePoint Char::_currentMovePoint
+	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ____currentMovePoint_261;
 	// System.Int32 Char::bom
 	int32_t ___bom_262;
 	// System.Int32 Char::delayFall
@@ -30041,12 +30041,14 @@ struct AutoSkill_tF55BCBC6D9156E0CFCBBDD847D8723D857048422_StaticFields
 	bool ___isAutoDeKOK_19;
 	// System.Int64 CilentModify.AutoSkill::lastTimeKOK
 	int64_t ___lastTimeKOK_20;
+	// System.Int32 CilentModify.AutoSkill::KOK_IDMap
+	int32_t ___KOK_IDMap_21;
 	// System.Int32 CilentModify.AutoSkill::KOK_X
-	int32_t ___KOK_X_21;
+	int32_t ___KOK_X_22;
 	// System.Int32 CilentModify.AutoSkill::KOK_Y
-	int32_t ___KOK_Y_22;
+	int32_t ___KOK_Y_23;
 	// System.Int32 CilentModify.AutoSkill::KOK_Speed
-	int32_t ___KOK_Speed_23;
+	int32_t ___KOK_Speed_24;
 };
 
 // CilentModify.AutoSkill
@@ -35146,6 +35148,8 @@ struct SplashPaint_tF4E6C399DC183E1AE7B5E7B4CB8225E936B558D7_StaticFields
 	bool ___antk_112;
 	// System.Int64 CilentModify.SplashPaint::timeLoadPet
 	int64_t ___timeLoadPet_113;
+	// System.Boolean CilentModify.SplashPaint::isOnlyAnalog
+	bool ___isOnlyAnalog_114;
 };
 
 // CilentModify.SplashPaint

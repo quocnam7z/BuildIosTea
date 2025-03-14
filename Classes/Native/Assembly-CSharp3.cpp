@@ -1203,8 +1203,8 @@ struct Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F  : public RuntimeObject
 	int64_t ___currS_259;
 	// System.Boolean Char::havePet
 	bool ___havePet_260;
-	// MovePoint Char::currentMovePoint
-	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ___currentMovePoint_261;
+	// MovePoint Char::_currentMovePoint
+	MovePoint_t935B2561B2469906D762963068D2E58357E88159* ____currentMovePoint_261;
 	// System.Int32 Char::bom
 	int32_t ___bom_262;
 	// System.Int32 Char::delayFall
@@ -9596,6 +9596,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameScr_loadCamera_m00ECF615F8EC3A0E042C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TileMap_loadMainTile_m3127E118D260ABEB1F07196699B49886498FC07D (const RuntimeMethod* method) ;
 // System.Void TileMap::loadMap(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TileMap_loadMap_m16D907DB74586288DD4E0316FDC3DDE49DBD56F5 (int32_t ___0_tileId, const RuntimeMethod* method) ;
+// System.Void Char::set_currentMovePoint(MovePoint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, MovePoint_t935B2561B2469906D762963068D2E58357E88159* ___0_value, const RuntimeMethod* method) ;
 // System.Void Char::setMabuHold(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Char_setMabuHold_m4A816FAD027FE68B88EEDE2AA6BB8F13ACAFFB11_inline (Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* __this, bool ___0_m, const RuntimeMethod* method) ;
 // System.Int32 Res::random(System.Int32,System.Int32)
@@ -14537,8 +14539,7 @@ IL_0092:
 		Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_17;
 		L_17 = Char_myCharz_m9DE62929FABFA1CCB394459859AB6253266AF5DA(NULL);
 		NullCheck(L_17);
-		L_17->___currentMovePoint_261 = (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&L_17->___currentMovePoint_261), (void*)(MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL);
+		Char_set_currentMovePoint_mCB88ABAEB2C211FF8690649FB08D101011CF073E(L_17, (MovePoint_t935B2561B2469906D762963068D2E58357E88159*)NULL, NULL);
 		// Char.myCharz().mobFocus = null;
 		Char_tAD4A836CEB9BA0C6651AEC6622232BACB068836F* L_18;
 		L_18 = Char_myCharz_m9DE62929FABFA1CCB394459859AB6253266AF5DA(NULL);
